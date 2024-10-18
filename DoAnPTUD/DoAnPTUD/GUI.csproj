@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomeUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     <Compile Include="Deposit.Designer.cs">
       <DependentUpon>Deposit.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomeUser.resx">
       <DependentUpon>HomeUser.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Iconsmind-Outline-Arrow-Back-3.512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoGo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
