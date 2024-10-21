@@ -37,6 +37,11 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnMenu = new System.Windows.Forms.Button();
             this.sidebar = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.btnTK = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lblTenNgDung = new System.Windows.Forms.Label();
             this.linkHoSo = new System.Windows.Forms.LinkLabel();
@@ -50,11 +55,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.btnTK = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.sidebar.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -183,6 +183,102 @@
             this.sidebar.TabIndex = 1;
             this.sidebar.Visible = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.ImageIndex = 30;
+            this.button1.ImageList = this.imageList1;
+            this.button1.Location = new System.Drawing.Point(0, 75);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(229, 44);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Trang Chính";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button3
+            // 
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.ImageIndex = 25;
+            this.button3.ImageList = this.imageList1;
+            this.button3.Location = new System.Drawing.Point(0, 139);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(229, 44);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "Hội viên MKP";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.AutoSize = true;
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.ImageIndex = 28;
+            this.button2.ImageList = this.imageList1;
+            this.button2.Location = new System.Drawing.Point(0, 468);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(229, 44);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Cài Đặt";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.Transparent;
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button7.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.Black;
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.ImageIndex = 19;
+            this.button7.ImageList = this.imageList1;
+            this.button7.Location = new System.Drawing.Point(0, 512);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(229, 44);
+            this.button7.TabIndex = 8;
+            this.button7.Text = "Đăng xuất";
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // btnTK
+            // 
+            this.btnTK.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnTK.BackColor = System.Drawing.Color.Transparent;
+            this.btnTK.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnTK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTK.ForeColor = System.Drawing.Color.Black;
+            this.btnTK.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTK.ImageIndex = 0;
+            this.btnTK.ImageList = this.imageList1;
+            this.btnTK.Location = new System.Drawing.Point(0, 208);
+            this.btnTK.Name = "btnTK";
+            this.btnTK.Size = new System.Drawing.Size(229, 44);
+            this.btnTK.TabIndex = 7;
+            this.btnTK.Text = "Quản lý TK/Thẻ";
+            this.btnTK.UseVisualStyleBackColor = false;
+            this.btnTK.Click += new System.EventHandler(this.btnTK_Click);
+            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.lblTenNgDung);
@@ -303,6 +399,7 @@
             this.tableLayoutPanel1.Controls.Add(this.btnMaQR, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnTienIch, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnNapDT, 1, 0);
+            this.tableLayoutPanel1.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
@@ -362,100 +459,6 @@
             this.label3.Size = new System.Drawing.Size(90, 25);
             this.label3.TabIndex = 4;
             this.label3.Text = "Tiện Ích";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.ImageIndex = 30;
-            this.button1.ImageList = this.imageList1;
-            this.button1.Location = new System.Drawing.Point(0, 75);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(229, 44);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Trang Chính";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button3
-            // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.ImageIndex = 25;
-            this.button3.ImageList = this.imageList1;
-            this.button3.Location = new System.Drawing.Point(0, 139);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(229, 44);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Hội viên MKP";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.AutoSize = true;
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.ImageIndex = 28;
-            this.button2.ImageList = this.imageList1;
-            this.button2.Location = new System.Drawing.Point(0, 468);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(229, 44);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Cài Đặt";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.Transparent;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.Black;
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.ImageIndex = 19;
-            this.button7.ImageList = this.imageList1;
-            this.button7.Location = new System.Drawing.Point(0, 512);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(229, 44);
-            this.button7.TabIndex = 8;
-            this.button7.Text = "Đăng xuất";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // btnTK
-            // 
-            this.btnTK.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnTK.BackColor = System.Drawing.Color.Transparent;
-            this.btnTK.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnTK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTK.ForeColor = System.Drawing.Color.Black;
-            this.btnTK.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTK.ImageIndex = 0;
-            this.btnTK.ImageList = this.imageList1;
-            this.btnTK.Location = new System.Drawing.Point(0, 208);
-            this.btnTK.Name = "btnTK";
-            this.btnTK.Size = new System.Drawing.Size(229, 44);
-            this.btnTK.TabIndex = 7;
-            this.btnTK.Text = "Quản lý TK/Thẻ";
-            this.btnTK.UseVisualStyleBackColor = false;
-            this.btnTK.Click += new System.EventHandler(this.btnTK_Click);
             // 
             // HomeUser
             // 
