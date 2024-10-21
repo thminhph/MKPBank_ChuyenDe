@@ -55,5 +55,19 @@ namespace DoAnPTUD
                 this.Hide();
             
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Member member = new Member();
+            member.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Settings settings = new Settings();
+            settings.Show();
+            this.Hide();
+        }
     }
 }

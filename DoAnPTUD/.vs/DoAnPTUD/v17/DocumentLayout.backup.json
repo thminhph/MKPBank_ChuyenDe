@@ -3,36 +3,64 @@
   "WorkspaceRootPath": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\doanptud\\managementcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|d:\\ph\u00E1t tri\u1EC3n ud1\\doanptud\\doanptud\\customize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\customize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|d:\\ph\u00E1t tri\u1EC3n ud1\\doanptud\\doanptud\\managementcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\managementcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|d:\\ph\u00E1t tri\u1EC3n ud1\\doanptud\\doanptud\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\doanptud\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|d:\\ph\u00E1t tri\u1EC3n ud1\\doanptud\\doanptud\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|d:\\ph\u00E1t tri\u1EC3n ud1\\doanptud\\doanptud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|d:\\ph\u00E1t tri\u1EC3n ud1\\doanptud\\doanptud\\transferdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\transferdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\doanptud\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|d:\\ph\u00E1t tri\u1EC3n ud1\\doanptud\\doanptud\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\doanptud\\personinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\personinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|d:\\ph\u00E1t tri\u1EC3n ud1\\doanptud\\doanptud\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|d:\\ph\u00E1t tri\u1EC3n ud1\\doanptud\\doanptud\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|d:\\ph\u00E1t tri\u1EC3n ud1\\doanptud\\doanptud\\managementcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\managementcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\doanptud\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|d:\\ph\u00E1t tri\u1EC3n ud1\\doanptud\\doanptud\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\doanptud\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\doanptud\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\doanptud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\doanptud\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,35 +74,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PersonInfor.cs [Design]",
-              "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\PersonInfor.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\PersonInfor.cs",
-              "ToolTip": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\PersonInfor.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\PersonInfor.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T11:54:42.9Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ManagementCard.cs [Design]",
-              "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\ManagementCard.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\ManagementCard.cs",
-              "ToolTip": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\ManagementCard.cs [Design]*",
-              "RelativeToolTip": "DoAnPTUD\\ManagementCard.cs [Design]*",
+              "Title": "Customize.cs [Design]",
+              "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\Customize.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\Customize.cs",
+              "ToolTip": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\Customize.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\Customize.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:00:34.883Z",
+              "WhenOpened": "2024-10-20T07:21:56.594Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HomeUser.cs [Design]",
               "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\HomeUser.cs",
               "RelativeDocumentMoniker": "DoAnPTUD\\HomeUser.cs",
@@ -86,32 +102,142 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransactionHistory.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\TransactionHistory.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\TransactionHistory.cs",
+              "ToolTip": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\TransactionHistory.cs",
+              "RelativeToolTip": "DoAnPTUD\\TransactionHistory.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAWwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T06:28:08.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TransactionHistory.cs [Design]",
+              "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\TransactionHistory.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\TransactionHistory.cs",
+              "ToolTip": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\TransactionHistory.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\TransactionHistory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T05:44:40.461Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\Program.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\Program.cs",
+              "ToolTip": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\Program.cs",
+              "RelativeToolTip": "DoAnPTUD\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T06:12:04.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManagementCard.cs [Design]",
+              "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\ManagementCard.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\ManagementCard.cs",
+              "ToolTip": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\ManagementCard.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\ManagementCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:00:34.883Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransferDetails.cs [Design]",
+              "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\TransferDetails.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\TransferDetails.cs",
+              "ToolTip": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\TransferDetails.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\TransferDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T04:10:04.618Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "HomeUser.cs",
               "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\HomeUser.cs",
               "RelativeDocumentMoniker": "DoAnPTUD\\HomeUser.cs",
               "ToolTip": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\HomeUser.cs",
               "RelativeToolTip": "DoAnPTUD\\HomeUser.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAIA4wC4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAWwCMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T04:37:27.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "Member.cs [Design]",
+              "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\Member.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\Member.cs",
+              "ToolTip": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\Member.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\Member.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T05:05:42.903Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PersonInfor.cs [Design]",
+              "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\PersonInfor.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\PersonInfor.cs",
+              "ToolTip": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\PersonInfor.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\PersonInfor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:54:42.9Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Settings.cs [Design]",
+              "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\Settings.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\Settings.cs",
+              "ToolTip": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\Settings.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\Settings.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T05:01:19.785Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ManagementCard.cs",
+              "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\ManagementCard.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\ManagementCard.cs",
+              "ToolTip": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\ManagementCard.cs",
+              "RelativeToolTip": "DoAnPTUD\\ManagementCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T04:11:24.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Deposit.cs [Design]",
               "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\Deposit.cs",
               "RelativeDocumentMoniker": "DoAnPTUD\\Deposit.cs",
               "ToolTip": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\Deposit.cs [Design]",
               "RelativeToolTip": "DoAnPTUD\\Deposit.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T02:13:48.96Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-17T02:13:48.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "Deposit.cs",
               "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\Deposit.cs",
               "RelativeDocumentMoniker": "DoAnPTUD\\Deposit.cs",
@@ -119,37 +245,22 @@
               "RelativeToolTip": "DoAnPTUD\\Deposit.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAWwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T01:09:21.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T01:09:21.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "Transfer.cs [Design]",
               "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\Transfer.cs",
               "RelativeDocumentMoniker": "DoAnPTUD\\Transfer.cs",
               "ToolTip": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\Transfer.cs [Design]",
               "RelativeToolTip": "DoAnPTUD\\Transfer.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T11:09:23.355Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-16T11:09:23.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\Program.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\Program.cs",
-              "ToolTip": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\Program.cs",
-              "RelativeToolTip": "DoAnPTUD\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T01:12:13.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "Transfer.cs",
               "DocumentMoniker": "D:\\Ph\u00E1t Tri\u1EC3n UD1\\DoAnPTUD\\DoAnPTUD\\Transfer.cs",
               "RelativeDocumentMoniker": "DoAnPTUD\\Transfer.cs",
@@ -157,8 +268,7 @@
               "RelativeToolTip": "DoAnPTUD\\Transfer.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAArwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T00:47:19.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T00:47:19.745Z"
             }
           ]
         }
