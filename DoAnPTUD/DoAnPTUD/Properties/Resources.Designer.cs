@@ -113,6 +113,26 @@ namespace DoAnPTUD.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LoGo {
+            get {
+                object obj = ResourceManager.GetObject("LoGo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LoGo1 {
+            get {
+                object obj = ResourceManager.GetObject("LoGo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logoMKP {
             get {
                 object obj = ResourceManager.GetObject("logoMKP", resourceCulture);
