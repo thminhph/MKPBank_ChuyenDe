@@ -36,5 +36,12 @@ namespace DoAnPTUD
         {
             sidebar.Visible = !sidebar.Visible;
         }
+
+        private void btnTrangChinh_Click(object sender, EventArgs e)
+        {
+            HomeUser user = new HomeUser();
+                user.Show();   
+                this.Hide();
+        }
     }
 }

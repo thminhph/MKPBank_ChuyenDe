@@ -46,7 +46,7 @@
             this.btnMenu = new System.Windows.Forms.Button();
             this.btnTK = new System.Windows.Forms.Button();
             this.sidebar = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnTrangChinh = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -295,7 +295,7 @@
             // 
             this.sidebar.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
             this.sidebar.BackColor = System.Drawing.Color.Transparent;
-            this.sidebar.Controls.Add(this.button4);
+            this.sidebar.Controls.Add(this.btnTrangChinh);
             this.sidebar.Controls.Add(this.button3);
             this.sidebar.Controls.Add(this.button2);
             this.sidebar.Controls.Add(this.button1);
@@ -309,22 +309,23 @@
             this.sidebar.TabIndex = 2;
             this.sidebar.Visible = false;
             // 
-            // button4
+            // btnTrangChinh
             // 
-            this.button4.BackColor = System.Drawing.Color.Transparent;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.ImageIndex = 30;
-            this.button4.ImageList = this.imageList1;
-            this.button4.Location = new System.Drawing.Point(0, 93);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(229, 44);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Trang Chính";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnTrangChinh.BackColor = System.Drawing.Color.Transparent;
+            this.btnTrangChinh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnTrangChinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTrangChinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTrangChinh.ForeColor = System.Drawing.Color.Black;
+            this.btnTrangChinh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTrangChinh.ImageIndex = 30;
+            this.btnTrangChinh.ImageList = this.imageList1;
+            this.btnTrangChinh.Location = new System.Drawing.Point(0, 93);
+            this.btnTrangChinh.Name = "btnTrangChinh";
+            this.btnTrangChinh.Size = new System.Drawing.Size(229, 44);
+            this.btnTrangChinh.TabIndex = 5;
+            this.btnTrangChinh.Text = "Trang Chính";
+            this.btnTrangChinh.UseVisualStyleBackColor = false;
+            this.btnTrangChinh.Click += new System.EventHandler(this.btnTrangChinh_Click);
             // 
             // button3
             // 
@@ -475,7 +476,7 @@
         private System.Windows.Forms.Button btnMenu;
         private System.Windows.Forms.Button btnTK;
         private System.Windows.Forms.Panel sidebar;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnTrangChinh;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
