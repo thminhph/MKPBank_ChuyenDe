@@ -16,7 +16,7 @@ namespace DoAnPTUD
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TransactionHistory());
+            Application.Run(new DangKyChiTiet());
         }
     }
 }
