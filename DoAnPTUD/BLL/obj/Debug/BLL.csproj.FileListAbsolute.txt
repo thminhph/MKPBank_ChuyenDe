@@ -1,0 +1,6 @@
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\BLL.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\BLL.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,54 @@
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe.config
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.pdb
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.HomeUser.resources
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Properties.Resources.resources
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.exe
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.pdb
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.ManagementCard.resources
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.PersonInfor.resources
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Transfer.resources
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Deposit.resources
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransferDetails.resources
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Member.resources
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Settings.resources
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransactionHistory.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CustomDialogQR.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Customize.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKy.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKyChiTiet.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangNhap.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.HomeUser.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.ManagementCard.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Member.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.OTP.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.PersonInfor.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Properties.Resources.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.QuenMatKhau.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Settings.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransactionHistory.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Transfer.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Deposit.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransferDetails.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe.config
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\Guna.UI2.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.Up2Date
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.exe
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.pdb
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\bin\Debug\Guna.UI2.dll
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CustomDialogQR.resources
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Customize.resources
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKy.resources
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKyChiTiet.resources
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangNhap.resources
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.OTP.resources
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.QuenMatKhau.resources
+D:\Phát Triển UD1\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.Up2Date
