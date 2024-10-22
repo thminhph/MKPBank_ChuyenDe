@@ -31,7 +31,9 @@ namespace DoAnPTUD
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-
+            HomeUser  us=new HomeUser();
+            us.Show();
+            this.Hide();
         }
     }
 }

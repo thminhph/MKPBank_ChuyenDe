@@ -33,8 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,6 +64,24 @@
     <Compile Include="Customize.Designer.cs">
       <DependentUpon>Customize.cs</DependentUpon>
     </Compile>
+    <Compile Include="DangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangKy.Designer.cs">
+      <DependentUpon>DangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DangKyChiTiet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangKyChiTiet.Designer.cs">
+      <DependentUpon>DangKyChiTiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomeUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +100,12 @@
     <Compile Include="Member.Designer.cs">
       <DependentUpon>Member.cs</DependentUpon>
     </Compile>
+    <Compile Include="OTP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OTP.Designer.cs">
+      <DependentUpon>OTP.cs</DependentUpon>
+    </Compile>
     <Compile Include="PersonInfor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +114,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuenMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuenMatKhau.Designer.cs">
+      <DependentUpon>QuenMatKhau.cs</DependentUpon>
+    </Compile>
     <Compile Include="Settings.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +156,15 @@
     <EmbeddedResource Include="Customize.resx">
       <DependentUpon>Customize.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DangKy.resx">
+      <DependentUpon>DangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangKyChiTiet.resx">
+      <DependentUpon>DangKyChiTiet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomeUser.resx">
       <DependentUpon>HomeUser.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +173,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Member.resx">
       <DependentUpon>Member.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OTP.resx">
+      <DependentUpon>OTP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PersonInfor.resx">
       <DependentUpon>PersonInfor.cs</DependentUpon>
@@ -142,6 +190,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="QuenMatKhau.resx">
+      <DependentUpon>QuenMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Settings.resx">
       <DependentUpon>Settings.cs</DependentUpon>
     </EmbeddedResource>
@@ -157,6 +208,7 @@
     <EmbeddedResource Include="TransferDetails.resx">
       <DependentUpon>TransferDetails.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -205,6 +257,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Iconsmind-Outline-Arrow-Back-3.512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoGo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

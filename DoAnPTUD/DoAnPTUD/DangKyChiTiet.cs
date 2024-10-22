@@ -21,5 +21,10 @@ namespace DoAnPTUD
         {
 
         }
+
+        private void DangKyChiTiet_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
