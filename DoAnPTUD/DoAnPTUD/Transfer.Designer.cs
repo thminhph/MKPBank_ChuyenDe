@@ -112,8 +112,7 @@
             // 
             // btnXacNhan
             // 
-            this.btnXacNhan.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnXacNhan.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnXacNhan.BackColor = System.Drawing.Color.OrangeRed;
             this.btnXacNhan.FlatAppearance.BorderSize = 0;
             this.btnXacNhan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -127,8 +126,7 @@
             // 
             // label5
             // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(498, 63);
             this.label5.Name = "label5";
@@ -138,8 +136,7 @@
             // 
             // rictxtDienGia
             // 
-            this.rictxtDienGia.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rictxtDienGia.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.rictxtDienGia.Location = new System.Drawing.Point(502, 100);
             this.rictxtDienGia.Name = "rictxtDienGia";
             this.rictxtDienGia.Size = new System.Drawing.Size(412, 147);
@@ -148,8 +145,7 @@
             // 
             // label4
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(53, 288);
             this.label4.Name = "label4";
@@ -159,8 +155,7 @@
             // 
             // label3
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(53, 183);
             this.label3.Name = "label3";
@@ -170,8 +165,7 @@
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(53, 63);
             this.label2.Name = "label2";
@@ -181,8 +175,7 @@
             // 
             // cbNganhang
             // 
-            this.cbNganhang.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbNganhang.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cbNganhang.FormattingEnabled = true;
             this.cbNganhang.Location = new System.Drawing.Point(57, 100);
             this.cbNganhang.Name = "cbNganhang";
@@ -191,8 +184,7 @@
             // 
             // txtSoTien
             // 
-            this.txtSoTien.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtSoTien.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtSoTien.Location = new System.Drawing.Point(57, 323);
             this.txtSoTien.Name = "txtSoTien";
             this.txtSoTien.Size = new System.Drawing.Size(349, 26);
@@ -200,8 +192,7 @@
             // 
             // txtSoTK
             // 
-            this.txtSoTK.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtSoTK.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtSoTK.Location = new System.Drawing.Point(57, 221);
             this.txtSoTK.Name = "txtSoTK";
             this.txtSoTK.Size = new System.Drawing.Size(349, 26);
@@ -209,6 +200,8 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel1.ColumnCount = 1;
@@ -239,8 +232,7 @@
             // 
             // lbTien
             // 
-            this.lbTien.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbTien.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lbTien.AutoSize = true;
             this.lbTien.Location = new System.Drawing.Point(367, 208);
             this.lbTien.Name = "lbTien";
@@ -251,8 +243,7 @@
             // 
             // btnXem
             // 
-            this.btnXem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnXem.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnXem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnXem.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
             this.btnXem.FlatAppearance.BorderSize = 0;
@@ -268,8 +259,7 @@
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(367, 177);
             this.label1.Name = "label1";
@@ -279,8 +269,7 @@
             // 
             // btnChuyen
             // 
-            this.btnChuyen.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnChuyen.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnChuyen.BackgroundImage = global::DoAnPTUD.Properties.Resources.Pictogrammers_Material_Light_Chevron_right_512;
             this.btnChuyen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnChuyen.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
@@ -314,6 +303,7 @@
             this.DoubleBuffered = true;
             this.Name = "Transfer";
             this.Text = "Transfer";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);

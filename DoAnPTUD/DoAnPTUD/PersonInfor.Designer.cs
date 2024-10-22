@@ -476,6 +476,7 @@
             this.DoubleBuffered = true;
             this.Name = "PersonInfor";
             this.Text = "PersonInfor";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

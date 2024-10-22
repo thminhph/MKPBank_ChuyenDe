@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    public class DTO_TaiKhoan
+    public class DTO_SoDuTk
     {
     }
 }

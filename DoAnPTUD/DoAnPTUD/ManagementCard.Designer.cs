@@ -290,6 +290,7 @@
             this.btnTK.TabIndex = 0;
             this.btnTK.Text = "Quản lý TK/Thẻ";
             this.btnTK.UseVisualStyleBackColor = false;
+            this.btnTK.Click += new System.EventHandler(this.btnTK_Click);
             // 
             // sidebar
             // 
@@ -345,6 +346,7 @@
             this.button3.TabIndex = 4;
             this.button3.Text = "Hội viên MKP";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -364,6 +366,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "Cài Đặt";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -451,6 +454,7 @@
             this.DoubleBuffered = true;
             this.Name = "ManagementCard";
             this.Text = "ManagementCard";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

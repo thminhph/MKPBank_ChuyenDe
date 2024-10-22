@@ -40,6 +40,7 @@
             this.DoubleBuffered = true;
             this.Name = "Member";
             this.Text = "Member";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
         }

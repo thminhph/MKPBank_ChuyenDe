@@ -180,7 +180,7 @@
             this.sidebar.Location = new System.Drawing.Point(0, 51);
             this.sidebar.Name = "sidebar";
             this.sidebar.Size = new System.Drawing.Size(229, 556);
-            this.sidebar.TabIndex = 1;
+            this.sidebar.TabIndex = 0;
             this.sidebar.Visible = false;
             // 
             // button1
@@ -258,6 +258,7 @@
             this.button7.TabIndex = 8;
             this.button7.Text = "Đăng xuất";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // btnTK
             // 
@@ -313,6 +314,7 @@
             this.linkHoSo.TabIndex = 2;
             this.linkHoSo.TabStop = true;
             this.linkHoSo.Text = "Hồ sơ người dùng >";
+            this.linkHoSo.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkHoSo_LinkClicked);
             // 
             // picAvatar
             // 
@@ -336,6 +338,7 @@
             this.btnTienIch.Size = new System.Drawing.Size(90, 90);
             this.btnTienIch.TabIndex = 3;
             this.btnTienIch.UseVisualStyleBackColor = false;
+            this.btnTienIch.Click += new System.EventHandler(this.btnTienIch_Click);
             // 
             // btnMaQR
             // 
@@ -350,6 +353,7 @@
             this.btnMaQR.Size = new System.Drawing.Size(90, 90);
             this.btnMaQR.TabIndex = 2;
             this.btnMaQR.UseVisualStyleBackColor = false;
+            this.btnMaQR.Click += new System.EventHandler(this.btnMaQR_Click);
             // 
             // btnNapDT
             // 
@@ -365,6 +369,7 @@
             this.btnNapDT.Size = new System.Drawing.Size(90, 90);
             this.btnNapDT.TabIndex = 1;
             this.btnNapDT.UseVisualStyleBackColor = false;
+            this.btnNapDT.Click += new System.EventHandler(this.btnNapDT_Click);
             // 
             // btnChuyenKhoan
             // 
@@ -380,10 +385,12 @@
             this.btnChuyenKhoan.Size = new System.Drawing.Size(90, 90);
             this.btnChuyenKhoan.TabIndex = 0;
             this.btnChuyenKhoan.UseVisualStyleBackColor = false;
+            this.btnChuyenKhoan.Click += new System.EventHandler(this.btnChuyenKhoan_Click);
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.ColumnCount = 4;
@@ -399,14 +406,14 @@
             this.tableLayoutPanel1.Controls.Add(this.btnMaQR, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnTienIch, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnNapDT, 1, 0);
-            this.tableLayoutPanel1.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.tableLayoutPanel1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 94.56265F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.437352F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1052, 607);
-            this.tableLayoutPanel1.TabIndex = 1;
+            this.tableLayoutPanel1.TabIndex = 0;
             // 
             // label2
             // 
