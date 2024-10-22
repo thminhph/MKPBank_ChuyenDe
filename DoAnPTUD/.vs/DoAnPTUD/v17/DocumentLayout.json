@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|d:\\.net\\mkpbank_chuyende\\doanptud\\doanptud\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|solutionrelative:dto\\dto_thongtinkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|d:\\.net\\mkpbank_chuyende\\doanptud\\dto\\dto_sodutk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\dto\\dto_sodutk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|solutionrelative:dto\\dto_sodutk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -197,8 +197,7 @@
               "ToolTip": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\TransferDetails.cs [Design]",
               "RelativeToolTip": "DoAnPTUD\\TransferDetails.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T04:10:04.618Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-20T04:10:04.618Z"
             },
             {
               "$type": "Document",
@@ -221,8 +220,7 @@
               "ToolTip": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\TransactionHistory.cs [Design]",
               "RelativeToolTip": "DoAnPTUD\\TransactionHistory.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T05:44:40.461Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-20T05:44:40.461Z"
             },
             {
               "$type": "Document",
@@ -234,8 +232,7 @@
               "RelativeToolTip": "DoAnPTUD\\Transfer.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAIA8wBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T00:47:19.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T00:47:19.745Z"
             },
             {
               "$type": "Document",
@@ -247,8 +244,7 @@
               "RelativeToolTip": "DTO\\DTO_ChiTietGiaoDich.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T09:09:45.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T09:09:45.798Z"
             },
             {
               "$type": "Document",
@@ -260,8 +256,7 @@
               "RelativeToolTip": "DTO\\DTO_ThongTinKH.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T09:26:12.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T09:26:12.745Z"
             },
             {
               "$type": "Document",
@@ -273,8 +268,7 @@
               "RelativeToolTip": "DTO\\DTO_SoDuTk.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T07:04:21.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T07:04:21.218Z"
             },
             {
               "$type": "Document",
@@ -286,8 +280,7 @@
               "RelativeToolTip": "DTO\\DTO_TaiKhoan.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T09:05:51.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T09:05:51.684Z"
             },
             {
               "$type": "Document",
@@ -299,8 +292,7 @@
               "RelativeToolTip": "DAL\\DAL_SoDuTk.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T07:05:01.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T07:05:01.217Z"
             },
             {
               "$type": "Document",
@@ -312,8 +304,7 @@
               "RelativeToolTip": "DAL\\DAL_ThongTinKN.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T09:10:41.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T09:10:41.283Z"
             },
             {
               "$type": "Document",
@@ -626,8 +617,7 @@
               "RelativeToolTip": "DoAnPTUD\\TransferDetails.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAewBYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T05:18:53.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T05:18:53.55Z"
             },
             {
               "$type": "Document",
@@ -697,8 +687,7 @@
               "RelativeToolTip": "DoAnPTUD\\TransactionHistory.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAWwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T06:28:08.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T06:28:08.036Z"
             },
             {
               "$type": "Document",
