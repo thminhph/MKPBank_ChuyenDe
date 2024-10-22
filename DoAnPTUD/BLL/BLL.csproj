@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL_ChiTietGiaoDich.cs" />
-    <Compile Include="BLL_SoDuTk.cs" />
     <Compile Include="BLL_TaiKhoan.cs" />
     <Compile Include="BLL_ThongTinKN.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

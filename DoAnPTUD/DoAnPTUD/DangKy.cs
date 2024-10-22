@@ -21,5 +21,10 @@ namespace DoAnPTUD
         {
 
         }
+
+        private void btnDangNhap_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DTO_ChiTietGiaoDich.cs" />
-    <Compile Include="DTO_ThongTinKN.cs" />
+    <Compile Include="DTO_ThongTinKH.cs" />
     <Compile Include="DTO_TaiKhoan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DTO_SoDuTk.cs" />

@@ -39,7 +39,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.cbNganhang = new System.Windows.Forms.ComboBox();
             this.txtSoTien = new System.Windows.Forms.TextBox();
             this.txtSoTK = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -49,6 +48,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnChuyen = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -96,13 +96,13 @@
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.btnXacNhan);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.rictxtDienGia);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.cbNganhang);
             this.panel2.Controls.Add(this.txtSoTien);
             this.panel2.Controls.Add(this.txtSoTK);
             this.panel2.Location = new System.Drawing.Point(4, 249);
@@ -157,30 +157,22 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(53, 183);
+            this.label3.Location = new System.Drawing.Point(53, 63);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 20);
             this.label3.TabIndex = 5;
             this.label3.Text = "Số Tài Khoản";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(53, 63);
+            this.label2.Location = new System.Drawing.Point(53, 181);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 20);
+            this.label2.Size = new System.Drawing.Size(123, 20);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Tên Ngân Hàng";
-            // 
-            // cbNganhang
-            // 
-            this.cbNganhang.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.cbNganhang.FormattingEnabled = true;
-            this.cbNganhang.Location = new System.Drawing.Point(57, 100);
-            this.cbNganhang.Name = "cbNganhang";
-            this.cbNganhang.Size = new System.Drawing.Size(349, 28);
-            this.cbNganhang.TabIndex = 3;
+            this.label2.Text = "Tên Người Nhận";
             // 
             // txtSoTien
             // 
@@ -292,6 +284,14 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textBox1.Location = new System.Drawing.Point(57, 100);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(349, 26);
+            this.textBox1.TabIndex = 10;
+            // 
             // Transfer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -329,10 +329,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox cbNganhang;
         private System.Windows.Forms.TextBox txtSoTien;
         private System.Windows.Forms.TextBox txtSoTK;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnXacNhan;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
