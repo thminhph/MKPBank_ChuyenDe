@@ -10,26 +10,14 @@ using System.Windows.Forms;
 
 namespace DoAnPTUD
 {
-    public partial class DangNhap : Form
+    public partial class DangKy : Form
     {
-        public DangNhap()
+        public DangKy()
         {
             InitializeComponent();
         }
 
- 
-
-        private void DangNhap_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnDangNhap_Click(object sender, EventArgs e)
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
         {
 
         }
