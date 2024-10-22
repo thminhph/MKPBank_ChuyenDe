@@ -16,5 +16,20 @@ namespace DoAnPTUD
         {
             InitializeComponent();
         }
+
+        private void btnXacNhan_Click(object sender, EventArgs e)
+        {
+            HomeUser homeUser = new HomeUser();
+            homeUser.Show();
+            this.Hide();
+
+        }
+
+        private void btnThemGiaoDich_Click(object sender, EventArgs e)
+        {
+            Transfer transfer = new Transfer();
+            transfer.Show();
+            this.Hide();
+        }
     }
 }

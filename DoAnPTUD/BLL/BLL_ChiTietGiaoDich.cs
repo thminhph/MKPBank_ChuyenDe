@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    internal class BLL_ChiTietGiaoDich
+    public class BLL_ChiTietGiaoDich
     {
     }
 }
