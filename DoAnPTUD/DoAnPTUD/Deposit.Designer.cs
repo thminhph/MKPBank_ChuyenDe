@@ -63,8 +63,7 @@
             // 
             // btnNap
             // 
-            this.btnNap.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnNap.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnNap.BackColor = System.Drawing.Color.OrangeRed;
             this.btnNap.FlatAppearance.BorderSize = 0;
             this.btnNap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -78,8 +77,7 @@
             // 
             // label3
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(60, 10);
             this.label3.Name = "label3";
@@ -89,8 +87,7 @@
             // 
             // label2
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(60, 99);
             this.label2.Name = "label2";
@@ -100,8 +97,7 @@
             // 
             // cbSoTien
             // 
-            this.cbSoTien.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbSoTien.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cbSoTien.FormattingEnabled = true;
             this.cbSoTien.Items.AddRange(new object[] {
             "10.000",
@@ -117,8 +113,7 @@
             // 
             // txtSoTK
             // 
-            this.txtSoTK.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtSoTK.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtSoTK.Location = new System.Drawing.Point(64, 44);
             this.txtSoTK.Name = "txtSoTK";
             this.txtSoTK.Size = new System.Drawing.Size(349, 26);
@@ -145,6 +140,7 @@
             // 
             // radioButton6
             // 
+            this.radioButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.radioButton6.AutoSize = true;
             this.radioButton6.Location = new System.Drawing.Point(612, 66);
             this.radioButton6.Name = "radioButton6";
@@ -156,6 +152,7 @@
             // 
             // radioButton5
             // 
+            this.radioButton5.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.radioButton5.AutoSize = true;
             this.radioButton5.Location = new System.Drawing.Point(319, 66);
             this.radioButton5.Name = "radioButton5";
@@ -167,6 +164,7 @@
             // 
             // radioButton4
             // 
+            this.radioButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(37, 66);
             this.radioButton4.Name = "radioButton4";
@@ -179,6 +177,7 @@
             // 
             // radioButton3
             // 
+            this.radioButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(612, 25);
             this.radioButton3.Name = "radioButton3";
@@ -190,6 +189,7 @@
             // 
             // radioButton2
             // 
+            this.radioButton2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(319, 25);
             this.radioButton2.Name = "radioButton2";
@@ -238,6 +238,7 @@
             this.DoubleBuffered = true;
             this.Name = "Deposit";
             this.Text = "Deposit";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
