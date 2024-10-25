@@ -94,10 +94,6 @@
             this.label1.Size = new System.Drawing.Size(936, 55);
             this.label1.TabIndex = 5;
             this.label1.Text = "CHÀO MỪNG BẠN ĐẾN VỚI MKP BANK";
-
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-
-
             // 
             // lkDangKy
             // 
@@ -170,15 +166,10 @@
             this.Controls.Add(this.txtMatKhau);
             this.Controls.Add(this.txtDangNhap);
             this.ForeColor = System.Drawing.Color.Cyan;
-
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-
             this.Name = "DangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "DangNhap";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.DangNhap_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

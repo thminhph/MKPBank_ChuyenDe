@@ -8,9 +8,6 @@ namespace DTO
 {
     public class DTO_ChiTietGiaoDich
     {
-
-
-
         private int MaGD;
         private int SoTKNguoiChuyen;
         private int SoTKNguoiNhan;
@@ -36,6 +33,5 @@ namespace DTO
         public float SoTien1 { get => SoTien; set => SoTien = value; }
         public DateTime NgayGio1 { get => NgayGio; set => NgayGio = value; }
         public string DienGia1 { get => DienGia; set => DienGia = value; }
-
     }
 }

@@ -165,7 +165,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DoAnPTUD.Properties.Resources.logoMKP_ver2__2_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.ClientSize = new System.Drawing.Size(1245, 531);
             this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.txtMatKhauMoi);

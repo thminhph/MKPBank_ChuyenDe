@@ -27,7 +27,6 @@ namespace DoAnPTUD
 
         }
 
-
         private void btnDangKy_Click(object sender, EventArgs e)
         {
 
@@ -58,6 +57,5 @@ namespace DoAnPTUD
             us.Show();
             this.Hide();
         }
-
     }
 }

@@ -459,11 +459,7 @@
             this.btnTroVe.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnTroVe.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTroVe.ForeColor = System.Drawing.Color.Black;
-
-            this.btnTroVe.Location = new System.Drawing.Point(774, 585);
-
             this.btnTroVe.Location = new System.Drawing.Point(774, 663);
-
             this.btnTroVe.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTroVe.Name = "btnTroVe";
             this.btnTroVe.Size = new System.Drawing.Size(170, 65);
@@ -481,11 +477,7 @@
             this.btnDangKy.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnDangKy.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangKy.ForeColor = System.Drawing.Color.Black;
-
-            this.btnDangKy.Location = new System.Drawing.Point(1000, 585);
-
             this.btnDangKy.Location = new System.Drawing.Point(1000, 663);
-
             this.btnDangKy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDangKy.Name = "btnDangKy";
             this.btnDangKy.Size = new System.Drawing.Size(170, 65);
@@ -539,11 +531,8 @@
             this.BackgroundImage = global::DoAnPTUD.Properties.Resources.logoMKP_ver2__2_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1286, 789);
-
-
             this.Controls.Add(this.guna2HtmlLabel12);
             this.Controls.Add(this.txtOTP);
-
             this.Controls.Add(this.btnTroVe);
             this.Controls.Add(this.btnDangKy);
             this.Controls.Add(this.guna2HtmlLabel11);

@@ -37,7 +37,6 @@ namespace DoAnPTUD
 
         }
 
-
         private async void btnSendOTP_Click(object sender, EventArgs e)
         {
             string accountSid = "AC7fe66962094830ea138aa465da97de14";
@@ -99,6 +98,5 @@ namespace DoAnPTUD
         {
 
         }
->>>>>>> Minh
     }
 }

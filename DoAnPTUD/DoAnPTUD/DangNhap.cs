@@ -68,10 +68,8 @@ namespace DoAnPTUD
         }
 
         private void lkDangKy_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {            HomeUser  us=new HomeUser();
-
+        {
             DangKy us = new DangKy();
-
             us.Show();
             this.Hide();
         }

@@ -8,9 +8,6 @@ namespace DTO
 {
     public class DTO_TaiKhoan
     {
-
-
-
         private long idTaiKhoan;
         private int  maKhachHang;
         private string loaiTaiKhoan, tenTaiKhoan, tienTe,  tieuDeTK, tieuDeNgan, nhanVienLV, phiMa, matKhau;
@@ -45,6 +42,5 @@ namespace DTO
         public string NhanVienLV { get => nhanVienLV; set => nhanVienLV = value; }
         public string PhiMa { get => phiMa; set => phiMa = value; }
         public string MatKhau { get => matKhau; set => matKhau = value; }
-
     }
 }
