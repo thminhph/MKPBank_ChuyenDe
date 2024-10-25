@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BLL;
+using DTO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,7 +15,10 @@ using System.Windows.Forms;
 namespace DoAnPTUD
 {
     public partial class HomeUser : Form
-    {
+    { 
+        public static DTO_TaiKhoan user;
+        private DTO_ThongTinKH thongtinKH;
+        private BLL_ThongTinKH BLL_ThongTinKH;
         public HomeUser()
         {
             InitializeComponent();
@@ -23,7 +28,10 @@ namespace DoAnPTUD
         {
            
         }
-
+        private void Loadata()
+        {
+          
+        }
         private void btnMenu_Click(object sender, EventArgs e)
         {
             sidebar.Visible = !sidebar.Visible;
@@ -74,7 +82,9 @@ namespace DoAnPTUD
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            DangNhap dangNhap = new DangNhap();
+            dangNhap.Show();
+            this.Hide();
         }
 
         private void btnNapDT_Click(object sender, EventArgs e)
