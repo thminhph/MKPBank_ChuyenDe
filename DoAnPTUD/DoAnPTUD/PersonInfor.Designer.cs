@@ -57,8 +57,17 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.picAvata1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.txtHoTen = new System.Windows.Forms.TextBox();
+            this.txtDiaChi = new System.Windows.Forms.TextBox();
+            this.txtNgayCap = new System.Windows.Forms.TextBox();
+            this.txtSDT = new System.Windows.Forms.TextBox();
+            this.txtNgaysinh = new System.Windows.Forms.TextBox();
+            this.txtCCCD = new System.Windows.Forms.TextBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtGioiTinh = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
             this.panel3.SuspendLayout();
             this.sidebar.SuspendLayout();
@@ -67,6 +76,7 @@
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvata1)).BeginInit();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // picAvatar
@@ -151,6 +161,7 @@
             this.button3.TabIndex = 4;
             this.button3.Text = "Hội viên MKP";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -170,6 +181,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "Cài Đặt";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -188,6 +200,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Đăng xuất";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // linkHoSo
             // 
@@ -260,6 +273,7 @@
             this.btnTK.TabIndex = 0;
             this.btnTK.Text = "Quản lý TK/Thẻ";
             this.btnTK.UseVisualStyleBackColor = false;
+            this.btnTK.Click += new System.EventHandler(this.btnTK_Click);
             // 
             // btnMenu
             // 
@@ -310,8 +324,8 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.panel2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.panel4, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label4, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.panel5, 0, 3);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(229, 51);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -327,6 +341,13 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.txtGioiTinh);
+            this.panel2.Controls.Add(this.txtCCCD);
+            this.panel2.Controls.Add(this.txtNgaysinh);
+            this.panel2.Controls.Add(this.txtSDT);
+            this.panel2.Controls.Add(this.txtNgayCap);
+            this.panel2.Controls.Add(this.txtDiaChi);
+            this.panel2.Controls.Add(this.txtHoTen);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label6);
@@ -436,18 +457,6 @@
             this.picAvata1.TabIndex = 1;
             this.picAvata1.TabStop = false;
             // 
-            // label4
-            // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(4, 434);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(869, 57);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Email";
-            // 
             // label2
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -462,6 +471,82 @@
             this.label2.TabIndex = 10;
             this.label2.Text = "       Thông Tin Bổ Sung";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtHoTen
+            // 
+            this.txtHoTen.Location = new System.Drawing.Point(215, 13);
+            this.txtHoTen.Name = "txtHoTen";
+            this.txtHoTen.Size = new System.Drawing.Size(196, 26);
+            this.txtHoTen.TabIndex = 10;
+            // 
+            // txtDiaChi
+            // 
+            this.txtDiaChi.Location = new System.Drawing.Point(215, 148);
+            this.txtDiaChi.Name = "txtDiaChi";
+            this.txtDiaChi.Size = new System.Drawing.Size(196, 26);
+            this.txtDiaChi.TabIndex = 11;
+            // 
+            // txtNgayCap
+            // 
+            this.txtNgayCap.Location = new System.Drawing.Point(215, 183);
+            this.txtNgayCap.Name = "txtNgayCap";
+            this.txtNgayCap.Size = new System.Drawing.Size(196, 26);
+            this.txtNgayCap.TabIndex = 12;
+            // 
+            // txtSDT
+            // 
+            this.txtSDT.Location = new System.Drawing.Point(215, 219);
+            this.txtSDT.Name = "txtSDT";
+            this.txtSDT.Size = new System.Drawing.Size(196, 26);
+            this.txtSDT.TabIndex = 13;
+            // 
+            // txtNgaysinh
+            // 
+            this.txtNgaysinh.Location = new System.Drawing.Point(215, 83);
+            this.txtNgaysinh.Name = "txtNgaysinh";
+            this.txtNgaysinh.Size = new System.Drawing.Size(196, 26);
+            this.txtNgaysinh.TabIndex = 14;
+            // 
+            // txtCCCD
+            // 
+            this.txtCCCD.Location = new System.Drawing.Point(215, 47);
+            this.txtCCCD.Name = "txtCCCD";
+            this.txtCCCD.Size = new System.Drawing.Size(196, 26);
+            this.txtCCCD.TabIndex = 15;
+            this.txtCCCD.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.txtEmail);
+            this.panel5.Controls.Add(this.label4);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel5.Location = new System.Drawing.Point(4, 437);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(869, 51);
+            this.panel5.TabIndex = 11;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(19, 11);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(48, 20);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Email";
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(215, 5);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(196, 26);
+            this.txtEmail.TabIndex = 14;
+            // 
+            // txtGioiTinh
+            // 
+            this.txtGioiTinh.Location = new System.Drawing.Point(215, 114);
+            this.txtGioiTinh.Name = "txtGioiTinh";
+            this.txtGioiTinh.Size = new System.Drawing.Size(196, 26);
+            this.txtGioiTinh.TabIndex = 16;
             // 
             // PersonInfor
             // 
@@ -491,6 +576,8 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvata1)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -522,8 +609,17 @@
         private System.Windows.Forms.Label lbTen;
         private System.Windows.Forms.Label lbCCCD;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtCCCD;
+        private System.Windows.Forms.TextBox txtNgaysinh;
+        private System.Windows.Forms.TextBox txtSDT;
+        private System.Windows.Forms.TextBox txtNgayCap;
+        private System.Windows.Forms.TextBox txtDiaChi;
+        private System.Windows.Forms.TextBox txtHoTen;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtGioiTinh;
     }
 }
