@@ -49,6 +49,7 @@
             this.txtDangNhap.Name = "txtDangNhap";
             this.txtDangNhap.Size = new System.Drawing.Size(418, 48);
             this.txtDangNhap.TabIndex = 0;
+            this.txtDangNhap.TextChanged += new System.EventHandler(this.txtDangNhap_TextChanged);
             // 
             // txtMatKhau
             // 
@@ -93,7 +94,6 @@
             this.label1.Size = new System.Drawing.Size(936, 55);
             this.label1.TabIndex = 5;
             this.label1.Text = "CHÀO MỪNG BẠN ĐẾN VỚI MKP BANK";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // lkDangKy
             // 
@@ -106,6 +106,7 @@
             this.lkDangKy.TabIndex = 7;
             this.lkDangKy.TabStop = true;
             this.lkDangKy.Text = "Tạo tài khoản";
+            this.lkDangKy.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lkDangKy_LinkClicked);
             // 
             // lkQuenMatKhau
             // 
@@ -138,6 +139,8 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackgroundImage = global::DoAnPTUD.Properties.Resources.LoGo;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(18, 18);
@@ -165,8 +168,9 @@
             this.Controls.Add(this.txtMatKhau);
             this.Controls.Add(this.txtDangNhap);
             this.ForeColor = System.Drawing.Color.Cyan;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DangNhap";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "DangNhap";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.DangNhap_Load);

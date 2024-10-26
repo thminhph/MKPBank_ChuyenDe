@@ -39,12 +39,12 @@ namespace DAL
             return taiKhoan;
         }
 
-        public IQueryable DangNhap(char sDT )
+        public bool  DangNhap(string  sDT, string mk )
         {
-            IQueryable temp = from s in db.KhachHangCaNhans
+            var  temp = (from s in db.KhachHangCaNhans
                               join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.MaKhachHang
-                              where s.SoDienThoai.CompareTo(sDT) == 0
-                              select tk;
+                              where s.SoDienThoai == sDT && tk.Matkhau == mk
+                              select tk).Any();
             return temp;
 
         }

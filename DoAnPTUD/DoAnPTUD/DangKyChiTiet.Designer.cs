@@ -51,6 +51,8 @@
             this.txtThanhPho = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnTroVe = new Guna.UI2.WinForms.Guna2Button();
             this.btnDangKy = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtOTP = new Guna.UI2.WinForms.Guna2TextBox();
             this.SuspendLayout();
             // 
             // guna2HtmlLabel1
@@ -457,12 +459,13 @@
             this.btnTroVe.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnTroVe.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTroVe.ForeColor = System.Drawing.Color.Black;
-            this.btnTroVe.Location = new System.Drawing.Point(774, 585);
+            this.btnTroVe.Location = new System.Drawing.Point(774, 663);
             this.btnTroVe.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTroVe.Name = "btnTroVe";
             this.btnTroVe.Size = new System.Drawing.Size(170, 65);
             this.btnTroVe.TabIndex = 25;
             this.btnTroVe.Text = "Trở Về";
+            this.btnTroVe.Click += new System.EventHandler(this.btnTroVe_Click);
             // 
             // btnDangKy
             // 
@@ -474,12 +477,51 @@
             this.btnDangKy.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnDangKy.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangKy.ForeColor = System.Drawing.Color.Black;
-            this.btnDangKy.Location = new System.Drawing.Point(1000, 585);
+            this.btnDangKy.Location = new System.Drawing.Point(1000, 663);
             this.btnDangKy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDangKy.Name = "btnDangKy";
             this.btnDangKy.Size = new System.Drawing.Size(170, 65);
             this.btnDangKy.TabIndex = 24;
             this.btnDangKy.Text = "Đăng Ký";
+            this.btnDangKy.Click += new System.EventHandler(this.btnDangKy_Click);
+            // 
+            // guna2HtmlLabel12
+            // 
+            this.guna2HtmlLabel12.AutoSize = false;
+            this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.guna2HtmlLabel12.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.Black;
+            this.guna2HtmlLabel12.Location = new System.Drawing.Point(669, 590);
+            this.guna2HtmlLabel12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
+            this.guna2HtmlLabel12.Size = new System.Drawing.Size(192, 34);
+            this.guna2HtmlLabel12.TabIndex = 46;
+            this.guna2HtmlLabel12.Text = "Nhập OTP";
+            // 
+            // txtOTP
+            // 
+            this.txtOTP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.txtOTP.BorderColor = System.Drawing.Color.Gray;
+            this.txtOTP.BorderRadius = 10;
+            this.txtOTP.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtOTP.DefaultText = "";
+            this.txtOTP.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtOTP.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtOTP.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtOTP.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtOTP.FillColor = System.Drawing.Color.Salmon;
+            this.txtOTP.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtOTP.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtOTP.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtOTP.Location = new System.Drawing.Point(870, 568);
+            this.txtOTP.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.txtOTP.Name = "txtOTP";
+            this.txtOTP.PasswordChar = '\0';
+            this.txtOTP.PlaceholderText = "";
+            this.txtOTP.SelectedText = "";
+            this.txtOTP.Size = new System.Drawing.Size(300, 55);
+            this.txtOTP.TabIndex = 45;
             // 
             // DangKyChiTiet
             // 
@@ -489,6 +531,8 @@
             this.BackgroundImage = global::DoAnPTUD.Properties.Resources.logoMKP_ver2__2_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1286, 789);
+            this.Controls.Add(this.guna2HtmlLabel12);
+            this.Controls.Add(this.txtOTP);
             this.Controls.Add(this.btnTroVe);
             this.Controls.Add(this.btnDangKy);
             this.Controls.Add(this.guna2HtmlLabel11);
@@ -549,5 +593,7 @@
         private Guna.UI2.WinForms.Guna2TextBox txtThanhPho;
         private Guna.UI2.WinForms.Guna2Button btnTroVe;
         private Guna.UI2.WinForms.Guna2Button btnDangKy;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
+        private Guna.UI2.WinForms.Guna2TextBox txtOTP;
     }
 }
