@@ -8,6 +8,30 @@ namespace DTO
 {
     public class DTO_ChiTietGiaoDich
     {
+        private int MaGD;
+        private int SoTKNguoiChuyen;
+        private int SoTKNguoiNhan;
+        private float SoTien;
+        private DateTime NgayGio;
+        private string DienGia;
 
+        public DTO_ChiTietGiaoDich(int maGD, int soTKNguoiChuyen, int soTKNguoiNhan, float soTien, DateTime ngayGio, string dienGia)
+        {
+            MaGD = maGD;
+            SoTKNguoiChuyen = soTKNguoiChuyen;
+            SoTKNguoiNhan = soTKNguoiNhan;
+            SoTien = soTien;
+            NgayGio = ngayGio;
+            DienGia = dienGia;
+        }
+        public DTO_ChiTietGiaoDich() { 
+        }    
+
+        public int MaGD1 { get => MaGD; set => MaGD = value; }
+        public int SoTKNguoiChuyen1 { get => SoTKNguoiChuyen; set => SoTKNguoiChuyen = value; }
+        public int SoTKNguoiNhan1 { get => SoTKNguoiNhan; set => SoTKNguoiNhan = value; }
+        public float SoTien1 { get => SoTien; set => SoTien = value; }
+        public DateTime NgayGio1 { get => NgayGio; set => NgayGio = value; }
+        public string DienGia1 { get => DienGia; set => DienGia = value; }
     }
 }

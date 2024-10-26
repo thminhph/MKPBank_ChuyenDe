@@ -55,6 +55,7 @@
             this.linkHoSo = new System.Windows.Forms.LinkLabel();
             this.picAvatar = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
@@ -176,6 +177,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(265, 166);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -238,6 +240,7 @@
             this.btnGiaoDich.TabIndex = 1;
             this.btnGiaoDich.Text = "Lịch sử giao dịch";
             this.btnGiaoDich.UseVisualStyleBackColor = true;
+            this.btnGiaoDich.Click += new System.EventHandler(this.btnGiaoDich_Click);
             // 
             // btnThe
             // 
@@ -385,6 +388,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Đăng xuất";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel3
             // 
@@ -441,6 +445,12 @@
             this.panel1.Size = new System.Drawing.Size(1053, 51);
             this.panel1.TabIndex = 2;
             // 
+            // imageList2
+            // 
+            this.imageList2.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList2.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
+            // 
             // ManagementCard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -455,6 +465,7 @@
             this.Name = "ManagementCard";
             this.Text = "ManagementCard";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.ManagementCard_Load);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -497,5 +508,6 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button btnGiaoDich;
         private System.Windows.Forms.Button btnThe;
+        private System.Windows.Forms.ImageList imageList2;
     }
 }
