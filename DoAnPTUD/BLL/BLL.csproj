@@ -42,10 +42,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL_ChiTietGiaoDich.cs" />
+    <Compile Include="BLL_Nganh.cs" />
+    <Compile Include="BLL_NganhChinh.cs" />
     <Compile Include="BLL_SoDuTk.cs" />
     <Compile Include="BLL_TaiKhoan.cs" />
-    <Compile Include="BLL_ThongTinKN.cs" />
+    <Compile Include="BLL_ThongTinKH.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{87bc4dc3-0672-4f38-a5ed-a31f9a161074}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{1192fe83-e221-44bd-9651-c64a2fcdd283}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

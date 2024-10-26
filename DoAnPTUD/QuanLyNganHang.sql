@@ -137,9 +137,24 @@ CREATE TABLE Nganh(
 	IdNganhChinh int
 );
 
+CREATE TABLE ChiTietGD(
+MaGD  bigint identity(070000654321,10) primary key,
+SoTKNguoiChuyen bigint identity(070000654321,13) not null,
+SoTKNguoiNhan bigint identity(070000654321,13)  not null,
+SoTien float not null,
+NgayGio datetime not null,
+DienGia nvarchar (300) not null
+
+)
 --Thêm khóa ngoại bảng khách hàng cá nhân
 ALTER TABLE ChiTietKHCN
 ADD CONSTRAINT fk_khcn FOREIGN KEY (IdKhachHangCN) REFERENCES KhachHangCaNhan(IdKhachHangCN)
+
+ALTER TABLE ChiTietGD
+ADD CONSTRAINT fk_ctgd_nc  FOREIGN KEY (SoTKNguoiChuyen) REFERENCES TaiKhoan(IdTaiKhoan)
+
+ALTER TABLE ChiTietGD
+ADD CONSTRAINT fk_ctgd_nn  FOREIGN KEY (SoTKNguoiNhan) REFERENCES TaiKhoan(IdTaiKhoan)
 
 ALTER TABLE KhachHangCaNhan
 ADD CONSTRAINT fk_nvlvcn FOREIGN KEY (NhanVienLV) REFERENCES NhanVien(IdNhanVien)
