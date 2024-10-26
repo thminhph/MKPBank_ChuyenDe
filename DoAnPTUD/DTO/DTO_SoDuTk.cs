@@ -16,6 +16,11 @@ namespace DTO
             IdTaiKhoan = idTaiKhoan;
             SoDuTK = soDuTK;
         }
+        public DTO_SoDuTk( float soDuTK)
+        {
+          
+            SoDuTK = soDuTK;
+        }
         public DTO_SoDuTk() { }
 
         public int IdTaiKhoan1 { get => IdTaiKhoan; set => IdTaiKhoan = value; }
