@@ -126,5 +126,12 @@ namespace DoAnPTUD
             
             LoatData();
         }
+
+        private void linkHoSo_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            PersonInfor personInfor = new PersonInfor();
+            personInfor.Show();
+            this.Hide();
+        }
     }
 }
