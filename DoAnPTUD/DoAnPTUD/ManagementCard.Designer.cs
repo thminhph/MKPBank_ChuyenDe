@@ -424,6 +424,7 @@
             this.linkHoSo.TabIndex = 2;
             this.linkHoSo.TabStop = true;
             this.linkHoSo.Text = "Hồ sơ người dùng >";
+            this.linkHoSo.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkHoSo_LinkClicked);
             // 
             // picAvatar
             // 
