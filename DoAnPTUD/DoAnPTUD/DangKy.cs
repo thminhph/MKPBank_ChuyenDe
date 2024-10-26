@@ -7,10 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Twilio.Types;
-using Twilio;
-using Twilio.Rest.Api.V2010.Account;
-using Twilio.Rest.Verify.V2.Service;
+
 using DTO;
 
 namespace DoAnPTUD
@@ -39,30 +36,30 @@ namespace DoAnPTUD
 
         private async void btnSendOTP_Click(object sender, EventArgs e)
         {
-            string accountSid = "AC7fe66962094830ea138aa465da97de14";
-            string authToken = "c68130a094a0106c3723a5a0768ae806";
-            string fromNumber = "+16612207030";
-            string toNumber = txtSoDienThoai.Text;
+            //string accountSid = "AC7fe66962094830ea138aa465da97de14";
+            //string authToken = "c68130a094a0106c3723a5a0768ae806";
+            //string fromNumber = "+16612207030";
+            //string toNumber = txtSoDienThoai.Text;
 
-            Random random = new Random();
-            int randomNumber = random.Next(100000, 999999);
-            string message = MESS_REGISTER + randomNumber.ToString();
+            //Random random = new Random();
+            //int randomNumber = random.Next(100000, 999999);
+            //string message = MESS_REGISTER + randomNumber.ToString();
 
-            TwilioClient.Init(accountSid, authToken);
+            //TwilioClient.Init(accountSid, authToken);
 
 
-            var messageOptions = new CreateMessageOptions(
-                  new PhoneNumber(toNumber));
-            messageOptions.From = new PhoneNumber(fromNumber);
-            messageOptions.Body = "test";
-            try
-            {
-                var sendMessage = MessageResource.Create(messageOptions);
-                MessageBox.Show("Message sent successfully!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            catch (Exception ex) {
-                MessageBox.Show("Message sent fail!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+            //var messageOptions = new CreateMessageOptions(
+            //      new PhoneNumber(toNumber));
+            //messageOptions.From = new PhoneNumber(fromNumber);
+            //messageOptions.Body = "test";
+            //try
+            //{
+            //    var sendMessage = MessageResource.Create(messageOptions);
+            //    MessageBox.Show("Message sent successfully!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //}
+            //catch (Exception ex) {
+            //    MessageBox.Show("Message sent fail!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //}
 
 
         }

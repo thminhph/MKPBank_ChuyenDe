@@ -14,13 +14,10 @@ namespace BLL
 
         public bool dangNhap(string sdt, string mK)
         {
-            return taiKhoan.DangNhap(sdt,mK)  ;
+           return taiKhoan.DangNhap(sdt, mK);
         }
 
 
-        public bool dangKy(DTO_TaiKhoan tk, DTO_ThongTinKH kh)
-        {
-            return taiKhoan.DangKy(tk, kh);
-        }
+       
     }
 }
