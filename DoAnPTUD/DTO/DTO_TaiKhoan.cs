@@ -10,15 +10,15 @@ namespace DTO
     {
         private long idTaiKhoan;
         private int  maKhachHang;
-        private string loaiTaiKhoan, tenTaiKhoan, tienTe,  tieuDeTK, tieuDeNgan, nhanVienLV, phiMa, matKhau;
+        private string loaiTaiKhoan, tenTaiKhoan, tienTe,  tieuDeTK, tieuDeNgan, nhanVienLV, phiMa, matkhau;
 
-        public DTO_TaiKhoan()
-        {
 
+
+        
+        public DTO_TaiKhoan() { 
         }
 
-        public DTO_TaiKhoan(long idTaiKhoan, int maKhachHang, string loaiTaiKhoan, string tenTaiKhoan, string tienTe,
-            string tieuDeTK, string tieuDeNgan, string nhanVienLV, string phiMa, string matKhau)
+        public DTO_TaiKhoan(long idTaiKhoan, int maKhachHang, string loaiTaiKhoan, string tenTaiKhoan, string tienTe, string tieuDeTK, string tieuDeNgan, string nhanVienLV, string phiMa, string matkhau)
         {
             this.idTaiKhoan = idTaiKhoan;
             this.maKhachHang = maKhachHang;
@@ -29,7 +29,7 @@ namespace DTO
             this.tieuDeNgan = tieuDeNgan;
             this.nhanVienLV = nhanVienLV;
             this.phiMa = phiMa;
-            this.matKhau = matKhau;
+            this.matkhau = matkhau;
         }
 
         public long IdTaiKhoan { get => idTaiKhoan; set => idTaiKhoan = value; }
@@ -41,6 +41,6 @@ namespace DTO
         public string TieuDeNgan { get => tieuDeNgan; set => tieuDeNgan = value; }
         public string NhanVienLV { get => nhanVienLV; set => nhanVienLV = value; }
         public string PhiMa { get => phiMa; set => phiMa = value; }
-        public string MatKhau { get => matKhau; set => matKhau = value; }
+        public string Matkhau { get => matkhau; set => matkhau = value; }
     }
 }

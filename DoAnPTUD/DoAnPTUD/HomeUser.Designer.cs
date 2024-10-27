@@ -43,7 +43,7 @@
             this.button7 = new System.Windows.Forms.Button();
             this.btnTK = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.lblTenNgDung = new System.Windows.Forms.Label();
+            this.txtTenNguoiDung = new System.Windows.Forms.TextBox();
             this.linkHoSo = new System.Windows.Forms.LinkLabel();
             this.picAvatar = new System.Windows.Forms.PictureBox();
             this.btnTienIch = new System.Windows.Forms.Button();
@@ -284,7 +284,7 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.lblTenNgDung);
+            this.panel3.Controls.Add(this.txtTenNguoiDung);
             this.panel3.Controls.Add(this.linkHoSo);
             this.panel3.Controls.Add(this.picAvatar);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
@@ -293,16 +293,13 @@
             this.panel3.Size = new System.Drawing.Size(229, 69);
             this.panel3.TabIndex = 1;
             // 
-            // lblTenNgDung
+            // txtTenNguoiDung
             // 
-            this.lblTenNgDung.AutoSize = true;
-            this.lblTenNgDung.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenNgDung.ForeColor = System.Drawing.Color.Black;
-            this.lblTenNgDung.Location = new System.Drawing.Point(72, 20);
-            this.lblTenNgDung.Name = "lblTenNgDung";
-            this.lblTenNgDung.Size = new System.Drawing.Size(149, 25);
-            this.lblTenNgDung.TabIndex = 3;
-            this.lblTenNgDung.Text = "Tên người dùng";
+            this.txtTenNguoiDung.Enabled = false;
+            this.txtTenNguoiDung.Location = new System.Drawing.Point(75, 7);
+            this.txtTenNguoiDung.Name = "txtTenNguoiDung";
+            this.txtTenNguoiDung.Size = new System.Drawing.Size(151, 26);
+            this.txtTenNguoiDung.TabIndex = 3;
             // 
             // linkHoSo
             // 
@@ -508,7 +505,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.LinkLabel linkHoSo;
         private System.Windows.Forms.PictureBox picAvatar;
-        private System.Windows.Forms.Label lblTenNgDung;
         private System.Windows.Forms.Panel sidebar;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox textBox1;
@@ -527,7 +523,11 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button btnTK;
+<<<<<<< HEAD
         private System.Windows.Forms.NotifyIcon notifyIcon1;
+=======
+        private System.Windows.Forms.TextBox txtTenNguoiDung;
+>>>>>>> temp
     }
 }
 

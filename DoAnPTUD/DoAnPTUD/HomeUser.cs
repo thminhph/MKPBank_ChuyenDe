@@ -1,4 +1,5 @@
 ﻿using BLL;
+using DAL;
 using DTO;
 using System;
 using System.Collections.Generic;
@@ -11,14 +12,16 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
+using System.IO;
 
 namespace DoAnPTUD
 {
     public partial class HomeUser : Form
     { 
         public static DTO_TaiKhoan user;
-        private DTO_ThongTinKH thongtinKH;
-        private BLL_ThongTinKH BLL_ThongTinKH;
+        
+        public BLL_ThongTinKH bll_ThongTinKH = new BLL_ThongTinKH();
         public HomeUser()
         {
             InitializeComponent();
@@ -26,11 +29,38 @@ namespace DoAnPTUD
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           
+           Loadata();
         }
+
         private void Loadata()
         {
+
+            
+            user = new DTO_TaiKhoan(70000123456, 1, "Checking", "Standard", "VND", "Primary Account", "Main", "NV001", "PM001", "123");
+            
+            DTO_ThongTinKH th =bll_ThongTinKH.timUserTheostk(user.IdTaiKhoan);
+
+
+            if (picAvatar.Image != null)
+                {
+                    using (MemoryStream ms = new MemoryStream(th.Avarta))
+                    {
+                        // Sử dụng phương thức FromStream của lớp Image để tạo một đối tượng hình ảnh từ MemoryStream
+                        Image image = Image.FromStream(ms);
+
+                        // Đặt hình ảnh vào pictureBox1
+                        picAvatar.Image = image;
+                    }
+                }
+                else
+                {
+                    picAvatar.Image = null;
+                }
+
+                txtTenNguoiDung.Text = th.TenKhachHang;
+            
           
+
         }
         private void btnMenu_Click(object sender, EventArgs e)
         {

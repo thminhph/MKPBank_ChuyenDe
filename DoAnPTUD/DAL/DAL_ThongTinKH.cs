@@ -5,8 +5,12 @@ using System.Data.Common;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
+using System.Data.SqlClient;
 using System.Threading.Tasks;
 using System.Collections;
+using static System.Net.Mime.MediaTypeNames;
+using System.IO;
+using System.ComponentModel.Design;
 
 namespace DAL
 {
@@ -46,7 +50,7 @@ namespace DAL
         }
         public void SuaKH(DTO_ThongTinKH a , DTO_ThongTinKH b)
         {
-            var sua = db.KhachHangCaNhans.Single(kh => kh.IdKhachHangCN == a.IdKhachHangCN || kh.SoDienThoai==b.SoDienThoai.ToString());
+            var sua = db.KhachHangCaNhans.Single(kh => kh.IdKhachHangCN == a.IdKhachHangCN || kh.SoDienThoai==b.SoDienThoai);
             sua.TenKhachHang = a.TenKhachHang;
             sua.Avarta = a.Avarta;
             sua.NgaySinh = a.NgaySinh;
@@ -64,13 +68,73 @@ namespace DAL
             sua.NhanVienLV = a.NhanVienLV;
             db.SubmitChanges();
         }
-        public IQueryable timUserTheostk(DTO_ThongTinKH  stk)
+        public  DTO_ThongTinKH timUserTheostk(long  stk)
         {
-            IQueryable temp = from s in db.KhachHangCaNhans
-                              where s.IdKhachHangCN == stk.IdKhachHangCN
-                              select s;
-            return temp;
+           var query = from s in db.KhachHangCaNhans
+                        join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.MaKhachHang
+                        where tk.IdTaiKhoan==stk
+                        select new 
+                        {
+                            s.Avarta,
+                            s.TenKhachHang
+                        };
 
+
+            DTO_ThongTinKH thong = null;
+            foreach(var t  in query)
+            {
+                byte[] img = new byte[0];
+                if (t.Avarta != null)
+                {
+                    img=t.Avarta.ToArray();
+                }
+               
+                string ten =t.TenKhachHang.ToString();
+                thong =new DTO_ThongTinKH(img, ten);
+            }
+            return thong;
+        }
+        public DTO_ThongTinKH timTHKHstk(long stk)
+        {
+            var a = from s in db.KhachHangCaNhans
+                        
+                        join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.MaKhachHang
+                        where tk.IdTaiKhoan == stk
+                        select new
+                        {
+
+                            s.Avarta,
+                            s.TenKhachHang,
+                            s.SoGiayTo,
+                            s.NgaySinh,
+                            
+                            s.DiaChi,
+                            s.NgayCap,
+                            s.SoDienThoai,
+                            s.Email
+                        };
+
+
+            DTO_ThongTinKH thong=new DTO_ThongTinKH();
+            foreach (var t in a)
+            {
+                byte[] img = new byte[0];
+                if (t.Avarta != null)
+                {
+                    img = t.Avarta.ToArray();
+                }
+
+                string ten = t.TenKhachHang.ToString();
+                string sogiayto = t.SoGiayTo.ToString();
+                DateTime ngaysinh = t.NgaySinh; 
+    
+                string diachi = t.DiaChi;
+                DateTime ngaycap = t.NgayCap;
+                string sodienthoai=t.SoDienThoai;
+                string email=t.Email;
+                thong = new DTO_ThongTinKH( ten,img,ngaysinh,diachi,sodienthoai,sogiayto,ngaycap,email);
+            }
+            return thong;
         }
     }
 }

@@ -1,8 +1,11 @@
-﻿using System;
+﻿using BLL;
+using DTO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +15,10 @@ namespace DoAnPTUD
 {
     public partial class PersonInfor : Form
     {
+        public static DTO_TaiKhoan user;
+        public BLL_ThongTinKH bll_ThongTinKH = new BLL_ThongTinKH();
+        
+
         public PersonInfor()
         {
             InitializeComponent();
@@ -29,10 +36,7 @@ namespace DoAnPTUD
             this.Hide();
         }
 
-        private void Loadata()
-        {
-
-        }
+    
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -70,5 +74,43 @@ namespace DoAnPTUD
             dangNhap.Show();
             this.Hide();
         }
+
+        private void PersonInfor_Load(object sender, EventArgs e)
+        {
+            LoadData();
+        }
+        public void LoadData() {
+            user = new DTO_TaiKhoan(70000123456, 1, "Checking", "Standard", "VND", "Primary Account", "Main", "NV001", "PM001", "123");
+            DTO_ThongTinKH th = bll_ThongTinKH.timTHKHTheostk(user.IdTaiKhoan);
+            if (picAvatar.Image != null)
+            {
+                using (MemoryStream ms = new MemoryStream(th.Avarta))
+                {
+                    // Sử dụng phương thức FromStream của lớp Image để tạo một đối tượng hình ảnh từ MemoryStream
+                    Image image = Image.FromStream(ms);
+
+                    // Đặt hình ảnh vào pictureBox1
+                    picAvatar.Image = image;
+                }
+            }
+            else
+            {
+                picAvatar.Image = null;
+            }
+            textBox1.Text = th.TenKhachHang;
+            txtHoTen.Text = th.TenKhachHang;
+            txtCCCD.Text = th.SoGiayTo;
+            txtDiaChi.Text = th.DiaChi;
+            txtEmail.Text = th.Email;
+            txtSDT.Text=th.SoDienThoai;
+            txtNgayCap.Text=th.NgayCap.ToString();
+            txtNgaysinh.Text=th.NgaySinh.ToString();
+            txtGioiTinh.Text= "Nam";
+
+
+
+        
+    }
+
     }
 }

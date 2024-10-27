@@ -1,11 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLNganHang" Class="QLNganHangDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
   <Connection Mode="AppSettings" ConnectionString="Data Source=PHONGPHU\SQLEXPRESS;Initial Catalog=QLNganHang;Integrated Security=True;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="QLNganHangConnectionString2" Provider="System.Data.SqlClient" />
-  <Table Name="dbo.DangNhap" Member="DangNhaps">
-    <Type Name="DangNhap">
-      <Column Name="TenDangNhap" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="MatKhau" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-    </Type>
-  </Table>
   <Table Name="dbo.ChiTietGD" Member="ChiTietGDs">
     <Type Name="ChiTietGD">
       <Column Name="MaGD" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -18,6 +12,12 @@
       <Association Name="TaiKhoan_ChiTietGD1" Member="TaiKhoan1" ThisKey="SoTKNguoiNhan" OtherKey="IdTaiKhoan" Type="TaiKhoan" IsForeignKey="true" />
     </Type>
   </Table>
+  <Table Name="dbo.DangNhap" Member="DangNhaps">
+    <Type Name="DangNhap">
+      <Column Name="TenDangNhap" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MatKhau" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
   <Table Name="dbo.KhachHangCaNhan" Member="KhachHangCaNhans">
     <Type Name="KhachHangCaNhan">
       <Column Name="IdKhachHangCN" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
@@ -25,7 +25,7 @@
       <Column Name="Avarta" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
       <Column Name="NgaySinh" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
       <Column Name="DiaChi" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
-      <Column Name="SoDienThoai" Type="System.String" DbType="Char(11) NOT NULL" CanBeNull="false" />
+      <Column Name="SoDienThoai" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
       <Column Name="QuocGia" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Column Name="QuocTich" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Column Name="LoaiGiayTo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
@@ -38,6 +38,7 @@
       <Column Name="IdNganh" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
       <Column Name="NhanVienLV" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
       <Association Name="KhachHangCaNhan_TaiKhoan" Member="TaiKhoans" ThisKey="IdKhachHangCN" OtherKey="MaKhachHang" Type="TaiKhoan" />
+      <Association Name="KhachHangCaNhan_ChiTietKHCN" Member="ChiTietKHCN" ThisKey="IdKhachHangCN" OtherKey="IdKhachHangCN" Type="ChiTietKHCN" Cardinality="One" />
       <Association Name="Nganh_KhachHangCaNhan" Member="Nganh" ThisKey="IdNganh" OtherKey="IdNganh" Type="Nganh" IsForeignKey="true" />
     </Type>
   </Table>
@@ -80,6 +81,24 @@
       <Association Name="TaiKhoan_ChiTietGD1" Member="ChiTietGDs1" ThisKey="IdTaiKhoan" OtherKey="SoTKNguoiNhan" Type="ChiTietGD" />
       <Association Name="TaiKhoan_SoDuTinDung" Member="SoDuTinDung" ThisKey="IdTaiKhoan" OtherKey="IdTaiKhoan" Type="SoDuTinDung" Cardinality="One" />
       <Association Name="KhachHangCaNhan_TaiKhoan" Member="KhachHangCaNhan" ThisKey="MaKhachHang" OtherKey="IdKhachHangCN" Type="KhachHangCaNhan" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ChiTietKHCN" Member="ChiTietKHCNs">
+    <Type Name="ChiTietKHCN">
+      <Column Name="IdKhachHangCN" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GioiTinh" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="XungHo" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="TTHonNhan" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="QuanHe" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="SoVanPhong" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SoNguoiPT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SoHuuNha" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LHCuChu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TinhTrangViecLam" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TenCty" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ThuNhapHangThang" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="DiaChiCty" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Association Name="KhachHangCaNhan_ChiTietKHCN" Member="KhachHangCaNhan" ThisKey="IdKhachHangCN" OtherKey="IdKhachHangCN" Type="KhachHangCaNhan" IsForeignKey="true" />
     </Type>
   </Table>
 </Database>

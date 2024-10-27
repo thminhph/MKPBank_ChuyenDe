@@ -38,7 +38,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.linkHoSo = new System.Windows.Forms.LinkLabel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.lblTenNgDung = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.sidebar = new System.Windows.Forms.Panel();
             this.btnTK = new System.Windows.Forms.Button();
             this.btnMenu = new System.Windows.Forms.Button();
@@ -217,7 +217,7 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.lblTenNgDung);
+            this.panel3.Controls.Add(this.textBox1);
             this.panel3.Controls.Add(this.linkHoSo);
             this.panel3.Controls.Add(this.picAvatar);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
@@ -226,16 +226,13 @@
             this.panel3.Size = new System.Drawing.Size(229, 69);
             this.panel3.TabIndex = 1;
             // 
-            // lblTenNgDung
+            // textBox1
             // 
-            this.lblTenNgDung.AutoSize = true;
-            this.lblTenNgDung.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenNgDung.ForeColor = System.Drawing.Color.Black;
-            this.lblTenNgDung.Location = new System.Drawing.Point(72, 20);
-            this.lblTenNgDung.Name = "lblTenNgDung";
-            this.lblTenNgDung.Size = new System.Drawing.Size(149, 25);
-            this.lblTenNgDung.TabIndex = 3;
-            this.lblTenNgDung.Text = "Tên người dùng";
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(79, 19);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(147, 26);
+            this.textBox1.TabIndex = 3;
             // 
             // sidebar
             // 
@@ -356,6 +353,7 @@
             this.panel2.Controls.Add(this.lbTen);
             this.panel2.Controls.Add(this.lbCCCD);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Enabled = false;
             this.panel2.Location = new System.Drawing.Point(4, 126);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(869, 268);
@@ -363,6 +361,10 @@
             // 
             // txtGioiTinh
             // 
+<<<<<<< HEAD
+=======
+            this.txtGioiTinh.Enabled = false;
+>>>>>>> temp
             this.txtGioiTinh.Location = new System.Drawing.Point(215, 114);
             this.txtGioiTinh.Name = "txtGioiTinh";
             this.txtGioiTinh.Size = new System.Drawing.Size(196, 26);
@@ -370,6 +372,10 @@
             // 
             // txtCCCD
             // 
+<<<<<<< HEAD
+=======
+            this.txtCCCD.Enabled = false;
+>>>>>>> temp
             this.txtCCCD.Location = new System.Drawing.Point(215, 47);
             this.txtCCCD.Name = "txtCCCD";
             this.txtCCCD.Size = new System.Drawing.Size(196, 26);
@@ -378,6 +384,10 @@
             // 
             // txtNgaysinh
             // 
+<<<<<<< HEAD
+=======
+            this.txtNgaysinh.Enabled = false;
+>>>>>>> temp
             this.txtNgaysinh.Location = new System.Drawing.Point(215, 83);
             this.txtNgaysinh.Name = "txtNgaysinh";
             this.txtNgaysinh.Size = new System.Drawing.Size(196, 26);
@@ -385,6 +395,10 @@
             // 
             // txtSDT
             // 
+<<<<<<< HEAD
+=======
+            this.txtSDT.Enabled = false;
+>>>>>>> temp
             this.txtSDT.Location = new System.Drawing.Point(215, 219);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(196, 26);
@@ -392,6 +406,10 @@
             // 
             // txtNgayCap
             // 
+<<<<<<< HEAD
+=======
+            this.txtNgayCap.Enabled = false;
+>>>>>>> temp
             this.txtNgayCap.Location = new System.Drawing.Point(215, 183);
             this.txtNgayCap.Name = "txtNgayCap";
             this.txtNgayCap.Size = new System.Drawing.Size(196, 26);
@@ -399,6 +417,10 @@
             // 
             // txtDiaChi
             // 
+<<<<<<< HEAD
+=======
+            this.txtDiaChi.Enabled = false;
+>>>>>>> temp
             this.txtDiaChi.Location = new System.Drawing.Point(215, 148);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(196, 26);
@@ -406,6 +428,10 @@
             // 
             // txtHoTen
             // 
+<<<<<<< HEAD
+=======
+            this.txtHoTen.Enabled = false;
+>>>>>>> temp
             this.txtHoTen.Location = new System.Drawing.Point(215, 13);
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.Size = new System.Drawing.Size(196, 26);
@@ -534,6 +560,10 @@
             // 
             // txtEmail
             // 
+<<<<<<< HEAD
+=======
+            this.txtEmail.Enabled = false;
+>>>>>>> temp
             this.txtEmail.Location = new System.Drawing.Point(215, 5);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(196, 26);
@@ -562,6 +592,11 @@
             this.Name = "PersonInfor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PersonInfor";
+<<<<<<< HEAD
+=======
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.PersonInfor_Load);
+>>>>>>> temp
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -591,7 +626,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.LinkLabel linkHoSo;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label lblTenNgDung;
         private System.Windows.Forms.Panel sidebar;
         private System.Windows.Forms.Button btnTK;
         private System.Windows.Forms.Button btnMenu;
@@ -621,5 +655,6 @@
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtGioiTinh;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

@@ -21,9 +21,13 @@ namespace BLL
         {
              dal_thongtinkh.SuaKH(a,b);
         }
-        public IQueryable timUserTheostk(DTO_ThongTinKH stk)
+        public DTO_ThongTinKH timUserTheostk(long stk)
         {
             return dal_thongtinkh.timUserTheostk(stk);
+        }
+        public DTO_ThongTinKH timTHKHTheostk(long stk)
+        {
+            return dal_thongtinkh.timTHKHstk(stk);
         }
     }
 }
