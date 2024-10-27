@@ -21,11 +21,12 @@ namespace DAL
                                    select s;
             return layDSSDTK;
         }
-        public DTO_SoDuTk TimsoDuTKTheoID(long a )
+        public DTO_SoDuTk TimsoDuTKTheoID(string  a )
         {
             var qurey = from s in db.SoDuTinDungs
                         join k in db.TaiKhoans on s.IdTaiKhoan equals k.IdTaiKhoan
-                        where k.IdTaiKhoan == a
+                        join c in db.KhachHangCaNhans on k.MaKhachHang equals c.IdKhachHangCN
+                        where c.SoDienThoai == a
                         select new
                         {
                             s.SoDuTK

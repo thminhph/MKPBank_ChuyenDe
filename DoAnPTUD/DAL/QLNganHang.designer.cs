@@ -547,6 +547,8 @@ namespace DAL
 		
 		private EntityRef<Nganh> _Nganh;
 		
+		private EntityRef<Nganh> _Nganh1;
+		
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -592,6 +594,7 @@ namespace DAL
 			this._TaiKhoans = new EntitySet<TaiKhoan>(new Action<TaiKhoan>(this.attach_TaiKhoans), new Action<TaiKhoan>(this.detach_TaiKhoans));
 			this._ChiTietKHCN = default(EntityRef<ChiTietKHCN>);
 			this._Nganh = default(EntityRef<Nganh>);
+			this._Nganh1 = default(EntityRef<Nganh>);
 			OnCreated();
 		}
 		
@@ -635,7 +638,7 @@ namespace DAL
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Avarta", DbType="Image", UpdateCheck=UpdateCheck.Never)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Avarta", DbType="Image", CanBeNull=true, UpdateCheck=UpdateCheck.Never)]
 		public System.Data.Linq.Binary Avarta
 		{
 			get
@@ -906,7 +909,7 @@ namespace DAL
 			{
 				if ((this._IdNganh != value))
 				{
-					if (this._Nganh.HasLoadedOrAssignedValue)
+					if ((this._Nganh.HasLoadedOrAssignedValue || this._Nganh1.HasLoadedOrAssignedValue))
 					{
 						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
 					}
@@ -1015,6 +1018,40 @@ namespace DAL
 			}
 		}
 		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Nganh_KhachHangCaNhan1", Storage="_Nganh1", ThisKey="IdNganh", OtherKey="IdNganh", IsForeignKey=true)]
+		public Nganh Nganh1
+		{
+			get
+			{
+				return this._Nganh1.Entity;
+			}
+			set
+			{
+				Nganh previousValue = this._Nganh1.Entity;
+				if (((previousValue != value) 
+							|| (this._Nganh1.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._Nganh1.Entity = null;
+						previousValue.KhachHangCaNhans1.Remove(this);
+					}
+					this._Nganh1.Entity = value;
+					if ((value != null))
+					{
+						value.KhachHangCaNhans1.Add(this);
+						this._IdNganh = value.IdNganh;
+					}
+					else
+					{
+						this._IdNganh = default(int);
+					}
+					this.SendPropertyChanged("Nganh1");
+				}
+			}
+		}
+		
 		public event PropertyChangingEventHandler PropertyChanging;
 		
 		public event PropertyChangedEventHandler PropertyChanged;
@@ -1062,6 +1099,8 @@ namespace DAL
 		
 		private EntitySet<KhachHangCaNhan> _KhachHangCaNhans;
 		
+		private EntitySet<KhachHangCaNhan> _KhachHangCaNhans1;
+		
 		private EntityRef<NganhChinh> _NganhChinh;
 		
     #region Extensibility Method Definitions
@@ -1079,6 +1118,7 @@ namespace DAL
 		public Nganh()
 		{
 			this._KhachHangCaNhans = new EntitySet<KhachHangCaNhan>(new Action<KhachHangCaNhan>(this.attach_KhachHangCaNhans), new Action<KhachHangCaNhan>(this.detach_KhachHangCaNhans));
+			this._KhachHangCaNhans1 = new EntitySet<KhachHangCaNhan>(new Action<KhachHangCaNhan>(this.attach_KhachHangCaNhans1), new Action<KhachHangCaNhan>(this.detach_KhachHangCaNhans1));
 			this._NganhChinh = default(EntityRef<NganhChinh>);
 			OnCreated();
 		}
@@ -1160,6 +1200,19 @@ namespace DAL
 			}
 		}
 		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="Nganh_KhachHangCaNhan1", Storage="_KhachHangCaNhans1", ThisKey="IdNganh", OtherKey="IdNganh")]
+		public EntitySet<KhachHangCaNhan> KhachHangCaNhans1
+		{
+			get
+			{
+				return this._KhachHangCaNhans1;
+			}
+			set
+			{
+				this._KhachHangCaNhans1.Assign(value);
+			}
+		}
+		
 		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="NganhChinh_Nganh", Storage="_NganhChinh", ThisKey="IdNganhChinh", OtherKey="IdNganhChinh", IsForeignKey=true)]
 		public NganhChinh NganhChinh
 		{
@@ -1224,6 +1277,18 @@ namespace DAL
 		{
 			this.SendPropertyChanging();
 			entity.Nganh = null;
+		}
+		
+		private void attach_KhachHangCaNhans1(KhachHangCaNhan entity)
+		{
+			this.SendPropertyChanging();
+			entity.Nganh1 = this;
+		}
+		
+		private void detach_KhachHangCaNhans1(KhachHangCaNhan entity)
+		{
+			this.SendPropertyChanging();
+			entity.Nganh1 = null;
 		}
 	}
 	

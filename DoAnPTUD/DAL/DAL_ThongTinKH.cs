@@ -68,32 +68,7 @@ namespace DAL
             sua.NhanVienLV = a.NhanVienLV;
             db.SubmitChanges();
         }
-        public  DTO_ThongTinKH timUserTheostk(long  stk)
-        {
-           var query = from s in db.KhachHangCaNhans
-                        join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.MaKhachHang
-                        where tk.IdTaiKhoan==stk
-                        select new 
-                        {
-                            s.Avarta,
-                            s.TenKhachHang
-                        };
-
-
-            DTO_ThongTinKH thong = null;
-            foreach(var t  in query)
-            {
-                byte[] img = new byte[0];
-                if (t.Avarta != null)
-                {
-                    img=t.Avarta.ToArray();
-                }
-               
-                string ten =t.TenKhachHang.ToString();
-                thong =new DTO_ThongTinKH(img, ten);
-            }
-            return thong;
-        }
+      
         public DTO_ThongTinKH timTHKHstk(long stk)
         {
             var a = from s in db.KhachHangCaNhans
@@ -107,7 +82,6 @@ namespace DAL
                             s.TenKhachHang,
                             s.SoGiayTo,
                             s.NgaySinh,
-                            
                             s.DiaChi,
                             s.NgayCap,
                             s.SoDienThoai,
