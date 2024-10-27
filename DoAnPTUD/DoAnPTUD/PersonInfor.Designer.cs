@@ -361,7 +361,10 @@
             // 
             // txtGioiTinh
             // 
+<<<<<<< HEAD
             this.txtGioiTinh.Enabled = false;
+=======
+>>>>>>> Minh
             this.txtGioiTinh.Location = new System.Drawing.Point(215, 114);
             this.txtGioiTinh.Name = "txtGioiTinh";
             this.txtGioiTinh.Size = new System.Drawing.Size(196, 26);
@@ -369,7 +372,10 @@
             // 
             // txtCCCD
             // 
+<<<<<<< HEAD
             this.txtCCCD.Enabled = false;
+=======
+>>>>>>> Minh
             this.txtCCCD.Location = new System.Drawing.Point(215, 47);
             this.txtCCCD.Name = "txtCCCD";
             this.txtCCCD.Size = new System.Drawing.Size(196, 26);
@@ -378,7 +384,10 @@
             // 
             // txtNgaysinh
             // 
+<<<<<<< HEAD
             this.txtNgaysinh.Enabled = false;
+=======
+>>>>>>> Minh
             this.txtNgaysinh.Location = new System.Drawing.Point(215, 83);
             this.txtNgaysinh.Name = "txtNgaysinh";
             this.txtNgaysinh.Size = new System.Drawing.Size(196, 26);
@@ -386,7 +395,10 @@
             // 
             // txtSDT
             // 
+<<<<<<< HEAD
             this.txtSDT.Enabled = false;
+=======
+>>>>>>> Minh
             this.txtSDT.Location = new System.Drawing.Point(215, 219);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(196, 26);
@@ -394,7 +406,10 @@
             // 
             // txtNgayCap
             // 
+<<<<<<< HEAD
             this.txtNgayCap.Enabled = false;
+=======
+>>>>>>> Minh
             this.txtNgayCap.Location = new System.Drawing.Point(215, 183);
             this.txtNgayCap.Name = "txtNgayCap";
             this.txtNgayCap.Size = new System.Drawing.Size(196, 26);
@@ -402,7 +417,10 @@
             // 
             // txtDiaChi
             // 
+<<<<<<< HEAD
             this.txtDiaChi.Enabled = false;
+=======
+>>>>>>> Minh
             this.txtDiaChi.Location = new System.Drawing.Point(215, 148);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(196, 26);
@@ -410,7 +428,10 @@
             // 
             // txtHoTen
             // 
+<<<<<<< HEAD
             this.txtHoTen.Enabled = false;
+=======
+>>>>>>> Minh
             this.txtHoTen.Location = new System.Drawing.Point(215, 13);
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.Size = new System.Drawing.Size(196, 26);
@@ -539,7 +560,10 @@
             // 
             // txtEmail
             // 
+<<<<<<< HEAD
             this.txtEmail.Enabled = false;
+=======
+>>>>>>> Minh
             this.txtEmail.Location = new System.Drawing.Point(215, 5);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(196, 26);
@@ -566,9 +590,13 @@
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Name = "PersonInfor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PersonInfor";
+<<<<<<< HEAD
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.PersonInfor_Load);
+=======
+>>>>>>> Minh
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

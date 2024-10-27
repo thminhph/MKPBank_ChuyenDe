@@ -464,9 +464,13 @@
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Name = "ManagementCard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ManagementCard";
+<<<<<<< HEAD
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.ManagementCard_Load);
+=======
+>>>>>>> Minh
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

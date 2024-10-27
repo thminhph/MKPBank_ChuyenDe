@@ -34,7 +34,6 @@
             this.lbMatKhau = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lkDangKy = new System.Windows.Forms.LinkLabel();
-            this.lkQuenMatKhau = new System.Windows.Forms.LinkLabel();
             this.btnDangNhap = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -43,8 +42,9 @@
             // txtDangNhap
             // 
             this.txtDangNhap.BackColor = System.Drawing.Color.RosyBrown;
-            this.txtDangNhap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtDangNhap.Location = new System.Drawing.Point(404, 586);
+            this.txtDangNhap.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtDangNhap.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDangNhap.Location = new System.Drawing.Point(404, 584);
             this.txtDangNhap.Multiline = true;
             this.txtDangNhap.Name = "txtDangNhap";
             this.txtDangNhap.Size = new System.Drawing.Size(418, 48);
@@ -54,7 +54,8 @@
             // txtMatKhau
             // 
             this.txtMatKhau.BackColor = System.Drawing.Color.RosyBrown;
-            this.txtMatKhau.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtMatKhau.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMatKhau.Location = new System.Drawing.Point(404, 706);
             this.txtMatKhau.Multiline = true;
             this.txtMatKhau.Name = "txtMatKhau";
@@ -85,15 +86,17 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.Window;
+            this.label1.BackColor = System.Drawing.Color.Silver;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.IndianRed;
-            this.label1.Location = new System.Drawing.Point(134, 477);
+            this.label1.Location = new System.Drawing.Point(320, 473);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(936, 55);
             this.label1.TabIndex = 5;
             this.label1.Text = "CHÀO MỪNG BẠN ĐẾN VỚI MKP BANK";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lkDangKy
             // 
@@ -107,18 +110,6 @@
             this.lkDangKy.TabStop = true;
             this.lkDangKy.Text = "Tạo tài khoản";
             this.lkDangKy.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lkDangKy_LinkClicked);
-            // 
-            // lkQuenMatKhau
-            // 
-            this.lkQuenMatKhau.AutoSize = true;
-            this.lkQuenMatKhau.LinkColor = System.Drawing.Color.Red;
-            this.lkQuenMatKhau.Location = new System.Drawing.Point(702, 758);
-            this.lkQuenMatKhau.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lkQuenMatKhau.Name = "lkQuenMatKhau";
-            this.lkQuenMatKhau.Size = new System.Drawing.Size(118, 20);
-            this.lkQuenMatKhau.TabIndex = 8;
-            this.lkQuenMatKhau.TabStop = true;
-            this.lkQuenMatKhau.Text = "Quên mật khẩu";
             // 
             // btnDangNhap
             // 
@@ -153,13 +144,13 @@
             // 
             // DangNhap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScroll = true;
+            this.BackColor = System.Drawing.Color.Silver;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CausesValidation = false;
             this.ClientSize = new System.Drawing.Size(1200, 932);
             this.Controls.Add(this.btnDangNhap);
-            this.Controls.Add(this.lkQuenMatKhau);
             this.Controls.Add(this.lkDangKy);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
@@ -168,9 +159,8 @@
             this.Controls.Add(this.txtMatKhau);
             this.Controls.Add(this.txtDangNhap);
             this.ForeColor = System.Drawing.Color.Cyan;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DangNhap";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DangNhap";
             this.Load += new System.EventHandler(this.DangNhap_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -188,7 +178,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.LinkLabel lkDangKy;
-        private System.Windows.Forms.LinkLabel lkQuenMatKhau;
         private Guna.UI2.WinForms.Guna2Button btnDangNhap;
     }
 }
