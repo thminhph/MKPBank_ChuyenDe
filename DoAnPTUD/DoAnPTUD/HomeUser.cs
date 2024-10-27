@@ -152,5 +152,7 @@ namespace DoAnPTUD
             personInfor.Show();
             this.Hide();
         }
+
+       
     }
 }
