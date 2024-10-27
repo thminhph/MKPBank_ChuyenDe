@@ -61,7 +61,6 @@
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.Size = new System.Drawing.Size(418, 48);
             this.txtMatKhau.TabIndex = 1;
-            this.txtMatKhau.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lbDangNhap
             // 
