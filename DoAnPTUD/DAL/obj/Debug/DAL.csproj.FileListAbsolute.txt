@@ -1,0 +1,20 @@
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DAL\bin\Debug\DAL.dll.config
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DAL\bin\Debug\DAL.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DAL\bin\Debug\DAL.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DAL\bin\Debug\DTO.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DAL\bin\Debug\DTO.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DAL\obj\Debug\DAL.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DAL\obj\Debug\DAL.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DAL\bin\Debug\DAL.dll.config
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DAL\bin\Debug\DAL.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DAL\bin\Debug\DAL.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DAL\bin\Debug\DTO.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DAL\bin\Debug\DTO.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DAL\obj\Debug\DAL.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DAL\obj\Debug\DAL.pdb
