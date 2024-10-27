@@ -40,6 +40,7 @@
       <Association Name="KhachHangCaNhan_TaiKhoan" Member="TaiKhoans" ThisKey="IdKhachHangCN" OtherKey="MaKhachHang" Type="TaiKhoan" />
       <Association Name="KhachHangCaNhan_ChiTietKHCN" Member="ChiTietKHCN" ThisKey="IdKhachHangCN" OtherKey="IdKhachHangCN" Type="ChiTietKHCN" Cardinality="One" />
       <Association Name="Nganh_KhachHangCaNhan" Member="Nganh" ThisKey="IdNganh" OtherKey="IdNganh" Type="Nganh" IsForeignKey="true" />
+      <Association Name="Nganh_KhachHangCaNhan1" Member="Nganh1" ThisKey="IdNganh" OtherKey="IdNganh" Type="Nganh" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.Nganh" Member="Nganhs">
@@ -48,6 +49,7 @@
       <Column Name="TenNganh" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
       <Column Name="IdNganhChinh" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Association Name="Nganh_KhachHangCaNhan" Member="KhachHangCaNhans" ThisKey="IdNganh" OtherKey="IdNganh" Type="KhachHangCaNhan" />
+      <Association Name="Nganh_KhachHangCaNhan1" Member="KhachHangCaNhans1" ThisKey="IdNganh" OtherKey="IdNganh" Type="KhachHangCaNhan" />
       <Association Name="NganhChinh_Nganh" Member="NganhChinh" ThisKey="IdNganhChinh" OtherKey="IdNganhChinh" Type="NganhChinh" IsForeignKey="true" />
     </Type>
   </Table>

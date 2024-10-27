@@ -12,6 +12,7 @@ namespace DoAnPTUD
 {
     public partial class TransferDetails : Form
     {
+       
         public TransferDetails()
         {
             InitializeComponent();

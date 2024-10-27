@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Twilio;
+
 using BLL;
 
 using BLL;
@@ -19,6 +19,7 @@ namespace DoAnPTUD
     public partial class DangNhap : Form
     {
         public static DTO_TaiKhoan user;
+        
         private  BLL_TaiKhoan bll_taiKhoan  = new BLL_TaiKhoan();
         public DangNhap()
         {
@@ -50,7 +51,8 @@ namespace DoAnPTUD
 
             if (bll_taiKhoan.dangNhap(txtDangNhap.Text, txtMatKhau.Text) )
             {
-                HomeUser us = new HomeUser();
+                DTO_ThongTinKH use= bll_taiKhoan.ganthongtin(txtDN, txtMK);
+                HomeUser us = new HomeUser(use.SoDienThoai);
                 us.Show();
                 this.Hide();
             }

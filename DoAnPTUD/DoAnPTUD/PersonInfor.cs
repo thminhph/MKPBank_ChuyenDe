@@ -15,13 +15,15 @@ namespace DoAnPTUD
 {
     public partial class PersonInfor : Form
     {
-        public static DTO_TaiKhoan user;
+        public string use;
+        public BLL_TaiKhoan Tk = new BLL_TaiKhoan();
         public BLL_ThongTinKH bll_ThongTinKH = new BLL_ThongTinKH();
         
 
-        public PersonInfor()
+        public PersonInfor( string us)
         {
             InitializeComponent();
+            this.use = us;
         }
 
         private void btnMenu_Click(object sender, EventArgs e)
@@ -31,7 +33,7 @@ namespace DoAnPTUD
 
         private void button4_Click(object sender, EventArgs e)
         {
-            HomeUser homeUser = new HomeUser();
+            HomeUser homeUser = new HomeUser(use);
             homeUser.Show();
             this.Hide();
         }
@@ -56,7 +58,7 @@ namespace DoAnPTUD
 
         private void btnTK_Click(object sender, EventArgs e)
         {
-            ManagementCard mc = new ManagementCard();
+            ManagementCard mc = new ManagementCard(use);
             mc.Show();
             this.Hide();
         }
@@ -80,8 +82,8 @@ namespace DoAnPTUD
             LoadData();
         }
         public void LoadData() {
-            user = new DTO_TaiKhoan(70000123456, 1, "Checking", "Standard", "VND", "Primary Account", "Main", "NV001", "PM001", "123");
-            DTO_ThongTinKH th = bll_ThongTinKH.timTHKHTheostk(user.IdTaiKhoan);
+           
+            DTO_ThongTinKH th = Tk.tim(use);
             if (picAvatar.Image != null)
             {
                 using (MemoryStream ms = new MemoryStream(th.Avarta))

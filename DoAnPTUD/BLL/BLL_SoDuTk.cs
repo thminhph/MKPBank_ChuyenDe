@@ -17,7 +17,7 @@ namespace BLL
         {
             return sdtk.layisSDTk();
         }
-        public DTO_SoDuTk sodu(long a)
+        public DTO_SoDuTk sodu(string a)
         {
             return sdtk.TimsoDuTKTheoID(a);
         }
