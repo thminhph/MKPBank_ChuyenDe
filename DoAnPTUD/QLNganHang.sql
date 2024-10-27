@@ -364,4 +364,4 @@ WHERE
 	SELECT SoDuTK
 FROM SoDuTinDung s
 INNER JOIN TaiKhoan k ON s.IdTaiKhoan = k.IdTaiKhoan
-WHERE k.IdTaiKhoan = s.IdTaiKhoan;
+WHERE k.IdTaiKhoan =70000123456 ;
