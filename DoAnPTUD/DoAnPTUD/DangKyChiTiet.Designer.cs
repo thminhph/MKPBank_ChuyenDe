@@ -58,7 +58,7 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Maroon;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(540, 18);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(495, 50);
             this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(198, 49);
@@ -93,7 +93,8 @@
             this.txtTen.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtTen.FillColor = System.Drawing.Color.Salmon;
             this.txtTen.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTen.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtTen.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTen.ForeColor = System.Drawing.Color.Black;
             this.txtTen.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTen.Location = new System.Drawing.Point(278, 134);
             this.txtTen.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
@@ -131,7 +132,8 @@
             this.txtHoVaTenDem.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtHoVaTenDem.FillColor = System.Drawing.Color.Salmon;
             this.txtHoVaTenDem.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtHoVaTenDem.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtHoVaTenDem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHoVaTenDem.ForeColor = System.Drawing.Color.Black;
             this.txtHoVaTenDem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtHoVaTenDem.Location = new System.Drawing.Point(278, 220);
             this.txtHoVaTenDem.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
@@ -169,7 +171,8 @@
             this.txtNgaySinh.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtNgaySinh.FillColor = System.Drawing.Color.Salmon;
             this.txtNgaySinh.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNgaySinh.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtNgaySinh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNgaySinh.ForeColor = System.Drawing.Color.Black;
             this.txtNgaySinh.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtNgaySinh.Location = new System.Drawing.Point(278, 314);
             this.txtNgaySinh.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
@@ -207,7 +210,8 @@
             this.txtDuong.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtDuong.FillColor = System.Drawing.Color.Salmon;
             this.txtDuong.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtDuong.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtDuong.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDuong.ForeColor = System.Drawing.Color.Black;
             this.txtDuong.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtDuong.Location = new System.Drawing.Point(278, 406);
             this.txtDuong.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
@@ -245,7 +249,8 @@
             this.txtPhuongQuanHuyen.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtPhuongQuanHuyen.FillColor = System.Drawing.Color.Salmon;
             this.txtPhuongQuanHuyen.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtPhuongQuanHuyen.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtPhuongQuanHuyen.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhuongQuanHuyen.ForeColor = System.Drawing.Color.Black;
             this.txtPhuongQuanHuyen.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPhuongQuanHuyen.Location = new System.Drawing.Point(278, 500);
             this.txtPhuongQuanHuyen.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
@@ -264,7 +269,7 @@
             this.guna2HtmlLabel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.guna2HtmlLabel7.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(669, 155);
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(623, 155);
             this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
             this.guna2HtmlLabel7.Size = new System.Drawing.Size(192, 34);
@@ -284,9 +289,10 @@
             this.txtQuocTich.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtQuocTich.FillColor = System.Drawing.Color.Salmon;
             this.txtQuocTich.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtQuocTich.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtQuocTich.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQuocTich.ForeColor = System.Drawing.Color.Black;
             this.txtQuocTich.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtQuocTich.Location = new System.Drawing.Point(870, 134);
+            this.txtQuocTich.Location = new System.Drawing.Point(824, 134);
             this.txtQuocTich.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.txtQuocTich.Name = "txtQuocTich";
             this.txtQuocTich.PasswordChar = '\0';
@@ -302,7 +308,7 @@
             this.guna2HtmlLabel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.guna2HtmlLabel8.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(669, 220);
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(623, 220);
             this.guna2HtmlLabel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
             this.guna2HtmlLabel8.Size = new System.Drawing.Size(192, 85);
@@ -322,9 +328,10 @@
             this.txtCCCD.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtCCCD.FillColor = System.Drawing.Color.Salmon;
             this.txtCCCD.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCCCD.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtCCCD.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCCCD.ForeColor = System.Drawing.Color.Black;
             this.txtCCCD.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtCCCD.Location = new System.Drawing.Point(870, 220);
+            this.txtCCCD.Location = new System.Drawing.Point(824, 220);
             this.txtCCCD.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.txtCCCD.Name = "txtCCCD";
             this.txtCCCD.PasswordChar = '\0';
@@ -340,7 +347,7 @@
             this.guna2HtmlLabel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.guna2HtmlLabel9.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(669, 335);
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(623, 335);
             this.guna2HtmlLabel9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
             this.guna2HtmlLabel9.Size = new System.Drawing.Size(192, 34);
@@ -360,9 +367,10 @@
             this.txtNgayCap.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtNgayCap.FillColor = System.Drawing.Color.Salmon;
             this.txtNgayCap.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNgayCap.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtNgayCap.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNgayCap.ForeColor = System.Drawing.Color.Black;
             this.txtNgayCap.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNgayCap.Location = new System.Drawing.Point(870, 314);
+            this.txtNgayCap.Location = new System.Drawing.Point(824, 314);
             this.txtNgayCap.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.txtNgayCap.Name = "txtNgayCap";
             this.txtNgayCap.PasswordChar = '\0';
@@ -378,7 +386,7 @@
             this.guna2HtmlLabel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.guna2HtmlLabel10.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(669, 428);
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(623, 428);
             this.guna2HtmlLabel10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
             this.guna2HtmlLabel10.Size = new System.Drawing.Size(192, 34);
@@ -398,9 +406,10 @@
             this.txtNoiCap.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtNoiCap.FillColor = System.Drawing.Color.Salmon;
             this.txtNoiCap.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNoiCap.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtNoiCap.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNoiCap.ForeColor = System.Drawing.Color.Black;
             this.txtNoiCap.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNoiCap.Location = new System.Drawing.Point(870, 406);
+            this.txtNoiCap.Location = new System.Drawing.Point(824, 406);
             this.txtNoiCap.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.txtNoiCap.Name = "txtNoiCap";
             this.txtNoiCap.PasswordChar = '\0';
@@ -436,7 +445,8 @@
             this.txtThanhPho.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtThanhPho.FillColor = System.Drawing.Color.Salmon;
             this.txtThanhPho.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtThanhPho.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtThanhPho.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtThanhPho.ForeColor = System.Drawing.Color.Black;
             this.txtThanhPho.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtThanhPho.Location = new System.Drawing.Point(278, 594);
             this.txtThanhPho.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
@@ -457,12 +467,13 @@
             this.btnTroVe.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnTroVe.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTroVe.ForeColor = System.Drawing.Color.Black;
-            this.btnTroVe.Location = new System.Drawing.Point(774, 585);
+            this.btnTroVe.Location = new System.Drawing.Point(397, 750);
             this.btnTroVe.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTroVe.Name = "btnTroVe";
             this.btnTroVe.Size = new System.Drawing.Size(170, 65);
             this.btnTroVe.TabIndex = 25;
             this.btnTroVe.Text = "Trở Về";
+            this.btnTroVe.Click += new System.EventHandler(this.btnTroVe_Click);
             // 
             // btnDangKy
             // 
@@ -474,21 +485,21 @@
             this.btnDangKy.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnDangKy.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangKy.ForeColor = System.Drawing.Color.Black;
-            this.btnDangKy.Location = new System.Drawing.Point(1000, 585);
+            this.btnDangKy.Location = new System.Drawing.Point(623, 750);
             this.btnDangKy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDangKy.Name = "btnDangKy";
             this.btnDangKy.Size = new System.Drawing.Size(170, 65);
             this.btnDangKy.TabIndex = 24;
             this.btnDangKy.Text = "Đăng Ký";
+            this.btnDangKy.Click += new System.EventHandler(this.btnDangKy_Click);
             // 
             // DangKyChiTiet
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.LightGray;
             this.BackgroundImage = global::DoAnPTUD.Properties.Resources.logoMKP_ver2__2_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1286, 789);
+            this.ClientSize = new System.Drawing.Size(1200, 932);
             this.Controls.Add(this.btnTroVe);
             this.Controls.Add(this.btnDangKy);
             this.Controls.Add(this.guna2HtmlLabel11);
@@ -513,11 +524,12 @@
             this.Controls.Add(this.txtTen);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.Black;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "DangKyChiTiet";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DangKyChiTiet";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.DangKyChiTiet_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

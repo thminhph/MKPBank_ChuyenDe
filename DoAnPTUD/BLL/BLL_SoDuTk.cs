@@ -1,5 +1,4 @@
 ﻿using DAL;
-using DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,10 +15,6 @@ namespace BLL
         public IQueryable laydsSDTK()
         {
             return sdtk.layisSDTk();
-        }
-        public DTO_SoDuTk sodu(long a)
-        {
-            return sdtk.TimsoDuTKTheoID(a);
         }
     }
 }

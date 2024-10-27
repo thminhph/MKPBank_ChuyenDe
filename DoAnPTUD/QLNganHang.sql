@@ -139,7 +139,6 @@ CREATE TABLE Nganh(
 	IdNganh int identity(1,1) primary key,
 	TenNganh nvarchar(255) not null,
 	IdNganhChinh int
-
 );
 CREATE TABLE ChiTietGD(
 MaGD  bigint identity(070000654321,10) primary key,
@@ -148,6 +147,7 @@ SoTKNguoiNhan bigint   not null,
 SoTien float not null,
 NgayGio datetime not null,
 DienGia nvarchar (300) not null
+
 );
 
 --Thêm khóa ngoại bảng khách hàng cá nhân

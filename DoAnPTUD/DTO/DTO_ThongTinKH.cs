@@ -4,21 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
-using System.Reflection;
-using System.Drawing;
 
 namespace DTO
-{ 
-    
-    public class DTO_ThongTinKH 
+{
+    public class DTO_ThongTinKH
     {
-       
         private int idKhachHangCN;
         private string tenKhachHang;
-        private byte[]  avarta; 
+        private byte[] avarta;
         private DateTime ngaySinh;
         private string diaChi;
-        private string  soDienThoai;
+        private string soDienThoai;
         private string quocGia;
         private string quocTich;
         private string loaiGiayTo;
@@ -33,28 +29,12 @@ namespace DTO
 
 
        
-     
-        public DTO_ThongTinKH(byte[] avarta, string tenKhachHang) 
+        public DTO_ThongTinKH()
         {
-            this.tenKhachHang = tenKhachHang;
-            this.avarta = avarta;
-        }
-       public DTO_ThongTinKH() { }
-        public DTO_ThongTinKH(string tenKhachHang,byte[] avarta, DateTime ngaySinh, string diaChi, string soDienThoai,  string soGiayTo, DateTime ngayCap, string email) 
-        {
-            
-            this.tenKhachHang = tenKhachHang;
-            this.avarta = avarta;
-             
-            this.ngaySinh = ngaySinh;
-            this.diaChi = diaChi;
-            this.soDienThoai = soDienThoai;
-            this.soGiayTo = soGiayTo;
-            this.ngayCap = ngayCap;
-            this.email = email;
 
         }
-        public DTO_ThongTinKH(int idKhachHangCN, string tenKhachHang, byte[] avarta, DateTime ngaySinh, string diaChi, string  soDienThoai, string quocGia, string quocTich, string loaiGiayTo, string soGiayTo, DateTime ngayCap, DateTime ngayHetHan, string noiCap, string email, int nganhChinh, int nganh, string nhanVienLV)
+
+        public DTO_ThongTinKH(int idKhachHangCN, string tenKhachHang, byte[] avarta, DateTime ngaySinh, string diaChi, string soDienThoai, string quocGia, string quocTich, string loaiGiayTo, string soGiayTo, DateTime ngayCap, DateTime ngayHetHan, string noiCap, string email, int nganhChinh, int nganh, string nhanVienLV)
         {
             this.idKhachHangCN = idKhachHangCN;
             this.tenKhachHang = tenKhachHang;
@@ -92,8 +72,6 @@ namespace DTO
         public int NganhChinh { get => nganhChinh; set => nganhChinh = value; }
         public int Nganh { get => idnganh; set => idnganh = value; }
         public string NhanVienLV { get => nhanVienLV; set => nhanVienLV = value; }
-
-       
     }
     
 }

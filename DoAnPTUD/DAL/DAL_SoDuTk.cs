@@ -1,6 +1,4 @@
-﻿using DTO;
-using System;
-using System.CodeDom;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,23 +18,6 @@ namespace DAL
             IQueryable layDSSDTK = from s in db.SoDuTinDungs
                                    select s;
             return layDSSDTK;
-        }
-        public DTO_SoDuTk TimsoDuTKTheoID(long a )
-        {
-            var qurey = from s in db.SoDuTinDungs
-                        join k in db.TaiKhoans on s.IdTaiKhoan equals k.IdTaiKhoan
-                        where k.IdTaiKhoan == a
-                        select new
-                        {
-                            s.SoDuTK
-                        };
-            DTO_SoDuTk soDu = null;
-            foreach ( var k in qurey )
-            {
-                float sodu=(float)k.SoDuTK;
-                soDu = new DTO_SoDuTk(sodu);
-            }
-            return soDu;
         }
     }
 }
