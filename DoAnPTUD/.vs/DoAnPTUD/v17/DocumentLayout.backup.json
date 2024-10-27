@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\THE MINH\\Desktop\\end\\backup\\DoAnPTUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\backup\\DoAnPTUD\\doanptud\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|c:\\users\\the minh\\desktop\\end\\backup\\doanptud\\doanptud\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|c:\\users\\the minh\\desktop\\end\\backup\\doanptud\\doanptud\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\backup\\DoAnPTUD\\doanptud\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -122,8 +122,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -133,8 +137,7 @@
               "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\backup\\DoAnPTUD\\DoAnPTUD\\DangKyChiTiet.cs [Design]",
               "RelativeToolTip": "DoAnPTUD\\DangKyChiTiet.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T12:55:07.905Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-24T12:55:07.905Z"
             },
             {
               "$type": "Document",
@@ -145,8 +148,7 @@
               "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\backup\\DoAnPTUD\\DoAnPTUD\\DangKy.cs [Design]",
               "RelativeToolTip": "DoAnPTUD\\DangKy.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T12:54:58.275Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-24T12:54:58.275Z"
             },
             {
               "$type": "Document",
@@ -168,7 +170,7 @@
               "RelativeDocumentMoniker": "DoAnPTUD\\DangNhap.cs",
               "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\backup\\DoAnPTUD\\DoAnPTUD\\DangNhap.cs",
               "RelativeToolTip": "DoAnPTUD\\DangNhap.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAmwDcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAuwDcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T12:31:09.112Z",
               "EditorCaption": ""
@@ -183,8 +185,7 @@
               "RelativeToolTip": "DoAnPTUD\\DangKy.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAmwFsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T12:58:49.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T12:58:49.671Z"
             },
             {
               "$type": "Document",
@@ -196,8 +197,7 @@
               "RelativeToolTip": "DoAnPTUD\\DangKyChiTiet.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAuwDcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T14:53:43.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T14:53:43.35Z"
             },
             {
               "$type": "Document",
@@ -209,8 +209,7 @@
               "RelativeToolTip": "DoAnPTUD\\HomeUser.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAWwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T13:14:07.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T13:14:07.459Z"
             },
             {
               "$type": "Document",
