@@ -7,7 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+<<<<<<< HEAD
 
+=======
+>>>>>>> Minh
 using DTO;
 
 namespace DoAnPTUD
@@ -34,6 +37,7 @@ namespace DoAnPTUD
 
         }
 
+<<<<<<< HEAD
         private async void btnSendOTP_Click(object sender, EventArgs e)
         {
             //string accountSid = "AC7fe66962094830ea138aa465da97de14";
@@ -63,6 +67,9 @@ namespace DoAnPTUD
 
 
         }
+=======
+        
+>>>>>>> Minh
 
         private void btnXacNhan_Click(object sender, EventArgs e)
         {
