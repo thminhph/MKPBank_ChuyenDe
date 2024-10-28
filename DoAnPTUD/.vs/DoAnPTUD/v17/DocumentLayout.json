@@ -1,0 +1,1423 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|d:\\downloads\\mkpbank_chuyende\\doanptud\\doanptud\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\dal_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\dal_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\dal_khachhangcanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\dal_khachhangcanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\frm_khachhangcanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\frm_khachhangcanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\frm_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\frm_main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\frm_main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\frm_danhsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\frm_danhsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\frm_danhsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\frm_danhsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\frm_khachhangcanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\frm_khachhangcanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\frm_khachhangdoanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\frm_khachhangdoanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\frm_khachhangdoanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\frm_khachhangdoanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\frm_khachhangdoanhnghiep.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\frm_khachhangdoanhnghiep.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\frm_khachhangcanhan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\frm_khachhangcanhan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\frm_danhsach.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\frm_danhsach.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\managementcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\managementcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\managementcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\managementcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\bll\\bll_khachhangcanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|solutionrelative:bll\\bll_khachhangcanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\bll\\bll_khachhangdoanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|solutionrelative:bll\\bll_khachhangdoanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\bll\\bll_loadvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|solutionrelative:bll\\bll_loadvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\bll\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|solutionrelative:bll\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\dal_khachhangdoanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\dal_khachhangdoanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\dal_nganhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\dal_nganhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\qlnganhang.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\qlnganhang.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\qlnganhang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\qlnganhang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dto\\dto_khachhangdoanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|solutionrelative:dto\\dto_khachhangdoanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\dal_loadvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\dal_loadvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\data_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\data_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dto\\dto_chitietkhcn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|solutionrelative:dto\\dto_chitietkhcn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dto\\dto_chitietkhdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|solutionrelative:dto\\dto_chitietkhdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dto\\dto_khachhangcanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|solutionrelative:dto\\dto_khachhangcanhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\dal_thongtinkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\dal_thongtinkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\dal_sodutk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\dal_sodutk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\personinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\personinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\bll\\bll_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|solutionrelative:bll\\bll_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\bll\\bll_thongtinkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|solutionrelative:bll\\bll_thongtinkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dto\\dto_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|solutionrelative:dto\\dto_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dto\\dto_thongtinkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|solutionrelative:dto\\dto_thongtinkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\bll\\bll_sodutk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|solutionrelative:bll\\bll_sodutk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/PHONGPHU_SQLEXPRESS/QLNganHang/True/SqlTable/dbo.KhachHangCaNhan.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\transferdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\transferdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dto\\dto_sodutk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|solutionrelative:dto\\dto_sodutk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\transferdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\transferdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\personinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\personinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\dal_nganh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\dal_nganh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\dal_chitietgiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\dal_chitietgiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Downloads\\Nh\u00F3m 18\\QuanLyKhachSan\\BUS\\BUS_NhanVien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Downloads\\Nh\u00F3m 18\\QuanLyKhachSan\\DTO\\DTO_NhanVien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Downloads\\Nh\u00F3m 18\\QuanLyKhachSan\\DAL\\DAL_NhanVien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Downloads\\Nh\u00F3m 18\\QuanLyKhachSan\\GUI\\ucNhanVien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\bll\\bll_chitietgiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|solutionrelative:bll\\bll_chitietgiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\bll\\bll_nganhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|solutionrelative:bll\\bll_nganhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\bll\\bll_nganh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|solutionrelative:bll\\bll_nganh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Downloads\\DoAnDotNet\\Ch\u01B0\u01A1ng tr\u00ECnh\\Project_FPT_Shop\\BLL\\BLL_ThuongHieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Downloads\\DoAnDotNet\\Ch\u01B0\u01A1ng tr\u00ECnh\\Project_FPT_Shop\\BLL\\BLL_SanPham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Downloads\\\u0110\u1ED3 \u00E1n qu\u1EA3n l\u00FD sinh vi\u00EAn\\\u0110\u1ED3 \u00E1n qu\u1EA3n l\u00FD sinh vi\u00EAn\\BUS\\BUS_MonHoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\dto\\dto_chitietgiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|solutionrelative:dto\\dto_chitietgiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\customize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\customize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\dangkychitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangkychitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\dangkychitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangkychitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\quenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\quenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\dangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\otp.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\otp.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\dangkychitiet.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangkychitiet.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\quenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\quenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\customdialogqr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\customdialogqr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\customdialogqr.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\customdialogqr.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_ThongTinKN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DAL\\DAL_ThongTinKN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_ThongTinKN.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_DanhSachNhanVien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\.net\\mkpbank_chuyende\\doanptud\\doanptud\\frm_danhsachnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PersonInfor.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\PersonInfor.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\PersonInfor.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\PersonInfor.cs",
+              "RelativeToolTip": "DoAnPTUD\\PersonInfor.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAawCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:40:47.299Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Settings.Designer.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\Properties\\Settings.Designer.cs",
+              "RelativeDocumentMoniker": "DAL\\Properties\\Settings.Designer.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\Properties\\Settings.Designer.cs",
+              "RelativeToolTip": "DAL\\Properties\\Settings.Designer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIA3wBwAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T00:37:08.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Program.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\Program.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Program.cs",
+              "RelativeToolTip": "DoAnPTUD\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAEwBIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T06:12:04.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DAL_KhachHangCaNhan.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_KhachHangCaNhan.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_KhachHangCaNhan.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_KhachHangCaNhan.cs",
+              "RelativeToolTip": "DAL\\DAL_KhachHangCaNhan.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:44:50.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DangNhap.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\DangNhap.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangNhap.cs",
+              "RelativeToolTip": "DoAnPTUD\\DangNhap.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T08:59:53.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DAL_TaiKhoan.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_TaiKhoan.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_TaiKhoan.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_TaiKhoan.cs",
+              "RelativeToolTip": "DAL\\DAL_TaiKhoan.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T07:13:12.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frm_KhachHangCaNhan.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_KhachHangCaNhan.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\frm_KhachHangCaNhan.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_KhachHangCaNhan.cs",
+              "RelativeToolTip": "DoAnPTUD\\frm_KhachHangCaNhan.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAIwIYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:15:00.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frm_DanhSach.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_DanhSach.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\frm_DanhSach.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_DanhSach.cs",
+              "RelativeToolTip": "DoAnPTUD\\frm_DanhSach.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:16:54.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeUser.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\HomeUser.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\HomeUser.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\HomeUser.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\HomeUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T10:02:08.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frm_Main.Designer.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_Main.Designer.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\frm_Main.Designer.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_Main.Designer.cs",
+              "RelativeToolTip": "DoAnPTUD\\frm_Main.Designer.cs",
+              "ViewState": "AgIAADsBAAAAAAAAAAAhwEUBAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:21:11.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frm_Main.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_Main.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\frm_Main.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_Main.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\frm_Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:48:39.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frm_DanhSach.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_DanhSach.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\frm_DanhSach.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_DanhSach.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\frm_DanhSach.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:16:33.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frm_Main.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_Main.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\frm_Main.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_Main.cs",
+              "RelativeToolTip": "DoAnPTUD\\frm_Main.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADgvyUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:11:23.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "frm_DanhSachNhanVien.cs",
+              "DocumentMoniker": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_DanhSachNhanVien.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_DanhSachNhanVien.cs",
+              "ToolTip": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_DanhSachNhanVien.cs",
+              "RelativeToolTip": "..\\..\\..\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_DanhSachNhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:16:00.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "frm_DanhSachNhanVien.cs [Design]",
+              "DocumentMoniker": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_DanhSachNhanVien.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_DanhSachNhanVien.cs",
+              "ToolTip": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_DanhSachNhanVien.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_DanhSachNhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:15:27.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frm_KhachHangCaNhan.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_KhachHangCaNhan.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\frm_KhachHangCaNhan.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_KhachHangCaNhan.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\frm_KhachHangCaNhan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:14:02.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frm_KhachHangDoanhNghiep.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_KhachHangDoanhNghiep.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\frm_KhachHangDoanhNghiep.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_KhachHangDoanhNghiep.cs",
+              "RelativeToolTip": "DoAnPTUD\\frm_KhachHangDoanhNghiep.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAIA5wAABAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:13:36.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frm_KhachHangDoanhNghiep.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_KhachHangDoanhNghiep.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\frm_KhachHangDoanhNghiep.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_KhachHangDoanhNghiep.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\frm_KhachHangDoanhNghiep.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:12:34.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frm_KhachHangDoanhNghiep.Designer.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_KhachHangDoanhNghiep.Designer.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\frm_KhachHangDoanhNghiep.Designer.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_KhachHangDoanhNghiep.Designer.cs",
+              "RelativeToolTip": "DoAnPTUD\\frm_KhachHangDoanhNghiep.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:21:00.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frm_KhachHangCaNhan.Designer.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_KhachHangCaNhan.Designer.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\frm_KhachHangCaNhan.Designer.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_KhachHangCaNhan.Designer.cs",
+              "RelativeToolTip": "DoAnPTUD\\frm_KhachHangCaNhan.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:20:45.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frm_DanhSach.Designer.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_DanhSach.Designer.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\frm_DanhSach.Designer.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\frm_DanhSach.Designer.cs",
+              "RelativeToolTip": "DoAnPTUD\\frm_DanhSach.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:20:26.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ManagementCard.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\ManagementCard.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\ManagementCard.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\ManagementCard.cs",
+              "RelativeToolTip": "DoAnPTUD\\ManagementCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T04:11:24.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ManagementCard.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\ManagementCard.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\ManagementCard.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\ManagementCard.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\ManagementCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:00:34.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BLL_KhachHangCaNhan.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_KhachHangCaNhan.cs",
+              "RelativeDocumentMoniker": "BLL\\BLL_KhachHangCaNhan.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_KhachHangCaNhan.cs",
+              "RelativeToolTip": "BLL\\BLL_KhachHangCaNhan.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:48:07.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BLL_KhachHangDoanhNghiep.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_KhachHangDoanhNghiep.cs",
+              "RelativeDocumentMoniker": "BLL\\BLL_KhachHangDoanhNghiep.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_KhachHangDoanhNghiep.cs",
+              "RelativeToolTip": "BLL\\BLL_KhachHangDoanhNghiep.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:47:26.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BLL_LoadValue.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_LoadValue.cs",
+              "RelativeDocumentMoniker": "BLL\\BLL_LoadValue.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_LoadValue.cs",
+              "RelativeToolTip": "BLL\\BLL_LoadValue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:46:34.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Context.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\Context.cs",
+              "RelativeDocumentMoniker": "BLL\\Context.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\Context.cs",
+              "RelativeToolTip": "BLL\\Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:45:54.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DAL_KhachHangDoanhNghiep.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_KhachHangDoanhNghiep.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_KhachHangDoanhNghiep.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_KhachHangDoanhNghiep.cs",
+              "RelativeToolTip": "DAL\\DAL_KhachHangDoanhNghiep.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAYwI0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:42:07.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "QLNganHang.dbml",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\QLNganHang.dbml",
+              "RelativeDocumentMoniker": "DAL\\QLNganHang.dbml",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\QLNganHang.dbml",
+              "RelativeToolTip": "DAL\\QLNganHang.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2024-10-25T00:33:33.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DAL_NganhChinh.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_NganhChinh.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_NganhChinh.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_NganhChinh.cs",
+              "RelativeToolTip": "DAL\\DAL_NganhChinh.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAhwA0AAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:15:09.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "QLNganHang.designer.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\QLNganHang.designer.cs",
+              "RelativeDocumentMoniker": "DAL\\QLNganHang.designer.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\QLNganHang.designer.cs",
+              "RelativeToolTip": "DAL\\QLNganHang.designer.cs",
+              "ViewState": "AgIAAHMKAAAAAAAAAAAawIMKAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T08:32:44.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DTO_KhachHangDoanhNghiep.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_KhachHangDoanhNghiep.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_KhachHangDoanhNghiep.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_KhachHangDoanhNghiep.cs",
+              "RelativeToolTip": "DTO\\DTO_KhachHangDoanhNghiep.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIA8wBwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:39:16.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DAL_LoadValue.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_LoadValue.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_LoadValue.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_LoadValue.cs",
+              "RelativeToolTip": "DAL\\DAL_LoadValue.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:41:46.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Data_Context.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\Data_Context.cs",
+              "RelativeDocumentMoniker": "DAL\\Data_Context.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\Data_Context.cs",
+              "RelativeToolTip": "DAL\\Data_Context.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:41:15.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DTO_ChiTietKHCN.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_ChiTietKHCN.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_ChiTietKHCN.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_ChiTietKHCN.cs",
+              "RelativeToolTip": "DTO\\DTO_ChiTietKHCN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:40:36.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DTO_ChiTietKHDN.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_ChiTietKHDN.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_ChiTietKHDN.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_ChiTietKHDN.cs",
+              "RelativeToolTip": "DTO\\DTO_ChiTietKHDN.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:40:11.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DTO_KhachHangCaNhan.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_KhachHangCaNhan.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_KhachHangCaNhan.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_KhachHangCaNhan.cs",
+              "RelativeToolTip": "DTO\\DTO_KhachHangCaNhan.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:39:44.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DAL_SoDuTk.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_SoDuTk.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_SoDuTk.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_SoDuTk.cs",
+              "RelativeToolTip": "DAL\\DAL_SoDuTk.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T00:55:59.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DAL_ThongTinKH.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_ThongTinKH.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_ThongTinKH.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_ThongTinKH.cs",
+              "RelativeToolTip": "DAL\\DAL_ThongTinKH.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAEsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:21:06.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Member.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Member.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\Member.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Member.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\Member.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T05:05:42.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "BLL_ThongTinKH.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_ThongTinKH.cs",
+              "RelativeDocumentMoniker": "BLL\\BLL_ThongTinKH.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_ThongTinKH.cs",
+              "RelativeToolTip": "BLL\\BLL_ThongTinKH.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAlwBUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T08:34:07.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "BLL_TaiKhoan.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_TaiKhoan.cs",
+              "RelativeDocumentMoniker": "BLL\\BLL_TaiKhoan.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_TaiKhoan.cs",
+              "RelativeToolTip": "BLL\\BLL_TaiKhoan.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T00:56:24.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DTO_TaiKhoan.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_TaiKhoan.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_TaiKhoan.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_TaiKhoan.cs",
+              "RelativeToolTip": "DTO\\DTO_TaiKhoan.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T10:47:46.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DTO_ThongTinKH.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_ThongTinKH.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_ThongTinKH.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_ThongTinKH.cs",
+              "RelativeToolTip": "DTO\\DTO_ThongTinKH.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAywDgAAABCAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T10:10:35.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "HomeUser.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\HomeUser.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\HomeUser.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\HomeUser.cs",
+              "RelativeToolTip": "DoAnPTUD\\HomeUser.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwKAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T10:02:10.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "BLL_SoDuTk.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_SoDuTk.cs",
+              "RelativeDocumentMoniker": "BLL\\BLL_SoDuTk.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_SoDuTk.cs",
+              "RelativeToolTip": "BLL\\BLL_SoDuTk.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T00:56:26.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\DangNhap.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangNhap.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\DangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:09:44.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Settings.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Settings.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\Settings.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Settings.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\Settings.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T05:01:19.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DangKy.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKy.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\DangKy.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKy.cs",
+              "RelativeToolTip": "DoAnPTUD\\DangKy.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T08:59:44.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "dbo.KhachHangCaNhan.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/PHONGPHU_SQLEXPRESS/QLNganHang/True/SqlTable/dbo.KhachHangCaNhan.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/PHONGPHU_SQLEXPRESS/QLNganHang/True/SqlTable/dbo.KhachHangCaNhan.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-27T08:52:32.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "TransferDetails.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\TransferDetails.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\TransferDetails.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\TransferDetails.cs",
+              "RelativeToolTip": "DoAnPTUD\\TransferDetails.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T05:18:53.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DangKy.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKy.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\DangKy.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKy.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\DangKy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:15:34.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DTO_SoDuTk.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_SoDuTk.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_SoDuTk.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_SoDuTk.cs",
+              "RelativeToolTip": "DTO\\DTO_SoDuTk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T07:04:21.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Transfer.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Transfer.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\Transfer.cs",
+              "ToolTip": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Transfer.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Transfer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T11:09:23.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "TransferDetails.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\TransferDetails.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\TransferDetails.cs",
+              "ToolTip": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\TransferDetails.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\TransferDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T04:10:04.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PersonInfor.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\PersonInfor.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\PersonInfor.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\PersonInfor.cs [Design]",
+              "RelativeToolTip": "DoAnPTUD\\PersonInfor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T11:54:42.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "DAL_Nganh.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_Nganh.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_Nganh.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_Nganh.cs",
+              "RelativeToolTip": "DAL\\DAL_Nganh.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAhwAwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:13:53.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "DAL_ChiTietGiaoDich.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_ChiTietGiaoDich.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_ChiTietGiaoDich.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_ChiTietGiaoDich.cs",
+              "RelativeToolTip": "DAL\\DAL_ChiTietGiaoDich.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAhwAwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T09:11:29.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "DAL\\Properties\\Settings.settings",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\Properties\\Settings.settings",
+              "RelativeToolTip": "DAL\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-10-24T17:00:48.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "DTO_NhanVien.cs",
+              "DocumentMoniker": "D:\\Downloads\\Nh\u00F3m 18\\QuanLyKhachSan\\DTO\\DTO_NhanVien.cs",
+              "RelativeDocumentMoniker": "..\\..\\Nh\u00F3m 18\\QuanLyKhachSan\\DTO\\DTO_NhanVien.cs",
+              "ToolTip": "D:\\Downloads\\Nh\u00F3m 18\\QuanLyKhachSan\\DTO\\DTO_NhanVien.cs",
+              "RelativeToolTip": "..\\..\\Nh\u00F3m 18\\QuanLyKhachSan\\DTO\\DTO_NhanVien.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:54:50.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "BUS_NhanVien.cs",
+              "DocumentMoniker": "D:\\Downloads\\Nh\u00F3m 18\\QuanLyKhachSan\\BUS\\BUS_NhanVien.cs",
+              "RelativeDocumentMoniker": "..\\..\\Nh\u00F3m 18\\QuanLyKhachSan\\BUS\\BUS_NhanVien.cs",
+              "ToolTip": "D:\\Downloads\\Nh\u00F3m 18\\QuanLyKhachSan\\BUS\\BUS_NhanVien.cs",
+              "RelativeToolTip": "..\\..\\Nh\u00F3m 18\\QuanLyKhachSan\\BUS\\BUS_NhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:55:11.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "DAL_NhanVien.cs",
+              "DocumentMoniker": "D:\\Downloads\\Nh\u00F3m 18\\QuanLyKhachSan\\DAL\\DAL_NhanVien.cs",
+              "RelativeDocumentMoniker": "..\\..\\Nh\u00F3m 18\\QuanLyKhachSan\\DAL\\DAL_NhanVien.cs",
+              "ToolTip": "D:\\Downloads\\Nh\u00F3m 18\\QuanLyKhachSan\\DAL\\DAL_NhanVien.cs",
+              "RelativeToolTip": "..\\..\\Nh\u00F3m 18\\QuanLyKhachSan\\DAL\\DAL_NhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:54:26.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ucNhanVien.cs",
+              "DocumentMoniker": "D:\\Downloads\\Nh\u00F3m 18\\QuanLyKhachSan\\GUI\\ucNhanVien.cs",
+              "RelativeDocumentMoniker": "..\\..\\Nh\u00F3m 18\\QuanLyKhachSan\\GUI\\ucNhanVien.cs",
+              "ToolTip": "D:\\Downloads\\Nh\u00F3m 18\\QuanLyKhachSan\\GUI\\ucNhanVien.cs",
+              "RelativeToolTip": "..\\..\\Nh\u00F3m 18\\QuanLyKhachSan\\GUI\\ucNhanVien.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:55:26.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "BLL_ChiTietGiaoDich.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_ChiTietGiaoDich.cs",
+              "RelativeDocumentMoniker": "BLL\\BLL_ChiTietGiaoDich.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_ChiTietGiaoDich.cs",
+              "RelativeToolTip": "BLL\\BLL_ChiTietGiaoDich.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T09:32:15.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "BLL_NganhChinh.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_NganhChinh.cs",
+              "RelativeDocumentMoniker": "BLL\\BLL_NganhChinh.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_NganhChinh.cs",
+              "RelativeToolTip": "BLL\\BLL_NganhChinh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:15:06.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "BLL_Nganh.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_Nganh.cs",
+              "RelativeDocumentMoniker": "BLL\\BLL_Nganh.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_Nganh.cs",
+              "RelativeToolTip": "BLL\\BLL_Nganh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:36:48.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "BLL_ThuongHieu.cs",
+              "DocumentMoniker": "D:\\Downloads\\DoAnDotNet\\Ch\u01B0\u01A1ng tr\u00ECnh\\Project_FPT_Shop\\BLL\\BLL_ThuongHieu.cs",
+              "RelativeDocumentMoniker": "..\\..\\DoAnDotNet\\Ch\u01B0\u01A1ng tr\u00ECnh\\Project_FPT_Shop\\BLL\\BLL_ThuongHieu.cs",
+              "ToolTip": "D:\\Downloads\\DoAnDotNet\\Ch\u01B0\u01A1ng tr\u00ECnh\\Project_FPT_Shop\\BLL\\BLL_ThuongHieu.cs",
+              "RelativeToolTip": "..\\..\\DoAnDotNet\\Ch\u01B0\u01A1ng tr\u00ECnh\\Project_FPT_Shop\\BLL\\BLL_ThuongHieu.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:24:17.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "BLL_SanPham.cs",
+              "DocumentMoniker": "D:\\Downloads\\DoAnDotNet\\Ch\u01B0\u01A1ng tr\u00ECnh\\Project_FPT_Shop\\BLL\\BLL_SanPham.cs",
+              "RelativeDocumentMoniker": "..\\..\\DoAnDotNet\\Ch\u01B0\u01A1ng tr\u00ECnh\\Project_FPT_Shop\\BLL\\BLL_SanPham.cs",
+              "ToolTip": "D:\\Downloads\\DoAnDotNet\\Ch\u01B0\u01A1ng tr\u00ECnh\\Project_FPT_Shop\\BLL\\BLL_SanPham.cs",
+              "RelativeToolTip": "..\\..\\DoAnDotNet\\Ch\u01B0\u01A1ng tr\u00ECnh\\Project_FPT_Shop\\BLL\\BLL_SanPham.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:22:39.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "BUS_MonHoc.cs",
+              "DocumentMoniker": "D:\\Downloads\\\u0110\u1ED3 \u00E1n qu\u1EA3n l\u00FD sinh vi\u00EAn\\\u0110\u1ED3 \u00E1n qu\u1EA3n l\u00FD sinh vi\u00EAn\\BUS\\BUS_MonHoc.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u0110\u1ED3 \u00E1n qu\u1EA3n l\u00FD sinh vi\u00EAn\\\u0110\u1ED3 \u00E1n qu\u1EA3n l\u00FD sinh vi\u00EAn\\BUS\\BUS_MonHoc.cs",
+              "ToolTip": "D:\\Downloads\\\u0110\u1ED3 \u00E1n qu\u1EA3n l\u00FD sinh vi\u00EAn\\\u0110\u1ED3 \u00E1n qu\u1EA3n l\u00FD sinh vi\u00EAn\\BUS\\BUS_MonHoc.cs",
+              "RelativeToolTip": "..\\..\\\u0110\u1ED3 \u00E1n qu\u1EA3n l\u00FD sinh vi\u00EAn\\\u0110\u1ED3 \u00E1n qu\u1EA3n l\u00FD sinh vi\u00EAn\\BUS\\BUS_MonHoc.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:18:48.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "DTO_ChiTietGiaoDich.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_ChiTietGiaoDich.cs",
+              "RelativeDocumentMoniker": "DTO\\DTO_ChiTietGiaoDich.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_ChiTietGiaoDich.cs",
+              "RelativeToolTip": "DTO\\DTO_ChiTietGiaoDich.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T09:09:45.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Customize.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Customize.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\Customize.cs",
+              "ToolTip": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Customize.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Customize.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T07:21:56.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "DAL_ThongTinKN.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_ThongTinKN.cs",
+              "RelativeDocumentMoniker": "DAL\\DAL_ThongTinKN.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_ThongTinKN.cs",
+              "RelativeToolTip": "DAL\\DAL_ThongTinKN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T09:10:41.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "DangKyChiTiet.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKyChiTiet.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\DangKyChiTiet.cs",
+              "ToolTip": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKyChiTiet.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKyChiTiet.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:09:44.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "DangKyChiTiet.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKyChiTiet.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\DangKyChiTiet.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKyChiTiet.cs",
+              "RelativeToolTip": "DoAnPTUD\\DangKyChiTiet.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA8wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T08:59:50.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "QuenMatKhau.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\QuenMatKhau.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\QuenMatKhau.cs",
+              "ToolTip": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\QuenMatKhau.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\QuenMatKhau.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:15:43.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "OTP.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\OTP.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\OTP.cs",
+              "ToolTip": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\OTP.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\OTP.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:15:13.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "DangNhap.Designer.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangNhap.Designer.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\DangNhap.Designer.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangNhap.Designer.cs",
+              "RelativeToolTip": "DoAnPTUD\\DangNhap.Designer.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAmwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:01:24.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "DangKy.Designer.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKy.Designer.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\DangKy.Designer.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKy.Designer.cs",
+              "RelativeToolTip": "DoAnPTUD\\DangKy.Designer.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAArwLgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:00:18.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "DangKyChiTiet.Designer.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKyChiTiet.Designer.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\DangKyChiTiet.Designer.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKyChiTiet.Designer.cs",
+              "RelativeToolTip": "DoAnPTUD\\DangKyChiTiet.Designer.cs",
+              "ViewState": "AgIAAPgBAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:00:59.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "OTP.Designer.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\OTP.Designer.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\OTP.Designer.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\OTP.Designer.cs",
+              "RelativeToolTip": "DoAnPTUD\\OTP.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:01:30.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "QuenMatKhau.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\QuenMatKhau.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\QuenMatKhau.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\QuenMatKhau.cs",
+              "RelativeToolTip": "DoAnPTUD\\QuenMatKhau.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:00:01.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "OTP.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\OTP.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\OTP.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\OTP.cs",
+              "RelativeToolTip": "DoAnPTUD\\OTP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T08:59:56.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Deposit.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Deposit.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\Deposit.cs",
+              "ToolTip": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Deposit.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Deposit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T02:13:48.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "CustomDialogQR.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\CustomDialogQR.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\CustomDialogQR.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\CustomDialogQR.cs",
+              "RelativeToolTip": "DoAnPTUD\\CustomDialogQR.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAewC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:13:27.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "CustomDialogQR.Designer.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\CustomDialogQR.Designer.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\CustomDialogQR.Designer.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\CustomDialogQR.Designer.cs",
+              "RelativeToolTip": "DoAnPTUD\\CustomDialogQR.Designer.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAjwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T06:13:33.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "TransactionHistory.cs [Design]",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\TransactionHistory.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\TransactionHistory.cs",
+              "ToolTip": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\TransactionHistory.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\TransactionHistory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T05:44:40.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "BLL_ThongTinKN.cs",
+              "DocumentMoniker": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_ThongTinKN.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_ThongTinKN.cs",
+              "ToolTip": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_ThongTinKN.cs",
+              "RelativeToolTip": "..\\..\\..\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_ThongTinKN.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T09:32:37.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "TransactionHistory.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\TransactionHistory.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\TransactionHistory.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\TransactionHistory.cs",
+              "RelativeToolTip": "DoAnPTUD\\TransactionHistory.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAWwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T06:28:08.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Deposit.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Deposit.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\Deposit.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Deposit.cs",
+              "RelativeToolTip": "DoAnPTUD\\Deposit.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAWwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T01:09:21.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Transfer.cs",
+              "DocumentMoniker": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Transfer.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\Transfer.cs",
+              "ToolTip": "D:\\Downloads\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Transfer.cs",
+              "RelativeToolTip": "DoAnPTUD\\Transfer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAArwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T00:47:19.745Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
