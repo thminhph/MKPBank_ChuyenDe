@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.dgvKhachHang = new System.Windows.Forms.DataGridView();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cbNganh = new System.Windows.Forms.ComboBox();
             this.txtSGT = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cbNganhChinh = new System.Windows.Forms.ComboBox();
             this.txtTen = new System.Windows.Forms.TextBox();
             this.txtMaKH = new System.Windows.Forms.TextBox();
             this.cbLoaiKh = new System.Windows.Forms.ComboBox();
@@ -43,6 +43,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtSDT = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKhachHang)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,13 +61,13 @@
             this.dgvKhachHang.Size = new System.Drawing.Size(1003, 438);
             this.dgvKhachHang.TabIndex = 32;
             // 
-            // comboBox3
+            // cbNganh
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(562, 143);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(328, 24);
-            this.comboBox3.TabIndex = 30;
+            this.cbNganh.FormattingEnabled = true;
+            this.cbNganh.Location = new System.Drawing.Point(562, 143);
+            this.cbNganh.Name = "cbNganh";
+            this.cbNganh.Size = new System.Drawing.Size(328, 24);
+            this.cbNganh.TabIndex = 30;
             // 
             // txtSGT
             // 
@@ -75,13 +76,13 @@
             this.txtSGT.Size = new System.Drawing.Size(328, 22);
             this.txtSGT.TabIndex = 29;
             // 
-            // comboBox2
+            // cbNganhChinh
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(137, 143);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(328, 24);
-            this.comboBox2.TabIndex = 28;
+            this.cbNganhChinh.FormattingEnabled = true;
+            this.cbNganhChinh.Location = new System.Drawing.Point(137, 143);
+            this.cbNganhChinh.Name = "cbNganhChinh";
+            this.cbNganhChinh.Size = new System.Drawing.Size(328, 24);
+            this.cbNganhChinh.TabIndex = 28;
             // 
             // txtTen
             // 
@@ -178,16 +179,27 @@
             this.txtSDT.Size = new System.Drawing.Size(169, 22);
             this.txtSDT.TabIndex = 33;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(814, 40);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 34;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frm_DanhSachKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1027, 645);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtSDT);
             this.Controls.Add(this.dgvKhachHang);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.cbNganh);
             this.Controls.Add(this.txtSGT);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cbNganhChinh);
             this.Controls.Add(this.txtTen);
             this.Controls.Add(this.txtMaKH);
             this.Controls.Add(this.cbLoaiKh);
@@ -211,9 +223,9 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgvKhachHang;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cbNganh;
         private System.Windows.Forms.TextBox txtSGT;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cbNganhChinh;
         private System.Windows.Forms.TextBox txtTen;
         private System.Windows.Forms.TextBox txtMaKH;
         private System.Windows.Forms.ComboBox cbLoaiKh;
@@ -225,5 +237,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtSDT;
+        private System.Windows.Forms.Button button1;
     }
 }

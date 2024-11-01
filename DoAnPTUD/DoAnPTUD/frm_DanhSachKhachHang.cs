@@ -19,8 +19,23 @@ namespace DoAnPTUD
         }
         private void frm_DanhSachKhachHang_Load(object sender, EventArgs e)
         {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string[] arr =
+            {
+                txtMaKH.Text,
+                cbLoaiKh.Text,
+                txtSDT.Text,
+                txtTen.Text,
+                txtSGT.Text,
+                cbNganhChinh.Text,
+                cbNganh.Text
+            };
             BLL_LoadValue kh = new BLL_LoadValue();
-            dgvKhachHang.DataSource = kh.InDSKhachHang();
+            dgvKhachHang.DataSource = kh.InDSKhachHang(arr);
         }
     }
 }

@@ -34,9 +34,9 @@ namespace BUS
         {
             return load.LayTenNV(idNV);
         }
-        public IQueryable InDSKhachHang(/*Dictionary<string, string> filters*/)
+        public IQueryable InDSKhachHang(string[] arr)
         {
-            return load.InDSKhachHang();
+            return load.InDSKhachHang(arr);
         }
     }
 }

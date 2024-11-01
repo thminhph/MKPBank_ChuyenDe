@@ -72,7 +72,7 @@ namespace DAL
     #endregion
 		
 		public QLNganHangDataContext() : 
-				base(global::DAL.Properties.Settings.Default.QLNganHangConnectionString, mappingSource)
+				base(global::DAL.Properties.Settings.Default.QLNganHangConnectionString3, mappingSource)
 		{
 			OnCreated();
 		}
@@ -1637,7 +1637,7 @@ namespace DAL
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TenKhachHang", DbType="NVarChar(100) NOT NULL", CanBeNull=false)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TenKhachHang", DbType="NVarChar(255)")]
 		public string TenKhachHang
 		{
 			get
@@ -1657,7 +1657,7 @@ namespace DAL
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Avarta", DbType="Image", UpdateCheck=UpdateCheck.Never)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Avarta", DbType="Image", CanBeNull=true, UpdateCheck=UpdateCheck.Never)]
 		public System.Data.Linq.Binary Avarta
 		{
 			get

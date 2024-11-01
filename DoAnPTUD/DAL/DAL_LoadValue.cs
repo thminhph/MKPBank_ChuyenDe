@@ -85,7 +85,7 @@ namespace DAL
                 return null;
             }
         }
-        public IQueryable InDSKhachHang(/*Dictionary<string, string> filters*/)
+        public IQueryable InDSKhachHang(string[] arr)
         {
             dContext = new Data_Context();
             // Đồng bộ các thuộc tính bằng cách sử dụng tên chung
@@ -106,7 +106,7 @@ namespace DAL
                 {
                     IdKhachHang = kh.IdKhachHangDN, // Đổi tên thành IdKhachHang
                     Loai = "Doanh Nghiệp",
-                    Ten = kh.TenVietTatDN, // Đổi tên thành Ten
+                    Ten = kh.TenDayDuDN, // Đổi tên thành Ten
                     kh.SoGiayTo,
                     kh.SoDienThoai,
                     kh.NganhChinh,
@@ -114,65 +114,15 @@ namespace DAL
                 });
 
             var xem = khCaNhan
-                .Union(khDoanhNghiep);
-            //if (filters.ContainsKey("Tên"))
-            //{
-            //    string ten = filters["Tên"];
-            //    xem = xem.Where(kh => kh.Ten.ToLower().Contains(ten));
-            //}
-            // Lọc theo loại khách hàng (nếu có)
-            //if (filters.ContainsKey("Loại"))
-            //{
-            //    string loai = filters["Loại"];
-            //    if (loai == "Cá nhân")
-            //    {
-            //        xem = xem.Where(kh => kh.Loai == "Cá nhân");
-            //    }
-            //    else if (loai == "Doanh Nghiệp")
-            //    {
-            //        xem = xem.Where(kh => kh.Loai == "Doanh Nghiệp");
-            //    }
-            //}
-
-            // Lọc theo tên khách hàng (nếu có)
-            
-
-            //foreach (var filter in filters)
-            //{
-            //    switch (filter.Key.ToLower()) // Chuyển thành chữ thường
-            //    {
-            //        case "mã khách hàng":
-            //            if (int.TryParse(filter.Value, out int id))
-            //            {
-            //                xem = xem.Where(kh => kh.IdKhachHang == id);
-            //            }
-            //            break;
-            //        case "loại":
-            //            xem = xem.Where(kh => kh.Loai.Contains(filter.Value));
-            //            break;
-            //        case "tên":
-            //            xem = xem.Where(kh => kh.Ten.Contains(filter.Value));
-            //            break;
-            //        case "số giấy tờ":
-            //            xem = xem.Where(kh => kh.SoGiayTo.Contains(filter.Value));
-            //            break;
-            //        case "số điện thoại":
-            //            xem = xem.Where(kh => kh.SoDienThoai.Contains(filter.Value));
-            //            break;
-            //        case "ngành chính":
-            //            if (int.TryParse(filter.Value, out int nganhChinh))
-            //            {
-            //                xem = xem.Where(kh => kh.NganhChinh == nganhChinh);
-            //            }
-            //            break;
-            //        case "id ngành":
-            //            if (int.TryParse(filter.Value, out int idNganh))
-            //            {
-            //                xem = xem.Where(kh => kh.IdNganh == idNganh);
-            //            }
-            //            break;
-            //    }
-            //}
+                .Union(khDoanhNghiep)
+                .Where(x =>
+                (string.IsNullOrEmpty(arr[0]) || x.IdKhachHang == int.Parse(arr[0])) &&
+                (string.IsNullOrEmpty(arr[1]) || x.Loai == arr[1]));
+            //(string.IsNullOrEmpty(arr[2]) || x.SoDienThoai == arr[2])));
+            //(string.IsNullOrEmpty(arr[3]) || x.Ten == arr[3]) &&
+            //(string.IsNullOrEmpty(arr[4]) || x.SoGiayTo == arr[4]) &&
+            //(string.IsNullOrEmpty(arr[5]) || x.NganhChinh == int.Parse(arr[5])) &&
+            //(string.IsNullOrEmpty(arr[6]) || x.NganhChinh == int.Parse(arr[6]))));
             return xem.AsQueryable();
         }
     }

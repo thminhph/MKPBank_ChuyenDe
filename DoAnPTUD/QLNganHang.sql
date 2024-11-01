@@ -8,7 +8,7 @@ CREATE TABLE DangNhap(
 
 CREATE TABLE KhachHangCaNhan(
 	IdKhachHangCN int primary key,
-	TenKhachHang nvarchar(100) not null,
+	TenKhachHang nvarchar(255) not null,
 	Avarta image ,
 	NgaySinh datetime not null,
 	DiaChi nvarchar(255) not null,
@@ -24,8 +24,7 @@ CREATE TABLE KhachHangCaNhan(
 	NganhChinh int not null,
 	IdNganh int not null,
 	NhanVienLV varchar(20) not null
-);--insert into KhachHangCaNhan
---values('123458','k',GETDATE(),'a','113456',null,null,'khk','1212',GETDATE(),null,'as',null,1,1,'NV002')
+);
 
 CREATE TABLE ChiTietKHCN(
 	IdKhachHangCN int primary key,
@@ -42,8 +41,8 @@ CREATE TABLE ChiTietKHCN(
 	ThuNhapHangThang float,
 	DiaChiCty nvarchar(255)
 );
---insert into ChiTietKHCN
---values('123457',null,null,null,null,null,null,null,null,null,null,null,null)
+
+
 CREATE TABLE KhachHangDoanhNghiep(
 	IdKhachHangDN int primary key,
 	TenVietTatDN nvarchar(255) not null,
