@@ -27,7 +27,7 @@ namespace DAL
                                    select new
                                    {
                                        s.IdTaiKhoan,
-                                       s.MaKhachHang,
+                                       s.IdKhachHang,
                                        s.LoaiTaiKhoan,
                                        s.TenTaiKhoan,
                                        s.TienTe,
@@ -41,8 +41,8 @@ namespace DAL
         }
          public  DTO_ThongTinKH timUserTheostk(string   stk)
         {
-           var query = from s in db.KhachHangCaNhans
-                        join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.MaKhachHang
+           var query = from s in db.KhachHangs
+                        join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
                         where s.SoDienThoai == stk
                         select new 
                         {
@@ -82,8 +82,8 @@ namespace DAL
 
         public bool  DangNhap(string  sDT, string mk )
         {
-            var  temp = (from s in db.KhachHangCaNhans
-                              join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.MaKhachHang
+            var  temp = (from s in db.KhachHangs
+                              join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
                               where s.SoDienThoai == sDT && tk.Matkhau == mk
                               select tk).Any();
             return temp;
@@ -94,12 +94,12 @@ namespace DAL
             if (DangNhap(sDT, mk))
             {
                 // Lấy thông tin chi tiết người dùng
-                var taiKhoan = (from s in db.KhachHangCaNhans
-                                join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.MaKhachHang
+                var taiKhoan = (from s in db.KhachHangs
+                                join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
                                 where s.SoDienThoai == sDT
                                 select new DTO_ThongTinKH
                                 {
-                                    IdKhachHangCN = tk.MaKhachHang,
+                                    IdKhachHang = (int)tk.IdKhachHang,
                                     TenKhachHang = s.TenKhachHang,
                                     SoDienThoai = s.SoDienThoai,
                                    

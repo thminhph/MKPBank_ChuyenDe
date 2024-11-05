@@ -83,8 +83,10 @@
             // 
             this.picAvatar.Dock = System.Windows.Forms.DockStyle.Left;
             this.picAvatar.Location = new System.Drawing.Point(0, 0);
+            this.picAvatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picAvatar.Name = "picAvatar";
             this.picAvatar.Size = new System.Drawing.Size(72, 69);
+            this.picAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picAvatar.TabIndex = 0;
             this.picAvatar.TabStop = false;
             // 
@@ -98,9 +100,10 @@
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.ImageIndex = 30;
             this.button4.ImageList = this.imageList1;
-            this.button4.Location = new System.Drawing.Point(0, 93);
+            this.button4.Location = new System.Drawing.Point(0, 92);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(229, 44);
+            this.button4.Size = new System.Drawing.Size(230, 44);
             this.button4.TabIndex = 5;
             this.button4.Text = "Trang Chính";
             this.button4.UseVisualStyleBackColor = false;
@@ -156,8 +159,9 @@
             this.button3.ImageIndex = 25;
             this.button3.ImageList = this.imageList1;
             this.button3.Location = new System.Drawing.Point(0, 159);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(229, 44);
+            this.button3.Size = new System.Drawing.Size(230, 44);
             this.button3.TabIndex = 4;
             this.button3.Text = "Hội viên MKP";
             this.button3.UseVisualStyleBackColor = false;
@@ -175,9 +179,10 @@
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.ImageIndex = 28;
             this.button2.ImageList = this.imageList1;
-            this.button2.Location = new System.Drawing.Point(0, 404);
+            this.button2.Location = new System.Drawing.Point(0, 403);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(229, 44);
+            this.button2.Size = new System.Drawing.Size(230, 44);
             this.button2.TabIndex = 3;
             this.button2.Text = "Cài Đặt";
             this.button2.UseVisualStyleBackColor = false;
@@ -194,9 +199,10 @@
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.ImageIndex = 19;
             this.button1.ImageList = this.imageList1;
-            this.button1.Location = new System.Drawing.Point(0, 448);
+            this.button1.Location = new System.Drawing.Point(0, 447);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(229, 44);
+            this.button1.Size = new System.Drawing.Size(230, 44);
             this.button1.TabIndex = 2;
             this.button1.Text = "Đăng xuất";
             this.button1.UseVisualStyleBackColor = false;
@@ -222,14 +228,16 @@
             this.panel3.Controls.Add(this.picAvatar);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(229, 69);
+            this.panel3.Size = new System.Drawing.Size(230, 69);
             this.panel3.TabIndex = 1;
             // 
             // textBox1
             // 
             this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(79, 19);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(147, 26);
             this.textBox1.TabIndex = 3;
@@ -247,8 +255,9 @@
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.sidebar.Location = new System.Drawing.Point(0, 51);
+            this.sidebar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sidebar.Name = "sidebar";
-            this.sidebar.Size = new System.Drawing.Size(229, 492);
+            this.sidebar.Size = new System.Drawing.Size(230, 491);
             this.sidebar.TabIndex = 1;
             this.sidebar.Visible = false;
             // 
@@ -264,7 +273,8 @@
             this.btnTK.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTK.ImageIndex = 0;
             this.btnTK.ImageList = this.imageList1;
-            this.btnTK.Location = new System.Drawing.Point(3, 227);
+            this.btnTK.Location = new System.Drawing.Point(3, 228);
+            this.btnTK.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTK.Name = "btnTK";
             this.btnTK.Size = new System.Drawing.Size(226, 44);
             this.btnTK.TabIndex = 0;
@@ -297,6 +307,7 @@
             this.panel1.Controls.Add(this.btnMenu);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1106, 51);
             this.panel1.TabIndex = 0;
@@ -324,7 +335,8 @@
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.panel5, 0, 3);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(229, 51);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(230, 51);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.05092F));
@@ -332,7 +344,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.331976F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.20163F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(877, 492);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(876, 491);
             this.tableLayoutPanel1.TabIndex = 1;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
@@ -354,15 +366,17 @@
             this.panel2.Controls.Add(this.lbCCCD);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Enabled = false;
-            this.panel2.Location = new System.Drawing.Point(4, 126);
+            this.panel2.Location = new System.Drawing.Point(4, 125);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(869, 268);
+            this.panel2.Size = new System.Drawing.Size(868, 270);
             this.panel2.TabIndex = 6;
             // 
             // txtGioiTinh
             // 
             this.txtGioiTinh.Enabled = false;
             this.txtGioiTinh.Location = new System.Drawing.Point(215, 114);
+            this.txtGioiTinh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtGioiTinh.Name = "txtGioiTinh";
             this.txtGioiTinh.Size = new System.Drawing.Size(196, 26);
             this.txtGioiTinh.TabIndex = 16;
@@ -370,7 +384,8 @@
             // txtCCCD
             // 
             this.txtCCCD.Enabled = false;
-            this.txtCCCD.Location = new System.Drawing.Point(215, 47);
+            this.txtCCCD.Location = new System.Drawing.Point(215, 48);
+            this.txtCCCD.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtCCCD.Name = "txtCCCD";
             this.txtCCCD.Size = new System.Drawing.Size(196, 26);
             this.txtCCCD.TabIndex = 15;
@@ -379,7 +394,8 @@
             // txtNgaysinh
             // 
             this.txtNgaysinh.Enabled = false;
-            this.txtNgaysinh.Location = new System.Drawing.Point(215, 83);
+            this.txtNgaysinh.Location = new System.Drawing.Point(215, 82);
+            this.txtNgaysinh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNgaysinh.Name = "txtNgaysinh";
             this.txtNgaysinh.Size = new System.Drawing.Size(196, 26);
             this.txtNgaysinh.TabIndex = 14;
@@ -388,6 +404,7 @@
             // 
             this.txtSDT.Enabled = false;
             this.txtSDT.Location = new System.Drawing.Point(215, 219);
+            this.txtSDT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(196, 26);
             this.txtSDT.TabIndex = 13;
@@ -395,7 +412,8 @@
             // txtNgayCap
             // 
             this.txtNgayCap.Enabled = false;
-            this.txtNgayCap.Location = new System.Drawing.Point(215, 183);
+            this.txtNgayCap.Location = new System.Drawing.Point(215, 182);
+            this.txtNgayCap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNgayCap.Name = "txtNgayCap";
             this.txtNgayCap.Size = new System.Drawing.Size(196, 26);
             this.txtNgayCap.TabIndex = 12;
@@ -404,6 +422,7 @@
             // 
             this.txtDiaChi.Enabled = false;
             this.txtDiaChi.Location = new System.Drawing.Point(215, 148);
+            this.txtDiaChi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(196, 26);
             this.txtDiaChi.TabIndex = 11;
@@ -411,7 +430,8 @@
             // txtHoTen
             // 
             this.txtHoTen.Enabled = false;
-            this.txtHoTen.Location = new System.Drawing.Point(215, 13);
+            this.txtHoTen.Location = new System.Drawing.Point(215, 12);
+            this.txtHoTen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.Size = new System.Drawing.Size(196, 26);
             this.txtHoTen.TabIndex = 10;
@@ -484,9 +504,10 @@
             this.panel4.Controls.Add(this.label9);
             this.panel4.Controls.Add(this.picAvata1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(4, 4);
+            this.panel4.Location = new System.Drawing.Point(4, 3);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(869, 115);
+            this.panel4.Size = new System.Drawing.Size(868, 117);
             this.panel4.TabIndex = 10;
             // 
             // label9
@@ -506,9 +527,11 @@
             // picAvata1
             // 
             this.picAvata1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.picAvata1.Location = new System.Drawing.Point(402, 3);
+            this.picAvata1.Location = new System.Drawing.Point(401, 2);
+            this.picAvata1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picAvata1.Name = "picAvata1";
             this.picAvata1.Size = new System.Drawing.Size(137, 92);
+            this.picAvata1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picAvata1.TabIndex = 1;
             this.picAvata1.TabStop = false;
             // 
@@ -532,15 +555,17 @@
             this.panel5.Controls.Add(this.txtEmail);
             this.panel5.Controls.Add(this.label4);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(4, 437);
+            this.panel5.Location = new System.Drawing.Point(4, 436);
+            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(869, 51);
+            this.panel5.Size = new System.Drawing.Size(868, 52);
             this.panel5.TabIndex = 11;
             // 
             // txtEmail
             // 
             this.txtEmail.Enabled = false;
             this.txtEmail.Location = new System.Drawing.Point(215, 5);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(196, 26);
             this.txtEmail.TabIndex = 14;
@@ -560,11 +585,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1106, 543);
+            this.ClientSize = new System.Drawing.Size(1106, 542);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.sidebar);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "PersonInfor";
             this.Text = "PersonInfor";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

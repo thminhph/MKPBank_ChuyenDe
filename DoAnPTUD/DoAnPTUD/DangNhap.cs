@@ -9,9 +9,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
-using BLL;
-
 using BLL;
 
 namespace DoAnPTUD
@@ -49,22 +46,33 @@ namespace DoAnPTUD
             }
 
 
-            if (bll_taiKhoan.dangNhap(txtDangNhap.Text, txtMatKhau.Text) )
+            if (txtDangNhap.Text == "admin" && txtMatKhau.Text == "123")
             {
-                DTO_ThongTinKH use= bll_taiKhoan.ganthongtin(txtDN, txtMK);
-                HomeUser us = new HomeUser(use.SoDienThoai);
-                us.Show();
-                this.Hide();
+                //frm_Main frm_Main = new frm_Main();
+                //frm_Main.Show();
+                //this.Hide();
             }
             else
             {
-                MessageBox.Show("Tai khoan khong ton tai!");
+                if (bll_taiKhoan.dangNhap(txtDangNhap.Text, txtMatKhau.Text))
+                {
+                    DTO_ThongTinKH use = bll_taiKhoan.ganthongtin(txtDN, txtMK);
+                    HomeUser us = new HomeUser(use.SoDienThoai);
+                    us.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Tai khoan khong ton tai!");
+                }
             }
+         }
+           
             //HomeUser.user = 
             //HomeUser  us=new HomeUser();
             //us.Show();
             //this.Hide();
-        }
+        
 
         private void txtDangNhap_TextChanged(object sender, EventArgs e)
         {

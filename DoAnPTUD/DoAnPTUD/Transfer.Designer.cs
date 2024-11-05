@@ -33,13 +33,13 @@
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.pageSetupDialog1 = new System.Windows.Forms.PageSetupDialog();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnXacNhan = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.rictxtDienGia = new System.Windows.Forms.RichTextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.cbNganhang = new System.Windows.Forms.ComboBox();
             this.txtSoTien = new System.Windows.Forms.TextBox();
             this.txtSoTK = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -96,19 +96,28 @@
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.btnXacNhan);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.rictxtDienGia);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.cbNganhang);
             this.panel2.Controls.Add(this.txtSoTien);
             this.panel2.Controls.Add(this.txtSoTK);
             this.panel2.Location = new System.Drawing.Point(4, 249);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(937, 565);
             this.panel2.TabIndex = 6;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textBox1.Location = new System.Drawing.Point(57, 100);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(349, 26);
+            this.textBox1.TabIndex = 10;
+            this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
             // 
             // btnXacNhan
             // 
@@ -123,6 +132,7 @@
             this.btnXacNhan.TabIndex = 9;
             this.btnXacNhan.Text = "Xác Nhận";
             this.btnXacNhan.UseVisualStyleBackColor = false;
+            this.btnXacNhan.Click += new System.EventHandler(this.btnXacNhan_Click);
             // 
             // label5
             // 
@@ -157,7 +167,7 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(53, 183);
+            this.label3.Location = new System.Drawing.Point(53, 63);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 20);
             this.label3.TabIndex = 5;
@@ -167,20 +177,12 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(53, 63);
+            this.label2.Location = new System.Drawing.Point(53, 180);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 20);
+            this.label2.Size = new System.Drawing.Size(126, 20);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Tên Ngân Hàng";
-            // 
-            // cbNganhang
-            // 
-            this.cbNganhang.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.cbNganhang.FormattingEnabled = true;
-            this.cbNganhang.Location = new System.Drawing.Point(57, 100);
-            this.cbNganhang.Name = "cbNganhang";
-            this.cbNganhang.Size = new System.Drawing.Size(349, 28);
-            this.cbNganhang.TabIndex = 3;
+            this.label2.Text = "Tên khách Hàng";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtSoTien
             // 
@@ -193,6 +195,7 @@
             // txtSoTK
             // 
             this.txtSoTK.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtSoTK.Enabled = false;
             this.txtSoTK.Location = new System.Drawing.Point(57, 221);
             this.txtSoTK.Name = "txtSoTK";
             this.txtSoTK.Size = new System.Drawing.Size(349, 26);
@@ -256,6 +259,7 @@
             this.btnXem.Size = new System.Drawing.Size(41, 37);
             this.btnXem.TabIndex = 4;
             this.btnXem.UseVisualStyleBackColor = true;
+            this.btnXem.Click += new System.EventHandler(this.btnXem_Click);
             // 
             // label1
             // 
@@ -281,14 +285,16 @@
             this.btnChuyen.Size = new System.Drawing.Size(75, 91);
             this.btnChuyen.TabIndex = 1;
             this.btnChuyen.UseVisualStyleBackColor = true;
+            this.btnChuyen.Click += new System.EventHandler(this.btnChuyen_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(312, 8);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(265, 166);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -304,6 +310,7 @@
             this.Name = "Transfer";
             this.Text = "Transfer";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Transfer_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -329,10 +336,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox cbNganhang;
         private System.Windows.Forms.TextBox txtSoTien;
         private System.Windows.Forms.TextBox txtSoTK;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnXacNhan;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
