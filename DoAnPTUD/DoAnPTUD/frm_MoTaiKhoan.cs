@@ -57,7 +57,7 @@ namespace DoAnPTUD
         void loadComboBox()
         {
             BLL_LoadValue loadV = new BLL_LoadValue();
-            cbKhachHang.DataSource = loadV.HienThiDanhSachKH();
+            //cbKhachHang.DataSource = loadV.HienThiDanhSachKH();
             cbKhachHang.DisplayMember = "MaTen"; // Thuộc tính cần hiển thị
             cbKhachHang.ValueMember = "IdKhachHang"; // Giá trị ẩn
             cbNV.DataSource = loadV.XemNhanVien();
@@ -71,41 +71,41 @@ namespace DoAnPTUD
             cbKhachHang.AutoCompleteSource = AutoCompleteSource.ListItems;
             if (cbKhachHang.SelectedItem is DTO_KhachHang selectKhachHang)
             {
-                loaiKH = selectKhachHang.Loai;
+                //loaiKH = selectKhachHang.Loai;
             }
         }
         public DTO_TaiKhoan ThemTaiKhoan()
         {
-            if (loaiKH == "Cá nhân")
-            {
-                return new DTO_TaiKhoan(
-                    long.Parse(txtIdTaiKhoan.Text),
-                    Convert.ToInt32(cbKhachHang.SelectedValue),
-                    null,
-                    cbLoai.Text,
-                    cbSP.Text,
-                    cbTienTe.Text,
-                    txtTieuDeTK.Text,
-                    txtTenVietTat.Text,
-                    cbNV.SelectedValue.ToString(),
-                    cbPhi.Text,
-                    "@KHCN123");
-            }
-            if (loaiKH == "Doanh nghiệp")
-            {
-                return new DTO_TaiKhoan(
-                    long.Parse(txtIdTaiKhoan.Text),
-                    null,
-                    Convert.ToInt32(cbKhachHang.SelectedValue),
-                    cbLoai.Text,
-                    cbSP.Text,
-                    cbTienTe.Text,
-                    txtTieuDeTK.Text,
-                    txtTenVietTat.Text,
-                    cbNV.SelectedValue.ToString(),
-                    cbPhi.Text,
-                    "@KHDN123");
-            }
+            //if (loaiKH == "Cá nhân")
+            //{
+            //    return new DTO_TaiKhoan(
+            //        long.Parse(txtIdTaiKhoan.Text),
+            //        Convert.ToInt32(cbKhachHang.SelectedValue),
+            //        null,
+            //        cbLoai.Text,
+            //        cbSP.Text,
+            //        cbTienTe.Text,
+            //        txtTieuDeTK.Text,
+            //        txtTenVietTat.Text,
+            //        cbNV.SelectedValue.ToString(),
+            //        cbPhi.Text,
+            //        "@KHCN123");
+            //}
+            //if (loaiKH == "Doanh nghiệp")
+            //{
+            //    return new DTO_TaiKhoan(
+            //        long.Parse(txtIdTaiKhoan.Text),
+            //        null,
+            //        Convert.ToInt32(cbKhachHang.SelectedValue),
+            //        cbLoai.Text,
+            //        cbSP.Text,
+            //        cbTienTe.Text,
+            //        txtTieuDeTK.Text,
+            //        txtTenVietTat.Text,
+            //        cbNV.SelectedValue.ToString(),
+            //        cbPhi.Text,
+            //        "@KHDN123");
+            //}
             return null;
         }
     }

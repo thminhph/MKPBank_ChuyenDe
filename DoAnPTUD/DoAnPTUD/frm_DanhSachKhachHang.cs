@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace DoAnPTUD
 {
-    public partial class frm_DanhSachKhachHang : Form,BaseGUI
+    public partial class frm_DanhSachKhachHang : Form/*,BaseGUI*/
     {
         public frm_DanhSachKhachHang()
         {

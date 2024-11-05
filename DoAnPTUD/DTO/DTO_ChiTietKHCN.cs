@@ -51,7 +51,37 @@ namespace DTO
             ThuNhapHangThang = thuNhapHangThang;
             DiaChiCty = diaChiCty;
         }
+
+        public DTO_ChiTietKHCN(int idKhachHang, string tenKhachHang, string diaChi, string soDienThoai, string quocGia, string quocTich, string loaiGiayTo, string soGiayTo, string noiCap, string email, int nganhChinh, int idNganh, string nhanVienLV, DateTime ngaySinh, DateTime ngayCap, DateTime ngayHetHan, string gioiTinh, string xungHo, string tTHonNhan, string quanHe, string soVanPhong, int? soNguoiPT, string soHuuNha, string lHCuChu, string tinhTrangViecLam, string tenCty, double? thuNhapHangThang, string diaChiCty)
+        {
+            IdKhachHang = idKhachHang;
+            TenKhachHang = tenKhachHang;
+            DiaChi = diaChi;
+            SoDienThoai = soDienThoai;
+            QuocGia = quocGia;
+            QuocTich = quocTich;
+            LoaiGiayTo = loaiGiayTo;
+            SoGiayTo = soGiayTo;
+            NoiCap = noiCap;
+            Email = email;
+            NganhChinh = nganhChinh;
+            IdNganh = idNganh;
+            NhanVienLV = nhanVienLV;
+            NgaySinh = ngaySinh;
+            NgayCap = ngayCap;
+            NgayHetHan = ngayHetHan;
+            GioiTinh = gioiTinh;
+            XungHo = xungHo;
+            TTHonNhan = tTHonNhan;
+            QuanHe = quanHe;
+            SoVanPhong = soVanPhong;
+            SoHuuNha = soHuuNha;
+            LHCuChu = lHCuChu;
+            TinhTrangViecLam = tinhTrangViecLam;
+            TenCty = tenCty;
+            DiaChiCty = diaChiCty;
+        }
     }
 
 }
-}
+

@@ -100,13 +100,41 @@
     <Compile Include="frm_DanhSachKhachHang.Designer.cs">
       <DependentUpon>frm_DanhSachKhachHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_KhachHangCaNhan.cs" />
+    <Compile Include="frm_DanhSachNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DanhSachNhanVien.Designer.cs">
+      <DependentUpon>frm_DanhSachNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GuiTienMat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GuiTienMat.Designer.cs">
+      <DependentUpon>frm_GuiTienMat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_KhachHangCaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_KhachHangCaNhan.Designer.cs">
       <DependentUpon>frm_KhachHangCaNhan.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_Main.cs" />
+    <Compile Include="frm_KhachHangDoanhNghiep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_KhachHangDoanhNghiep.Designer.cs">
+      <DependentUpon>frm_KhachHangDoanhNghiep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_Main.Designer.cs">
       <DependentUpon>frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MoTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MoTaiKhoan.Designer.cs">
+      <DependentUpon>frm_MoTaiKhoan.cs</DependentUpon>
     </Compile>
     <Compile Include="HomeUser.cs">
       <SubType>Form</SubType>
@@ -202,11 +230,23 @@
     <EmbeddedResource Include="frm_DanhSachKhachHang.resx">
       <DependentUpon>frm_DanhSachKhachHang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_DanhSachNhanVien.resx">
+      <DependentUpon>frm_DanhSachNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GuiTienMat.resx">
+      <DependentUpon>frm_GuiTienMat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_KhachHangCaNhan.resx">
       <DependentUpon>frm_KhachHangCaNhan.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_KhachHangDoanhNghiep.resx">
+      <DependentUpon>frm_KhachHangDoanhNghiep.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Main.resx">
       <DependentUpon>frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MoTaiKhoan.resx">
+      <DependentUpon>frm_MoTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomeUser.resx">
       <DependentUpon>HomeUser.cs</DependentUpon>

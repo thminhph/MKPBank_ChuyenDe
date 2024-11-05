@@ -1,4 +1,5 @@
 ﻿CREATE DATABASE QLNganHang
+
 use QLNganHang;
 
 CREATE TABLE DangNhap(
@@ -244,7 +245,7 @@ INSERT INTO NhanVien (IdNhanVien, HoTen, NgaySinh, GioiTinh, DiaChi, SoDienThoai
 ('NV009', N'Bùi Văn Tùng', '1987-06-07', N'Nam', N'789 YZ Road', '01234567899', 'tung.bui@hmail.com', '923456789', N'Trưởng phòng', N'Phòng Kỹ thuật', '2010-10-12', N'Đang làm'),
 ('NV010', N'Phạm Thị Mai', '1995-04-04', N'Nữ', N'123 ABC Road', '01234567890', 'mai.pham@pmail.com', '023456789', N'Nhân viên', N'Phòng Nhân sự', '2017-06-01', N'Đang làm');
 
-INSERT INTO KhachHangCaNhan (IdKhachHangCN, TenKhachHang,Avarta, NgaySinh, DiaChi, SoDienThoai, QuocGia, QuocTich, LoaiGiayTo, SoGiayTo, NgayCap, NgayHetHan, NoiCap, Email, NganhChinh, IdNganh, NhanVienLV) VALUES
+INSERT INTO KhachHang (IdKhachHang, TenKhachHang,Avarta, NgaySinh, DiaChi, SoDienThoai, QuocGia, QuocTich, LoaiGiayTo, SoGiayTo, NgayCap, NgayHetHan, NoiCap, Email, NganhChinh, IdNganh, NhanVienLV) VALUES
 (1, N'Nguyễn Văn A',null , '1985-01-15', N'Số 123, Đường A, Quận 1', '0123456789', N'Việt Nam', N'Việt', N'CMND', '123456789', '2010-05-20', '2030-05-20', N'Công an TP.HCM', 'nguyenvana@example.com', 2, 1, 'NV001'),
 (2, N'Trần Thị B', null ,'1990-02-20', N'Số 456, Đường B, Quận 2', '0123456780', N'Việt Nam', N'Việt', N'CMND', '987654321', '2015-08-15', '2035-08-15', N'Công an TP.HCM', 'tranthib@example.com', 2, 1, 'NV002'),
 (3, N'Phạm Văn C',null , '1988-03-10', N'Số 789, Đường C, Quận 3', '0123456781', N'Việt Nam', N'Việt', N'CMND', '192837465', '2012-03-12', '2032-03-12', N'Công an TP.HCM', 'phamvanc@example.com', 3, 1, 'NV003'),
@@ -256,7 +257,7 @@ INSERT INTO KhachHangCaNhan (IdKhachHangCN, TenKhachHang,Avarta, NgaySinh, DiaCh
 (9, N'Nguyễn Thị I',null , '1989-09-10', N'Số 159, Đường I, Quận 9', '0123456787', N'Việt Nam', N'Việt', N'CMND', '753951486', '2014-10-10', '2034-10-10', N'Công an TP.HCM', 'nguyenthi@example.com', 2, 2, 'NV009'),
 (10, N'Trần Văn J', null,'1993-10-30', N'Số 753, Đường J, Quận 10', '0123456788', N'Việt Nam', N'Việt', N'CMND', '654321789', '2019-02-14', '2039-02-14', N'Công an TP.HCM', 'tranvanj@example.com', 2, 1, 'NV010');
 
-INSERT INTO TaiKhoan (IdKhachHangCN, IdLoai, TenTaiKhoan, TienTe, TieuDeTK, TieuDeNgan, NhanVienLV, PhiMa,Matkhau)
+INSERT INTO TaiKhoan (IdKhachHang, IdLoai, TenTaiKhoan, TienTe, TieuDeTK, TieuDeNgan, NhanVienLV, PhiMa,Matkhau)
 VALUES 
 (1, 0, 'Standard', 'VND', 'Primary Account', 'Main', 'NV001', 'PM001','123'),
 (2, 0, 'Standard', 'VND', 'Backup Fund', 'Emergency', 'NV002', 'PM002','123'),
@@ -271,7 +272,6 @@ VALUES
 
 INSERT INTO SoDuTinDung ( IdTaiKhoan,SoDuTK)
 VALUES
-(70000123456 ,1000000),
 ( 70000123469,500000),
 ( 70000123482,200000),
 ( 70000123495,8200000),
@@ -280,20 +280,21 @@ VALUES
 ( 70000123534,6200000),
 ( 70000123547,5200000),
 ( 70000123560,2000000),
-( 70000123573,3200000)
+( 70000123573,3200000),
+(70000123586 ,1000000)
 
 select * from TaiKhoan
 
-select * from KhachHangCaNhan, TaiKhoan
-where KhachHangCaNhan.SoDienThoai like '09321098765' and TaiKhoan.IdKhachHangCN like KhachHangCaNhan.IdKhachHangCN
+select * from KhachHang, TaiKhoan
+where KhachHang.SoDienThoai like '09321098765' and TaiKhoan.IdKhachHang like KhachHang.IdKhachHang
 
 SELECT 
     s.Avarta,
     s.TenKhachHang
 FROM 
-    KhachHangCaNhan s
+    KhachHang s
 JOIN 
-    TaiKhoan tk ON s.IdKhachHangCN = tk.IdKhachHangCN
+    TaiKhoan tk ON s.IdKhachHang = tk.IdKhachHang
 WHERE 
     tk.IdTaiKhoan = 70000123456;
 
@@ -308,11 +309,11 @@ WHERE
     s.SoDienThoai,
     s.Email
 FROM 
-    KhachHangCaNhan AS s
+    KhachHang AS s
 JOIN 
-    ChiTietKHCN AS ct ON s.IdKhachHangCN = ct.IdKhachHangCN
+    ChiTietKHCN AS ct ON s.IdKhachHang = ct.IdKhachHangCN
 JOIN 
-    TaiKhoan AS tk ON s.IdKhachHangCN = tk.IdKhachHangCN
+    TaiKhoan AS tk ON s.IdKhachHang = tk.IdKhachHang
 WHERE 
     tk.IdTaiKhoan = 70000123456;  -- Sử dụng tham số @stk cho giá trị biến
 
@@ -321,4 +322,4 @@ FROM SoDuTinDung s
 INNER JOIN TaiKhoan k ON s.IdTaiKhoan = k.IdTaiKhoan
 WHERE k.IdTaiKhoan = s.IdTaiKhoan;
 
-select * from KhachHangCaNhan
+select * from ChiTietGD

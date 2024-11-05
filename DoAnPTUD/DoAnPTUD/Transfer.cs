@@ -108,7 +108,8 @@ namespace DoAnPTUD
             if(giaoDich.giaoDich(use, textBox1.Text, float.Parse(txtSoTien.Text), rictxtDienGia.Text) == true)
             {
                TransferDetails transfer=new TransferDetails(use);
-               transfer.Show();
+                MessageBox.Show("Thông báo ", "Giao Dịch Thành Công");
+                transfer.Show();
                 this.Hide(); 
             }
             else

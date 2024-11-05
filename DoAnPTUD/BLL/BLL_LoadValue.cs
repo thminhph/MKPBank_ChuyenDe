@@ -35,10 +35,10 @@ namespace BUS
         {
             return load.LayTenNV(idNV);
         }
-        public List<DTO_KhachHang> HienThiDanhSachKH()
-        {
-            return load.HienThiDanhSachKH();
-        }
+        //public List<DTO_KhachHang> HienThiDanhSachKH()
+        //{
+        //    return load.HienThiDanhSachKH();
+        //}
         public List<DTO_KhachHang> HienThiDanhSachKH(Dictionary<string, string> whereArg)
         {
             return load.HienThiDanhSachKH(whereArg);
