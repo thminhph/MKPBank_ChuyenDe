@@ -46,5 +46,6 @@ namespace DTO
             ChucVu = chucVu;
         }
     }
-}
 
+}
+}
