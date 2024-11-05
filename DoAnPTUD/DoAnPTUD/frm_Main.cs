@@ -10,20 +10,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace DoAnPTUD
 {
 
     public partial class frm_Main : Form
     {
+        private BaseGUI baseGUI;
         private frm_KhachHangCaNhan frmKH;
         private frm_KhachHangDoanhNghiep frmKHDN;
         private frm_DanhSachKhachHang frmNhanVien;
         private frm_DanhSachKhachHang frmDSKh;
+        private frm_MoTaiKhoan frmMoTaiKhoan;
         private Form activeForm = null;
         private string checkBtn = "";
         // Khai báo sự kiện để frmKhachHangCaNhan có thể lắng nghe
         public event EventHandler OnSaveButtonClick, OnRemoveButtonClick;
+
+        
 
         public frm_Main()
         {
@@ -98,7 +103,21 @@ namespace DoAnPTUD
                     btnSearch.Enabled = true;
                     btnSearch.BackColor = Color.Red;
                 }
-
+                if (selectNode == "Mở tài khoản")
+                {
+                    frmMoTaiKhoan = new frm_MoTaiKhoan();
+                    OpenChidForm(frmMoTaiKhoan);
+                    pnBtn.Visible = true;
+                    Button[] btn = { btnDone, btnRemove, btnSearch, btnPrint, btnEdit };
+                    foreach (var item in btn)
+                    {
+                        Enablad_Btn(item);
+                    }
+                    btnSave.Enabled = true;
+                    btnSave.BackColor = Color.Red;
+                    btnSearchList.Enabled = true;
+                    btnSearchList.BackColor = Color.Red;
+                }
             }
         }
 
@@ -110,7 +129,7 @@ namespace DoAnPTUD
 
                     if (checkBtn != "Edit")
                     {
-                        BLL_KhachHangCaNhan busKH = new BLL_KhachHangCaNhan();
+                        BLL_KhachHang busKH = new BLL_KhachHang();
                         busKH.Them(frmKH.KhachHang());
                         busKH.ThemChiTiet((DTO_ChiTietKHCN)frmKH.KhachHang());
 
@@ -150,6 +169,28 @@ namespace DoAnPTUD
                         // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
                         frmKHDN = new frm_KhachHangDoanhNghiep();
                         OpenChidForm(frmKHDN);
+
+                    }
+                    break;
+                case "Mở tài khoản":
+                    if (checkBtn != "Edit")
+                    {
+                        BLL_TaiKhoan bllTK = new BLL_TaiKhoan();
+                        bllTK.Them(frmMoTaiKhoan.ThemTaiKhoan());
+
+                        // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
+                        frmMoTaiKhoan = new frm_MoTaiKhoan();
+                        OpenChidForm(frmMoTaiKhoan);
+
+                    }
+                    else
+                    {
+                        //Khi checkBtn bằng giá trị Edit thì sẽ cập nhật lại giá trị khách hàng
+                        //frmKHDN.SetMainForm(this);
+                        //OnSaveButtonClick?.Invoke(this, EventArgs.Empty);
+                        //// Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
+                        //frmKHDN = new frm_KhachHangDoanhNghiep();
+                        //OpenChidForm(frmKHDN);
 
                     }
                     break;
@@ -275,11 +316,7 @@ namespace DoAnPTUD
             OnSaveButtonClick?.Invoke(this, EventArgs.Empty);
         }
 
-        private void btnSearch_Click(object sender, EventArgs e)
-        {
-            frmDSKh = new frm_DanhSachKhachHang();
-            OpenChidForm(frmDSKh);
-        }
+        
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
@@ -305,5 +342,17 @@ namespace DoAnPTUD
             }
             checkBtn = "Remove";
         }
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            //baseGUI = new BaseGUI();
+        }
+
+        //void BaseGUI.TimKhachHang(Dictionary<string, string> whereArg)
+        //{
+        //    BLL_LoadValue kh = new BLL_LoadValue();
+        //    frmDSKh = new frm_DanhSachKhachHang();
+        //    frmDSKh.dgvKhachHang.DataSource = kh.HienThiDanhSachKH(whereArg);
+        //}
     }
+
 }

@@ -6,27 +6,38 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    public class DTO_ChiTietKHCN : DTO_KhachHangCaNhan
+    public class DTO_ChiTietKHCN : DTO_KhachHang
     {
+        public int IdLoaiKH { get; set; }
         public string GioiTinh { get; set; }
         public string XungHo { get; set; }
-        public string TTHonNhan { get; set; }
+        public string TTHonNhan { get; set; }  // Tình Trạng Hôn Nhân
         public string QuanHe { get; set; }
         public string SoVanPhong { get; set; }
-        public int? SoNguoiPT { get; set; }
+        public int SoNguoiPT { get; set; }  // Số Người Phụ Thuộc
         public string SoHuuNha { get; set; }
-        public string LHCuChu { get; set; }
+        public string LHCuChu { get; set; }  // Loại Hình Chủ Chứng
         public string TinhTrangViecLam { get; set; }
         public string TenCty { get; set; }
-        public double? ThuNhapHangThang { get; set; }
+        public float ThuNhapHangThang { get; set; }
         public string DiaChiCty { get; set; }
 
         // Constructor không tham số
+        public DTO_ChiTietKHCN()
+        {
+        }
 
         // Constructor có tham số
-        public DTO_ChiTietKHCN(int id, string tenKhachHang, string diaChi, string sdt, string quocGia, string quocTich, string loaiGiayTo, string soGiayTo, string noiCap, string email, int nganhChinh, int nganh, string nhanVienLV, DateTime ngaySinh, DateTime ngayCap, DateTime ngayHetHan, string gioiTinh, string xungHo, string ttHonNhan, string quanHe, string soVanPhong, int? soNguoiPT, string soHuuNha, string lhCuChu, string tinhTrangViecLam, string tenCty, double? thuNhapHangThang, string diaChiCty)
-         : base(id, tenKhachHang, diaChi, sdt, quocGia, quocTich, loaiGiayTo, soGiayTo, noiCap, email, nganhChinh, nganh, nhanVienLV, ngaySinh, ngayCap, ngayHetHan)
+        public DTO_ChiTietKHCN(int idKhachHang, string tenKhachHang, byte[] avarta, DateTime ngaySinh, string diaChi,
+                           string soDienThoai, string quocGia, string quocTich, string loaiGiayTo, string soGiayTo,
+                           DateTime ngayCap, DateTime? ngayHetHan, string noiCap, string email, int nganhChinh,
+                           int idNganh, string nhanVienLV, int idLoaiKH, string gioiTinh, string xungHo, string ttHonNhan,
+                           string quanHe, string soVanPhong, int soNguoiPT, string soHuuNha, string lhCuChu,
+                           string tinhTrangViecLam, string tenCty, float thuNhapHangThang, string diaChiCty)
+            : base(idKhachHang, tenKhachHang, avarta, ngaySinh, diaChi, soDienThoai, quocGia, quocTich, loaiGiayTo, soGiayTo,
+                   ngayCap, ngayHetHan, noiCap, email, nganhChinh, idNganh, nhanVienLV)
         {
+            IdLoaiKH = idLoaiKH;
             GioiTinh = gioiTinh;
             XungHo = xungHo;
             TTHonNhan = ttHonNhan;
@@ -41,4 +52,6 @@ namespace DTO
             DiaChiCty = diaChiCty;
         }
     }
+
+}
 }

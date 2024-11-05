@@ -85,6 +85,7 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.txtSDT = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -105,7 +106,10 @@
             this.label56 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtCif = new System.Windows.Forms.TextBox();
-            this.txtSDT = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
             this.tabPage1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -756,6 +760,8 @@
             // tabPage1
             // 
             this.tabPage1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tabPage1.Controls.Add(this.label34);
+            this.tabPage1.Controls.Add(this.label33);
             this.tabPage1.Controls.Add(this.txtSDT);
             this.tabPage1.Controls.Add(this.label31);
             this.tabPage1.Controls.Add(this.label30);
@@ -812,6 +818,13 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Thông tin khách hàng";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // txtSDT
+            // 
+            this.txtSDT.Location = new System.Drawing.Point(219, 301);
+            this.txtSDT.Name = "txtSDT";
+            this.txtSDT.Size = new System.Drawing.Size(171, 22);
+            this.txtSDT.TabIndex = 51;
             // 
             // label14
             // 
@@ -946,6 +959,8 @@
             // tabPage2
             // 
             this.tabPage2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tabPage2.Controls.Add(this.label36);
+            this.tabPage2.Controls.Add(this.label35);
             this.tabPage2.Controls.Add(this.txtDiaChi);
             this.tabPage2.Controls.Add(this.txtThuNhap);
             this.tabPage2.Controls.Add(this.txtCTY);
@@ -1023,12 +1038,49 @@
             this.txtCif.Size = new System.Drawing.Size(187, 22);
             this.txtCif.TabIndex = 3;
             // 
-            // txtSDT
+            // label33
             // 
-            this.txtSDT.Location = new System.Drawing.Point(219, 301);
-            this.txtSDT.Name = "txtSDT";
-            this.txtSDT.Size = new System.Drawing.Size(171, 22);
-            this.txtSDT.TabIndex = 51;
+            this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label33.BackColor = System.Drawing.Color.Black;
+            this.label33.Location = new System.Drawing.Point(2, 171);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(1135, 1);
+            this.label33.TabIndex = 52;
+            this.label33.Text = "label33";
+            // 
+            // label34
+            // 
+            this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label34.BackColor = System.Drawing.Color.Black;
+            this.label34.Location = new System.Drawing.Point(2, 549);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(1135, 1);
+            this.label34.TabIndex = 53;
+            this.label34.Text = "label34";
+            // 
+            // label35
+            // 
+            this.label35.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label35.BackColor = System.Drawing.Color.Black;
+            this.label35.Location = new System.Drawing.Point(2, 169);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(1135, 1);
+            this.label35.TabIndex = 97;
+            this.label35.Text = "label35";
+            // 
+            // label36
+            // 
+            this.label36.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label36.BackColor = System.Drawing.Color.Black;
+            this.label36.Location = new System.Drawing.Point(2, 244);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(1135, 1);
+            this.label36.TabIndex = 98;
+            this.label36.Text = "label36";
             // 
             // frm_KhachHangCaNhan
             // 
@@ -1131,5 +1183,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtCif;
         private System.Windows.Forms.TextBox txtSDT;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label35;
     }
 }

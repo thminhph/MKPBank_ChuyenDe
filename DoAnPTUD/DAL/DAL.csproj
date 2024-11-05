@@ -44,8 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL_ChiTietGiaoDich.cs" />
-    <Compile Include="DAL_KhachHangCaNhan.cs" />
-    <Compile Include="DAL_KhachHangDoanhNghiep.cs" />
+    <Compile Include="DAL_KhachHang.cs" />
     <Compile Include="DAL_LoadValue.cs" />
     <Compile Include="DAL_Nganh.cs" />
     <Compile Include="DAL_NganhChinh.cs" />

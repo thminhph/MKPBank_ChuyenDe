@@ -117,5 +117,32 @@ namespace DAL
                 return null; // Trả về null để báo hiệu đăng nhập thất bại
             }
         }
+
+        public void Them(DTO_TaiKhoan taiKhoan)
+        {
+            try
+            {
+                TaiKhoan tk = new TaiKhoan
+                {
+                    IdTaiKhoan = taiKhoan.IdTaiKhoan,
+                    IdKhachHangCN = taiKhoan.IdKhachHangCN,
+                    IdKhachHangDN = taiKhoan.IdKhachHangDN,
+                    LoaiTaiKhoan = taiKhoan.LoaiTaiKhoan,
+                    TenTaiKhoan = taiKhoan.TenTaiKhoan,
+                    TienTe = taiKhoan.TienTe,
+                    TieuDeTK = taiKhoan.TieuDeTK,
+                    TieuDeNgan = taiKhoan.TieuDeNgan,
+                    NhanVienLV = taiKhoan.NhanVienLV,
+                    PhiMa = taiKhoan.PhiMa,
+                    Matkhau = taiKhoan.Matkhau
+                };
+                db.TaiKhoans.InsertOnSubmit(tk);
+                db.SubmitChanges();
+            }
+            catch(Exception ex)
+            {
+                throw new InvalidOperationException("Thêm thất bại " + ex.Message);
+            }
+        }
      }
 }

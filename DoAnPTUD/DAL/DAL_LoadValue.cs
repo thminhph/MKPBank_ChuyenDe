@@ -1,10 +1,12 @@
-﻿using System;
+﻿using DTO;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Security.Permissions;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace DAL
 {
@@ -85,45 +87,122 @@ namespace DAL
                 return null;
             }
         }
-        public IQueryable InDSKhachHang(string[] arr)
+        public List<DTO_KhachHang> HienThiDanhSachKH()
         {
             dContext = new Data_Context();
             // Đồng bộ các thuộc tính bằng cách sử dụng tên chung
             var khCaNhan = dContext.Db.KhachHangCaNhans
-                .Select(kh => new
+                .Select(kh => new DTO_KhachHang
                 {
-                    IdKhachHang = kh.IdKhachHangCN, // Đổi tên thành IdKhachHang
+                    IdKhachHang = kh.IdKhachHangCN,
                     Loai = "Cá nhân",
-                    Ten = kh.TenKhachHang, // Đổi tên thành Ten
-                    kh.SoGiayTo,
-                    kh.SoDienThoai,
-                    kh.NganhChinh,
-                    kh.IdNganh
+                    Ten = kh.TenKhachHang,
+                    SoGiayTo = kh.SoGiayTo,
+                    SoDienThoai = kh.SoDienThoai,
+                    NganhChinh = kh.NganhChinh,
+                    IdNganh = kh.IdNganh,
+                    MaTen = kh.IdKhachHangCN + "-" + kh.TenKhachHang
                 });
 
             var khDoanhNghiep = dContext.Db.KhachHangDoanhNghieps
-                .Select(kh => new
+                .Select(kh => new DTO_KhachHang
                 {
                     IdKhachHang = kh.IdKhachHangDN, // Đổi tên thành IdKhachHang
                     Loai = "Doanh Nghiệp",
                     Ten = kh.TenDayDuDN, // Đổi tên thành Ten
-                    kh.SoGiayTo,
-                    kh.SoDienThoai,
-                    kh.NganhChinh,
-                    kh.IdNganh
+                    SoGiayTo = kh.SoGiayTo,
+                    SoDienThoai = kh.SoDienThoai,
+                    NganhChinh = kh.NganhChinh,
+                    IdNganh = kh.IdNganh,
+                    MaTen = kh.IdKhachHangDN + "-" + kh.TenDayDuDN
                 });
 
             var xem = khCaNhan
                 .Union(khDoanhNghiep)
-                .Where(x =>
-                (string.IsNullOrEmpty(arr[0]) || x.IdKhachHang == int.Parse(arr[0])) &&
-                (string.IsNullOrEmpty(arr[1]) || x.Loai == arr[1]));
-            //(string.IsNullOrEmpty(arr[2]) || x.SoDienThoai == arr[2])));
-            //(string.IsNullOrEmpty(arr[3]) || x.Ten == arr[3]) &&
-            //(string.IsNullOrEmpty(arr[4]) || x.SoGiayTo == arr[4]) &&
-            //(string.IsNullOrEmpty(arr[5]) || x.NganhChinh == int.Parse(arr[5])) &&
-            //(string.IsNullOrEmpty(arr[6]) || x.NganhChinh == int.Parse(arr[6]))));
-            return xem.AsQueryable();
+                .ToList();
+            return xem;
+        }
+        public List<DTO_KhachHang> HienThiDanhSachKH(Dictionary<string, string> whereArg)
+        {
+            dContext = new Data_Context();
+            // Đồng bộ các thuộc tính bằng cách sử dụng tên chung
+            var khCaNhan = dContext.Db.KhachHangCaNhans
+                .Select(kh => new DTO_KhachHang
+                {
+                    IdKhachHang = kh.IdKhachHangCN,
+                    Loai = "Cá nhân",
+                    Ten = kh.TenKhachHang,
+                    SoGiayTo = kh.SoGiayTo,
+                    SoDienThoai = kh.SoDienThoai,
+                    NganhChinh = kh.NganhChinh,
+                    IdNganh = kh.IdNganh,
+                });
+
+            var khDoanhNghiep = dContext.Db.KhachHangDoanhNghieps
+                .Select(kh => new DTO_KhachHang
+                {
+                    IdKhachHang = kh.IdKhachHangDN, // Đổi tên thành IdKhachHang
+                    Loai = "Doanh Nghiệp",
+                    Ten = kh.TenDayDuDN, // Đổi tên thành Ten
+                    SoGiayTo = kh.SoGiayTo,
+                    SoDienThoai = kh.SoDienThoai,
+                    NganhChinh = kh.NganhChinh,
+                    IdNganh = kh.IdNganh,
+                });
+            //var conditionsMet = whereArg.All(item => {
+            //    return item.Key == item.Value; });
+            var xem = khCaNhan
+                .Union(khDoanhNghiep);
+            foreach (var item in whereArg)
+            {
+                switch (item.Key)
+                {
+                    case "Loai":
+                        xem = xem.Where(kh => kh.Loai == item.Value);
+                        break;
+                    case "IdKhachHang":
+                        xem = xem.Where(kh => kh.IdKhachHang == int.Parse(item.Value));
+                        break;
+                    case "Ten":
+                        xem = xem.Where(kh => kh.Ten == item.Value);
+                        break;
+                    case "SoGiayTo":
+                        xem = xem.Where(kh => kh.SoGiayTo == item.Value);
+                        break;
+                    case "SoDienThoai":
+                        xem = xem.Where(kh => kh.SoDienThoai == item.Value);
+                        break;
+                    case "NganhChinh":
+                        xem = xem.Where(kh => kh.NganhChinh == Convert.ToInt32(item.Value));
+                        break;
+                    case "IdNganh":
+                        xem = xem.Where(kh => kh.IdNganh == Convert.ToInt32(item.Value));
+                        break;
+                }
+            } 
+            
+            //foreach (var item in whereArg)
+            //{
+            //    if (true)
+            //    {
+
+            //    }
+            //
+
+
+            return xem.ToList();
+        }
+        public Func<bool, bool, bool> GetLogicalOperator(string op)
+        {
+            switch (op)
+            {
+                case "&&":
+                    return (a, b) => a && b; // Logical AND
+                case "||":
+                    return (a, b) => a || b; // Logical OR
+                default:
+                    throw new ArgumentException("Invalid operator");
+            }
         }
     }
 }

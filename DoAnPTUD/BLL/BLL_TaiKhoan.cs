@@ -26,6 +26,9 @@ namespace BLL
         {
             return taiKhoan.GanThongTinNguoiDung(sdt,ten);
         }
-
+        public void Them(DTO_TaiKhoan tk)
+        {
+            taiKhoan.Them(tk);
+        }
     }
 }

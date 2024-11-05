@@ -72,7 +72,7 @@ namespace DoAnPTUD
             }
             else if (txt.Name == "txtTen")
             {
-                str = txtHo.Text + txt.Text;
+                str = txtHo.Text+" " + txt.Text;
             }
             txtTenDayDu.Text = str.Trim();
         }
@@ -159,7 +159,7 @@ namespace DoAnPTUD
         }
         void load_Value()
         {
-            BLL_KhachHangCaNhan busKH = new BLL_KhachHangCaNhan();
+            BLL_KhachHang busKH = new BLL_KhachHang();
             BLL_LoadValue busValue = new BLL_LoadValue();
             DTO_ChiTietKHCN ctKH = busKH.LayGiaTri(id);
             txtCif.Text = ctKH.Id.ToString();
@@ -210,7 +210,7 @@ namespace DoAnPTUD
         private void MainForm_OnSaveButtonClick(object sender, EventArgs e)
         {
             // Thực hiện xử lý khi nút Save trên frm_Main được bấm
-            BLL_KhachHangCaNhan busKhachHang = new BLL_KhachHangCaNhan();
+            BLL_KhachHang busKhachHang = new BLL_KhachHang();
             int nganhChinh = Convert.ToInt32(cbNganhChinh.SelectedValue);
             int nganh = Convert.ToInt32(cbNganh.SelectedValue);
             string nv = cbNhanVien.SelectedValue.ToString();
@@ -282,7 +282,7 @@ namespace DoAnPTUD
         }
         public void Remove_Customer_OnremoveButtonClick(object sender, EventArgs e)
         {
-            BLL_KhachHangCaNhan busKH = new BLL_KhachHangCaNhan();
+            BLL_KhachHang busKH = new BLL_KhachHang();
             busKH.Xoa(id);
         }
 

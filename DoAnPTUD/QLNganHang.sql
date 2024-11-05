@@ -6,10 +6,10 @@ CREATE TABLE DangNhap(
 	MatKhau nvarchar(50) not null
 );
 
-CREATE TABLE KhachHangCaNhan(
-	IdKhachHangCN int primary key,
+CREATE TABLE KhachHang(
+	IdKhachHang int primary key,
 	TenKhachHang nvarchar(255) not null,
-	Avarta image ,
+	Avarta image,
 	NgaySinh datetime not null,
 	DiaChi nvarchar(255) not null,
 	SoDienThoai nvarchar(20) not null,
@@ -26,8 +26,14 @@ CREATE TABLE KhachHangCaNhan(
 	NhanVienLV varchar(20) not null
 );
 
+CREATE TABLE LoaiKhachHang(
+	IdLoaiKH int identity(1,1) primary key,
+	TenLoai nvarchar(255)
+);
+
 CREATE TABLE ChiTietKHCN(
-	IdKhachHangCN int primary key,
+	IdKhachHangCN int,
+	IdLoaiKH int,
 	GioiTinh nvarchar(10),
 	XungHo nvarchar(20),
 	TTHonNhan nvarchar(50),
@@ -39,49 +45,29 @@ CREATE TABLE ChiTietKHCN(
 	TinhTrangViecLam nvarchar(50),
 	TenCty nvarchar(255),
 	ThuNhapHangThang float,
-	DiaChiCty nvarchar(255)
-);
-
-
-CREATE TABLE KhachHangDoanhNghiep(
-	IdKhachHangDN int primary key,
-	TenVietTatDN nvarchar(255) not null,
-	TenDayDuDN nvarchar(255) not null,
-	NgayThanhLap datetime not null,
-	DiaChi nvarchar(255) not null,
-	QuocGia nvarchar(50),
-	QuocTich nvarchar(50),
-	NoiCuTru nvarchar(255),
-	LoaiGiayTo nvarchar(50) not null,
-	SoGiayTo varchar(50) not null,
-	NgayCap datetime not null,
-	NgayHetHan datetime,
-	NoiCap nvarchar(255) not null,
-	NguoiLH nvarchar(50),
-	ChucVu nvarchar(50),
-	Email varchar(255),
-	SoDienThoai char(11),
-	NganhChinh int not null,
-	IdNganh int not null,
-	NhanVienLV varchar(20) not null 
+	DiaChiCty nvarchar(255),
+	primary key(IdKhachHangCN, IdLoaiKH)
 );
 
 CREATE TABLE ChiTietKHDN(
-	IdKhachHangDN int primary key,
+	IdKhachHangDN int,
+	IdLoaiKH int,
 	NgayTao datetime,
 	QuanHe nvarchar(255),
 	SoVanPhong varchar(50),
 	TongVon float,
 	TongTaiSan float,
 	TongDoanhThu float,
-	SoLuongNhanVien int
+	SoLuongNhanVien int,
+	NguoiLH nvarchar(50),
+	ChucVu nvarchar(50),
+	primary key(IdKhachHangDN, IdLoaiKH)
 );
 
 CREATE TABLE TaiKhoan(
 	IdTaiKhoan bigint identity(070000123456,13) primary key,
-	IdKhachHangCN int,
-	IdKhachHangDN int,
-	LoaiTaiKhoan nvarchar(255) not null,
+	IdKhachHang int,
+	IdLoai int not null,
 	TenTaiKhoan nvarchar(255),
 	TienTe nvarchar(50) not null,
 	TieuDeTK nvarchar(255),
@@ -92,16 +78,21 @@ CREATE TABLE TaiKhoan(
 );
 
 CREATE TABLE SoDuTinDung(
-	IdTaiKhoan bigint  primary key,
+	IdTaiKhoan bigint primary key,
 	SoDuTK float
+);
+
+CREATE TABLE LoaiTaiKhoan(
+	IdLoai int identity(0,1) primary key,
+	TenLoai nvarchar(100)
 );
 
 CREATE TABLE ThamGiaTK(
 	IdTaiKhoan bigint not null,
-	MaKhachHang int not null,
+	IdKhachHang int not null,
 	QuanHe nvarchar(255),
 	GhiChu ntext,
-	primary key(IdTaiKhoan,MaKhachHang)
+	primary key(IdTaiKhoan,IdKhachHang)
 );
 
 CREATE TABLE NhanVien(
@@ -119,17 +110,6 @@ CREATE TABLE NhanVien(
 	TrangThai nvarchar(50)
 );
 
-CREATE TABLE TaiKhoanTKDK(
-	IdTaiKhoan bigint identity(070000654321,13) primary key,
-	MaKhachHang int not null,
-	LoaiTaiKhoan nvarchar(255) not null,
-	TienTe nvarchar(50) not null,
-	TieuDeTK nvarchar(255) not null,
-	TieuDeNgan nvarchar(50),
-	NhanVienLV varchar(20) not null,
-	TenLoai nvarchar(255)
-);
-
 CREATE TABLE NganhChinh(
 	IdNganhChinh int identity(1,1) primary key,
 	TenNganh nvarchar(255) not null
@@ -139,8 +119,8 @@ CREATE TABLE Nganh(
 	IdNganh int identity(1,1) primary key,
 	TenNganh nvarchar(255) not null,
 	IdNganhChinh int
-
 );
+
 CREATE TABLE ChiTietGD(
 MaGD  bigint identity(070000654321,10) primary key,
 SoTKNguoiChuyen bigint  not null,
@@ -150,87 +130,57 @@ NgayGio datetime not null,
 DienGia nvarchar (300) not null
 );
 
---Thêm khóa ngoại bảng khách hàng cá nhân
-ALTER TABLE ChiTietKHCN -- phú
-ADD CONSTRAINT fk_khcn FOREIGN KEY (IdKhachHangCN) REFERENCES KhachHangCaNhan(IdKhachHangCN)
-
-ALTER TABLE ChiTietGD -- phú
-ADD CONSTRAINT fk_ctgd_nc  FOREIGN KEY (SoTKNguoiChuyen) REFERENCES TaiKhoan(IdTaiKhoan)
-
-ALTER TABLE ChiTietGD -- phú
-ADD CONSTRAINT fk_ctgd_nn  FOREIGN KEY (SoTKNguoiNhan) REFERENCES TaiKhoan(IdTaiKhoan)
-
-ALTER TABLE KhachHangCaNhan --phú
-ADD CONSTRAINT fk_nganhKh FOREIGN KEY (IdNganh) REFERENCES NGANH(IdNganh)
-
-ALTER TABLE KhachHangCaNhan
-ADD CONSTRAINT fk_nvlvcn FOREIGN KEY (NhanVienLV) REFERENCES NhanVien(IdNhanVien)
-
-ALTER TABLE KhachHangCaNhan
+--Liên kết khóa phụ vào bảng Khách hàng
+ALTER TABLE KhachHang
 ADD CONSTRAINT fk_khnganh FOREIGN KEY(NganhChinh) REFERENCES NganhChinh(IdNganhChinh)
 
-ALTER TABLE KhachHangCaNhan
+ALTER TABLE KhachHang
 ADD CONSTRAINT fk_khnganhphu FOREIGN KEY(IdNganh) REFERENCES Nganh(IdNganh)
 
+--Liên kết khóa phụ vào bảng ChiTietKHCN
+ALTER TABLE ChiTietKHCN
+ADD CONSTRAINT fk_ctkhcn FOREIGN KEY(IdKhachHangCN) REFERENCES KhachHang(IdKhachHang)
 
---Thêm khóa ngoại bảng khách hàng doanh nghiệp
+ALTER TABLE ChiTietKHCN
+ADD CONSTRAINT fk_ctkhloai FOREIGN KEY(IdLoaiKH) REFERENCES LoaiKhachHang(IdLoaiKH)
+
+--Liên kết khóa phụ vào bảng ChiTietKHDN
 ALTER TABLE ChiTietKHDN
-ADD CONSTRAINT fk_khdn FOREIGN KEY (IdKhachHangDN) REFERENCES KhachHangDoanhNghiep(IdKhachHangDN)
+ADD CONSTRAINT fk_ctkhdn FOREIGN KEY(IdKhachHangDN) REFERENCES KhachHang(IdKhachHang)
 
-ALTER TABLE KhachHangDoanhNghiep
-ADD CONSTRAINT fk_nvlvdn FOREIGN KEY (NhanVienLV) REFERENCES NhanVien(IdNhanVien)
+ALTER TABLE ChiTietKHDN
+ADD CONSTRAINT fk_ctkhdnloai FOREIGN KEY(IdLoaiKH) REFERENCES LoaiKhachHang(IdLoaiKH)
 
-ALTER TABLE KhachHangDoanhNghiep
-ADD CONSTRAINT fk_khdnnganh FOREIGN KEY(NganhChinh) REFERENCES NganhChinh(IdNganhChinh)
-
-ALTER TABLE KhachHangDoanhNghiep
-ADD CONSTRAINT fk_khdnnganhphu FOREIGN KEY(IdNganh) REFERENCES Nganh(IdNganh)
-
---Thêm khóa ngoại bảng tài khoản
-ALTER TABLE TaiKhoan --phú
-ADD CONSTRAINT fk_tkkhcn FOREIGN KEY (IdKhachHangCN) REFERENCES KhachHangCaNhan(IdKhachHangCN)
-
+--Liên kết khóa phụ vào bảng Tài khoản
 ALTER TABLE TaiKhoan
-ADD CONSTRAINT fk_tkkhdn FOREIGN KEY (IdKhachHangDN) REFERENCES KhachHangDoanhNghiep(IdKhachHangDN)
+ADD CONSTRAINT fk_tkkh FOREIGN KEY(IdKhachHang) REFERENCES KhachHang(IdKhachHang)
 
 ALTER TABLE TaiKhoan
 ADD CONSTRAINT fk_nvlvtk FOREIGN KEY (NhanVienLV) REFERENCES NhanVien(IdNhanVien)
 
---Thêm khóa ngoại bảng tham gia tài khoản
+ALTER TABLE TaiKhoan
+ADD CONSTRAINT fk_loaitk FOREIGN KEY (IdLoai) REFERENCES LoaiTaiKhoan(IdLoai)
+
+ALTER TABLE ChiTietGD -- phú
+ADD CONSTRAINT fk_ctgd_nc  FOREIGN KEY (SoTKNguoiChuyen) REFERENCES TaiKhoan(IdTaiKhoan)
+
+--Liên kết khóa phụ vào bảng ThamGiaTK
 ALTER TABLE ThamGiaTK
-ADD CONSTRAINT fk_tgtkchinh FOREIGN KEY (IdTaiKhoan) REFERENCES TaiKhoan(IdTaiKhoan)
+ADD CONSTRAINT fk_tgtkkh FOREIGN KEY (IdKhachHang) REFERENCES KhachHang(IdKhachHang)
 
 ALTER TABLE ThamGiaTK
-ADD CONSTRAINT fk_tgtkkh FOREIGN KEY (MaKhachHang) REFERENCES KhachHangCaNhan(IdKhachHangCN)
+ADD CONSTRAINT fk_tgtk FOREIGN KEY (IdTaiKhoan) REFERENCES TaiKhoan(IdTaiKhoan)
 
-ALTER TABLE ThamGiaTK
-ADD CONSTRAINT fk_tgtkkhdn FOREIGN KEY (MaKhachHang) REFERENCES KhachHangDoanhNghiep(IdKhachHangDN)
-
-ALTER TABLE ThamGiaTK
-ADD CONSTRAINT fk_tgtktkdk FOREIGN KEY (IdTaiKhoan) REFERENCES TaiKhoanTKDK(IdTaiKhoan)
-
-
---Thêm khóa ngoại bảng số dư tín dụng
+--Liên kết khóa phụ vào bảng Số dư tín dụng
 ALTER TABLE SoDuTinDung --phú
 ADD CONSTRAINT fk_sdtd FOREIGN KEY (IdTaiKhoan) REFERENCES TaiKhoan(IdTaiKhoan)
 
---Thêm khóa ngoại bảng tài khoản tiết kiệm
-ALTER TABLE TaiKhoanTKDK
-ADD CONSTRAINT fk_tkdkcn FOREIGN KEY (MaKhachHang) REFERENCES KhachHangCaNhan(IdKhachHangCN)
-
-ALTER TABLE TaiKhoanTKDK
-ADD CONSTRAINT fk_tkdkdn FOREIGN KEY (MaKhachHang) REFERENCES KhachHangDoanhNghiep(IdKhachHangDN)
-
-ALTER TABLE TaiKhoanTKDK
-ADD CONSTRAINT fk_tkdknv FOREIGN KEY (NhanVienLV) REFERENCES NhanVien(IdNhanVien)
-
 --Thêm khóa ngoại bảng ngành
-ALTER TABLE NGANH --phú
-ADD CONSTRAINT fk_nganh FOREIGN KEY (IdNganhChinh) REFERENCES NGANHCHINH(IdNganhChinh)
-
-
+ALTER TABLE Nganh --phú
+ADD CONSTRAINT fk_nganh FOREIGN KEY (IdNganhChinh) REFERENCES NganhChinh(IdNganhChinh)
 
 INSERT INTO NganhChinh VALUES
+(N''),
 (N'Nông nghiệp và Lâm nghiệp'),
 (N'Công nghiệp và Sản xuất'),
 (N'Xây dựng'),
@@ -247,35 +197,40 @@ INSERT INTO NganhChinh VALUES
 (N'Dịch vụ công và Chính phủ');
 
 INSERT INTO Nganh VALUES
-(N'Trồng trọt', 1),
-(N'Chăn nuôi', 1),
-(N'Lâm nghiệp', 1),
-(N'Sản xuất ô tô', 2),
-(N'Sản xuất máy móc', 2),
-(N'Công nghiệp thực phẩm', 2),
-(N'Xây dựng dân dụng', 3),
-(N'Xây dựng công nghiệp', 3),
-(N'Phần mềm và dịch vụ CNTT', 4),
-(N'Phát triển ứng dụng di động', 4),
-(N'Ngân hàng thương mại', 5),
-(N'Bảo hiểm', 5),
-(N'Bệnh viện và phòng khám', 6),
-(N'Dịch vụ chăm sóc tại nhà', 6),
-(N'Trường học và đại học', 7),
-(N'Dịch vụ lưu trú', 8),
-(N'Nhà hàng và ẩm thực', 8),
-(N'Siêu thị và cửa hàng tiện lợi', 9),
-(N'Thương mại điện tử', 9),
-(N'Điện lực', 10),
-(N'Năng lượng tái tạo', 10),
-(N'Vận tải đường bộ', 11),
-(N'Vận tải hàng không', 11),
-(N'Phát triển bất động sản', 12),
-(N'Môi giới bất động sản', 12),
-(N'Phim ảnh và truyền hình', 13),
-(N'Âm nhạc', 13),
-(N'Quản lý hành chính công', 14),
-(N'An ninh và quốc phòng', 14);
+(N'',1),
+(N'Trồng trọt', 2),
+(N'Chăn nuôi', 2),
+(N'Lâm nghiệp', 2),
+(N'Sản xuất ô tô', 3),
+(N'Sản xuất máy móc', 3),
+(N'Công nghiệp thực phẩm', 3),
+(N'Xây dựng dân dụng', 4),
+(N'Xây dựng công nghiệp', 4),
+(N'Phần mềm và dịch vụ CNTT', 5),
+(N'Phát triển ứng dụng di động', 5),
+(N'Ngân hàng thương mại', 6),
+(N'Bảo hiểm', 6),
+(N'Bệnh viện và phòng khám', 7),
+(N'Dịch vụ chăm sóc tại nhà', 7),
+(N'Trường học và đại học', 8),
+(N'Dịch vụ lưu trú', 9),
+(N'Nhà hàng và ẩm thực', 9),
+(N'Siêu thị và cửa hàng tiện lợi', 10),
+(N'Thương mại điện tử', 10),
+(N'Điện lực', 11),
+(N'Năng lượng tái tạo', 11),
+(N'Vận tải đường bộ', 12),
+(N'Vận tải hàng không', 12),
+(N'Phát triển bất động sản', 13),
+(N'Môi giới bất động sản', 13),
+(N'Phim ảnh và truyền hình', 14),
+(N'Âm nhạc', 14),
+(N'Quản lý hành chính công', 15),
+(N'An ninh và quốc phòng', 15);
+
+INSERT INTO LoaiTaiKhoan VALUES
+(N'Tiền gửi thanh toán'),
+(N'Tiết kiệm không kỳ hạn');
 
 INSERT INTO NhanVien (IdNhanVien, HoTen, NgaySinh, GioiTinh, DiaChi, SoDienThoai, Email, CMND, ChucVu, PhongBan, NgayLV, TrangThai) VALUES
 ('NV001', N'Nguyễn Văn An', '1990-01-01', N'Nam', N'123 ABC Street', '01234567891', 'an.nguyen@gmail.com', '123456789', N'Nhân viên', N'Phòng Kế toán', '2015-06-15', N'Đang làm'),
@@ -290,29 +245,29 @@ INSERT INTO NhanVien (IdNhanVien, HoTen, NgaySinh, GioiTinh, DiaChi, SoDienThoai
 ('NV010', N'Phạm Thị Mai', '1995-04-04', N'Nữ', N'123 ABC Road', '01234567890', 'mai.pham@pmail.com', '023456789', N'Nhân viên', N'Phòng Nhân sự', '2017-06-01', N'Đang làm');
 
 INSERT INTO KhachHangCaNhan (IdKhachHangCN, TenKhachHang,Avarta, NgaySinh, DiaChi, SoDienThoai, QuocGia, QuocTich, LoaiGiayTo, SoGiayTo, NgayCap, NgayHetHan, NoiCap, Email, NganhChinh, IdNganh, NhanVienLV) VALUES
-(1, N'Nguyễn Văn A',null , '1985-01-15', N'Số 123, Đường A, Quận 1', '0123456789', N'Việt Nam', N'Việt', N'CMND', '123456789', '2010-05-20', '2030-05-20', N'Công an TP.HCM', 'nguyenvana@example.com', 1, 1, 'NV001'),
-(2, N'Trần Thị B', null ,'1990-02-20', N'Số 456, Đường B, Quận 2', '0123456780', N'Việt Nam', N'Việt', N'CMND', '987654321', '2015-08-15', '2035-08-15', N'Công an TP.HCM', 'tranthib@example.com', 1, 2, 'NV002'),
-(3, N'Phạm Văn C',null , '1988-03-10', N'Số 789, Đường C, Quận 3', '0123456781', N'Việt Nam', N'Việt', N'CMND', '192837465', '2012-03-12', '2032-03-12', N'Công an TP.HCM', 'phamvanc@example.com', 2, 1, 'NV003'),
-(4, N'Lê Thị D', null ,'1992-04-25', N'Số 321, Đường D, Quận 4', '0123456782', N'Việt Nam', N'Việt', N'CMND', '564738291', '2018-11-11', '2038-11-11', N'Công an TP.HCM', 'lethid@example.com', 2, 2, 'NV004'),
-(5, N'Nguyễn Văn E',null , '1980-05-30', N'Số 654, Đường E, Quận 5', '0123456783', N'Việt Nam', N'Việt', N'CMND', '182736454', '2011-06-25', '2031-06-25', N'Công an TP.HCM', 'nguyenvane@example.com', 1, 1, 'NV005'),
-(6, N'Trần Văn F', null,'1975-06-15', N'Số 987, Đường F, Quận 6', '0123456784', N'Việt Nam', N'Việt', N'CMND', '987123456', '2009-04-30', '2029-04-30', N'Công an TP.HCM', 'tranvanf@example.com', 1, 2, 'NV006'),
-(7, N'Phạm Thị G',null , '1995-07-20', N'Số 258, Đường G, Quận 7', '0123456785', N'Việt Nam', N'Việt', N'CMND', '456789123', '2016-07-01', '2036-07-01', N'Công an TP.HCM', 'phamthig@example.com', 2, 1, 'NV007'),
-(8, N'Lê Văn H', null,'1983-08-05', N'Số 369, Đường H, Quận 8', '0123456786', N'Việt Nam', N'Việt', N'CMND', '321654987', '2013-09-20', '2033-09-20', N'Công an TP.HCM', 'levanh@example.com', 2, 2, 'NV008'),
-(9, N'Nguyễn Thị I',null , '1989-09-10', N'Số 159, Đường I, Quận 9', '0123456787', N'Việt Nam', N'Việt', N'CMND', '753951486', '2014-10-10', '2034-10-10', N'Công an TP.HCM', 'nguyenthi@example.com', 1, 1, 'NV009'),
-(10, N'Trần Văn J', null,'1993-10-30', N'Số 753, Đường J, Quận 10', '0123456788', N'Việt Nam', N'Việt', N'CMND', '654321789', '2019-02-14', '2039-02-14', N'Công an TP.HCM', 'tranvanj@example.com', 1, 2, 'NV010');
+(1, N'Nguyễn Văn A',null , '1985-01-15', N'Số 123, Đường A, Quận 1', '0123456789', N'Việt Nam', N'Việt', N'CMND', '123456789', '2010-05-20', '2030-05-20', N'Công an TP.HCM', 'nguyenvana@example.com', 2, 1, 'NV001'),
+(2, N'Trần Thị B', null ,'1990-02-20', N'Số 456, Đường B, Quận 2', '0123456780', N'Việt Nam', N'Việt', N'CMND', '987654321', '2015-08-15', '2035-08-15', N'Công an TP.HCM', 'tranthib@example.com', 2, 1, 'NV002'),
+(3, N'Phạm Văn C',null , '1988-03-10', N'Số 789, Đường C, Quận 3', '0123456781', N'Việt Nam', N'Việt', N'CMND', '192837465', '2012-03-12', '2032-03-12', N'Công an TP.HCM', 'phamvanc@example.com', 3, 1, 'NV003'),
+(4, N'Lê Thị D', null ,'1992-04-25', N'Số 321, Đường D, Quận 4', '0123456782', N'Việt Nam', N'Việt', N'CMND', '564738291', '2018-11-11', '2038-11-11', N'Công an TP.HCM', 'lethid@example.com', 3, 1, 'NV004'),
+(5, N'Nguyễn Văn E',null , '1980-05-30', N'Số 654, Đường E, Quận 5', '0123456783', N'Việt Nam', N'Việt', N'CMND', '182736454', '2011-06-25', '2031-06-25', N'Công an TP.HCM', 'nguyenvane@example.com', 2, 1, 'NV005'),
+(6, N'Trần Văn F', null,'1975-06-15', N'Số 987, Đường F, Quận 6', '0123456784', N'Việt Nam', N'Việt', N'CMND', '987123456', '2009-04-30', '2029-04-30', N'Công an TP.HCM', 'tranvanf@example.com', 2, 1, 'NV006'),
+(7, N'Phạm Thị G',null , '1995-07-20', N'Số 258, Đường G, Quận 7', '0123456785', N'Việt Nam', N'Việt', N'CMND', '456789123', '2016-07-01', '2036-07-01', N'Công an TP.HCM', 'phamthig@example.com', 3, 1, 'NV007'),
+(8, N'Lê Văn H', null,'1983-08-05', N'Số 369, Đường H, Quận 8', '0123456786', N'Việt Nam', N'Việt', N'CMND', '321654987', '2013-09-20', '2033-09-20', N'Công an TP.HCM', 'levanh@example.com', 3, 1, 'NV008'),
+(9, N'Nguyễn Thị I',null , '1989-09-10', N'Số 159, Đường I, Quận 9', '0123456787', N'Việt Nam', N'Việt', N'CMND', '753951486', '2014-10-10', '2034-10-10', N'Công an TP.HCM', 'nguyenthi@example.com', 2, 2, 'NV009'),
+(10, N'Trần Văn J', null,'1993-10-30', N'Số 753, Đường J, Quận 10', '0123456788', N'Việt Nam', N'Việt', N'CMND', '654321789', '2019-02-14', '2039-02-14', N'Công an TP.HCM', 'tranvanj@example.com', 2, 1, 'NV010');
 
-INSERT INTO TaiKhoan (MaKhachHang, LoaiTaiKhoan, TenTaiKhoan, TienTe, TieuDeTK, TieuDeNgan, NhanVienLV, PhiMa,Matkhau)
+INSERT INTO TaiKhoan (IdKhachHangCN, IdLoai, TenTaiKhoan, TienTe, TieuDeTK, TieuDeNgan, NhanVienLV, PhiMa,Matkhau)
 VALUES 
-(1, 'Checking', 'Standard', 'VND', 'Primary Account', 'Main', 'NV001', 'PM001','123'),
-(2, 'Savings', 'Standard', 'VND', 'Backup Fund', 'Emergency', 'NV002', 'PM002','123'),
-(3, 'Investment', 'Standardnt', 'USD', 'Investment Account', 'Stocks', 'NV003', 'PM003','123'),
-(4, 'Checking', 'Standard', 'VND', 'Everyday Expenses', 'Daily', 'NV004', 'PM004','123'),
-(5, 'Savings', 'Standard', 'VND', 'Travel Expenses', 'Travel', 'NV005', 'PM005','123'),
-(6, 'Investment', 'Standard', 'USD', 'Property Investments', 'Real Estate', 'NV006', 'PM006','123'),
-(7, 'Checking', 'Standard', 'VND', 'Business Expenses', 'Business', 'NV007', 'PM007','123'),
-(8, 'Savings', 'Standard', 'VND', 'Education Expenses', 'Education', 'NV008', 'PM008','123'),
-(9, 'Investment', 'Standard', 'USD', 'Mutual Fund Investments', 'Mutual Funds', 'NV009', 'PM009','123'),
-(10, 'Checking', 'Standard', 'VND', 'Miscellaneous Expenses', 'Misc', 'NV010', 'PM010','123');
+(1, 0, 'Standard', 'VND', 'Primary Account', 'Main', 'NV001', 'PM001','123'),
+(2, 0, 'Standard', 'VND', 'Backup Fund', 'Emergency', 'NV002', 'PM002','123'),
+(3, 0, 'Standardnt', 'USD', 'Investment Account', 'Stocks', 'NV003', 'PM003','123'),
+(4, 0, 'Standard', 'VND', 'Everyday Expenses', 'Daily', 'NV004', 'PM004','123'),
+(5, 0, 'Standard', 'VND', 'Travel Expenses', 'Travel', 'NV005', 'PM005','123'),
+(6, 0, 'Standard', 'USD', 'Property Investments', 'Real Estate', 'NV006', 'PM006','123'),
+(7, 0, 'Standard', 'VND', 'Business Expenses', 'Business', 'NV007', 'PM007','123'),
+(8, 0, 'Standard', 'VND', 'Education Expenses', 'Education', 'NV008', 'PM008','123'),
+(9, 0, 'Standard', 'USD', 'Mutual Fund Investments', 'Mutual Funds', 'NV009', 'PM009','123'),
+(10, 0, 'Standard', 'VND', 'Miscellaneous Expenses', 'Misc', 'NV010', 'PM010','123');
 
 INSERT INTO SoDuTinDung ( IdTaiKhoan,SoDuTK)
 VALUES
@@ -330,7 +285,7 @@ VALUES
 select * from TaiKhoan
 
 select * from KhachHangCaNhan, TaiKhoan
-where KhachHangCaNhan.SoDienThoai like '09321098765' and TaiKhoan.MaKhachHang like KhachHangCaNhan.IdKhachHangCN
+where KhachHangCaNhan.SoDienThoai like '09321098765' and TaiKhoan.IdKhachHangCN like KhachHangCaNhan.IdKhachHangCN
 
 SELECT 
     s.Avarta,
@@ -338,7 +293,7 @@ SELECT
 FROM 
     KhachHangCaNhan s
 JOIN 
-    TaiKhoan tk ON s.IdKhachHangCN = tk.MaKhachHang
+    TaiKhoan tk ON s.IdKhachHangCN = tk.IdKhachHangCN
 WHERE 
     tk.IdTaiKhoan = 70000123456;
 
@@ -357,7 +312,7 @@ FROM
 JOIN 
     ChiTietKHCN AS ct ON s.IdKhachHangCN = ct.IdKhachHangCN
 JOIN 
-    TaiKhoan AS tk ON s.IdKhachHangCN = tk.MaKhachHang
+    TaiKhoan AS tk ON s.IdKhachHangCN = tk.IdKhachHangCN
 WHERE 
     tk.IdTaiKhoan = 70000123456;  -- Sử dụng tham số @stk cho giá trị biến
 
@@ -365,3 +320,5 @@ WHERE
 FROM SoDuTinDung s
 INNER JOIN TaiKhoan k ON s.IdTaiKhoan = k.IdTaiKhoan
 WHERE k.IdTaiKhoan = s.IdTaiKhoan;
+
+select * from KhachHangCaNhan

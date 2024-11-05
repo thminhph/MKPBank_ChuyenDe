@@ -1,4 +1,5 @@
 ﻿using DAL;
+using DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,9 +35,13 @@ namespace BUS
         {
             return load.LayTenNV(idNV);
         }
-        public IQueryable InDSKhachHang(string[] arr)
+        public List<DTO_KhachHang> HienThiDanhSachKH()
         {
-            return load.InDSKhachHang(arr);
+            return load.HienThiDanhSachKH();
+        }
+        public List<DTO_KhachHang> HienThiDanhSachKH(Dictionary<string, string> whereArg)
+        {
+            return load.HienThiDanhSachKH(whereArg);
         }
     }
 }
