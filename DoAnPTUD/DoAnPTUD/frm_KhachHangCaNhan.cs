@@ -120,7 +120,7 @@ namespace DoAnPTUD
             cbNhanVien.DisplayMember = "HoTen";
             cbNhanVien.ValueMember = "IdNhanVien";
         }
-        public DTO_KhachHangCaNhan KhachHang()
+        public DTO_ChiTietKHCN KhachHang()
         {
             int nganhChinh = Convert.ToInt32(cbNganhChinh.SelectedValue);
             int nganh = Convert.ToInt32(cbNganh.SelectedValue);
@@ -128,20 +128,22 @@ namespace DoAnPTUD
             DTO_ChiTietKHCN kh = new DTO_ChiTietKHCN(
                     int.Parse(txtCif.Text),  // Truyền id vào đây
                     txtTenDayDu.Text,
+                    new byte[0],
+                    dtNgaySinh.Value,
                     txtDuong.Text + ", " + txtPhuong.Text + ", " + cbThanhPho.Text,
                     txtSDT.Text,
                     cbQuocGia.Text,
                     cbQuocTich.Text,
                     cbLoaiGiayTo.Text,
                     txtSoGiayTo.Text,
+                    dtNgayCap.Value,
+                    dtNgayHetHan.Value,
                     txtNoiCap.Text,
                     txtEmai.Text,
                     nganhChinh,
                     nganh,
                     nv,
-                    dtNgaySinh.Value,
-                    dtNgayCap.Value,
-                    dtNgayHetHan.Value,
+                    1,
                     cbGioiTInh.Text,
                     cbXungHo.Text,
                     cbTTHonNhan.Text,
@@ -152,7 +154,7 @@ namespace DoAnPTUD
                     cbCuTru.Text,
                     cbTTViecLam.Text,
                     txtCTY.Text,
-                    double.Parse(txtThuNhap.Text),
+                    float.Parse(txtThuNhap.Text),
                     txtDiaChi.Text
                 );
             return kh;
@@ -161,15 +163,15 @@ namespace DoAnPTUD
         {
             BLL_KhachHang busKH = new BLL_KhachHang();
             BLL_LoadValue busValue = new BLL_LoadValue();
-            DTO_ChiTietKHCN ctKH = busKH.LayGiaTri(id);
-            txtCif.Text = ctKH.Id.ToString();
+            DTO_ChiTietKHCN ctKH = busKH.LayGiaTriKHCaNhan(id);
+            txtCif.Text = ctKH.IdKhachHang.ToString();
             txtTenDayDu.Text = ctKH.TenKhachHang;
             dtNgaySinh.Value = ctKH.NgaySinh;
             string[] arr = ctKH.DiaChi.Split(',');
             txtDuong.Text = arr[0].Trim();
             txtPhuong.Text = arr[1].Trim();
             cbThanhPho.Text = arr[2].Trim();
-            txtSDT.Text = ctKH.Sdt;
+            txtSDT.Text = ctKH.SoDienThoai;
             cbQuocGia.Text = ctKH.QuocGia;
             cbQuocTich.Text = ctKH.QuocTich;
             cbLoaiGiayTo.Text = ctKH.LoaiGiayTo;
@@ -179,7 +181,7 @@ namespace DoAnPTUD
             dtNgayHetHan.Value = (DateTime)ctKH.NgayHetHan;
             txtEmai.Text = ctKH.Email;
             cbNganhChinh.Text = busValue.LayTenNganhChinh(ctKH.NganhChinh);
-            cbNganh.Text = busValue.LayTenNganh(ctKH.Nganh);
+            cbNganh.Text = busValue.LayTenNganh(ctKH.IdNganh);
             cbNhanVien.Text = busValue.LayTenNV(ctKH.NhanVienLV);
             cbGioiTInh.Text = ctKH.GioiTinh;
             cbXungHo.Text = ctKH.XungHo;

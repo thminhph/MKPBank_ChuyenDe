@@ -130,8 +130,7 @@ namespace DoAnPTUD
                     if (checkBtn != "Edit")
                     {
                         BLL_KhachHang busKH = new BLL_KhachHang();
-                        busKH.Them(frmKH.KhachHang());
-                        busKH.ThemChiTiet((DTO_ChiTietKHCN)frmKH.KhachHang());
+                        busKH.ThemKHCaNhan(frmKH.KhachHang());
 
                         // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
                         frmKH = new frm_KhachHangCaNhan();
