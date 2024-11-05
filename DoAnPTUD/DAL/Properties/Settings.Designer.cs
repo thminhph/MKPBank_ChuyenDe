@@ -37,7 +37,7 @@ namespace DAL.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PHONGPHU\\SQLEXPRESS;Initial Catalog=QLNganHang;Integrated Security=Tr" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=laptop-vrlnqtnh\\SQLEXPRESS;Initial Catalog=QLNganHang;Integrated Security=Tr" +
             "ue;TrustServerCertificate=True")]
         public string QLNganHangConnectionString {
             get {
