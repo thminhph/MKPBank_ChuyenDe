@@ -26,6 +26,14 @@ namespace BLL
         {
             return taiKhoan.GanThongTinNguoiDung(sdt,ten);
         }
-
+        public bool DangKy(string soDienThoai)
+        {
+            return taiKhoan.DangKy(soDienThoai);
+        }
+        public void DangKyCT(DTO_ThongTinKH kh,DTO_TaiKhoan tk)
+        {
+            taiKhoan.CreateTK(kh,tk);
+        }
+      
     }
 }

@@ -102,8 +102,6 @@ namespace DAL
                                     IdKhachHang = (int)tk.IdKhachHang,
                                     TenKhachHang = s.TenKhachHang,
                                     SoDienThoai = s.SoDienThoai,
-                                   
-                                    
                                 }).FirstOrDefault();
 
                 return taiKhoan;
@@ -116,5 +114,53 @@ namespace DAL
                 return null; // Trả về null để báo hiệu đăng nhập thất bại
             }
         }
-     }
+
+        public bool DangKy(string sDT)
+        {
+            var temp = (from s in db.TaiKhoans
+                        join d in db.KhachHangs on s.IdKhachHang equals d.IdKhachHang
+                        where d.SoDienThoai != sDT 
+                        select s).Any();
+            return temp;
+        }
+        public void CreateTK(DTO_ThongTinKH kh,DTO_TaiKhoan tk)
+        {
+            try
+            {
+                KhachHang _kh = new KhachHang
+                {
+                    IdKhachHang = int.Parse(kh.SoDienThoai),
+                    SoDienThoai = kh.SoDienThoai,
+                    Email = kh.Email,
+                    TenKhachHang = kh.TenKhachHang,
+                    NgaySinh = kh.NgaySinh,
+                    DiaChi = kh.DiaChi,
+                    QuocTich = kh.QuocTich,
+                    SoGiayTo = kh.SoGiayTo,
+                    NgayCap = kh.NgayCap,
+                    NoiCap = kh.NoiCap,
+                    LoaiGiayTo = kh.LoaiGiayTo,
+                    IdNganh = kh.Nganh,
+                    NganhChinh = kh.NganhChinh,
+                    NhanVienLV = kh.NhanVienLV
+
+                };
+                TaiKhoan tai = new TaiKhoan
+                {
+                    TienTe=tk.TienTe,
+                    Matkhau = tk.Matkhau,
+                    NhanVienLV=tk.NhanVienLV 
+                };
+                db.KhachHangs.InsertOnSubmit(_kh);
+                db.TaiKhoans.InsertOnSubmit(tai);   
+                db.SubmitChanges();
+                Console.WriteLine("Dang ki thanh cong");
+            }
+            catch (Exception)
+            { 
+                throw;
+            }
+        }
+    
+    }
 }

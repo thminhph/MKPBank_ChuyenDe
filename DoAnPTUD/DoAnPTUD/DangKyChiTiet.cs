@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BLL;
+using DTO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +14,15 @@ namespace DoAnPTUD
 {
     public partial class DangKyChiTiet : Form
     {
-        public DangKyChiTiet()
+        public BLL_TaiKhoan tk = new BLL_TaiKhoan(); 
+        DTO_TaiKhoan t= new DTO_TaiKhoan();
+        DTO_ThongTinKH khHang = new DTO_ThongTinKH();
+        public DangKyChiTiet(DTO_TaiKhoan tks,DTO_ThongTinKH k)
         {
             InitializeComponent();
+           this.t = tks;
+           this.khHang = k;
+        
         }
 
         private void guna2TextBox4_TextChanged(object sender, EventArgs e)
@@ -29,28 +37,25 @@ namespace DoAnPTUD
 
         private void btnDangKy_Click(object sender, EventArgs e)
         {
-
-            //if (txtTen.Text.Trim() == "")
-            //{
-            //    MessageBox.Show("Vui lòng nhập Email!"); ;
-            //}
-            //else if (txtSoDienThoai.Text.Trim() == "")
-            //{
-            //    MessageBox.Show("Vui lòng nhập Số điện thoại!"); ;
-            //}
-            //else
-            //{
-            //    //DangKy.taiKhoan.Email = txtEmail.Text;
-            //    //taiKhoan.SoDienThoai = txtSoDienThoai.Text;
-            //    //DangKyChiTiet us = new DangKyChiTiet();
-            //    //us.Show();
-            //    //this.Hide();
-            //}
-            //HomeUser us = new HomeUser();
-            //us.Show();
-            //this.Hide();
+         
+            khHang.TenKhachHang = txtHoVaTen.Text;
+             khHang.NgaySinh= dtpNgaySinh.Value;
+              khHang.QuocTich= txtQuocTich.Text;
+              khHang.SoGiayTo= txtCCCD.Text;
+             khHang.DiaChi= txtDiaChi.Text;
+            khHang.LoaiGiayTo = "CCCD";
+            khHang.Nganh = 2;
+            khHang.NganhChinh = 1;
+            khHang.NhanVienLV ="NV003";
+             khHang.NgayCap= dtpNgayCap.Value ;
+             khHang.NoiCap = txtNoiCap.Text ;
+            t.NhanVienLV = "NV003";
+             khHang.Email= txtEmail.Text;
+            t.TienTe = "VND";
+            t.LoaiTaiKhoan = "1";
+            tk.DangKyCT(khHang,t);
+            
         }
-
         private void btnTroVe_Click(object sender, EventArgs e)
         {
             DangKy us = new DangKy();
