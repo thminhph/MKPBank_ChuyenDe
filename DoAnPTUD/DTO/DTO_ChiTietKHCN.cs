@@ -8,10 +8,6 @@ namespace DTO
 {
     public class DTO_ChiTietKHCN : DTO_KhachHang
     {
-        private byte[] avarta;
-        private int? soNguoiPT;
-        private double? thuNhapHangThang;
-
         public int IdLoaiKH { get; set; }
         public string GioiTinh { get; set; }
         public string XungHo { get; set; }
@@ -56,39 +52,6 @@ namespace DTO
             DiaChiCty = diaChiCty;
         }
 
-        public DTO_ChiTietKHCN(int idKhachHang, string tenKhachHang, byte[] avarta, string diaChi, string soDienThoai, string quocGia, string quocTich, string loaiGiayTo, string soGiayTo, string noiCap, string email, int nganhChinh, int idNganh, string nhanVienLV, DateTime ngaySinh, DateTime ngayCap, DateTime ngayHetHan, string gioiTinh, string xungHo, string tTHonNhan, string quanHe, string soVanPhong, int? soNguoiPT, string soHuuNha, string lHCuChu, string tinhTrangViecLam, string tenCty, double? thuNhapHangThang, string diaChiCty)
-        {
-            IdKhachHang = idKhachHang;
-            TenKhachHang = tenKhachHang;
-            this.avarta = avarta;
-            DiaChi = diaChi;
-            SoDienThoai = soDienThoai;
-            QuocGia = quocGia;
-            QuocTich = quocTich;
-            LoaiGiayTo = loaiGiayTo;
-            SoGiayTo = soGiayTo;
-            NoiCap = noiCap;
-            Email = email;
-            NganhChinh = nganhChinh;
-            IdNganh = idNganh;
-            NhanVienLV = nhanVienLV;
-            NgaySinh = ngaySinh;
-            NgayCap = ngayCap;
-            NgayHetHan = ngayHetHan;
-            GioiTinh = gioiTinh;
-            XungHo = xungHo;
-            TTHonNhan = tTHonNhan;
-            QuanHe = quanHe;
-            SoVanPhong = soVanPhong;
-            this.soNguoiPT = soNguoiPT;
-            SoHuuNha = soHuuNha;
-            LHCuChu = lHCuChu;
-            TinhTrangViecLam = tinhTrangViecLam;
-            TenCty = tenCty;
-            this.thuNhapHangThang = thuNhapHangThang;
-            DiaChiCty = diaChiCty;
-        }
-
         public DTO_ChiTietKHCN(int idKhachHang, string tenKhachHang, string diaChi, string soDienThoai, string quocGia, string quocTich, string loaiGiayTo, string soGiayTo, string noiCap, string email, int nganhChinh, int idNganh, string nhanVienLV, DateTime ngaySinh, DateTime ngayCap, DateTime ngayHetHan, string gioiTinh, string xungHo, string tTHonNhan, string quanHe, string soVanPhong, int? soNguoiPT, string soHuuNha, string lHCuChu, string tinhTrangViecLam, string tenCty, double? thuNhapHangThang, string diaChiCty)
         {
             IdKhachHang = idKhachHang;
@@ -112,16 +75,13 @@ namespace DTO
             TTHonNhan = tTHonNhan;
             QuanHe = quanHe;
             SoVanPhong = soVanPhong;
-            this.soNguoiPT = soNguoiPT;
             SoHuuNha = soHuuNha;
             LHCuChu = lHCuChu;
             TinhTrangViecLam = tinhTrangViecLam;
             TenCty = tenCty;
-            this.thuNhapHangThang = thuNhapHangThang;
             DiaChiCty = diaChiCty;
         }
     }
 
 }
-    
 

@@ -48,9 +48,9 @@ namespace DoAnPTUD
 
             if (txtDangNhap.Text == "admin" && txtMatKhau.Text == "123")
             {
-                //frm_Main frm_Main = new frm_Main();
-                //frm_Main.Show();
-                //this.Hide();
+                frm_Main frm_Main = new frm_Main();
+                frm_Main.Show();
+                this.Hide();
             }
             else
             {

@@ -17,7 +17,7 @@ namespace DoAnPTUD
 
     public partial class frm_Main : Form
     {
-        private BaseGUI baseGUI;
+        //private BaseGUI baseGUI;
         private frm_KhachHangCaNhan frmKH;
         private frm_KhachHangDoanhNghiep frmKHDN;
         private frm_DanhSachKhachHang frmNhanVien;
@@ -123,79 +123,79 @@ namespace DoAnPTUD
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            switch (selectNode)
-            {
-                case "Mở khách hàng cá nhân":
+            //switch (selectNode)
+            //{
+            //    case "Mở khách hàng cá nhân":
 
-                    if (checkBtn != "Edit")
-                    {
-                        BLL_KhachHang busKH = new BLL_KhachHang();
-                        busKH.ThemKHCaNhan(frmKH.KhachHang());
+            //        if (checkBtn != "Edit")
+            //        {
+            //            BLL_KhachHang busKH = new BLL_KhachHang();
+            //            busKH.ThemKHCaNhan(frmKH.KhachHang());
 
-                        // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
-                        frmKH = new frm_KhachHangCaNhan();
-                        OpenChidForm(frmKH);
+            //            // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
+            //            frmKH = new frm_KhachHangCaNhan();
+            //            OpenChidForm(frmKH);
 
-                    }
-                    else
-                    {
-                        //Khi checkBtn bằng giá trị Edit thì sẽ cập nhật lại giá trị khách hàng
-                        frmKH.SetMainForm(this);
-                        OnSaveButtonClick?.Invoke(this, EventArgs.Empty);
-                        // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
-                        frmKH = new frm_KhachHangCaNhan();
-                        OpenChidForm(frmKH);
+            //        }
+            //        else
+            //        {
+            //            //Khi checkBtn bằng giá trị Edit thì sẽ cập nhật lại giá trị khách hàng
+            //            frmKH.SetMainForm(this);
+            //            OnSaveButtonClick?.Invoke(this, EventArgs.Empty);
+            //            // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
+            //            frmKH = new frm_KhachHangCaNhan();
+            //            OpenChidForm(frmKH);
 
-                    }
-                    break;
-                case "Mở khách hàng doanh nghiệp":
-                    if (checkBtn != "Edit")
-                    {
-                        BLL_KhachHangDoanhNghiep busKH = new BLL_KhachHangDoanhNghiep();
-                        busKH.Them(frmKHDN.KhachHang());
-                        busKH.ThemChiTiet(frmKHDN.KhachHang());
+            //        }
+            //        break;
+            //    case "Mở khách hàng doanh nghiệp":
+            //        if (checkBtn != "Edit")
+            //        {
+            //            BLL_KhachHangDoanhNghiep busKH = new BLL_KhachHangDoanhNghiep();
+            //            busKH.Them(frmKHDN.KhachHang());
+            //            busKH.ThemChiTiet(frmKHDN.KhachHang());
 
-                        // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
-                        frmKHDN = new frm_KhachHangDoanhNghiep();
-                        OpenChidForm(frmKHDN);
+            //            // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
+            //            frmKHDN = new frm_KhachHangDoanhNghiep();
+            //            OpenChidForm(frmKHDN);
 
-                    }
-                    else
-                    {
-                        //Khi checkBtn bằng giá trị Edit thì sẽ cập nhật lại giá trị khách hàng
-                        frmKHDN.SetMainForm(this);
-                        OnSaveButtonClick?.Invoke(this, EventArgs.Empty);
-                        // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
-                        frmKHDN = new frm_KhachHangDoanhNghiep();
-                        OpenChidForm(frmKHDN);
+            //        }
+            //        else
+            //        {
+            //            //Khi checkBtn bằng giá trị Edit thì sẽ cập nhật lại giá trị khách hàng
+            //            frmKHDN.SetMainForm(this);
+            //            OnSaveButtonClick?.Invoke(this, EventArgs.Empty);
+            //            // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
+            //            frmKHDN = new frm_KhachHangDoanhNghiep();
+            //            OpenChidForm(frmKHDN);
 
-                    }
-                    break;
-                case "Mở tài khoản":
-                    if (checkBtn != "Edit")
-                    {
-                        BLL_TaiKhoan bllTK = new BLL_TaiKhoan();
-                        bllTK.Them(frmMoTaiKhoan.ThemTaiKhoan());
+            //        }
+            //        break;
+            //    case "Mở tài khoản":
+            //        if (checkBtn != "Edit")
+            //        {
+            //            BLL_TaiKhoan bllTK = new BLL_TaiKhoan();
+            //            bllTK.Them(frmMoTaiKhoan.ThemTaiKhoan());
 
-                        // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
-                        frmMoTaiKhoan = new frm_MoTaiKhoan();
-                        OpenChidForm(frmMoTaiKhoan);
+            //            // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
+            //            frmMoTaiKhoan = new frm_MoTaiKhoan();
+            //            OpenChidForm(frmMoTaiKhoan);
 
-                    }
-                    else
-                    {
-                        //Khi checkBtn bằng giá trị Edit thì sẽ cập nhật lại giá trị khách hàng
-                        //frmKHDN.SetMainForm(this);
-                        //OnSaveButtonClick?.Invoke(this, EventArgs.Empty);
-                        //// Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
-                        //frmKHDN = new frm_KhachHangDoanhNghiep();
-                        //OpenChidForm(frmKHDN);
+            //        }
+            //        else
+            //        {
+            //            //Khi checkBtn bằng giá trị Edit thì sẽ cập nhật lại giá trị khách hàng
+            //            //frmKHDN.SetMainForm(this);
+            //            //OnSaveButtonClick?.Invoke(this, EventArgs.Empty);
+            //            //// Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
+            //            //frmKHDN = new frm_KhachHangDoanhNghiep();
+            //            //OpenChidForm(frmKHDN);
 
-                    }
-                    break;
-                default:
-                    break;
-            }
+            //        }
+            //        break;
+            //    default:
+            //        break;
+            //}
         }
         void Enablad_Btn(Button btn)
         {

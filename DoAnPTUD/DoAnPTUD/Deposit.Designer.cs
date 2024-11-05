@@ -56,9 +56,9 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.cbSoTien);
             this.panel1.Controls.Add(this.txtSoTK);
-            this.panel1.Location = new System.Drawing.Point(3, 109);
+            this.panel1.Location = new System.Drawing.Point(12, 75);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(794, 233);
+            this.panel1.Size = new System.Drawing.Size(832, 233);
             this.panel1.TabIndex = 1;
             // 
             // btnNap
@@ -68,7 +68,7 @@
             this.btnNap.FlatAppearance.BorderSize = 0;
             this.btnNap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNap.ForeColor = System.Drawing.Color.Black;
-            this.btnNap.Location = new System.Drawing.Point(375, 184);
+            this.btnNap.Location = new System.Drawing.Point(394, 184);
             this.btnNap.Name = "btnNap";
             this.btnNap.Size = new System.Drawing.Size(102, 34);
             this.btnNap.TabIndex = 10;
@@ -79,7 +79,7 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(60, 10);
+            this.label3.Location = new System.Drawing.Point(79, 10);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 20);
             this.label3.TabIndex = 9;
@@ -89,7 +89,7 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(60, 99);
+            this.label2.Location = new System.Drawing.Point(79, 99);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(96, 20);
             this.label2.TabIndex = 8;
@@ -106,7 +106,7 @@
             "100.000",
             "200.000",
             "500.000"});
-            this.cbSoTien.Location = new System.Drawing.Point(64, 134);
+            this.cbSoTien.Location = new System.Drawing.Point(83, 134);
             this.cbSoTien.Name = "cbSoTien";
             this.cbSoTien.Size = new System.Drawing.Size(349, 28);
             this.cbSoTien.TabIndex = 7;
@@ -114,7 +114,7 @@
             // txtSoTK
             // 
             this.txtSoTK.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtSoTK.Location = new System.Drawing.Point(64, 44);
+            this.txtSoTK.Location = new System.Drawing.Point(83, 44);
             this.txtSoTK.Name = "txtSoTK";
             this.txtSoTK.Size = new System.Drawing.Size(349, 26);
             this.txtSoTK.TabIndex = 6;
@@ -131,9 +131,9 @@
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.groupBox1.Location = new System.Drawing.Point(12, 348);
+            this.groupBox1.Location = new System.Drawing.Point(12, 314);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(776, 100);
+            this.groupBox1.Size = new System.Drawing.Size(832, 179);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Gợi Ý ";
@@ -142,7 +142,7 @@
             // 
             this.radioButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(612, 66);
+            this.radioButton6.Location = new System.Drawing.Point(668, 106);
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.Size = new System.Drawing.Size(92, 24);
             this.radioButton6.TabIndex = 5;
@@ -154,19 +154,20 @@
             // 
             this.radioButton5.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(319, 66);
+            this.radioButton5.Location = new System.Drawing.Point(347, 106);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(92, 24);
             this.radioButton5.TabIndex = 4;
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "200.000";
             this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
             // radioButton4
             // 
             this.radioButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(37, 66);
+            this.radioButton4.Location = new System.Drawing.Point(37, 106);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(92, 24);
             this.radioButton4.TabIndex = 3;
@@ -179,7 +180,7 @@
             // 
             this.radioButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(612, 25);
+            this.radioButton3.Location = new System.Drawing.Point(668, 25);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(83, 24);
             this.radioButton3.TabIndex = 2;
@@ -191,7 +192,7 @@
             // 
             this.radioButton2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(319, 25);
+            this.radioButton2.Location = new System.Drawing.Point(347, 25);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(83, 24);
             this.radioButton2.TabIndex = 1;
@@ -221,7 +222,7 @@
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBack.Location = new System.Drawing.Point(12, 12);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(33, 36);
+            this.btnBack.Size = new System.Drawing.Size(54, 35);
             this.btnBack.TabIndex = 3;
             this.btnBack.UseVisualStyleBackColor = false;
             // 
@@ -231,12 +232,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DoAnPTUD.Properties.Resources.logoMKP_ver2__2_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(856, 505);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.Name = "Deposit";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Deposit";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);

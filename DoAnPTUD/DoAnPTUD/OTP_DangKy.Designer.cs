@@ -68,6 +68,7 @@
             this.btnDangNhap.Size = new System.Drawing.Size(170, 65);
             this.btnDangNhap.TabIndex = 23;
             this.btnDangNhap.Text = "Xác nhận";
+            this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
             // guna2HtmlLabel2
             // 

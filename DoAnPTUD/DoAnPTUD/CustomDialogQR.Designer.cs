@@ -33,10 +33,10 @@
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.btnCancel = new System.Windows.Forms.Button();
             this.btnDowload = new System.Windows.Forms.Button();
-            this.imageList3 = new System.Windows.Forms.ImageList(this.components);
+            this.btnCancel = new System.Windows.Forms.Button();
             this.picQRCode = new System.Windows.Forms.PictureBox();
+            this.imageList3 = new System.Windows.Forms.ImageList(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picQRCode)).BeginInit();
@@ -85,16 +85,6 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(222, 41);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
-            // btnCancel
-            // 
-            this.btnCancel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnCancel.Location = new System.Drawing.Point(3, 3);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(105, 35);
-            this.btnCancel.TabIndex = 0;
-            this.btnCancel.Text = "Hủy";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            // 
             // btnDowload
             // 
             this.btnDowload.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -105,11 +95,15 @@
             this.btnDowload.Text = "Tải";
             this.btnDowload.UseVisualStyleBackColor = true;
             // 
-            // imageList3
+            // btnCancel
             // 
-            this.imageList3.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList3.ImageSize = new System.Drawing.Size(16, 16);
-            this.imageList3.TransparentColor = System.Drawing.Color.Transparent;
+            this.btnCancel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnCancel.Location = new System.Drawing.Point(3, 3);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(105, 35);
+            this.btnCancel.TabIndex = 0;
+            this.btnCancel.Text = "Hủy";
+            this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // picQRCode
             // 
@@ -122,6 +116,12 @@
             this.picQRCode.TabStop = false;
             this.picQRCode.Click += new System.EventHandler(this.picQRCode_Click);
             // 
+            // imageList3
+            // 
+            this.imageList3.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList3.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList3.TransparentColor = System.Drawing.Color.Transparent;
+            // 
             // CustomDialogQR
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -129,6 +129,7 @@
             this.ClientSize = new System.Drawing.Size(228, 233);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "CustomDialogQR";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CustomDialogQR";
             this.Load += new System.EventHandler(this.CustomDialogQR_Load);
             this.tableLayoutPanel1.ResumeLayout(false);

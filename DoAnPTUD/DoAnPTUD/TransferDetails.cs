@@ -23,7 +23,7 @@ namespace DoAnPTUD
 
         private void btnXacNhan_Click(object sender, EventArgs e)
         {
-            HomeUser homeUser = new HomeUser();
+            HomeUser homeUser = new HomeUser(use);
             homeUser.Show();
             this.Hide();
 
@@ -35,9 +35,6 @@ namespace DoAnPTUD
             transfer.Show();
             this.Hide();
         }
-        public void loadata()
-        {
-
-        }
+       
     }
 }

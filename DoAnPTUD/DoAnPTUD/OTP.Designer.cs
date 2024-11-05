@@ -82,6 +82,7 @@
             this.btnDangNhap.Size = new System.Drawing.Size(170, 65);
             this.btnDangNhap.TabIndex = 16;
             this.btnDangNhap.Text = "Tiếp Tục";
+            this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
             // guna2HtmlLabel2
             // 

@@ -45,6 +45,12 @@ namespace DTO
             NguoiLH = nguoiLH;
             ChucVu = chucVu;
         }
+
+        public DTO_ChiTietKHDN(int v1, string text1, string text2, DateTime value1, string v2, string text3, string text4, string text5, string text6, DateTime value2, DateTime value3, string text7, string text8, string text9, string text10, string text11, int nganhChinh, int nganh, string nv, DateTime value4, string text12, string text13, float v3, float v4, float v5, int v6)
+        {
+            NganhChinh = nganhChinh;
+        }
     }
+
 }
 

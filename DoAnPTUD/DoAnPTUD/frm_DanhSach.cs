@@ -32,7 +32,7 @@ namespace DoAnPTUD
                     this.dgvDanhSach.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvDanhSach_CellContentClick);
                     break;
                 case "Mở khách hàng doanh nghiệp":
-                    //BLL_KhachHangDoanhNghiep khDN = new BLL_KhachHangDoanhNghiep();
+                    BLL_KhachHang khDN = new BLL_KhachHang();
                     //dgvDanhSach.DataSource = khDN.LayDuLieu();
                     this.dgvDanhSach.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvDanhSach_CellContentClick);
                     break;
