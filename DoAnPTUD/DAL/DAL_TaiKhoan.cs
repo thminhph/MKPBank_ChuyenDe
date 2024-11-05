@@ -1,18 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DTO;
 using System.Collections;
-using System.Data;
+using System.Windows.Forms;
 
 
 namespace DAL
 {
     public class DAL_TaiKhoan
     {
-       
+        
+        
         private QLNganHangDataContext  db;
 
         public DAL_TaiKhoan()
@@ -25,7 +27,7 @@ namespace DAL
                                    select new
                                    {
                                        s.IdTaiKhoan,
-                                       s.MaKhachHang,
+                                       s.IdKhachHang,
                                        s.LoaiTaiKhoan,
                                        s.TenTaiKhoan,
                                        s.TienTe,
@@ -37,72 +39,82 @@ namespace DAL
                                    };
             return taiKhoan;
         }
-        
-        public IQueryable TimSTK(string sDT )
+         public  DTO_ThongTinKH timUserTheostk(string   stk)
         {
-            IQueryable temp = from s in db.KhachHangCaNhans
-                              join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.MaKhachHang
-                              where s.SoDienThoai.CompareTo(sDT) == 0
-                              select tk;
-            return temp;
-        }
+           var query = from s in db.KhachHangs
+                        join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
+                        where s.SoDienThoai == stk
+                        select new 
+                        {
+                            tk.IdTaiKhoan,
+                            s.Avarta,
+                            s.TenKhachHang,
+                            s.NgayCap,
+                            s.DiaChi,
+                            s.Email,
+                            s.NgaySinh,
+                            s.SoGiayTo,
+                            s.SoDienThoai
+                        };
 
-        public bool DangNhap(string sDT, string matKhau)
-        {
-            bool temp = (from s in db.KhachHangCaNhans
-                         join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.MaKhachHang
-                         where s.SoDienThoai.CompareTo(sDT) == 0 && tk.Matkhau.CompareTo(matKhau)==0
-                         select tk).Any();
-            return temp;
-        }
-        public bool DangKy(DTO_TaiKhoan newTK, DTO_ThongTinKH newKH)
-        {
-            try
+
+            DTO_ThongTinKH thong = new DTO_ThongTinKH();
+            foreach (var t in query)
             {
-                TaiKhoan tk = new TaiKhoan();
+                byte[] img = new byte[0];
+                if (t.Avarta != null)
                 {
-                    tk.IdTaiKhoan = newTK.IdTaiKhoan;
-                    tk.MaKhachHang = newTK.MaKhachHang;
-                    tk.LoaiTaiKhoan = newTK.LoaiTaiKhoan;
-                    tk.TenTaiKhoan = newTK.TenTaiKhoan;
-                    tk.TienTe = newTK.TienTe;
-                    tk.TieuDeTK = newTK.TieuDeTK;
-                    tk.TieuDeNgan = newTK.TieuDeNgan;
-                    tk.NhanVienLV = newTK.NhanVienLV;
-                    tk.PhiMa = newTK.PhiMa;
-                    tk.Matkhau = newTK.MatKhau;
-                    db.TaiKhoans.InsertOnSubmit(tk);
-                    db.SubmitChanges();
+                    img = t.Avarta.ToArray();
                 }
 
-                KhachHangCaNhan kh = new KhachHangCaNhan();
-                {
-                    kh.Avarta = newKH.Avarta;
-                    kh.NgaySinh = newKH.NgaySinh;
-                    kh.DiaChi = newKH.DiaChi;
-                    kh.QuocGia = newKH.QuocGia;
-                    kh.QuocTich = newKH.QuocTich;
-                    kh.LoaiGiayTo = newKH.LoaiGiayTo;
-                    kh.SoGiayTo = newKH.SoGiayTo;
-                    kh.NgayCap = newKH.NgayCap;
-                    kh.NgayHetHan = newKH.NgayHetHan;
-                    kh.NoiCap = newKH.NoiCap;
-                    kh.Email = newKH.Email;
-                    kh.NganhChinh = newKH.NganhChinh;
-                    kh.IdNganh = newKH.Nganh;
-                    kh.NhanVienLV = newKH.NhanVienLV;
-                    db.KhachHangCaNhans.InsertOnSubmit(kh);
-                    db.SubmitChanges();
-                }
+                string ten = t.TenKhachHang.ToString();
+                string sogiayto = t.SoGiayTo.ToString();
+                DateTime ngaysinh = t.NgaySinh;
 
-                    return true;
+                string diachi = t.DiaChi;
+                DateTime ngaycap = t.NgayCap;
+                string sodienthoai = t.SoDienThoai;
+                string email = t.Email;
+                thong = new DTO_ThongTinKH(ten, img, ngaysinh, diachi, sodienthoai, sogiayto, ngaycap, email);
             }
-            
-            catch (Exception)
+            return thong;
+        }
+
+        public bool  DangNhap(string  sDT, string mk )
+        {
+            var  temp = (from s in db.KhachHangs
+                              join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
+                              where s.SoDienThoai == sDT && tk.Matkhau == mk
+                              select tk).Any();
+            return temp;
+
+        }
+        public DTO_ThongTinKH GanThongTinNguoiDung(string sDT, string mk)
+        {
+            if (DangNhap(sDT, mk))
             {
-                return false;
-                throw;
+                // Lấy thông tin chi tiết người dùng
+                var taiKhoan = (from s in db.KhachHangs
+                                join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
+                                where s.SoDienThoai == sDT
+                                select new DTO_ThongTinKH
+                                {
+                                    IdKhachHang = (int)tk.IdKhachHang,
+                                    TenKhachHang = s.TenKhachHang,
+                                    SoDienThoai = s.SoDienThoai,
+                                   
+                                    
+                                }).FirstOrDefault();
+
+                return taiKhoan;
+            }
+            else
+            {
+                // Xử lý trường hợp đăng nhập thất bại
+                // Bạn có thể hiển thị thông báo lỗi chẳng hạn như:
+                MessageBox.Show("Số điện thoại hoặc mật khẩu không đúng.");
+                return null; // Trả về null để báo hiệu đăng nhập thất bại
             }
         }
-    }
+     }
 }

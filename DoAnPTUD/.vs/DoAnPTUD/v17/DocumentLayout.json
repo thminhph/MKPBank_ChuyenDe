@@ -1,154 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\",
+  "WorkspaceRootPath": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|c:\\users\\the minh\\desktop\\end\\ptud1\\mkpbank_chuyende\\doanptud\\doanptud\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\transferdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\transferdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\bll\\bll_nganhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|solutionrelative:bll\\bll_nganhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\bll\\bll_nganh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|solutionrelative:bll\\bll_nganh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|c:\\users\\the minh\\desktop\\end\\ptud1\\mkpbank_chuyende\\doanptud\\bll\\bll_chitietgiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|solutionrelative:bll\\bll_chitietgiaodich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\dangkychitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangkychitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|c:\\users\\the minh\\desktop\\end\\ptud1\\mkpbank_chuyende\\doanptud\\doanptud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\managementcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\managementcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\homeuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\homeuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\homeuser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\quenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\quenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\personinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\personinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\otp_dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\otp_dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\otp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\customize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\customize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\customdialogqr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\customdialogqr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\otp_dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\otp_dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\dangkychitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\dangkychitiet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\bll\\bll_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|solutionrelative:bll\\bll_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\dal_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\dal_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\dto\\dto_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|solutionrelative:dto\\dto_taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\dal_thongtinkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\dal_thongtinkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\dto\\dto_thongtinkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1192FE83-E221-44BD-9651-C64A2FCDD283}|DTO\\DTO.csproj|solutionrelative:dto\\dto_thongtinkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\bll\\bll_thongtinkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{225018AC-3EAB-4C61-97D7-834C592CBB03}|BLL\\BLL.csproj|solutionrelative:bll\\bll_thongtinkh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\personinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\doanptud\\personinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F28FAE97-15E4-41AD-AF68-BD30485DB68C}|DoAnPTUD\\GUI.csproj|solutionrelative:doanptud\\personinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\dal\\qlnganhang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87BC4DC3-0672-4F38-A5ED-A31F9A161074}|DAL\\DAL.csproj|solutionrelative:dal\\qlnganhang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -158,454 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonInfor.cs",
+              "DocumentMoniker": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\PersonInfor.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\PersonInfor.cs",
+              "ToolTip": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\PersonInfor.cs",
+              "RelativeToolTip": "DoAnPTUD\\PersonInfor.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAawCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:40:47.299Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\App.config",
-              "RelativeDocumentMoniker": "DoAnPTUD\\App.config",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\App.config",
-              "RelativeToolTip": "DoAnPTUD\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-27T11:29:08.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BLL_ChiTietGiaoDich.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_ChiTietGiaoDich.cs",
-              "RelativeDocumentMoniker": "BLL\\BLL_ChiTietGiaoDich.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_ChiTietGiaoDich.cs",
-              "RelativeToolTip": "BLL\\BLL_ChiTietGiaoDich.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TransferDetails.cs",
+              "DocumentMoniker": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\TransferDetails.cs",
+              "RelativeDocumentMoniker": "DoAnPTUD\\TransferDetails.cs",
+              "ToolTip": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\TransferDetails.cs",
+              "RelativeToolTip": "DoAnPTUD\\TransferDetails.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T11:29:00.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DangKyChiTiet.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKyChiTiet.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\DangKyChiTiet.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKyChiTiet.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\DangKyChiTiet.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T12:55:07.905Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DangKy.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKy.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\DangKy.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKy.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\DangKy.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T12:54:58.275Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BLL_Nganh.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_Nganh.cs",
-              "RelativeDocumentMoniker": "BLL\\BLL_Nganh.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_Nganh.cs",
-              "RelativeToolTip": "BLL\\BLL_Nganh.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T12:54:32.104Z",
+              "WhenOpened": "2024-10-22T05:18:53.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DangNhap.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangNhap.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\DangNhap.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangNhap.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\DangNhap.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T12:31:06.872Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Program.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\Program.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Program.cs",
-              "RelativeToolTip": "DoAnPTUD\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T13:14:39.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BLL_NganhChinh.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_NganhChinh.cs",
-              "RelativeDocumentMoniker": "BLL\\BLL_NganhChinh.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_NganhChinh.cs",
-              "RelativeToolTip": "BLL\\BLL_NganhChinh.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T13:12:52.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DangNhap.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangNhap.Designer.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\DangNhap.Designer.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangNhap.Designer.cs",
-              "RelativeToolTip": "DoAnPTUD\\DangNhap.Designer.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T10:04:57.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeUser.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\HomeUser.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\HomeUser.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\HomeUser.cs",
-              "RelativeToolTip": "DoAnPTUD\\HomeUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T13:14:07.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Transfer.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Transfer.cs",
+              "Title": "Transfer.cs",
+              "DocumentMoniker": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Transfer.cs",
               "RelativeDocumentMoniker": "DoAnPTUD\\Transfer.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Transfer.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\Transfer.cs [Design]",
+              "ToolTip": "D:\\.NET\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Transfer.cs",
+              "RelativeToolTip": "DoAnPTUD\\Transfer.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAIA/wHAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T22:48:00.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TransactionHistory.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\TransactionHistory.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\TransactionHistory.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\TransactionHistory.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\TransactionHistory.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T22:47:56.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Member.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Member.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\Member.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Member.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\Member.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T10:15:34.521Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ManagementCard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\ManagementCard.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\ManagementCard.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\ManagementCard.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\ManagementCard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T22:47:13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HomeUser.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\HomeUser.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\HomeUser.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\HomeUser.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\HomeUser.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T13:15:23.408Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HomeUser.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\HomeUser.Designer.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\HomeUser.Designer.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\HomeUser.Designer.cs",
-              "RelativeToolTip": "DoAnPTUD\\HomeUser.Designer.cs",
-              "ViewState": "AgIAAM4BAAAAAAAAAAAYwNcBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T11:05:40.542Z",
+              "WhenOpened": "2024-10-17T00:47:19.745Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DangKy.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKy.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\DangKy.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKy.cs",
-              "RelativeToolTip": "DoAnPTUD\\DangKy.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwCMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T12:58:49.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PersonInfor.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\PersonInfor.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\PersonInfor.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\PersonInfor.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\PersonInfor.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T10:15:53.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "QuenMatKhau.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\QuenMatKhau.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\QuenMatKhau.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\QuenMatKhau.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\QuenMatKhau.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T10:16:08.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Deposit.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Deposit.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\Deposit.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Deposit.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\Deposit.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T22:42:35.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "OTP.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\OTP.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\OTP.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\OTP.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\OTP.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T14:41:23.692Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "OTP_DangKy.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\OTP_DangKy.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\OTP_DangKy.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\OTP_DangKy.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\OTP_DangKy.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T14:46:20.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Customize.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Customize.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\Customize.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Customize.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\Customize.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T22:48:21.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CustomDialogQR.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\CustomDialogQR.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\CustomDialogQR.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\CustomDialogQR.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\CustomDialogQR.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T22:47:36.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Settings.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Settings.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\Settings.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Settings.cs [Design]",
-              "RelativeToolTip": "DoAnPTUD\\Settings.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T22:47:54.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "DangNhap.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangNhap.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\DangNhap.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangNhap.cs",
-              "RelativeToolTip": "DoAnPTUD\\DangNhap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T12:31:09.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "OTP_DangKy.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\OTP_DangKy.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\OTP_DangKy.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\OTP_DangKy.cs",
-              "RelativeToolTip": "DoAnPTUD\\OTP_DangKy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T09:36:09.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Settings.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Settings.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\Settings.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\Settings.cs",
-              "RelativeToolTip": "DoAnPTUD\\Settings.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBAAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T09:43:46.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "DangKyChiTiet.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKyChiTiet.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\DangKyChiTiet.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\DangKyChiTiet.cs",
-              "RelativeToolTip": "DoAnPTUD\\DangKyChiTiet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T14:53:43.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "BLL_TaiKhoan.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_TaiKhoan.cs",
-              "RelativeDocumentMoniker": "BLL\\BLL_TaiKhoan.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_TaiKhoan.cs",
-              "RelativeToolTip": "BLL\\BLL_TaiKhoan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T11:49:04.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "DAL_TaiKhoan.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_TaiKhoan.cs",
-              "RelativeDocumentMoniker": "DAL\\DAL_TaiKhoan.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_TaiKhoan.cs",
-              "RelativeToolTip": "DAL\\DAL_TaiKhoan.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAcwDYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T11:48:53.047Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "DTO_TaiKhoan.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_TaiKhoan.cs",
-              "RelativeDocumentMoniker": "DTO\\DTO_TaiKhoan.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_TaiKhoan.cs",
-              "RelativeToolTip": "DTO\\DTO_TaiKhoan.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowA4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T11:46:53.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "DAL_ThongTinKH.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_ThongTinKH.cs",
-              "RelativeDocumentMoniker": "DAL\\DAL_ThongTinKH.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\DAL_ThongTinKH.cs",
-              "RelativeToolTip": "DAL\\DAL_ThongTinKH.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T11:49:39.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "DTO_ThongTinKH.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_ThongTinKH.cs",
-              "RelativeDocumentMoniker": "DTO\\DTO_ThongTinKH.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DTO\\DTO_ThongTinKH.cs",
-              "RelativeToolTip": "DTO\\DTO_ThongTinKH.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAAwDwAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T11:49:34.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "BLL_ThongTinKH.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_ThongTinKH.cs",
-              "RelativeDocumentMoniker": "BLL\\BLL_ThongTinKH.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\BLL\\BLL_ThongTinKH.cs",
-              "RelativeToolTip": "BLL\\BLL_ThongTinKH.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T15:19:08.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "PersonInfor.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\PersonInfor.cs",
-              "RelativeDocumentMoniker": "DoAnPTUD\\PersonInfor.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DoAnPTUD\\PersonInfor.cs",
-              "RelativeToolTip": "DoAnPTUD\\PersonInfor.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAIAywEQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T13:14:34.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "QLNganHang.designer.cs",
-              "DocumentMoniker": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\QLNganHang.designer.cs",
-              "RelativeDocumentMoniker": "DAL\\QLNganHang.designer.cs",
-              "ToolTip": "C:\\Users\\THE MINH\\Desktop\\end\\PTUD1\\MKPBank_ChuyenDe\\DoAnPTUD\\DAL\\QLNganHang.designer.cs",
-              "RelativeToolTip": "DAL\\QLNganHang.designer.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAYwDoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T12:05:44.033Z"
             }
           ]
         }

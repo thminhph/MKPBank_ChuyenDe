@@ -12,7 +12,7 @@ namespace DAL.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.11.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.8.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -26,14 +26,45 @@ namespace DAL.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-F2PT90C\\SQLEXPRESS;Initial Catalog=QLNganHang;Integrated Secu" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=laptop-vrlnqtnh\\SQLEXPRESS;Initial Catalog=QLNganHang;Integrated Secu" +
             "rity=True;TrustServerCertificate=True")]
+        public string QLNganHangConnectionString1 {
+            get {
+                return ((string)(this["QLNganHangConnectionString1"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PHONGPHU\\SQLEXPRESS;Initial Catalog=QLNganHang;Integrated Security=Tr" +
+            "ue;TrustServerCertificate=True")]
         public string QLNganHangConnectionString {
             get {
                 return ((string)(this["QLNganHangConnectionString"]));
             }
         }
         
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PHONGPHU\\SQLEXPRESS;Initial Catalog=QLNganHang;Integrated Security=Tr" +
+            "ue;Encrypt=True;TrustServerCertificate=True")]
+        public string QLNganHangConnectionString2 {
+            get {
+                return ((string)(this["QLNganHangConnectionString2"]));
+            }
+        }
         
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-VRLNQTNH\\SQLEXPRESS;Initial Catalog=QLNganHang;Integrated Secu" +
+            "rity=True;Encrypt=True;TrustServerCertificate=True")]
+        public string QLNganHangConnectionString3 {
+            get {
+                return ((string)(this["QLNganHangConnectionString3"]));
+            }
+        }
     }
 }
