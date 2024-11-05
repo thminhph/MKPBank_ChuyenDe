@@ -9,9 +9,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+<<<<<<< HEAD
 
 using BLL;
 
+=======
+>>>>>>> Kiet4
 using BLL;
 
 namespace DoAnPTUD
@@ -49,22 +52,50 @@ namespace DoAnPTUD
             }
 
 
+<<<<<<< HEAD
             if (bll_taiKhoan.dangNhap(txtDangNhap.Text, txtMatKhau.Text) )
             {
                 DTO_ThongTinKH use= bll_taiKhoan.ganthongtin(txtDN, txtMK);
                 HomeUser us = new HomeUser(use.SoDienThoai);
                 us.Show();
+=======
+            if (txtDangNhap.Text == "admin" && txtMatKhau.Text == "123")
+            {
+                frm_Main frm_Main = new frm_Main();
+                frm_Main.Show();
+>>>>>>> Kiet4
                 this.Hide();
             }
             else
             {
+<<<<<<< HEAD
                 MessageBox.Show("Tai khoan khong ton tai!");
             }
+=======
+                if (bll_taiKhoan.dangNhap(txtDangNhap.Text, txtMatKhau.Text))
+                {
+                    DTO_ThongTinKH use = bll_taiKhoan.ganthongtin(txtDN, txtMK);
+                    HomeUser us = new HomeUser(use.SoDienThoai);
+                    us.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Tai khoan khong ton tai!");
+                }
+            }
+         }
+           
+>>>>>>> Kiet4
             //HomeUser.user = 
             //HomeUser  us=new HomeUser();
             //us.Show();
             //this.Hide();
+<<<<<<< HEAD
         }
+=======
+        
+>>>>>>> Kiet4
 
         private void txtDangNhap_TextChanged(object sender, EventArgs e)
         {

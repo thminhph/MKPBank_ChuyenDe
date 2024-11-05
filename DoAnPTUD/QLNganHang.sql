@@ -8,7 +8,11 @@ CREATE TABLE DangNhap(
 
 CREATE TABLE KhachHangCaNhan(
 	IdKhachHangCN int primary key,
+<<<<<<< HEAD
 	TenKhachHang nvarchar(100) not null,
+=======
+	TenKhachHang nvarchar(255) not null,
+>>>>>>> Kiet4
 	Avarta image ,
 	NgaySinh datetime not null,
 	DiaChi nvarchar(255) not null,
@@ -24,8 +28,12 @@ CREATE TABLE KhachHangCaNhan(
 	NganhChinh int not null,
 	IdNganh int not null,
 	NhanVienLV varchar(20) not null
+<<<<<<< HEAD
 );--insert into KhachHangCaNhan
 --values('123458','k',GETDATE(),'a','113456',null,null,'khk','1212',GETDATE(),null,'as',null,1,1,'NV002')
+=======
+);
+>>>>>>> Kiet4
 
 CREATE TABLE ChiTietKHCN(
 	IdKhachHangCN int primary key,
@@ -42,8 +50,13 @@ CREATE TABLE ChiTietKHCN(
 	ThuNhapHangThang float,
 	DiaChiCty nvarchar(255)
 );
+<<<<<<< HEAD
 --insert into ChiTietKHCN
 --values('123457',null,null,null,null,null,null,null,null,null,null,null,null)
+=======
+
+
+>>>>>>> Kiet4
 CREATE TABLE KhachHangDoanhNghiep(
 	IdKhachHangDN int primary key,
 	TenVietTatDN nvarchar(255) not null,
@@ -80,7 +93,12 @@ CREATE TABLE ChiTietKHDN(
 
 CREATE TABLE TaiKhoan(
 	IdTaiKhoan bigint identity(070000123456,13) primary key,
+<<<<<<< HEAD
 	MaKhachHang int not null,
+=======
+	IdKhachHangCN int,
+	IdKhachHangDN int,
+>>>>>>> Kiet4
 	LoaiTaiKhoan nvarchar(255) not null,
 	TenTaiKhoan nvarchar(255),
 	TienTe nvarchar(50) not null,
@@ -188,10 +206,17 @@ ADD CONSTRAINT fk_khdnnganhphu FOREIGN KEY(IdNganh) REFERENCES Nganh(IdNganh)
 
 --Thêm khóa ngoại bảng tài khoản
 ALTER TABLE TaiKhoan --phú
+<<<<<<< HEAD
 ADD CONSTRAINT fk_tkkhcn FOREIGN KEY (MaKhachHang) REFERENCES KhachHangCaNhan(IdKhachHangCN)
 
 ALTER TABLE TaiKhoan
 ADD CONSTRAINT fk_tkkhdn FOREIGN KEY (MaKhachHang) REFERENCES KhachHangDoanhNghiep(IdKhachHangDN)
+=======
+ADD CONSTRAINT fk_tkkhcn FOREIGN KEY (IdKhachHangCN) REFERENCES KhachHangCaNhan(IdKhachHangCN)
+
+ALTER TABLE TaiKhoan
+ADD CONSTRAINT fk_tkkhdn FOREIGN KEY (IdKhachHangDN) REFERENCES KhachHangDoanhNghiep(IdKhachHangDN)
+>>>>>>> Kiet4
 
 ALTER TABLE TaiKhoan
 ADD CONSTRAINT fk_nvlvtk FOREIGN KEY (NhanVienLV) REFERENCES NhanVien(IdNhanVien)
@@ -364,4 +389,8 @@ WHERE
 	SELECT SoDuTK
 FROM SoDuTinDung s
 INNER JOIN TaiKhoan k ON s.IdTaiKhoan = k.IdTaiKhoan
+<<<<<<< HEAD
 WHERE k.IdTaiKhoan =70000123456 ;
+=======
+WHERE k.IdTaiKhoan = s.IdTaiKhoan;
+>>>>>>> Kiet4

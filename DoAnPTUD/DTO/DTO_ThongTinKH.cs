@@ -5,7 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
 using System.Reflection;
+<<<<<<< HEAD
 using System.Drawing;
+=======
+>>>>>>> Kiet4
 
 namespace DTO
 { 

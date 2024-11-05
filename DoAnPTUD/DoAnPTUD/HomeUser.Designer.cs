@@ -72,8 +72,14 @@
             this.panel1.Controls.Add(this.btnMenu);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+<<<<<<< HEAD
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1052, 51);
+=======
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(935, 41);
+>>>>>>> Kiet4
             this.panel1.TabIndex = 0;
             // 
             // button6
@@ -82,9 +88,16 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.ImageIndex = 23;
             this.button6.ImageList = this.imageList1;
+<<<<<<< HEAD
             this.button6.Location = new System.Drawing.Point(226, 14);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 26);
+=======
+            this.button6.Location = new System.Drawing.Point(201, 11);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(67, 21);
+>>>>>>> Kiet4
             this.button6.TabIndex = 3;
             this.button6.UseVisualStyleBackColor = true;
             // 
@@ -131,9 +144,16 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ImageIndex = 3;
             this.button5.ImageList = this.imageList1;
+<<<<<<< HEAD
             this.button5.Location = new System.Drawing.Point(307, 14);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 26);
+=======
+            this.button5.Location = new System.Drawing.Point(273, 11);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(67, 21);
+>>>>>>> Kiet4
             this.button5.TabIndex = 2;
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click_1);
@@ -142,9 +162,16 @@
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+<<<<<<< HEAD
             this.textBox1.Location = new System.Drawing.Point(388, 14);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(635, 26);
+=======
+            this.textBox1.Location = new System.Drawing.Point(345, 11);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(565, 22);
+>>>>>>> Kiet4
             this.textBox1.TabIndex = 1;
             this.textBox1.Visible = false;
             // 
@@ -158,9 +185,15 @@
             this.btnMenu.ImageIndex = 15;
             this.btnMenu.ImageList = this.imageList1;
             this.btnMenu.Location = new System.Drawing.Point(0, 0);
+<<<<<<< HEAD
             this.btnMenu.Margin = new System.Windows.Forms.Padding(10);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(50, 51);
+=======
+            this.btnMenu.Margin = new System.Windows.Forms.Padding(9, 8, 9, 8);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(44, 41);
+>>>>>>> Kiet4
             this.btnMenu.TabIndex = 0;
             this.btnMenu.UseVisualStyleBackColor = true;
             this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
@@ -177,9 +210,16 @@
             this.sidebar.Controls.Add(this.panel3);
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+<<<<<<< HEAD
             this.sidebar.Location = new System.Drawing.Point(0, 51);
             this.sidebar.Name = "sidebar";
             this.sidebar.Size = new System.Drawing.Size(229, 556);
+=======
+            this.sidebar.Location = new System.Drawing.Point(0, 41);
+            this.sidebar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.sidebar.Name = "sidebar";
+            this.sidebar.Size = new System.Drawing.Size(204, 445);
+>>>>>>> Kiet4
             this.sidebar.TabIndex = 0;
             this.sidebar.Visible = false;
             // 
@@ -193,9 +233,16 @@
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.ImageIndex = 30;
             this.button1.ImageList = this.imageList1;
+<<<<<<< HEAD
             this.button1.Location = new System.Drawing.Point(0, 75);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(229, 44);
+=======
+            this.button1.Location = new System.Drawing.Point(0, 60);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(204, 35);
+>>>>>>> Kiet4
             this.button1.TabIndex = 11;
             this.button1.Text = "Trang Chính";
             this.button1.UseVisualStyleBackColor = false;
@@ -213,9 +260,16 @@
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.ImageIndex = 25;
             this.button3.ImageList = this.imageList1;
+<<<<<<< HEAD
             this.button3.Location = new System.Drawing.Point(0, 139);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(229, 44);
+=======
+            this.button3.Location = new System.Drawing.Point(0, 111);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(204, 35);
+>>>>>>> Kiet4
             this.button3.TabIndex = 10;
             this.button3.Text = "Hội viên MKP";
             this.button3.UseVisualStyleBackColor = false;
@@ -233,9 +287,16 @@
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.ImageIndex = 28;
             this.button2.ImageList = this.imageList1;
+<<<<<<< HEAD
             this.button2.Location = new System.Drawing.Point(0, 468);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(229, 44);
+=======
+            this.button2.Location = new System.Drawing.Point(0, 375);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(204, 35);
+>>>>>>> Kiet4
             this.button2.TabIndex = 9;
             this.button2.Text = "Cài Đặt";
             this.button2.UseVisualStyleBackColor = false;
@@ -252,9 +313,16 @@
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button7.ImageIndex = 19;
             this.button7.ImageList = this.imageList1;
+<<<<<<< HEAD
             this.button7.Location = new System.Drawing.Point(0, 512);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(229, 44);
+=======
+            this.button7.Location = new System.Drawing.Point(0, 410);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(204, 35);
+>>>>>>> Kiet4
             this.button7.TabIndex = 8;
             this.button7.Text = "Đăng xuất";
             this.button7.UseVisualStyleBackColor = false;
@@ -272,9 +340,16 @@
             this.btnTK.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTK.ImageIndex = 0;
             this.btnTK.ImageList = this.imageList1;
+<<<<<<< HEAD
             this.btnTK.Location = new System.Drawing.Point(0, 208);
             this.btnTK.Name = "btnTK";
             this.btnTK.Size = new System.Drawing.Size(229, 44);
+=======
+            this.btnTK.Location = new System.Drawing.Point(0, 166);
+            this.btnTK.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnTK.Name = "btnTK";
+            this.btnTK.Size = new System.Drawing.Size(204, 35);
+>>>>>>> Kiet4
             this.btnTK.TabIndex = 7;
             this.btnTK.Text = "Quản lý TK/Thẻ";
             this.btnTK.UseVisualStyleBackColor = false;
@@ -287,16 +362,29 @@
             this.panel3.Controls.Add(this.picAvatar);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
+<<<<<<< HEAD
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(229, 69);
+=======
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(204, 55);
+>>>>>>> Kiet4
             this.panel3.TabIndex = 1;
             // 
             // txtTenNguoiDung
             // 
             this.txtTenNguoiDung.Enabled = false;
+<<<<<<< HEAD
             this.txtTenNguoiDung.Location = new System.Drawing.Point(75, 7);
             this.txtTenNguoiDung.Name = "txtTenNguoiDung";
             this.txtTenNguoiDung.Size = new System.Drawing.Size(151, 26);
+=======
+            this.txtTenNguoiDung.Location = new System.Drawing.Point(67, 6);
+            this.txtTenNguoiDung.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtTenNguoiDung.Name = "txtTenNguoiDung";
+            this.txtTenNguoiDung.Size = new System.Drawing.Size(135, 22);
+>>>>>>> Kiet4
             this.txtTenNguoiDung.TabIndex = 3;
             // 
             // linkHoSo
@@ -305,9 +393,15 @@
             this.linkHoSo.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.linkHoSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkHoSo.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+<<<<<<< HEAD
             this.linkHoSo.Location = new System.Drawing.Point(72, 56);
             this.linkHoSo.Name = "linkHoSo";
             this.linkHoSo.Size = new System.Drawing.Size(99, 13);
+=======
+            this.linkHoSo.Location = new System.Drawing.Point(64, 43);
+            this.linkHoSo.Name = "linkHoSo";
+            this.linkHoSo.Size = new System.Drawing.Size(82, 12);
+>>>>>>> Kiet4
             this.linkHoSo.TabIndex = 2;
             this.linkHoSo.TabStop = true;
             this.linkHoSo.Text = "Hồ sơ người dùng >";
@@ -317,8 +411,14 @@
             // 
             this.picAvatar.Dock = System.Windows.Forms.DockStyle.Left;
             this.picAvatar.Location = new System.Drawing.Point(0, 0);
+<<<<<<< HEAD
             this.picAvatar.Name = "picAvatar";
             this.picAvatar.Size = new System.Drawing.Size(72, 69);
+=======
+            this.picAvatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.picAvatar.Name = "picAvatar";
+            this.picAvatar.Size = new System.Drawing.Size(64, 55);
+>>>>>>> Kiet4
             this.picAvatar.TabIndex = 0;
             this.picAvatar.TabStop = false;
             // 
@@ -330,9 +430,16 @@
             this.btnTienIch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTienIch.FlatAppearance.BorderSize = 0;
             this.btnTienIch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+<<<<<<< HEAD
             this.btnTienIch.Location = new System.Drawing.Point(875, 480);
             this.btnTienIch.Name = "btnTienIch";
             this.btnTienIch.Size = new System.Drawing.Size(90, 90);
+=======
+            this.btnTienIch.Location = new System.Drawing.Point(777, 385);
+            this.btnTienIch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnTienIch.Name = "btnTienIch";
+            this.btnTienIch.Size = new System.Drawing.Size(80, 72);
+>>>>>>> Kiet4
             this.btnTienIch.TabIndex = 3;
             this.btnTienIch.UseVisualStyleBackColor = false;
             this.btnTienIch.Click += new System.EventHandler(this.btnTienIch_Click);
@@ -345,9 +452,16 @@
             this.btnMaQR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnMaQR.FlatAppearance.BorderSize = 0;
             this.btnMaQR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+<<<<<<< HEAD
             this.btnMaQR.Location = new System.Drawing.Point(612, 480);
             this.btnMaQR.Name = "btnMaQR";
             this.btnMaQR.Size = new System.Drawing.Size(90, 90);
+=======
+            this.btnMaQR.Location = new System.Drawing.Point(542, 385);
+            this.btnMaQR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnMaQR.Name = "btnMaQR";
+            this.btnMaQR.Size = new System.Drawing.Size(80, 72);
+>>>>>>> Kiet4
             this.btnMaQR.TabIndex = 2;
             this.btnMaQR.UseVisualStyleBackColor = false;
             this.btnMaQR.Click += new System.EventHandler(this.btnMaQR_Click);
@@ -361,9 +475,16 @@
             this.btnNapDT.FlatAppearance.BorderSize = 0;
             this.btnNapDT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNapDT.ForeColor = System.Drawing.Color.Transparent;
+<<<<<<< HEAD
             this.btnNapDT.Location = new System.Drawing.Point(349, 480);
             this.btnNapDT.Name = "btnNapDT";
             this.btnNapDT.Size = new System.Drawing.Size(90, 90);
+=======
+            this.btnNapDT.Location = new System.Drawing.Point(309, 385);
+            this.btnNapDT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnNapDT.Name = "btnNapDT";
+            this.btnNapDT.Size = new System.Drawing.Size(80, 72);
+>>>>>>> Kiet4
             this.btnNapDT.TabIndex = 1;
             this.btnNapDT.UseVisualStyleBackColor = false;
             this.btnNapDT.Click += new System.EventHandler(this.btnNapDT_Click);
@@ -377,9 +498,16 @@
             this.btnChuyenKhoan.FlatAppearance.BorderSize = 0;
             this.btnChuyenKhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChuyenKhoan.ImageIndex = 5;
+<<<<<<< HEAD
             this.btnChuyenKhoan.Location = new System.Drawing.Point(86, 480);
             this.btnChuyenKhoan.Name = "btnChuyenKhoan";
             this.btnChuyenKhoan.Size = new System.Drawing.Size(90, 90);
+=======
+            this.btnChuyenKhoan.Location = new System.Drawing.Point(76, 385);
+            this.btnChuyenKhoan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnChuyenKhoan.Name = "btnChuyenKhoan";
+            this.btnChuyenKhoan.Size = new System.Drawing.Size(80, 72);
+>>>>>>> Kiet4
             this.btnChuyenKhoan.TabIndex = 0;
             this.btnChuyenKhoan.UseVisualStyleBackColor = false;
             this.btnChuyenKhoan.Click += new System.EventHandler(this.btnChuyenKhoan_Click);
@@ -405,11 +533,19 @@
             this.tableLayoutPanel1.Controls.Add(this.btnNapDT, 1, 0);
             this.tableLayoutPanel1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+<<<<<<< HEAD
+=======
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> Kiet4
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 94.56265F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.437352F));
+<<<<<<< HEAD
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1052, 607);
+=======
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(935, 486);
+>>>>>>> Kiet4
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // label2
@@ -419,9 +555,15 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(344, 573);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 25);
+=======
+            this.label2.Location = new System.Drawing.Point(307, 459);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(84, 20);
+>>>>>>> Kiet4
             this.label2.TabIndex = 3;
             this.label2.Text = "Nạp Tiền";
             // 
@@ -432,9 +574,15 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(618, 573);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 25);
+=======
+            this.label4.Location = new System.Drawing.Point(549, 459);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(67, 20);
+>>>>>>> Kiet4
             this.label4.TabIndex = 5;
             this.label4.Text = "Mã QR";
             // 
@@ -445,9 +593,15 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(52, 573);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(159, 25);
+=======
+            this.label1.Location = new System.Drawing.Point(50, 459);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(133, 20);
+>>>>>>> Kiet4
             this.label1.TabIndex = 2;
             this.label1.Text = "Chuyển KHoản";
             // 
@@ -458,28 +612,47 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(875, 573);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(90, 25);
+=======
+            this.label3.Location = new System.Drawing.Point(779, 459);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(76, 20);
+>>>>>>> Kiet4
             this.label3.TabIndex = 4;
             this.label3.Text = "Tiện Ích";
             // 
             // HomeUser
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
+<<<<<<< HEAD
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+=======
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+>>>>>>> Kiet4
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(1052, 607);
+=======
+            this.ClientSize = new System.Drawing.Size(935, 486);
+>>>>>>> Kiet4
             this.Controls.Add(this.sidebar);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.DoubleBuffered = true;
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+<<<<<<< HEAD
             this.MinimumSize = new System.Drawing.Size(500, 56);
+=======
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MinimumSize = new System.Drawing.Size(446, 54);
+>>>>>>> Kiet4
             this.Name = "HomeUser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HomeUser";

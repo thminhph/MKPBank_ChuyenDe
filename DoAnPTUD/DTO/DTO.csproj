@@ -42,7 +42,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DTO_ChiTietGiaoDich.cs" />
+<<<<<<< HEAD
     <Compile Include="DTO_CTKH.cs" />
+=======
+    <Compile Include="DTO_ChiTietKHCN.cs" />
+    <Compile Include="DTO_ChiTietKHDN.cs" />
+    <Compile Include="DTO_CTKH.cs" />
+    <Compile Include="DTO_KhachHangCaNhan.cs" />
+    <Compile Include="DTO_KhachHangDoanhNghiep.cs" />
+>>>>>>> Kiet4
     <Compile Include="DTO_ThongTinKH.cs" />
     <Compile Include="DTO_TaiKhoan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

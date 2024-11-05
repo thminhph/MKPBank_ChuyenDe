@@ -82,6 +82,39 @@
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="frm_DanhSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DanhSach.Designer.cs">
+      <DependentUpon>frm_DanhSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DanhSachKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DanhSachKhachHang.Designer.cs">
+      <DependentUpon>frm_DanhSachKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_KhachHangCaNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_KhachHangCaNhan.Designer.cs">
+      <DependentUpon>frm_KhachHangCaNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_KhachHangDoanhNghiep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_KhachHangDoanhNghiep.Designer.cs">
+      <DependentUpon>frm_KhachHangDoanhNghiep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Main.Designer.cs">
+      <DependentUpon>frm_Main.cs</DependentUpon>
+    </Compile>
+>>>>>>> Kiet4
     <Compile Include="HomeUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,6 +198,24 @@
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+=======
+    <EmbeddedResource Include="frm_DanhSach.resx">
+      <DependentUpon>frm_DanhSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DanhSachKhachHang.resx">
+      <DependentUpon>frm_DanhSachKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_KhachHangCaNhan.resx">
+      <DependentUpon>frm_KhachHangCaNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_KhachHangDoanhNghiep.resx">
+      <DependentUpon>frm_KhachHangDoanhNghiep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Main.resx">
+      <DependentUpon>frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> Kiet4
     <EmbeddedResource Include="HomeUser.resx">
       <DependentUpon>HomeUser.cs</DependentUpon>
     </EmbeddedResource>
@@ -275,5 +326,32 @@
       <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <None Include="Resources\Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Done.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Saerch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sqlserver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inverted_mkp_commercial_bank_preview_rev_1.png" />
+  </ItemGroup>
+>>>>>>> Kiet4
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

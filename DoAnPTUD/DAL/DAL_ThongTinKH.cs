@@ -73,7 +73,11 @@ namespace DAL
         {
             var a = from s in db.KhachHangCaNhans
                         
+<<<<<<< HEAD
                         join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.MaKhachHang
+=======
+                        join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.IdKhachHangCN
+>>>>>>> Kiet4
                         where tk.IdTaiKhoan == stk
                         select new
                         {

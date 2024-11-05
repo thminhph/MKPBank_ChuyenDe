@@ -12,8 +12,11 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+<<<<<<< HEAD
 using System.Drawing;
 using System.IO;
+=======
+>>>>>>> Kiet4
 
 namespace DoAnPTUD
 {
