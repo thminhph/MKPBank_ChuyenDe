@@ -27,12 +27,7 @@ namespace DAL
                                    select new
                                    {
                                        s.IdTaiKhoan,
-<<<<<<< HEAD
-                                       s.MaKhachHang,
-=======
-                                       s.IdKhachHangCN,
-                                       s.IdKhachHangDN,
->>>>>>> Kiet4
+                                       s.IdKhachHang,
                                        s.LoaiTaiKhoan,
                                        s.TenTaiKhoan,
                                        s.TienTe,
@@ -46,12 +41,8 @@ namespace DAL
         }
          public  DTO_ThongTinKH timUserTheostk(string   stk)
         {
-           var query = from s in db.KhachHangCaNhans
-<<<<<<< HEAD
-                        join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.MaKhachHang
-=======
-                        join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.IdKhachHangCN
->>>>>>> Kiet4
+           var query = from s in db.KhachHangs
+                        join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
                         where s.SoDienThoai == stk
                         select new 
                         {
@@ -91,12 +82,8 @@ namespace DAL
 
         public bool  DangNhap(string  sDT, string mk )
         {
-            var  temp = (from s in db.KhachHangCaNhans
-<<<<<<< HEAD
-                              join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.MaKhachHang
-=======
-                              join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.IdKhachHangCN
->>>>>>> Kiet4
+            var  temp = (from s in db.KhachHangs
+                              join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
                               where s.SoDienThoai == sDT && tk.Matkhau == mk
                               select tk).Any();
             return temp;
@@ -107,20 +94,12 @@ namespace DAL
             if (DangNhap(sDT, mk))
             {
                 // Lấy thông tin chi tiết người dùng
-                var taiKhoan = (from s in db.KhachHangCaNhans
-<<<<<<< HEAD
-                                join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.MaKhachHang
+                var taiKhoan = (from s in db.KhachHangs
+                                join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
                                 where s.SoDienThoai == sDT
                                 select new DTO_ThongTinKH
                                 {
-                                    IdKhachHangCN = tk.MaKhachHang,
-=======
-                                join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.IdKhachHangCN
-                                where s.SoDienThoai == sDT
-                                select new DTO_ThongTinKH
-                                {
-                                    IdKhachHangCN = (int)tk.IdKhachHangCN,
->>>>>>> Kiet4
+                                    IdKhachHang = (int)tk.IdKhachHang,
                                     TenKhachHang = s.TenKhachHang,
                                     SoDienThoai = s.SoDienThoai,
                                    

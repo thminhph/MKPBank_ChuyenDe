@@ -1,4 +1,5 @@
 ﻿using BLL;
+using DoAnPTUD.Properties;
 using DTO;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,7 @@ namespace DoAnPTUD
 {
     public partial class ManagementCard : Form
     {
+        int  pos = 1;
         public string use;
         public BLL_TaiKhoan Tk = new BLL_TaiKhoan();
         public DTO_SoDuTk sd;
@@ -121,7 +123,7 @@ namespace DoAnPTUD
                 {
                     lbTien.Text = sd.SoDuTK1.ToString("N");
                 }
-
+               
             }
         }
 
@@ -136,6 +138,44 @@ namespace DoAnPTUD
             PersonInfor personInfor = new PersonInfor(use);
             personInfor.Show();
             this.Hide();
+        }
+
+        private void picAvatar_LoadCompleted(object sender, AsyncCompletedEventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_LoadCompleted(object sender, AsyncCompletedEventArgs e)
+        {
+            
+        }
+
+        private void btnChuyen_Click(object sender, EventArgs e)
+        {
+            Bitmap the = new Bitmap(Resources.thenganhang);
+            Bitmap tiet = new Bitmap(Resources.tietkiem);
+            List<Bitmap> list = new List<Bitmap>();
+            list.Add(the);
+            list.Add(tiet);    
+                if (pos >= list.Count-1)
+
+                {
+                pictureBox1.Image = list[pos++];
+                pos = 0;
+                }
+                else
+                {
+                    pictureBox1.Image = list[pos++];
+
+                }
+
+
+
+        }
+
+        private void btnChuyen_MouseClick(object sender, MouseEventArgs e)
+        {
+
         }
     }
 }

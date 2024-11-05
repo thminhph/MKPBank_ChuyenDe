@@ -83,14 +83,10 @@
             // 
             this.picAvatar.Dock = System.Windows.Forms.DockStyle.Left;
             this.picAvatar.Location = new System.Drawing.Point(0, 0);
-<<<<<<< HEAD
-            this.picAvatar.Name = "picAvatar";
-            this.picAvatar.Size = new System.Drawing.Size(72, 69);
-=======
             this.picAvatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picAvatar.Name = "picAvatar";
-            this.picAvatar.Size = new System.Drawing.Size(64, 55);
->>>>>>> Kiet4
+            this.picAvatar.Size = new System.Drawing.Size(72, 69);
+            this.picAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picAvatar.TabIndex = 0;
             this.picAvatar.TabStop = false;
             // 
@@ -104,16 +100,10 @@
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button4.ImageIndex = 30;
             this.button4.ImageList = this.imageList1;
-<<<<<<< HEAD
-            this.button4.Location = new System.Drawing.Point(0, 93);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(229, 44);
-=======
-            this.button4.Location = new System.Drawing.Point(0, 74);
+            this.button4.Location = new System.Drawing.Point(0, 92);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(204, 35);
->>>>>>> Kiet4
+            this.button4.Size = new System.Drawing.Size(230, 44);
             this.button4.TabIndex = 5;
             this.button4.Text = "Trang Chính";
             this.button4.UseVisualStyleBackColor = false;
@@ -168,16 +158,10 @@
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.ImageIndex = 25;
             this.button3.ImageList = this.imageList1;
-<<<<<<< HEAD
             this.button3.Location = new System.Drawing.Point(0, 159);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(229, 44);
-=======
-            this.button3.Location = new System.Drawing.Point(0, 127);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(204, 35);
->>>>>>> Kiet4
+            this.button3.Size = new System.Drawing.Size(230, 44);
             this.button3.TabIndex = 4;
             this.button3.Text = "Hội viên MKP";
             this.button3.UseVisualStyleBackColor = false;
@@ -195,16 +179,10 @@
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.ImageIndex = 28;
             this.button2.ImageList = this.imageList1;
-<<<<<<< HEAD
-            this.button2.Location = new System.Drawing.Point(0, 404);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(229, 44);
-=======
-            this.button2.Location = new System.Drawing.Point(0, 323);
+            this.button2.Location = new System.Drawing.Point(0, 403);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(204, 35);
->>>>>>> Kiet4
+            this.button2.Size = new System.Drawing.Size(230, 44);
             this.button2.TabIndex = 3;
             this.button2.Text = "Cài Đặt";
             this.button2.UseVisualStyleBackColor = false;
@@ -221,16 +199,10 @@
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.ImageIndex = 19;
             this.button1.ImageList = this.imageList1;
-<<<<<<< HEAD
-            this.button1.Location = new System.Drawing.Point(0, 448);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(229, 44);
-=======
-            this.button1.Location = new System.Drawing.Point(0, 358);
+            this.button1.Location = new System.Drawing.Point(0, 447);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(204, 35);
->>>>>>> Kiet4
+            this.button1.Size = new System.Drawing.Size(230, 44);
             this.button1.TabIndex = 2;
             this.button1.Text = "Đăng xuất";
             this.button1.UseVisualStyleBackColor = false;
@@ -242,15 +214,9 @@
             this.linkHoSo.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.linkHoSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkHoSo.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-<<<<<<< HEAD
             this.linkHoSo.Location = new System.Drawing.Point(72, 56);
             this.linkHoSo.Name = "linkHoSo";
             this.linkHoSo.Size = new System.Drawing.Size(99, 13);
-=======
-            this.linkHoSo.Location = new System.Drawing.Point(64, 43);
-            this.linkHoSo.Name = "linkHoSo";
-            this.linkHoSo.Size = new System.Drawing.Size(82, 12);
->>>>>>> Kiet4
             this.linkHoSo.TabIndex = 2;
             this.linkHoSo.TabStop = true;
             this.linkHoSo.Text = "Hồ sơ người dùng >";
@@ -262,29 +228,18 @@
             this.panel3.Controls.Add(this.picAvatar);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
-<<<<<<< HEAD
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(229, 69);
-=======
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(204, 55);
->>>>>>> Kiet4
+            this.panel3.Size = new System.Drawing.Size(230, 69);
             this.panel3.TabIndex = 1;
             // 
             // textBox1
             // 
             this.textBox1.Enabled = false;
-<<<<<<< HEAD
             this.textBox1.Location = new System.Drawing.Point(79, 19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(147, 26);
-=======
-            this.textBox1.Location = new System.Drawing.Point(70, 15);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(131, 22);
->>>>>>> Kiet4
+            this.textBox1.Size = new System.Drawing.Size(147, 26);
             this.textBox1.TabIndex = 3;
             // 
             // sidebar
@@ -299,16 +254,10 @@
             this.sidebar.Controls.Add(this.btnTK);
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-<<<<<<< HEAD
             this.sidebar.Location = new System.Drawing.Point(0, 51);
-            this.sidebar.Name = "sidebar";
-            this.sidebar.Size = new System.Drawing.Size(229, 492);
-=======
-            this.sidebar.Location = new System.Drawing.Point(0, 41);
             this.sidebar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sidebar.Name = "sidebar";
-            this.sidebar.Size = new System.Drawing.Size(204, 393);
->>>>>>> Kiet4
+            this.sidebar.Size = new System.Drawing.Size(230, 491);
             this.sidebar.TabIndex = 1;
             this.sidebar.Visible = false;
             // 
@@ -324,16 +273,10 @@
             this.btnTK.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTK.ImageIndex = 0;
             this.btnTK.ImageList = this.imageList1;
-<<<<<<< HEAD
-            this.btnTK.Location = new System.Drawing.Point(3, 227);
-            this.btnTK.Name = "btnTK";
-            this.btnTK.Size = new System.Drawing.Size(226, 44);
-=======
-            this.btnTK.Location = new System.Drawing.Point(3, 182);
+            this.btnTK.Location = new System.Drawing.Point(3, 228);
             this.btnTK.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTK.Name = "btnTK";
-            this.btnTK.Size = new System.Drawing.Size(201, 35);
->>>>>>> Kiet4
+            this.btnTK.Size = new System.Drawing.Size(226, 44);
             this.btnTK.TabIndex = 0;
             this.btnTK.Text = "Quản lý TK/Thẻ";
             this.btnTK.UseVisualStyleBackColor = false;
@@ -349,15 +292,9 @@
             this.btnMenu.ImageIndex = 15;
             this.btnMenu.ImageList = this.imageList1;
             this.btnMenu.Location = new System.Drawing.Point(0, 0);
-<<<<<<< HEAD
             this.btnMenu.Margin = new System.Windows.Forms.Padding(10);
             this.btnMenu.Name = "btnMenu";
             this.btnMenu.Size = new System.Drawing.Size(50, 51);
-=======
-            this.btnMenu.Margin = new System.Windows.Forms.Padding(9, 8, 9, 8);
-            this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(44, 41);
->>>>>>> Kiet4
             this.btnMenu.TabIndex = 0;
             this.btnMenu.UseVisualStyleBackColor = true;
             this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
@@ -370,14 +307,9 @@
             this.panel1.Controls.Add(this.btnMenu);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-<<<<<<< HEAD
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1106, 51);
-=======
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(983, 41);
->>>>>>> Kiet4
+            this.panel1.Size = new System.Drawing.Size(1106, 51);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -385,15 +317,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(567, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(123, 26);
-=======
-            this.label1.Location = new System.Drawing.Point(504, 11);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 24);
->>>>>>> Kiet4
             this.label1.TabIndex = 0;
             this.label1.Text = "Thông Tin ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -409,25 +335,16 @@
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.panel5, 0, 3);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-<<<<<<< HEAD
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(229, 51);
-=======
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(204, 41);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(230, 51);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> Kiet4
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.05092F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 56.41548F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.331976F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.20163F));
-<<<<<<< HEAD
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(877, 492);
-=======
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(779, 393);
->>>>>>> Kiet4
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(876, 491);
             this.tableLayoutPanel1.TabIndex = 1;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
@@ -449,226 +366,136 @@
             this.panel2.Controls.Add(this.lbCCCD);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Enabled = false;
-<<<<<<< HEAD
-            this.panel2.Location = new System.Drawing.Point(4, 126);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(869, 268);
-=======
-            this.panel2.Location = new System.Drawing.Point(4, 101);
+            this.panel2.Location = new System.Drawing.Point(4, 125);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(771, 214);
->>>>>>> Kiet4
+            this.panel2.Size = new System.Drawing.Size(868, 270);
             this.panel2.TabIndex = 6;
             // 
             // txtGioiTinh
             // 
             this.txtGioiTinh.Enabled = false;
-<<<<<<< HEAD
             this.txtGioiTinh.Location = new System.Drawing.Point(215, 114);
-            this.txtGioiTinh.Name = "txtGioiTinh";
-            this.txtGioiTinh.Size = new System.Drawing.Size(196, 26);
-=======
-            this.txtGioiTinh.Location = new System.Drawing.Point(191, 91);
             this.txtGioiTinh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtGioiTinh.Name = "txtGioiTinh";
-            this.txtGioiTinh.Size = new System.Drawing.Size(175, 22);
->>>>>>> Kiet4
+            this.txtGioiTinh.Size = new System.Drawing.Size(196, 26);
             this.txtGioiTinh.TabIndex = 16;
             // 
             // txtCCCD
             // 
             this.txtCCCD.Enabled = false;
-<<<<<<< HEAD
-            this.txtCCCD.Location = new System.Drawing.Point(215, 47);
-            this.txtCCCD.Name = "txtCCCD";
-            this.txtCCCD.Size = new System.Drawing.Size(196, 26);
-=======
-            this.txtCCCD.Location = new System.Drawing.Point(191, 38);
+            this.txtCCCD.Location = new System.Drawing.Point(215, 48);
             this.txtCCCD.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtCCCD.Name = "txtCCCD";
-            this.txtCCCD.Size = new System.Drawing.Size(175, 22);
->>>>>>> Kiet4
+            this.txtCCCD.Size = new System.Drawing.Size(196, 26);
             this.txtCCCD.TabIndex = 15;
             this.txtCCCD.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // txtNgaysinh
             // 
             this.txtNgaysinh.Enabled = false;
-<<<<<<< HEAD
-            this.txtNgaysinh.Location = new System.Drawing.Point(215, 83);
-            this.txtNgaysinh.Name = "txtNgaysinh";
-            this.txtNgaysinh.Size = new System.Drawing.Size(196, 26);
-=======
-            this.txtNgaysinh.Location = new System.Drawing.Point(191, 66);
+            this.txtNgaysinh.Location = new System.Drawing.Point(215, 82);
             this.txtNgaysinh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNgaysinh.Name = "txtNgaysinh";
-            this.txtNgaysinh.Size = new System.Drawing.Size(175, 22);
->>>>>>> Kiet4
+            this.txtNgaysinh.Size = new System.Drawing.Size(196, 26);
             this.txtNgaysinh.TabIndex = 14;
             // 
             // txtSDT
             // 
             this.txtSDT.Enabled = false;
-<<<<<<< HEAD
             this.txtSDT.Location = new System.Drawing.Point(215, 219);
-            this.txtSDT.Name = "txtSDT";
-            this.txtSDT.Size = new System.Drawing.Size(196, 26);
-=======
-            this.txtSDT.Location = new System.Drawing.Point(191, 175);
             this.txtSDT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSDT.Name = "txtSDT";
-            this.txtSDT.Size = new System.Drawing.Size(175, 22);
->>>>>>> Kiet4
+            this.txtSDT.Size = new System.Drawing.Size(196, 26);
             this.txtSDT.TabIndex = 13;
             // 
             // txtNgayCap
             // 
             this.txtNgayCap.Enabled = false;
-<<<<<<< HEAD
-            this.txtNgayCap.Location = new System.Drawing.Point(215, 183);
-            this.txtNgayCap.Name = "txtNgayCap";
-            this.txtNgayCap.Size = new System.Drawing.Size(196, 26);
-=======
-            this.txtNgayCap.Location = new System.Drawing.Point(191, 146);
+            this.txtNgayCap.Location = new System.Drawing.Point(215, 182);
             this.txtNgayCap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNgayCap.Name = "txtNgayCap";
-            this.txtNgayCap.Size = new System.Drawing.Size(175, 22);
->>>>>>> Kiet4
+            this.txtNgayCap.Size = new System.Drawing.Size(196, 26);
             this.txtNgayCap.TabIndex = 12;
             // 
             // txtDiaChi
             // 
             this.txtDiaChi.Enabled = false;
-<<<<<<< HEAD
             this.txtDiaChi.Location = new System.Drawing.Point(215, 148);
-            this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(196, 26);
-=======
-            this.txtDiaChi.Location = new System.Drawing.Point(191, 118);
             this.txtDiaChi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(175, 22);
->>>>>>> Kiet4
+            this.txtDiaChi.Size = new System.Drawing.Size(196, 26);
             this.txtDiaChi.TabIndex = 11;
             // 
             // txtHoTen
             // 
             this.txtHoTen.Enabled = false;
-<<<<<<< HEAD
-            this.txtHoTen.Location = new System.Drawing.Point(215, 13);
-            this.txtHoTen.Name = "txtHoTen";
-            this.txtHoTen.Size = new System.Drawing.Size(196, 26);
-=======
-            this.txtHoTen.Location = new System.Drawing.Point(191, 10);
+            this.txtHoTen.Location = new System.Drawing.Point(215, 12);
             this.txtHoTen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtHoTen.Name = "txtHoTen";
-            this.txtHoTen.Size = new System.Drawing.Size(175, 22);
->>>>>>> Kiet4
+            this.txtHoTen.Size = new System.Drawing.Size(196, 26);
             this.txtHoTen.TabIndex = 10;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-<<<<<<< HEAD
             this.label8.Location = new System.Drawing.Point(19, 120);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(71, 20);
-=======
-            this.label8.Location = new System.Drawing.Point(17, 96);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(60, 16);
->>>>>>> Kiet4
             this.label8.TabIndex = 9;
             this.label8.Text = "Giới Tính";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-<<<<<<< HEAD
             this.label7.Location = new System.Drawing.Point(19, 154);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(117, 20);
-=======
-            this.label7.Location = new System.Drawing.Point(17, 123);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 16);
->>>>>>> Kiet4
             this.label7.TabIndex = 8;
             this.label7.Text = "Nơi Thường Trú";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-<<<<<<< HEAD
             this.label6.Location = new System.Drawing.Point(19, 189);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(78, 20);
-=======
-            this.label6.Location = new System.Drawing.Point(17, 151);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 16);
->>>>>>> Kiet4
             this.label6.TabIndex = 7;
             this.label6.Text = "Ngày Cấp";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(19, 225);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 20);
-=======
-            this.label3.Location = new System.Drawing.Point(17, 180);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 16);
->>>>>>> Kiet4
             this.label3.TabIndex = 6;
             this.label3.Text = "SDT";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-<<<<<<< HEAD
             this.label5.Location = new System.Drawing.Point(19, 86);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(81, 20);
-=======
-            this.label5.Location = new System.Drawing.Point(17, 69);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 16);
->>>>>>> Kiet4
             this.label5.TabIndex = 5;
             this.label5.Text = "Ngày Sinh";
             // 
             // lbTen
             // 
             this.lbTen.AutoSize = true;
-<<<<<<< HEAD
             this.lbTen.Location = new System.Drawing.Point(19, 19);
             this.lbTen.Name = "lbTen";
             this.lbTen.Size = new System.Drawing.Size(61, 20);
-=======
-            this.lbTen.Location = new System.Drawing.Point(17, 15);
-            this.lbTen.Name = "lbTen";
-            this.lbTen.Size = new System.Drawing.Size(52, 16);
->>>>>>> Kiet4
             this.lbTen.TabIndex = 2;
             this.lbTen.Text = "Họ Tên";
             // 
             // lbCCCD
             // 
             this.lbCCCD.AutoSize = true;
-<<<<<<< HEAD
             this.lbCCCD.Location = new System.Drawing.Point(19, 50);
             this.lbCCCD.Name = "lbCCCD";
             this.lbCCCD.Size = new System.Drawing.Size(172, 20);
-=======
-            this.lbCCCD.Location = new System.Drawing.Point(17, 40);
-            this.lbCCCD.Name = "lbCCCD";
-            this.lbCCCD.Size = new System.Drawing.Size(145, 16);
->>>>>>> Kiet4
             this.lbCCCD.TabIndex = 4;
             this.lbCCCD.Text = "CCCD/CMND/Hộ chiếu";
             // 
@@ -677,16 +504,10 @@
             this.panel4.Controls.Add(this.label9);
             this.panel4.Controls.Add(this.picAvata1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-<<<<<<< HEAD
-            this.panel4.Location = new System.Drawing.Point(4, 4);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(869, 115);
-=======
             this.panel4.Location = new System.Drawing.Point(4, 3);
             this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(771, 93);
->>>>>>> Kiet4
+            this.panel4.Size = new System.Drawing.Size(868, 117);
             this.panel4.TabIndex = 10;
             // 
             // label9
@@ -696,15 +517,9 @@
             this.label9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label9.ImageIndex = 24;
             this.label9.ImageList = this.imageList1;
-<<<<<<< HEAD
             this.label9.Location = new System.Drawing.Point(19, 89);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(169, 20);
-=======
-            this.label9.Location = new System.Drawing.Point(17, 71);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(141, 16);
->>>>>>> Kiet4
             this.label9.TabIndex = 3;
             this.label9.Text = "      Thông Tin Cá Nhân";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -712,16 +527,11 @@
             // picAvata1
             // 
             this.picAvata1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-<<<<<<< HEAD
-            this.picAvata1.Location = new System.Drawing.Point(402, 3);
-            this.picAvata1.Name = "picAvata1";
-            this.picAvata1.Size = new System.Drawing.Size(137, 92);
-=======
-            this.picAvata1.Location = new System.Drawing.Point(356, 2);
+            this.picAvata1.Location = new System.Drawing.Point(401, 2);
             this.picAvata1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picAvata1.Name = "picAvata1";
-            this.picAvata1.Size = new System.Drawing.Size(122, 74);
->>>>>>> Kiet4
+            this.picAvata1.Size = new System.Drawing.Size(137, 92);
+            this.picAvata1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picAvata1.TabIndex = 1;
             this.picAvata1.TabStop = false;
             // 
@@ -733,15 +543,9 @@
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label2.ImageIndex = 26;
             this.label2.ImageList = this.imageList1;
-<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(4, 398);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(173, 35);
-=======
-            this.label2.Location = new System.Drawing.Point(4, 318);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(143, 28);
->>>>>>> Kiet4
             this.label2.TabIndex = 10;
             this.label2.Text = "       Thông Tin Bổ Sung";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -751,71 +555,42 @@
             this.panel5.Controls.Add(this.txtEmail);
             this.panel5.Controls.Add(this.label4);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-<<<<<<< HEAD
-            this.panel5.Location = new System.Drawing.Point(4, 437);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(869, 51);
-=======
-            this.panel5.Location = new System.Drawing.Point(4, 349);
+            this.panel5.Location = new System.Drawing.Point(4, 436);
             this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(771, 41);
->>>>>>> Kiet4
+            this.panel5.Size = new System.Drawing.Size(868, 52);
             this.panel5.TabIndex = 11;
             // 
             // txtEmail
             // 
             this.txtEmail.Enabled = false;
-<<<<<<< HEAD
             this.txtEmail.Location = new System.Drawing.Point(215, 5);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(196, 26);
-=======
-            this.txtEmail.Location = new System.Drawing.Point(191, 4);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(175, 22);
->>>>>>> Kiet4
+            this.txtEmail.Size = new System.Drawing.Size(196, 26);
             this.txtEmail.TabIndex = 14;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(19, 11);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 20);
-=======
-            this.label4.Location = new System.Drawing.Point(17, 9);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 16);
->>>>>>> Kiet4
             this.label4.TabIndex = 9;
             this.label4.Text = "Email";
             // 
             // PersonInfor
             // 
-<<<<<<< HEAD
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1106, 543);
-=======
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(983, 434);
->>>>>>> Kiet4
+            this.ClientSize = new System.Drawing.Size(1106, 542);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.sidebar);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
-<<<<<<< HEAD
-=======
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> Kiet4
             this.Name = "PersonInfor";
             this.Text = "PersonInfor";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

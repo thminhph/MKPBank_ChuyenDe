@@ -34,8 +34,8 @@ namespace DoAnPTUD
                 cbNganhChinh.Text,
                 cbNganh.Text
             };
-            BLL_LoadValue kh = new BLL_LoadValue();
-            dgvKhachHang.DataSource = kh.InDSKhachHang(arr);
+            //BLL_LoadValue kh = new BLL_LoadValue();
+            //dgvKhachHang.DataSource = kh.InDSKhachHang(arr);
         }
     }
 }

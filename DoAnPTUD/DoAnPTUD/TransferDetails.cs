@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,10 +13,12 @@ namespace DoAnPTUD
 {
     public partial class TransferDetails : Form
     {
-       
-        public TransferDetails()
+        public string use;
+        public BLL_TaiKhoan Tk = new BLL_TaiKhoan();
+        public TransferDetails( string us)
         {
             InitializeComponent();
+            this.use = us;
         }
 
         private void btnXacNhan_Click(object sender, EventArgs e)
@@ -28,9 +31,13 @@ namespace DoAnPTUD
 
         private void btnThemGiaoDich_Click(object sender, EventArgs e)
         {
-            Transfer transfer = new Transfer();
+            Transfer transfer = new Transfer(use);
             transfer.Show();
             this.Hide();
+        }
+        public void loadata()
+        {
+
         }
     }
 }

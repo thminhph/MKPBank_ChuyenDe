@@ -12,11 +12,6 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-<<<<<<< HEAD
-using System.Drawing;
-using System.IO;
-=======
->>>>>>> Kiet4
 
 namespace DoAnPTUD
 {
@@ -37,7 +32,9 @@ namespace DoAnPTUD
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-           Loadata();
+           
+            
+            Loadata();
         }
 
         private void Loadata()
@@ -138,7 +135,7 @@ namespace DoAnPTUD
         private void btnMaQR_Click(object sender, EventArgs e)
         {
             // Tạo một form mới
-            Form form = new CustomDialogQR("https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=PhongPhu");
+            Form form = new CustomDialogQR(use);
             form.StartPosition = FormStartPosition.CenterParent;
             // Hiển thị form
             form.ShowDialog();
@@ -152,7 +149,7 @@ namespace DoAnPTUD
 
         private void btnChuyenKhoan_Click(object sender, EventArgs e)
         {
-            Transfer transfer = new Transfer(); 
+            Transfer transfer = new Transfer(use); 
             transfer.Show();
             this.Hide();
         }

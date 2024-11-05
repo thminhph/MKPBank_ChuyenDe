@@ -25,11 +25,7 @@ namespace DAL
         {
             var qurey = from s in db.SoDuTinDungs
                         join k in db.TaiKhoans on s.IdTaiKhoan equals k.IdTaiKhoan
-<<<<<<< HEAD
-                        join c in db.KhachHangCaNhans on k.MaKhachHang equals c.IdKhachHangCN
-=======
-                        join c in db.KhachHangCaNhans on k.IdKhachHangCN equals c.IdKhachHangCN
->>>>>>> Kiet4
+                        join c in db.KhachHangs on k.IdKhachHang equals c.IdKhachHang
                         where c.SoDienThoai == a
                         select new
                         {

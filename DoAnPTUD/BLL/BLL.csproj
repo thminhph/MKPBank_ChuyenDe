@@ -42,21 +42,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL_ChiTietGiaoDich.cs" />
-<<<<<<< HEAD
-=======
-    <Compile Include="BLL_KhachHangCaNhan.cs" />
-    <Compile Include="BLL_KhachHangDoanhNghiep.cs" />
+    <Compile Include="BLL_KhachHang.cs" />
     <Compile Include="BLL_LoadValue.cs" />
->>>>>>> Kiet4
     <Compile Include="BLL_Nganh.cs" />
     <Compile Include="BLL_NganhChinh.cs" />
     <Compile Include="BLL_SoDuTk.cs" />
     <Compile Include="BLL_TaiKhoan.cs" />
     <Compile Include="BLL_ThongTinKH.cs" />
-<<<<<<< HEAD
-=======
     <Compile Include="Context.cs" />
->>>>>>> Kiet4
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

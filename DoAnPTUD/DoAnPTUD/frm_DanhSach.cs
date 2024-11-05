@@ -27,13 +27,13 @@ namespace DoAnPTUD
             switch (flag)
             {
                 case "Mở khách hàng cá nhân":
-                    BLL_KhachHangCaNhan kh = new BLL_KhachHangCaNhan();
+                    BLL_KhachHang kh = new BLL_KhachHang();
                     dgvDanhSach.DataSource = kh.InDanhSach();
                     this.dgvDanhSach.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvDanhSach_CellContentClick);
                     break;
                 case "Mở khách hàng doanh nghiệp":
-                    BLL_KhachHangDoanhNghiep khDN = new BLL_KhachHangDoanhNghiep();
-                    dgvDanhSach.DataSource = khDN.LayDuLieu();
+                    //BLL_KhachHangDoanhNghiep khDN = new BLL_KhachHangDoanhNghiep();
+                    //dgvDanhSach.DataSource = khDN.LayDuLieu();
                     this.dgvDanhSach.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvDanhSach_CellContentClick);
                     break;
                 default:

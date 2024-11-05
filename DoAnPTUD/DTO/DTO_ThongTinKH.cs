@@ -5,18 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
 using System.Reflection;
-<<<<<<< HEAD
-using System.Drawing;
-=======
->>>>>>> Kiet4
 
 namespace DTO
 { 
     
     public class DTO_ThongTinKH 
     {
-       
-        private int idKhachHangCN;
+        private int idKhachHang;
         private string tenKhachHang;
         private byte[]  avarta; 
         private DateTime ngaySinh;
@@ -48,7 +43,6 @@ namespace DTO
             
             this.tenKhachHang = tenKhachHang;
             this.avarta = avarta;
-             
             this.ngaySinh = ngaySinh;
             this.diaChi = diaChi;
             this.soDienThoai = soDienThoai;
@@ -57,9 +51,9 @@ namespace DTO
             this.email = email;
 
         }
-        public DTO_ThongTinKH(int idKhachHangCN, string tenKhachHang, byte[] avarta, DateTime ngaySinh, string diaChi, string  soDienThoai, string quocGia, string quocTich, string loaiGiayTo, string soGiayTo, DateTime ngayCap, DateTime ngayHetHan, string noiCap, string email, int nganhChinh, int nganh, string nhanVienLV)
+        public DTO_ThongTinKH(int idKhachHang, string tenKhachHang, byte[] avarta, DateTime ngaySinh, string diaChi, string  soDienThoai, string quocGia, string quocTich, string loaiGiayTo, string soGiayTo, DateTime ngayCap, DateTime ngayHetHan, string noiCap, string email, int nganhChinh, int nganh, string nhanVienLV)
         {
-            this.idKhachHangCN = idKhachHangCN;
+            this.idKhachHang = idKhachHang;
             this.tenKhachHang = tenKhachHang;
             this.avarta = avarta;
             this.ngaySinh = ngaySinh;
@@ -78,7 +72,7 @@ namespace DTO
             this.nhanVienLV = nhanVienLV;
         }
 
-        public int IdKhachHangCN { get => idKhachHangCN; set => idKhachHangCN = value; }
+        public int IdKhachHang { get => idKhachHang; set => idKhachHang = value; }
         public string TenKhachHang { get => tenKhachHang; set => tenKhachHang = value; }
         public byte[] Avarta { get => avarta; set => avarta = value; }
         public DateTime NgaySinh { get => ngaySinh; set => ngaySinh = value; }

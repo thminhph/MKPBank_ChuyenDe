@@ -1,4 +1,7 @@
-﻿using System;
+﻿using BLL;
+using DTO;
+using QRCoder;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,11 +17,14 @@ namespace DoAnPTUD
 {
     public partial class CustomDialogQR : Form
     {
-        private String imagePath;
-        public CustomDialogQR(string imagePath)
+        
+        public string user;
+        public BLL_TaiKhoan Tk = new BLL_TaiKhoan();
+        public CustomDialogQR(string user )
         {
             InitializeComponent();
-            this.imagePath = imagePath;
+           
+            this.user = user;
         }
 
         private void CustomDialogQR_Load(object sender, EventArgs e)
@@ -26,14 +32,13 @@ namespace DoAnPTUD
             // Tải hình ảnh từ URL
             try
             {
-                using (WebClient client = new WebClient())
-                {
-                    byte[] imageData = client.DownloadData(imagePath);
-                    using (MemoryStream ms = new MemoryStream(imageData))
-                    {
-                        picQRCode.Image = Image.FromStream(ms);
-                    }
-                }
+                DTO_ThongTinKH th = Tk.tim(user);
+               string data = "Tên :"+th.TenKhachHang+"\n STĐ :" + th.SoDienThoai+"\n Email :" +th.Email;
+                QRCodeGenerator qr = new QRCodeGenerator();
+                QRCodeData qrdata = qr.CreateQrCode(data, QRCodeGenerator.ECCLevel.Q);
+                QRCode qRCode= new QRCode(qrdata);
+                Bitmap qrImage = qRCode.GetGraphic(50); 
+                picQRCode.Image = qrImage;
             }
             catch (Exception ex)
             {
