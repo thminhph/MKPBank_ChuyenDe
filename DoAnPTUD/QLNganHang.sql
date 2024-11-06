@@ -19,7 +19,7 @@ CREATE TABLE KhachHang(
 	Email varchar(255),
 	NganhChinh int not null,
 	IdNganh int not null,
-	NhanVienLV varchar(20) not null,
+	NhanVienLV varchar(20),
 	IdLoaiKH int
 );
 
@@ -69,7 +69,7 @@ CREATE TABLE TaiKhoan(
 	TienTe nvarchar(50) not null,
 	TieuDeTK nvarchar(255),
 	TieuDeNgan nvarchar(50),
-	NhanVienLV varchar(20) not null,
+	NhanVienLV varchar(20),
 	PhiMa nvarchar(255),
 	Matkhau char (255) not null
 );
@@ -119,14 +119,31 @@ CREATE TABLE Nganh(
 );
 
 CREATE TABLE ChiTietGD(
-MaGD  bigint identity(070000654321,10) primary key,
-SoTKNguoiChuyen bigint  not null,
-SoTKNguoiNhan bigint   not null,
-SoTien float not null,
-NgayGio datetime not null,
-DienGia nvarchar (300) not null
+	MaGD  bigint identity(070000654321,10) primary key,
+	SoTKNguoiChuyen bigint  not null,
+	SoTKNguoiNhan bigint   not null,
+	SoTien float not null,
+	NgayGio datetime not null,
+	DienGia nvarchar (300) not null
 );
 
+CREATE TABLE TaiKhoanTietKiem(
+	IdTaiKhoanTK nvarchar(50) primary key,
+	IdKhachHang int,
+	IdLoaiTK int,
+	TieuDeTK nvarchar(255),
+	TienTe nvarchar(100),
+	SoTienNap float,
+	NgayGiaTri date,
+	ThoiHan nvarchar(100),
+	LaiSuat float,
+	IdTaiKhoan bigint,
+)
+
+CREATE TABLE LoaiTaiKhoanTK(
+	IdLoaiTK int identity(1,1) primary key,
+	TenLoai nvarchar(100)
+)
 --Liên kết khóa phụ vào bảng Khách hàng
 ALTER TABLE KhachHang
 ADD CONSTRAINT fk_khnganh FOREIGN KEY(NganhChinh) REFERENCES NganhChinh(IdNganhChinh)
@@ -178,6 +195,13 @@ ADD CONSTRAINT fk_sdtd FOREIGN KEY (IdTaiKhoan) REFERENCES TaiKhoan(IdTaiKhoan)
 --Thêm khóa ngoại bảng ngành
 ALTER TABLE Nganh --phú
 ADD CONSTRAINT fk_nganh FOREIGN KEY (IdNganhChinh) REFERENCES NganhChinh(IdNganhChinh)
+
+--Liên kết khóa phụ vào bảng tài khoản tiết kiệm
+ALTER TABLE TaiKhoanTietKiem
+ADD CONSTRAINT fk_tktkloai FOREIGN KEY (IdLoaiTK) REFERENCES LoaiTaiKhoanTK(IdLoaiTK)
+
+ALTER TABLE TaiKhoanTietKiem
+ADD CONSTRAINT fk_tktkkh FOREIGN KEY (IdKhachHang) REFERENCES KhachHang(IdKhachHang)
 
 INSERT INTO NganhChinh VALUES
 (N''),
@@ -252,22 +276,4 @@ SELECT khachHang.*, chiTiet.*
 FROM KhachHang AS khachHang
 JOIN ChiTietKHCN AS chiTiet
 ON khachHang.IdKhachHang = chiTiet.IdKhachHangCN
-WHERE chiTiet.IdKhachHangCN = 100756;
-select * from SoDuTinDung
-SELECT 
-    kh.IdKhachHang AS [Mã khách hàng],
-    kh.TenKhachHang AS [Tên khách hàng],
-    CASE 
-        WHEN LEN(kh.DiaChi) - LEN(REPLACE(kh.DiaChi, ',', '')) >= 2 
-        THEN LTRIM(RIGHT(kh.DiaChi, CHARINDEX(',', REVERSE(kh.DiaChi), CHARINDEX(',', REVERSE(kh.DiaChi)) + 1) - 1))
-        ELSE ''
-    END AS [Thành phố/Tỉnh],
-    kh.QuocTich AS [Quốc tịch],
-    nc.TenNganh AS [Ngành công nghiệp chính],
-    kh.SoGiayTo AS [Số giấy tờ]
-FROM 
-    KhachHang kh
-INNER JOIN 
-    NganhChinh nc ON kh.NganhChinh = nc.IdNganhChinh
-WHERE 
-    kh.IdLoaiKH = 1;
+WHER
