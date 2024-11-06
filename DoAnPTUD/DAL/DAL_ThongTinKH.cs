@@ -24,11 +24,11 @@ namespace DAL
         }
         public IQueryable layDSThongTinKH()
         {
-            IQueryable thongTinKH = from s in db.KhachHangCaNhans 
+            IQueryable thongTinKH = from s in db.KhachHangs 
                                     join h in db.Nganhs on s.IdNganh equals h.IdNganh
                                     select new
                                     {
-                                        s.IdKhachHangCN,
+                                        s.IdKhachHang,
                                         s.TenKhachHang,
                                         s.Avarta,
                                         s.NgaySinh,
@@ -50,7 +50,7 @@ namespace DAL
         }
         public void SuaKH(DTO_ThongTinKH a , DTO_ThongTinKH b)
         {
-            var sua = db.KhachHangCaNhans.Single(kh => kh.IdKhachHangCN == a.IdKhachHangCN || kh.SoDienThoai==b.SoDienThoai);
+            var sua = db.KhachHangs.Single(kh => kh.IdKhachHang == a.IdKhachHangCN || kh.SoDienThoai==b.SoDienThoai);
             sua.TenKhachHang = a.TenKhachHang;
             sua.Avarta = a.Avarta;
             sua.NgaySinh = a.NgaySinh;
@@ -71,9 +71,9 @@ namespace DAL
       
         public DTO_ThongTinKH timTHKHstk(long stk)
         {
-            var a = from s in db.KhachHangCaNhans
+            var a = from s in db.KhachHangs
                         
-                        join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.IdKhachHangCN
+                        join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
                         where tk.IdTaiKhoan == stk
                         select new
                         {

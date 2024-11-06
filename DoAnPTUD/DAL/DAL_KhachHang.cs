@@ -20,50 +20,46 @@ namespace DAL
             var xem = dContext.Db.KhachHangs.Select(kh => kh);
             return xem;
         }
-        public DTO_ChiTietKHCN LayGiaTriKHCaNhan(int id)
+        public DTO_KhachHang LayGiaTriKHCaNhan(int id)
         {
             dContext = new Data_Context();
-            var chiTietKhachHang = (from khachHang in dContext.Db.KhachHangs
-                                    join chiTiet in dContext.Db.ChiTietKHCNs
-                                    on khachHang.IdKhachHang equals chiTiet.IdKhachHangCN
-                                    where khachHang.IdKhachHang == id
-                                    select new DTO_ChiTietKHCN(
-                                        khachHang.IdKhachHang,
-                                        khachHang.TenKhachHang,
-                                        khachHang.Avarta.ToArray(),
-                                        khachHang.NgaySinh,
-                                        khachHang.DiaChi,
-                                        khachHang.SoDienThoai,
-                                        khachHang.QuocGia,
-                                        khachHang.QuocTich,
-                                        khachHang.LoaiGiayTo,
-                                        khachHang.SoGiayTo,
-                                        khachHang.NgayCap,
-                                        (DateTime)khachHang.NgayHetHan,
-                                        khachHang.NoiCap,
-                                        khachHang.Email,
-                                        khachHang.NganhChinh,
-                                        khachHang.IdNganh,
-                                        khachHang.NhanVienLV,
-                                        chiTiet.IdLoaiKH,
-                                        chiTiet.GioiTinh,
-                                        chiTiet.XungHo,
-                                        chiTiet.TTHonNhan,
-                                        chiTiet.QuanHe,
-                                        chiTiet.SoVanPhong,
-                                        (int)chiTiet.SoNguoiPT,
-                                        chiTiet.SoHuuNha,
-                                        chiTiet.LHCuChu,
-                                        chiTiet.TinhTrangViecLam,
-                                        chiTiet.TenCty,
-                                        (float)chiTiet.ThuNhapHangThang,
-                                        chiTiet.DiaChiCty
-                                    )).FirstOrDefault();
 
-            return chiTietKhachHang;
+            // Retrieve the customer details based on the provided ID
+            var khachHang = (from kh in dContext.Db.KhachHangs
+                             where kh.IdKhachHang == id // Use the parameter id
+                             select kh).FirstOrDefault(); // Directly get the first matching record or null
+
+            // Check if a customer was found
+            if (khachHang != null)
+            {
+                // Create and return the DTO_KhachHang object
+                DTO_KhachHang kh = new DTO_KhachHang();
+                kh.IdKhachHang = khachHang.IdKhachHang;
+                kh.TenKhachHang = khachHang.TenKhachHang;
+                //kh.Avarta = khachHang.Avarta.ToArray();
+                kh.NgaySinh = khachHang.NgaySinh;
+                kh.DiaChi = khachHang.DiaChi;
+                kh.SoDienThoai = khachHang.SoDienThoai;
+                kh.QuocGia = khachHang.QuocGia;
+                kh.QuocTich = khachHang.QuocTich;
+                kh.LoaiGiayTo = khachHang.LoaiGiayTo;
+                kh.SoGiayTo = khachHang.SoGiayTo;
+                kh.NgayCap = khachHang.NgayCap;
+                kh.NgayHetHan = (DateTime)khachHang.NgayHetHan;
+                kh.NoiCap = khachHang.NoiCap;
+                kh.Email = khachHang.Email;
+                kh.NganhChinh = khachHang.NganhChinh;
+                kh.IdNganh = khachHang.IdNganh;
+                kh.NhanVienLV = khachHang.NhanVienLV;
+                kh.IdLoaiKH = (int)khachHang.IdLoaiKH;
+                return kh;
+            }
+
+            // Return null if no record was found
+            return null;
         }
 
-        public void ThemKHCaNhan(DTO_ChiTietKHCN kh)
+        public void ThemKHCaNhan(DTO_KhachHang kh)
         {
             dContext = new Data_Context();
             try
@@ -86,27 +82,10 @@ namespace DAL
                     TenKhachHang = kh.TenKhachHang,
                     NhanVienLV = string.IsNullOrEmpty(kh.NhanVienLV) ? null : kh.NhanVienLV,
                     SoGiayTo = kh.SoGiayTo,
-
-                };
-                ChiTietKHCN chiTietKHCN = new ChiTietKHCN
-                {
-                    IdKhachHangCN = kh.IdKhachHang,
-                    GioiTinh = string.IsNullOrEmpty(kh.GioiTinh) ? null : kh.GioiTinh,
-                    XungHo = string.IsNullOrEmpty(kh.XungHo) ? null : kh.XungHo,
-                    TTHonNhan = string.IsNullOrEmpty(kh.TTHonNhan) ? null : kh.TTHonNhan,
-                    QuanHe = string.IsNullOrEmpty(kh.QuanHe) ? null : kh.QuanHe,
-                    SoVanPhong = string.IsNullOrEmpty(kh.SoVanPhong) ? null : kh.SoVanPhong,
-                    SoNguoiPT = kh.SoNguoiPT,
-                    SoHuuNha = string.IsNullOrEmpty(kh.SoHuuNha) ? null : kh.SoHuuNha,
-                    LHCuChu = string.IsNullOrEmpty(kh.LHCuChu) ? null : kh.LHCuChu,
-                    TinhTrangViecLam = string.IsNullOrEmpty(kh.TinhTrangViecLam) ? null : kh.TinhTrangViecLam,
-                    TenCty = string.IsNullOrEmpty(kh.TenCty) ? null : kh.TenCty,
-                    ThuNhapHangThang = kh.ThuNhapHangThang
-                    ,
-                    DiaChiCty = string.IsNullOrEmpty(kh.DiaChiCty) ? null : kh.DiaChiCty,
+                    IdLoaiKH = kh.IdLoaiKH
                 };
                 dContext.Db.KhachHangs.InsertOnSubmit(khachHang);
-                dContext.Db.ChiTietKHCNs.InsertOnSubmit(chiTietKHCN);
+
             }
             finally
             {
@@ -117,6 +96,7 @@ namespace DAL
         {
             dContext = new Data_Context();
             var xem = dContext.Db.KhachHangs
+                .Where(k => k.IdLoaiKH == 1)
             .Join(dContext.Db.NganhChinhs,
                   khachHang => khachHang.NganhChinh,
                   n => n.IdNganhChinh,
@@ -152,7 +132,7 @@ namespace DAL
             }
             return dt;
         }
-        public void SuaKhCaNhan(DTO_ChiTietKHCN kh)
+        public void SuaKhCaNhan(DTO_KhachHang kh)
         {
             dContext = new Data_Context();
             var sua = dContext.Db.KhachHangs.Single(khachHang => khachHang.IdKhachHang == kh.IdKhachHang);
@@ -169,20 +149,6 @@ namespace DAL
             sua.NganhChinh = kh.NganhChinh;
             sua.IdNganh = kh.IdNganh;
             sua.NhanVienLV = kh.NhanVienLV;
-
-
-            var sua1 = dContext.Db.ChiTietKHCNs.Single(khachHang => khachHang.IdKhachHangCN == kh.IdKhachHang);
-            sua1.GioiTinh = kh.GioiTinh;
-            sua1.XungHo = kh.XungHo;
-            sua1.TTHonNhan = kh.TTHonNhan;
-            sua1.QuanHe = kh.QuanHe;
-            sua1.SoVanPhong = kh.QuocTich;
-            sua1.SoNguoiPT = kh.SoNguoiPT;
-            sua1.SoHuuNha = kh.SoHuuNha;
-            sua1.TinhTrangViecLam = kh.TinhTrangViecLam;
-            sua1.TenCty = kh.TenCty;
-            sua1.ThuNhapHangThang = kh.ThuNhapHangThang;
-            sua1.DiaChiCty = kh.DiaChiCty;
             dContext.Db.SubmitChanges();
         }
         public void XoaKhCaNhan(int id)
@@ -191,16 +157,9 @@ namespace DAL
             var xoa = dContext.Db.KhachHangs
                 .Where(kh => kh.IdKhachHang == id)
                 .Select(kh => kh);
-            var xoaChitiet = dContext.Db.ChiTietKHCNs
-                .Where(kh => kh.IdKhachHangCN == id)
-                .Select(kh => kh);
             foreach (var item in xoa)
             {
                 dContext.Db.KhachHangs.DeleteOnSubmit(item);
-            }
-            foreach (var item in xoaChitiet)
-            {
-                dContext.Db.ChiTietKHCNs.DeleteOnSubmit(item);
             }
             dContext.Db.SubmitChanges();
         }
@@ -211,6 +170,7 @@ namespace DAL
         {
             dContext = new Data_Context();
             var xem = dContext.Db.KhachHangs
+                .Where(kh => kh.IdLoaiKH == 2)
                 .Join(dContext.Db.NganhChinhs,
                 kh => kh.NganhChinh,
                 n => n.IdNganhChinh,
@@ -246,7 +206,7 @@ namespace DAL
             }
             return dt;
         }
-        public void ThemKHDoanhNghiep(DTO_ChiTietKHDN kh)
+        public void ThemKHDoanhNghiep(DTO_KhachHang kh)
         {
             dContext = new Data_Context();
             try
@@ -269,26 +229,9 @@ namespace DAL
                     SoDienThoai = string.IsNullOrEmpty(kh.SoDienThoai) ? null : kh.SoDienThoai,
                     NganhChinh = kh.NganhChinh,
                     IdNganh = kh.IdNganh,
-                    NhanVienLV = kh.NhanVienLV
+                    NhanVienLV = kh.NhanVienLV,
+                    IdLoaiKH = kh.IdLoaiKH,
                 };
-                // Tạo đối tượng ChiTietKHDN mới từ dữ liệu của BUS_ChiTietKHDN
-                ChiTietKHDN chiTietKHDN = new ChiTietKHDN
-                {
-                    IdKhachHangDN = kh.IdKhachHang,
-                    NgayTao = kh.NgayTao,
-                    QuanHe = string.IsNullOrEmpty(kh.QuanHe) ? null : kh.QuanHe,
-                    SoVanPhong = string.IsNullOrEmpty(kh.SoVanPhong) ? null : kh.SoVanPhong,
-                    TongVon = kh.TongVon,
-                    TongTaiSan = kh.TongTaiSan,
-                    TongDoanhThu = kh.TongDoanhThu,
-                    SoLuongNhanVien = kh.SoLuongNhanVien,
-                    ChucVu = kh.ChucVu,
-                    NguoiLH = kh.NguoiLH,
-
-                };
-
-                // Thêm đối tượng vào cơ sở dữ liệu
-                dContext.Db.ChiTietKHDNs.InsertOnSubmit(chiTietKHDN);
 
                 // Thêm đối tượng vào cơ sở dữ liệu
                 dContext.Db.KhachHangs.InsertOnSubmit(khachHangDN);
@@ -299,46 +242,42 @@ namespace DAL
                 Console.WriteLine("Lỗi: " + ex.Message);
             }
         }
-        public DTO_ChiTietKHDN LayGiaTriKHDoanhNghiep(int id)
+        public DTO_KhachHang LayGiaTriKHDoanhNghiep(int id)
         {
             dContext = new Data_Context();
-            var chiTietKhachHang = (from khachHang in dContext.Db.KhachHangs
-                                    join chiTiet in dContext.Db.ChiTietKHDNs
-                                    on khachHang.IdKhachHang equals chiTiet.IdKhachHangDN
-                                    where khachHang.IdKhachHang == id
-                                    select new DTO_ChiTietKHDN(
-                                        khachHang.IdKhachHang,
-                                        khachHang.TenKhachHang,
-                                        khachHang.Avarta.ToArray(),
-                                        khachHang.NgaySinh,
-                                        khachHang.DiaChi,
-                                        khachHang.SoDienThoai,
-                                        khachHang.QuocGia,
-                                        khachHang.QuocTich,
-                                        khachHang.LoaiGiayTo,
-                                        khachHang.SoGiayTo,
-                                        khachHang.NgayCap,
-                                        (DateTime)khachHang.NgayHetHan,
-                                        khachHang.NoiCap,
-                                        khachHang.Email,
-                                        khachHang.NganhChinh,
-                                        khachHang.IdNganh,
-                                        khachHang.NhanVienLV,
-                                        chiTiet.IdLoaiKH,
-                                        (DateTime)chiTiet.NgayTao,
-                                        chiTiet.QuanHe,
-                                        chiTiet.SoVanPhong,
-                                        (float)chiTiet.TongVon,
-                                        (float)chiTiet.TongTaiSan,
-                                        (float)chiTiet.TongDoanhThu,
-                                        (int)chiTiet.SoLuongNhanVien,
-                                        chiTiet.NguoiLH,
-                                        chiTiet.ChucVu
-                                    )).FirstOrDefault();
+            // Retrieve the customer details based on the provided ID
+            var khachHang = (from kh in dContext.Db.KhachHangs
+                             where kh.IdKhachHang == id // Use the parameter id
+                             select kh).FirstOrDefault(); // Directly get the first matching record or null
 
-            return chiTietKhachHang;
+            // Check if a customer was found
+            if (khachHang != null)
+            {
+                // Create and return the DTO_KhachHang object
+                DTO_KhachHang kh = new DTO_KhachHang();
+                kh.IdKhachHang = khachHang.IdKhachHang;
+                kh.TenKhachHang = khachHang.TenKhachHang;
+                //kh.Avarta = khachHang.Avarta.ToArray();
+                kh.NgaySinh = khachHang.NgaySinh;
+                kh.DiaChi = khachHang.DiaChi;
+                kh.SoDienThoai = khachHang.SoDienThoai;
+                kh.QuocGia = khachHang.QuocGia;
+                kh.QuocTich = khachHang.QuocTich;
+                kh.LoaiGiayTo = khachHang.LoaiGiayTo;
+                kh.SoGiayTo = khachHang.SoGiayTo;
+                kh.NgayCap = khachHang.NgayCap;
+                kh.NgayHetHan = (DateTime)khachHang.NgayHetHan;
+                kh.NoiCap = khachHang.NoiCap;
+                kh.Email = khachHang.Email;
+                kh.NganhChinh = khachHang.NganhChinh;
+                kh.IdNganh = khachHang.IdNganh;
+                kh.NhanVienLV = khachHang.NhanVienLV;
+                kh.IdLoaiKH = (int)khachHang.IdLoaiKH;
+                return kh;
+            }
+            return null;
         }
-        public void SuaKHDoanhNghiep(DTO_ChiTietKHDN kh)
+        public void SuaKHDoanhNghiep(DTO_KhachHang kh)
         {
             dContext = new Data_Context();
             try
@@ -361,18 +300,6 @@ namespace DAL
                 sua.IdNganh = kh.IdNganh;
                 sua.NhanVienLV = kh.NhanVienLV;
 
-                // Tìm đối tượng ChiTietKHDN cần sửa
-                var suaChiTiet = dContext.Db.ChiTietKHDNs.Single(chiTiet => chiTiet.IdKhachHangDN == kh.IdKhachHang);
-                suaChiTiet.NgayTao = kh.NgayTao;
-                suaChiTiet.QuanHe = kh.QuanHe;
-                suaChiTiet.SoVanPhong = kh.SoVanPhong;
-                suaChiTiet.TongVon = kh.TongVon;
-                suaChiTiet.TongTaiSan = kh.TongTaiSan;
-                suaChiTiet.TongDoanhThu = kh.TongDoanhThu;
-                suaChiTiet.SoLuongNhanVien = kh.SoLuongNhanVien;
-                suaChiTiet.NguoiLH = kh.NguoiLH;
-                suaChiTiet.ChucVu = kh.ChucVu;
-
                 // Lưu thay đổi vào cơ sở dữ liệu
                 dContext.Db.SubmitChanges();
             }
@@ -387,16 +314,9 @@ namespace DAL
             var xoa = dContext.Db.KhachHangs
                 .Where(kh => kh.IdKhachHang == id)
                 .Select(kh => kh);
-            var xoaChitiet = dContext.Db.ChiTietKHDNs
-                .Where(kh => kh.IdKhachHangDN == id)
-                .Select(kh => kh);
             foreach (var item in xoa)
             {
                 dContext.Db.KhachHangs.DeleteOnSubmit(item);
-            }
-            foreach (var item in xoaChitiet)
-            {
-                dContext.Db.ChiTietKHDNs.DeleteOnSubmit(item);
             }
             dContext.Db.SubmitChanges();
         }

@@ -90,17 +90,18 @@ namespace DoAnPTUD
                 MessageBox.Show("Đọc file thất bại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        public DTO_ChiTietKHDN KhachHang()
+        public DTO_KhachHang KhachHang()
         {
             int nganhChinh = Convert.ToInt32(cbNganhChinh.SelectedValue);
             int nganh = Convert.ToInt32(cbNganh.SelectedValue);
             string nv = cbNhanVien.SelectedValue.ToString();
-            DTO_ChiTietKHDN kh = new DTO_ChiTietKHDN(
+            DTO_KhachHang kh = new DTO_KhachHang(
                     int.Parse(txtCif.Text),  // Truyền id vào đây
                     txtTenCty.Text,
-                    txtTenDayDu.Text,
+                    new byte[0],
                     dtNgayThanhLap.Value,
                     txtDuong.Text + ", " + txtPhuong.Text + ", " + cbThanhPho.Text,
+                    txtSDT.Text,
                     cbQuocGia.Text,
                     cbQuocTich.Text,
                     cbLoaiGiayTo.Text,
@@ -108,20 +109,11 @@ namespace DoAnPTUD
                     dtNgayCap.Value,
                     dtNgayHetHan.Value,
                     txtNoiCap.Text,
-                    txtNguoiLienHe.Text,
-                    txtChucVu.Text,
                     txtEmail.Text,
-                    txtSDT.Text,
                     nganhChinh,
                     nganh,
                     nv,
-                    dtNgayTao.Value,
-                    cbMaQH.Text,
-                    txtSoVP.Text,
-                    string.IsNullOrEmpty(txtTongVon.Text) ? 0 : float.Parse(txtTongVon.Text),
-                    string.IsNullOrEmpty(txtTongTS.Text) ? 0 : float.Parse(txtTongTS.Text),
-                    string.IsNullOrEmpty(txtTongDT.Text) ? 0 : float.Parse(txtTongDT.Text),
-                    string.IsNullOrEmpty(txtSoLuong.Text) ? 0 : int.Parse(txtSoLuong.Text));
+                    2);
             return kh;
         }
         void loadComboBox()
@@ -171,13 +163,12 @@ namespace DoAnPTUD
         }
         void load_Value()
         {
-            BLL_KhachHangDoanhNghiep busKH = new BLL_KhachHangDoanhNghiep();
+            BLL_KhachHang busKH = new BLL_KhachHang();
             BLL_LoadValue busValue = new BLL_LoadValue();
-            DTO_ChiTietKHDN ctKH = busKH.LayGiaTri(id);
-            txtCif.Text = ctKH.IdKhachHangDN.ToString();
-            txtTenDayDu.Text = ctKH.TenDayDuDN;
-            txtTenCty.Text = ctKH.TenVietTatDN;
-            dtNgayThanhLap.Value = ctKH.NgayThanhLap;
+            DTO_KhachHang ctKH = busKH.LayGiaTriKHDoanhNghiep(id);
+            txtCif.Text = ctKH.IdKhachHang.ToString();
+            txtTenCty.Text = ctKH.TenKhachHang;
+            dtNgayThanhLap.Value = ctKH.NgaySinh;
             string[] arr = ctKH.DiaChi.Split(',');
             txtDuong.Text = arr[0].Trim();
             txtPhuong.Text = arr[1].Trim();
@@ -192,15 +183,8 @@ namespace DoAnPTUD
             dtNgayHetHan.Value = (DateTime)ctKH.NgayHetHan;
             txtEmail.Text = ctKH.Email;
             cbNganhChinh.Text = busValue.LayTenNganhChinh(ctKH.NganhChinh);
-            cbNganh.Text = busValue.LayTenNganh(ctKH.Nganh);
+            cbNganh.Text = busValue.LayTenNganh(ctKH.IdNganh);
             cbNhanVien.Text = busValue.LayTenNV(ctKH.NhanVienLV);
-            dtNgayTao.Value = ctKH.NgayTao;
-            cbMaQH.Text = ctKH.QuanHe;
-            txtSoVP.Text = ctKH.SoVanPhong;
-            txtTongVon.Text = ctKH.TongVon.ToString();
-            txtTongTS.Text = ctKH.TongTaiSan.ToString();
-            txtTongDT.Text = ctKH.TongDoanhThu.ToString();
-            txtSoLuong.Text = ctKH.SoLuongNhanVien.ToString();
         }
         public void SetMainForm(frm_Main form)
         {
@@ -214,16 +198,17 @@ namespace DoAnPTUD
         private void MainForm_OnSaveButtonClick(object sender, EventArgs e)
         {
             // Thực hiện xử lý khi nút Save trên frm_Main được bấm
-            BLL_KhachHangDoanhNghiep busKhachHang = new BLL_KhachHangDoanhNghiep();
+            BLL_KhachHang busKhachHang = new BLL_KhachHang();
             int nganhChinh = Convert.ToInt32(cbNganhChinh.SelectedValue);
             int nganh = Convert.ToInt32(cbNganh.SelectedValue);
             string nv = cbNhanVien.SelectedValue.ToString();
-            DTO_ChiTietKHDN kh = new DTO_ChiTietKHDN(
+            DTO_KhachHang kh = new DTO_KhachHang(
                     int.Parse(txtCif.Text),  // Truyền id vào đây
                     txtTenCty.Text,
-                    txtTenDayDu.Text,
+                    new byte[0],
                     dtNgayThanhLap.Value,
                     txtDuong.Text + ", " + txtPhuong.Text + ", " + cbThanhPho.Text,
+                    txtSDT.Text,
                     cbQuocGia.Text,
                     cbQuocTich.Text,
                     cbLoaiGiayTo.Text,
@@ -231,21 +216,12 @@ namespace DoAnPTUD
                     dtNgayCap.Value,
                     dtNgayHetHan.Value,
                     txtNoiCap.Text,
-                    txtNguoiLienHe.Text,
-                    txtChucVu.Text,
                     txtEmail.Text,
-                    txtSDT.Text,
                     nganhChinh,
                     nganh,
                     nv,
-                    dtNgayTao.Value,
-                    cbMaQH.Text,
-                    txtSoVP.Text,
-                    string.IsNullOrEmpty(txtTongVon.Text) ? 0 : float.Parse(txtTongVon.Text),
-                    string.IsNullOrEmpty(txtTongTS.Text) ? 0 : float.Parse(txtTongTS.Text),
-                    string.IsNullOrEmpty(txtTongDT.Text) ? 0 : float.Parse(txtTongDT.Text),
-                    string.IsNullOrEmpty(txtSoLuong.Text) ? 0 : int.Parse(txtSoLuong.Text));
-            busKhachHang.Sua(kh);
+                    2);
+            busKhachHang.SuaKHDoanhNghiep(kh);
         }
         public void Remove_Customer(frm_Main frm)
         {
@@ -254,8 +230,8 @@ namespace DoAnPTUD
         }
         public void Remove_Customer_OnremoveButtonClick(object sender, EventArgs e)
         {
-            BLL_KhachHangDoanhNghiep busKH = new BLL_KhachHangDoanhNghiep();
-            busKH.Xoa(id);
+            BLL_KhachHang busKH = new BLL_KhachHang();
+            busKH.XoaKhCaNhan(id);
         }
     }
 }

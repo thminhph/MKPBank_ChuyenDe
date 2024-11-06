@@ -120,12 +120,12 @@ namespace DoAnPTUD
             cbNhanVien.DisplayMember = "HoTen";
             cbNhanVien.ValueMember = "IdNhanVien";
         }
-        public DTO_ChiTietKHCN KhachHang()
+        public DTO_KhachHang KhachHang()
         {
             int nganhChinh = Convert.ToInt32(cbNganhChinh.SelectedValue);
             int nganh = Convert.ToInt32(cbNganh.SelectedValue);
             string nv = cbNhanVien.SelectedValue.ToString();
-            DTO_ChiTietKHCN kh = new DTO_ChiTietKHCN(
+            DTO_KhachHang kh = new DTO_KhachHang(
                     int.Parse(txtCif.Text),  // Truyền id vào đây
                     txtTenDayDu.Text,
                     new byte[0],
@@ -143,19 +143,7 @@ namespace DoAnPTUD
                     nganhChinh,
                     nganh,
                     nv,
-                    1,
-                    cbGioiTInh.Text,
-                    cbXungHo.Text,
-                    cbTTHonNhan.Text,
-                    cbMaQH.Text,
-                    txtSoVP.Text,
-                    int.Parse(txtSoNguoi.Text),
-                    cbNha.Text,
-                    cbCuTru.Text,
-                    cbTTViecLam.Text,
-                    txtCTY.Text,
-                    float.Parse(txtThuNhap.Text),
-                    txtDiaChi.Text
+                    1
                 );
             return kh;
         }
@@ -163,7 +151,7 @@ namespace DoAnPTUD
         {
             BLL_KhachHang busKH = new BLL_KhachHang();
             BLL_LoadValue busValue = new BLL_LoadValue();
-            DTO_ChiTietKHCN ctKH = busKH.LayGiaTriKHCaNhan(id);
+            DTO_KhachHang ctKH = busKH.LayGiaTriKHCaNhan(id);
             txtCif.Text = ctKH.IdKhachHang.ToString();
             txtTenDayDu.Text = ctKH.TenKhachHang;
             dtNgaySinh.Value = ctKH.NgaySinh;
@@ -183,18 +171,6 @@ namespace DoAnPTUD
             cbNganhChinh.Text = busValue.LayTenNganhChinh(ctKH.NganhChinh);
             cbNganh.Text = busValue.LayTenNganh(ctKH.IdNganh);
             cbNhanVien.Text = busValue.LayTenNV(ctKH.NhanVienLV);
-            cbGioiTInh.Text = ctKH.GioiTinh;
-            cbXungHo.Text = ctKH.XungHo;
-            cbTTHonNhan.Text = ctKH.TTHonNhan;
-            cbMaQH.Text = ctKH.QuanHe;
-            txtSoVP.Text = ctKH.SoVanPhong;
-            txtSoNguoi.Text = ctKH.SoNguoiPT.ToString();
-            cbNha.Text = ctKH.SoHuuNha;
-            cbCuTru.Text = ctKH.LHCuChu;
-            cbTTViecLam.Text = ctKH.TinhTrangViecLam;
-            txtCTY.Text = ctKH.TenCty;
-            txtThuNhap.Text = ctKH.ThuNhapHangThang.ToString();
-            txtDiaChi.Text = ctKH.DiaChiCty;
         }
         /// <summary>
         /// Hàm sự kiện khi frmMain nhấn button save thì hàm này chạy
@@ -216,37 +192,27 @@ namespace DoAnPTUD
             int nganhChinh = Convert.ToInt32(cbNganhChinh.SelectedValue);
             int nganh = Convert.ToInt32(cbNganh.SelectedValue);
             string nv = cbNhanVien.SelectedValue.ToString();
-            DTO_ChiTietKHCN dtoKH = new DTO_ChiTietKHCN(
+            DTO_KhachHang dtoKH = new DTO_KhachHang(
                     int.Parse(txtCif.Text),  // Truyền id vào đây
                     txtTenDayDu.Text,
+                    new byte[0],
+                    dtNgaySinh.Value,
                     txtDuong.Text + ", " + txtPhuong.Text + ", " + cbThanhPho.Text,
                     txtSDT.Text,
                     cbQuocGia.Text,
                     cbQuocTich.Text,
                     cbLoaiGiayTo.Text,
                     txtSoGiayTo.Text,
+                    dtNgayCap.Value,
+                    dtNgayHetHan.Value,
                     txtNoiCap.Text,
                     txtEmai.Text,
                     nganhChinh,
                     nganh,
                     nv,
-                    dtNgaySinh.Value,
-                    dtNgayCap.Value,
-                    dtNgayHetHan.Value,
-                    cbGioiTInh.Text,
-                    cbXungHo.Text,
-                    cbTTHonNhan.Text,
-                    cbMaQH.Text,
-                    txtSoVP.Text,
-                    int.Parse(txtSoNguoi.Text),
-                    cbNha.Text,
-                    cbCuTru.Text,
-                    cbTTViecLam.Text,
-                    txtCTY.Text,
-                    double.Parse(txtThuNhap.Text),
-                    txtDiaChi.Text
+                    1
                 );
-            busKhachHang.Sua(dtoKH);
+            busKhachHang.SuaKhCaNhan(dtoKH);
         }
         /// <summary>
         /// Hàm sự kiện khi frmMain nhấn button save thì hàm này chạy
@@ -285,7 +251,7 @@ namespace DoAnPTUD
         public void Remove_Customer_OnremoveButtonClick(object sender, EventArgs e)
         {
             BLL_KhachHang busKH = new BLL_KhachHang();
-            busKH.Xoa(id);
+            busKH.XoaKhCaNhan(id);
         }
 
         private void cbNganhChinh_SelectedIndexChanged(object sender, EventArgs e)

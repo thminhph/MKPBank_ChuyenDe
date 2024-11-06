@@ -136,9 +136,6 @@
             // 
             // tvShow
             // 
-            this.tvShow.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.tvShow.Location = new System.Drawing.Point(0, 53);
             this.tvShow.Name = "tvShow";
             treeNode1.Name = "nKhachHangCaNhan";

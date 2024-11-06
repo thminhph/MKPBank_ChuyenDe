@@ -39,9 +39,17 @@ namespace BUS
         {
             return load.HienThiDanhSachKH();
         }
-        public List<DTO_KhachHang> HienThiDanhSachKH(Dictionary<string, string> whereArg)
+        public IQueryable HienThiDanhSachKH(Dictionary<string, string> whereArg)
         {
             return load.HienThiDanhSachKH(whereArg);
+        }
+        public IQueryable XemDSLoaiTK()
+        {
+            return load.XemDSLoaiTK();
+        }
+        public List<string> LayThongTinKhachHang(long id)
+        {
+            return load.LayThongTinKhachHang(id);
         }
     }
 }

@@ -58,31 +58,33 @@ namespace DoAnPTUD
         {
             BLL_LoadValue loadV = new BLL_LoadValue();
             cbKhachHang.DataSource = loadV.HienThiDanhSachKH();
-            cbKhachHang.DisplayMember = "MaTen"; // Thuộc tính cần hiển thị
+            cbKhachHang.DisplayMember = "TenKhachHang"; // Thuộc tính cần hiển thị
             cbKhachHang.ValueMember = "IdKhachHang"; // Giá trị ẩn
             cbNV.DataSource = loadV.XemNhanVien();
             cbNV.DisplayMember = "HoTen";
             cbNV.ValueMember = "IdNhanVien";
+            cbLoai.DataSource = loadV.XemDSLoaiTK();
+            cbLoai.DisplayMember = "TenLoai";
+            cbLoai.ValueMember = "IdLoai";
         }
-        string loaiKH = "";
+        int loaiKH = 0;
         private void cbKhachHang_SelectedIndexChanged(object sender, EventArgs e)
         {
             cbKhachHang.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             cbKhachHang.AutoCompleteSource = AutoCompleteSource.ListItems;
             if (cbKhachHang.SelectedItem is DTO_KhachHang selectKhachHang)
             {
-                loaiKH = selectKhachHang.Loai;
+                loaiKH = selectKhachHang.IdLoaiKH; ;
             }
         }
         public DTO_TaiKhoan ThemTaiKhoan()
         {
-            if (loaiKH == "Cá nhân")
+            if (loaiKH == 1)
             {
                 return new DTO_TaiKhoan(
                     long.Parse(txtIdTaiKhoan.Text),
                     Convert.ToInt32(cbKhachHang.SelectedValue),
-                    null,
-                    cbLoai.Text,
+                    Convert.ToInt32(cbLoai.SelectedValue),
                     cbSP.Text,
                     cbTienTe.Text,
                     txtTieuDeTK.Text,
@@ -91,13 +93,12 @@ namespace DoAnPTUD
                     cbPhi.Text,
                     "@KHCN123");
             }
-            if (loaiKH == "Doanh nghiệp")
+            if (loaiKH == 2)
             {
                 return new DTO_TaiKhoan(
                     long.Parse(txtIdTaiKhoan.Text),
-                    null,
                     Convert.ToInt32(cbKhachHang.SelectedValue),
-                    cbLoai.Text,
+                    Convert.ToInt32(cbLoai.SelectedValue),
                     cbSP.Text,
                     cbTienTe.Text,
                     txtTieuDeTK.Text,

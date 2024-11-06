@@ -27,8 +27,7 @@ namespace DAL
                                    select new
                                    {
                                        s.IdTaiKhoan,
-                                       s.IdKhachHangCN,
-                                       s.IdKhachHangDN,
+                                       s.IdKhachHang,
                                        s.LoaiTaiKhoan,
                                        s.TenTaiKhoan,
                                        s.TienTe,
@@ -42,8 +41,8 @@ namespace DAL
         }
          public  DTO_ThongTinKH timUserTheostk(string   stk)
         {
-           var query = from s in db.KhachHangCaNhans
-                        join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.IdKhachHangCN
+           var query = from s in db.KhachHangs
+                        join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
                         where s.SoDienThoai == stk
                         select new 
                         {
@@ -83,8 +82,8 @@ namespace DAL
 
         public bool  DangNhap(string  sDT, string mk )
         {
-            var  temp = (from s in db.KhachHangCaNhans
-                              join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.IdKhachHangCN
+            var  temp = (from s in db.KhachHangs
+                              join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
                               where s.SoDienThoai == sDT && tk.Matkhau == mk
                               select tk).Any();
             return temp;
@@ -95,12 +94,12 @@ namespace DAL
             if (DangNhap(sDT, mk))
             {
                 // Lấy thông tin chi tiết người dùng
-                var taiKhoan = (from s in db.KhachHangCaNhans
-                                join tk in db.TaiKhoans on s.IdKhachHangCN equals tk.IdKhachHangCN
+                var taiKhoan = (from s in db.KhachHangs
+                                join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
                                 where s.SoDienThoai == sDT
                                 select new DTO_ThongTinKH
                                 {
-                                    IdKhachHangCN = (int)tk.IdKhachHangCN,
+                                    IdKhachHangCN = (int)tk.IdKhachHang,
                                     TenKhachHang = s.TenKhachHang,
                                     SoDienThoai = s.SoDienThoai,
                                    
@@ -122,27 +121,45 @@ namespace DAL
         {
             try
             {
+                // Chèn đối tượng TaiKhoan
                 TaiKhoan tk = new TaiKhoan
                 {
                     IdTaiKhoan = taiKhoan.IdTaiKhoan,
-                    IdKhachHangCN = taiKhoan.IdKhachHangCN,
-                    IdKhachHangDN = taiKhoan.IdKhachHangDN,
-                    LoaiTaiKhoan = taiKhoan.LoaiTaiKhoan,
+                    IdKhachHang = taiKhoan.IdKhachHang,
+                    IdLoai = taiKhoan.LoaiTaiKhoan,
                     TenTaiKhoan = taiKhoan.TenTaiKhoan,
                     TienTe = taiKhoan.TienTe,
                     TieuDeTK = taiKhoan.TieuDeTK,
                     TieuDeNgan = taiKhoan.TieuDeNgan,
                     NhanVienLV = taiKhoan.NhanVienLV,
                     PhiMa = taiKhoan.PhiMa,
-                    Matkhau = taiKhoan.Matkhau
+                    Matkhau = taiKhoan.Matkhau,
                 };
+
                 db.TaiKhoans.InsertOnSubmit(tk);
+                db.SubmitChanges(); // Xác nhận lưu và nhận IdTaiKhoan đã được tạo
+
+                // Kiểm tra IdTaiKhoan đã được tạo
+                if (tk.IdTaiKhoan <= 0)
+                {
+                    throw new InvalidOperationException("IdTaiKhoan không được tạo đúng.");
+                }
+
+                // Chèn SoDuTinDung với IdTaiKhoan vừa tạo
+                SoDuTinDung sd = new SoDuTinDung
+                {
+                    IdTaiKhoan = tk.IdTaiKhoan, // Khóa ngoại từ TaiKhoan
+                    SoDuTK = 0
+                };
+
+                db.SoDuTinDungs.InsertOnSubmit(sd);
                 db.SubmitChanges();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                throw new InvalidOperationException("Thêm thất bại " + ex.Message);
+                throw new InvalidOperationException("Thêm thất bại: " + ex.Message);
             }
         }
-     }
+
+    }
 }

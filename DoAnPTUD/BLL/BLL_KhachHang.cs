@@ -12,11 +12,11 @@ namespace BLL
     public class BLL_KhachHang
     {
         DAL_KhachHang dalKH = new DAL_KhachHang();
-        public DTO_ChiTietKHCN LayGiaTriKHCaNhan(int id)
+        public DTO_KhachHang LayGiaTriKHCaNhan(int id)
         {
             return dalKH.LayGiaTriKHCaNhan(id);
         }
-        public void ThemKHCaNhan(DTO_ChiTietKHCN kh)
+        public void ThemKHCaNhan(DTO_KhachHang kh)
         {
             dalKH.ThemKHCaNhan(kh);
         }
@@ -24,7 +24,7 @@ namespace BLL
         {
             return dalKH.InDanhSachKhCaNhan();
         }
-        public void SuaKhCaNhan(DTO_ChiTietKHCN kh)
+        public void SuaKhCaNhan(DTO_KhachHang kh)
         {
             dalKH.SuaKhCaNhan(kh);
         }
@@ -40,15 +40,15 @@ namespace BLL
             return dalKH.LayDuLieuKHDoanhNghiep();
         }
 
-        public void ThemKHDoanhNghiep(DTO_ChiTietKHDN kh)
+        public void ThemKHDoanhNghiep(DTO_KhachHang kh)
         {
             dalKH.ThemKHDoanhNghiep(kh);
         }
-        public DTO_ChiTietKHDN LayGiaTriKHDoanhNghiep(int id)
+        public DTO_KhachHang LayGiaTriKHDoanhNghiep(int id)
         {
             return dalKH.LayGiaTriKHDoanhNghiep(id);
         }
-        public void SuaKHDoanhNghiep(DTO_ChiTietKHDN kh)
+        public void SuaKHDoanhNghiep(DTO_KhachHang kh)
         {
             dalKH.SuaKHDoanhNghiep(kh);
         }

@@ -9,9 +9,8 @@ namespace DTO
     public class DTO_TaiKhoan
     {
         public long IdTaiKhoan { get; set; }         // bigint
-        public int? IdKhachHangCN { get; set; }       // int
-        public int? IdKhachHangDN { get; set; }       // int
-        public string LoaiTaiKhoan { get; set; }     // nvarchar(255)
+        public int IdKhachHang { get; set; }      // int
+        public int LoaiTaiKhoan { get; set; }     // nvarchar(255)
         public string TenTaiKhoan { get; set; }      // nvarchar(255)
         public string TienTe { get; set; }           // nvarchar(50)
         public string TieuDeTK { get; set; }         // nvarchar(255)
@@ -23,9 +22,8 @@ namespace DTO
         // Parameterized constructor
         public DTO_TaiKhoan(
             long idTaiKhoan,
-            int? idKhachHangCN,
-            int? idKhachHangDN,
-            string loaiTaiKhoan,
+            int idKhachHang,
+            int loaiTaiKhoan,
             string tenTaiKhoan,
             string tienTe,
             string tieuDeTK,
@@ -35,8 +33,7 @@ namespace DTO
             string matkhau)
         {
             IdTaiKhoan = idTaiKhoan;
-            IdKhachHangCN = idKhachHangCN;
-            IdKhachHangDN = idKhachHangDN;
+            IdKhachHang = idKhachHang;
             LoaiTaiKhoan = loaiTaiKhoan;
             TenTaiKhoan = tenTaiKhoan;
             TienTe = tienTe;

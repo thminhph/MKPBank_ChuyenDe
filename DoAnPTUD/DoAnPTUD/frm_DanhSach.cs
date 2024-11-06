@@ -24,27 +24,20 @@ namespace DoAnPTUD
         }
         void load_List()
         {
+            BLL_KhachHang kh = new BLL_KhachHang();
             switch (flag)
             {
                 case "Mở khách hàng cá nhân":
-                    BLL_KhachHang kh = new BLL_KhachHang();
-                    dgvDanhSach.DataSource = kh.InDanhSach();
+                    dgvDanhSach.DataSource = kh.InDanhSachKhCaNhan();
                     this.dgvDanhSach.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvDanhSach_CellContentClick);
                     break;
                 case "Mở khách hàng doanh nghiệp":
-                    BLL_KhachHangDoanhNghiep khDN = new BLL_KhachHangDoanhNghiep();
-                    dgvDanhSach.DataSource = khDN.LayDuLieu();
+                    dgvDanhSach.DataSource = kh.LayDuLieuKHDoanhNghiep();
                     this.dgvDanhSach.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvDanhSach_CellContentClick);
                     break;
                 default:
                     break;
             }
-            string str = flag;
-            if (str == flag)
-            {
-
-            }
-
         }
 
         private void DgvDanhSach_CellContentClick(object sender, DataGridViewCellEventArgs e)

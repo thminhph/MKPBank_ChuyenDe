@@ -90,81 +90,45 @@ namespace DAL
         public List<DTO_KhachHang> HienThiDanhSachKH()
         {
             dContext = new Data_Context();
-            // Đồng bộ các thuộc tính bằng cách sử dụng tên chung
-            var khCaNhan = dContext.Db.KhachHangCaNhans
+            var xem = dContext.Db.KhachHangs
                 .Select(kh => new DTO_KhachHang
                 {
-                    IdKhachHang = kh.IdKhachHangCN,
-                    Loai = "Cá nhân",
-                    Ten = kh.TenKhachHang,
-                    SoGiayTo = kh.SoGiayTo,
-                    SoDienThoai = kh.SoDienThoai,
-                    NganhChinh = kh.NganhChinh,
-                    IdNganh = kh.IdNganh,
-                    MaTen = kh.IdKhachHangCN + "-" + kh.TenKhachHang
-                });
-
-            var khDoanhNghiep = dContext.Db.KhachHangDoanhNghieps
-                .Select(kh => new DTO_KhachHang
-                {
-                    IdKhachHang = kh.IdKhachHangDN, // Đổi tên thành IdKhachHang
-                    Loai = "Doanh Nghiệp",
-                    Ten = kh.TenDayDuDN, // Đổi tên thành Ten
-                    SoGiayTo = kh.SoGiayTo,
-                    SoDienThoai = kh.SoDienThoai,
-                    NganhChinh = kh.NganhChinh,
-                    IdNganh = kh.IdNganh,
-                    MaTen = kh.IdKhachHangDN + "-" + kh.TenDayDuDN
-                });
-
-            var xem = khCaNhan
-                .Union(khDoanhNghiep)
+                    IdKhachHang = kh.IdKhachHang,
+                    TenKhachHang = kh.TenKhachHang,
+                    IdLoaiKH = (int)kh.IdLoaiKH,
+                })
                 .ToList();
             return xem;
         }
-        public List<DTO_KhachHang> HienThiDanhSachKH(Dictionary<string, string> whereArg)
+        public IQueryable HienThiDanhSachKH(Dictionary<string, string> whereArg)
         {
             dContext = new Data_Context();
             // Đồng bộ các thuộc tính bằng cách sử dụng tên chung
-            var khCaNhan = dContext.Db.KhachHangCaNhans
-                .Select(kh => new DTO_KhachHang
-                {
-                    IdKhachHang = kh.IdKhachHangCN,
-                    Loai = "Cá nhân",
-                    Ten = kh.TenKhachHang,
-                    SoGiayTo = kh.SoGiayTo,
-                    SoDienThoai = kh.SoDienThoai,
-                    NganhChinh = kh.NganhChinh,
-                    IdNganh = kh.IdNganh,
-                });
-
-            var khDoanhNghiep = dContext.Db.KhachHangDoanhNghieps
-                .Select(kh => new DTO_KhachHang
-                {
-                    IdKhachHang = kh.IdKhachHangDN, // Đổi tên thành IdKhachHang
-                    Loai = "Doanh Nghiệp",
-                    Ten = kh.TenDayDuDN, // Đổi tên thành Ten
-                    SoGiayTo = kh.SoGiayTo,
-                    SoDienThoai = kh.SoDienThoai,
-                    NganhChinh = kh.NganhChinh,
-                    IdNganh = kh.IdNganh,
-                });
-            //var conditionsMet = whereArg.All(item => {
-            //    return item.Key == item.Value; });
-            var xem = khCaNhan
-                .Union(khDoanhNghiep);
+            var xem = from kh in dContext.Db.KhachHangs
+                      select new
+                      {
+                          kh.IdKhachHang,
+                          kh.IdLoaiKH,
+                          kh.TenKhachHang,
+                          kh.SoGiayTo,
+                          kh.SoDienThoai,
+                          kh.NganhChinh,
+                          kh.IdNganh
+                      };
+            //var xem = khCaNhan
+            //    .Union(khDoanhNghiep);
             foreach (var item in whereArg)
             {
                 switch (item.Key)
                 {
                     case "Loai":
-                        xem = xem.Where(kh => kh.Loai == item.Value);
+                        xem = xem.Where(kh => (int)kh.IdLoaiKH == int.Parse(item.Value));
                         break;
                     case "IdKhachHang":
                         xem = xem.Where(kh => kh.IdKhachHang == int.Parse(item.Value));
                         break;
                     case "Ten":
-                        xem = xem.Where(kh => kh.Ten == item.Value);
+                        xem = xem.Where(kh => kh.TenKhachHang == item.Value);
                         break;
                     case "SoGiayTo":
                         xem = xem.Where(kh => kh.SoGiayTo == item.Value);
@@ -179,30 +143,42 @@ namespace DAL
                         xem = xem.Where(kh => kh.IdNganh == Convert.ToInt32(item.Value));
                         break;
                 }
-            } 
-            
-            //foreach (var item in whereArg)
-            //{
-            //    if (true)
-            //    {
-
-            //    }
-            //
-
-
-            return xem.ToList();
-        }
-        public Func<bool, bool, bool> GetLogicalOperator(string op)
-        {
-            switch (op)
-            {
-                case "&&":
-                    return (a, b) => a && b; // Logical AND
-                case "||":
-                    return (a, b) => a || b; // Logical OR
-                default:
-                    throw new ArgumentException("Invalid operator");
             }
+            return xem;
+        }
+        public IQueryable XemDSLoaiTK()
+        {
+            dContext = new Data_Context();
+            return dContext.Db.LoaiTaiKhoans.Select(l => l);
+        }
+
+        public List<string> LayThongTinKhachHang(long id)
+        {
+            dContext = new Data_Context();
+            var xem = (from kh in dContext.Db.KhachHangs
+                      join tk in dContext.Db.TaiKhoans
+                      on kh.IdKhachHang equals tk.IdKhachHang
+                      where tk.IdTaiKhoan == id
+                      select new
+                      {
+                          kh.IdKhachHang,
+                          kh.TenKhachHang,
+                          tk.TenTaiKhoan,
+                          tk.TienTe,
+                          tk.SoDuTinDung.SoDuTK
+                      }).FirstOrDefault();
+            if (xem != null)
+            {
+                List<string> list = new List<string>();
+                list.Add(xem.IdKhachHang.ToString());
+                list.Add(xem.TenKhachHang);
+                list.Add(xem.TenTaiKhoan);
+                list.Add(xem.TienTe);
+                list.Add(xem.SoDuTK.ToString());
+                return list;
+            }
+            
+            return null;
         }
     }
 }

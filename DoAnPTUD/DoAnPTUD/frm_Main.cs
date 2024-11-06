@@ -23,6 +23,7 @@ namespace DoAnPTUD
         private frm_DanhSachKhachHang frmNhanVien;
         private frm_DanhSachKhachHang frmDSKh;
         private frm_MoTaiKhoan frmMoTaiKhoan;
+        private frm_GuiTienMat frmGuiTienMat;
         private Form activeForm = null;
         private string checkBtn = "";
         // Khai báo sự kiện để frmKhachHangCaNhan có thể lắng nghe
@@ -52,7 +53,7 @@ namespace DoAnPTUD
             form.Show();
 
         }
-
+        int idLoai = 0;
         string selectNode = "";
         private void tvShow_AfterSelect(object sender, TreeViewEventArgs e)
         {
@@ -118,6 +119,21 @@ namespace DoAnPTUD
                     btnSearchList.Enabled = true;
                     btnSearchList.BackColor = Color.Red;
                 }
+                if (selectNode == "Tiền gửi tiền mặt")
+                {
+                    frmGuiTienMat = new frm_GuiTienMat();
+                    OpenChidForm(frmGuiTienMat);
+                    pnBtn.Visible = true;
+                    Button[] btn = { btnDone, btnRemove, btnSearch, btnPrint, btnEdit };
+                    foreach (var item in btn)
+                    {
+                        Enablad_Btn(item);
+                    }
+                    btnSave.Enabled = true;
+                    btnSave.BackColor = Color.Red;
+                    btnSearchList.Enabled = true;
+                    btnSearchList.BackColor = Color.Red;
+                }
             }
         }
 
@@ -151,9 +167,8 @@ namespace DoAnPTUD
                 case "Mở khách hàng doanh nghiệp":
                     if (checkBtn != "Edit")
                     {
-                        BLL_KhachHangDoanhNghiep busKH = new BLL_KhachHangDoanhNghiep();
-                        busKH.Them(frmKHDN.KhachHang());
-                        busKH.ThemChiTiet(frmKHDN.KhachHang());
+                        BLL_KhachHang busKH = new BLL_KhachHang();
+                        busKH.ThemKHDoanhNghiep(frmKHDN.KhachHang());
 
                         // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
                         frmKHDN = new frm_KhachHangDoanhNghiep();
