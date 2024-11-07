@@ -37,12 +37,12 @@ namespace DoAnPTUD
             if (btnXem.ImageIndex == 7)
             {
                 btnXem.ImageIndex = 8;
-                lbTien.Text = "   *******   ";
+                lbTien.Text = "*******";
             }
             else {
                 btnXem.ImageIndex = 7;
                 //thay bảng dữ liệu database
-                lbTien.Text=sd.SoDuTK1.ToString("N"); 
+                lbTien.Text=sd.SoDuTK1.ToString()+"VNĐ"; 
             }
         }
 

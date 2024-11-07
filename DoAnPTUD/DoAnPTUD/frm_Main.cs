@@ -17,7 +17,7 @@ namespace DoAnPTUD
 
     public partial class frm_Main : Form
     {
-        private BaseGUI baseGUI;
+        //private BaseGUI baseGUI;
         private frm_KhachHangCaNhan frmKH;
         private frm_KhachHangDoanhNghiep frmKHDN;
         private frm_DanhSachKhachHang frmNhanVien;
@@ -190,7 +190,7 @@ namespace DoAnPTUD
                     if (checkBtn != "Edit")
                     {
                         BLL_TaiKhoan bllTK = new BLL_TaiKhoan();
-                        bllTK.Them(frmMoTaiKhoan.ThemTaiKhoan());
+                        //bllTK.Them(frmMoTaiKhoan.ThemTaiKhoan());
 
                         // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
                         frmMoTaiKhoan = new frm_MoTaiKhoan();

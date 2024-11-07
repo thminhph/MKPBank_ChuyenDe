@@ -239,9 +239,9 @@
             this.lbTien.AutoSize = true;
             this.lbTien.Location = new System.Drawing.Point(367, 208);
             this.lbTien.Name = "lbTien";
-            this.lbTien.Size = new System.Drawing.Size(98, 20);
+            this.lbTien.Size = new System.Drawing.Size(136, 20);
             this.lbTien.TabIndex = 5;
-            this.lbTien.Text = "100,000,000";
+            this.lbTien.Text = "100,000,000 VNĐ";
             this.lbTien.Click += new System.EventHandler(this.lbTien_Click);
             // 
             // btnXem
@@ -254,7 +254,7 @@
             this.btnXem.ForeColor = System.Drawing.Color.Black;
             this.btnXem.ImageIndex = 7;
             this.btnXem.ImageList = this.imageList1;
-            this.btnXem.Location = new System.Drawing.Point(476, 200);
+            this.btnXem.Location = new System.Drawing.Point(509, 200);
             this.btnXem.Name = "btnXem";
             this.btnXem.Size = new System.Drawing.Size(41, 37);
             this.btnXem.TabIndex = 4;

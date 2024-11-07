@@ -99,7 +99,7 @@ namespace DAL
                                 where s.SoDienThoai == sDT
                                 select new DTO_ThongTinKH
                                 {
-                                    IdKhachHangCN = (int)tk.IdKhachHang,
+                                    IdKhachHang = (int)tk.IdKhachHang,
                                     TenKhachHang = s.TenKhachHang,
                                     SoDienThoai = s.SoDienThoai,
                                    
@@ -116,50 +116,5 @@ namespace DAL
                 return null; // Trả về null để báo hiệu đăng nhập thất bại
             }
         }
-
-        public void Them(DTO_TaiKhoan taiKhoan)
-        {
-            try
-            {
-                // Chèn đối tượng TaiKhoan
-                TaiKhoan tk = new TaiKhoan
-                {
-                    IdTaiKhoan = taiKhoan.IdTaiKhoan,
-                    IdKhachHang = taiKhoan.IdKhachHang,
-                    IdLoai = taiKhoan.LoaiTaiKhoan,
-                    TenTaiKhoan = taiKhoan.TenTaiKhoan,
-                    TienTe = taiKhoan.TienTe,
-                    TieuDeTK = taiKhoan.TieuDeTK,
-                    TieuDeNgan = taiKhoan.TieuDeNgan,
-                    NhanVienLV = taiKhoan.NhanVienLV,
-                    PhiMa = taiKhoan.PhiMa,
-                    Matkhau = taiKhoan.Matkhau,
-                };
-
-                db.TaiKhoans.InsertOnSubmit(tk);
-                db.SubmitChanges(); // Xác nhận lưu và nhận IdTaiKhoan đã được tạo
-
-                // Kiểm tra IdTaiKhoan đã được tạo
-                if (tk.IdTaiKhoan <= 0)
-                {
-                    throw new InvalidOperationException("IdTaiKhoan không được tạo đúng.");
-                }
-
-                // Chèn SoDuTinDung với IdTaiKhoan vừa tạo
-                SoDuTinDung sd = new SoDuTinDung
-                {
-                    IdTaiKhoan = tk.IdTaiKhoan, // Khóa ngoại từ TaiKhoan
-                    SoDuTK = 0
-                };
-
-                db.SoDuTinDungs.InsertOnSubmit(sd);
-                db.SubmitChanges();
-            }
-            catch (Exception ex)
-            {
-                throw new InvalidOperationException("Thêm thất bại: " + ex.Message);
-            }
-        }
-
-    }
+     }
 }

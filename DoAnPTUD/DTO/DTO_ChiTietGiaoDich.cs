@@ -24,6 +24,14 @@ namespace DTO
             NgayGio = ngayGio;
             DienGia = dienGia;
         }
+        public DTO_ChiTietGiaoDich( int soTKNguoiChuyen, int soTKNguoiNhan, float soTien, DateTime ngayGio, string dienGia)
+        {
+            SoTKNguoiChuyen = soTKNguoiChuyen;
+            SoTKNguoiNhan = soTKNguoiNhan;
+            SoTien = soTien;
+            NgayGio = ngayGio;
+            DienGia = dienGia;
+        }
         public DTO_ChiTietGiaoDich() { 
         }    
 

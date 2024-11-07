@@ -8,43 +8,39 @@ namespace DTO
 {
     public class DTO_TaiKhoan
     {
-        public long IdTaiKhoan { get; set; }         // bigint
-        public int IdKhachHang { get; set; }      // int
-        public int LoaiTaiKhoan { get; set; }     // nvarchar(255)
-        public string TenTaiKhoan { get; set; }      // nvarchar(255)
-        public string TienTe { get; set; }           // nvarchar(50)
-        public string TieuDeTK { get; set; }         // nvarchar(255)
-        public string TieuDeNgan { get; set; }       // nvarchar(50)
-        public string NhanVienLV { get; set; }       // varchar(20)
-        public string PhiMa { get; set; }            // nvarchar(255)
-        public string Matkhau { get; set; }          // char(255)
+        private long idTaiKhoan;
+        private int  maKhachHang;
+        private string loaiTaiKhoan, tenTaiKhoan, tienTe,  tieuDeTK, tieuDeNgan, nhanVienLV, phiMa, matkhau;
 
-        // Parameterized constructor
-        public DTO_TaiKhoan(
-            long idTaiKhoan,
-            int idKhachHang,
-            int loaiTaiKhoan,
-            string tenTaiKhoan,
-            string tienTe,
-            string tieuDeTK,
-            string tieuDeNgan,
-            string nhanVienLV,
-            string phiMa,
-            string matkhau)
-        {
-            IdTaiKhoan = idTaiKhoan;
-            IdKhachHang = idKhachHang;
-            LoaiTaiKhoan = loaiTaiKhoan;
-            TenTaiKhoan = tenTaiKhoan;
-            TienTe = tienTe;
-            TieuDeTK = tieuDeTK;
-            TieuDeNgan = tieuDeNgan;
-            NhanVienLV = nhanVienLV;
-            PhiMa = phiMa;
-            Matkhau = matkhau;
+
+
+        
+        public DTO_TaiKhoan() { 
         }
-        public DTO_TaiKhoan()
+
+        public DTO_TaiKhoan(long idTaiKhoan, int maKhachHang, string loaiTaiKhoan, string tenTaiKhoan, string tienTe, string tieuDeTK, string tieuDeNgan, string nhanVienLV, string phiMa, string matkhau)
         {
+            this.idTaiKhoan = idTaiKhoan;
+            this.maKhachHang = maKhachHang;
+            this.loaiTaiKhoan = loaiTaiKhoan;
+            this.tenTaiKhoan = tenTaiKhoan;
+            this.tienTe = tienTe;
+            this.tieuDeTK = tieuDeTK;
+            this.tieuDeNgan = tieuDeNgan;
+            this.nhanVienLV = nhanVienLV;
+            this.phiMa = phiMa;
+            this.matkhau = matkhau;
         }
+
+        public long IdTaiKhoan { get => idTaiKhoan; set => idTaiKhoan = value; }
+        public int MaKhachHang { get => maKhachHang; set => maKhachHang = value; }
+        public string LoaiTaiKhoan { get => loaiTaiKhoan; set => loaiTaiKhoan = value; }
+        public string TenTaiKhoan { get => tenTaiKhoan; set => tenTaiKhoan = value; }
+        public string TienTe { get => tienTe; set => tienTe = value; }
+        public string TieuDeTK { get => tieuDeTK; set => tieuDeTK = value; }
+        public string TieuDeNgan { get => tieuDeNgan; set => tieuDeNgan = value; }
+        public string NhanVienLV { get => nhanVienLV; set => nhanVienLV = value; }
+        public string PhiMa { get => phiMa; set => phiMa = value; }
+        public string Matkhau { get => matkhau; set => matkhau = value; }
     }
 }

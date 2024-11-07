@@ -124,11 +124,12 @@
             // 
             this.lbTien.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lbTien.AutoSize = true;
-            this.lbTien.Location = new System.Drawing.Point(381, 244);
+            this.lbTien.Location = new System.Drawing.Point(365, 244);
             this.lbTien.Name = "lbTien";
-            this.lbTien.Size = new System.Drawing.Size(98, 20);
+            this.lbTien.Size = new System.Drawing.Size(136, 20);
             this.lbTien.TabIndex = 5;
-            this.lbTien.Text = "100,000,000";
+            this.lbTien.Text = "100,000,000 VNĐ";
+            this.lbTien.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnXem
             // 
@@ -140,7 +141,7 @@
             this.btnXem.ForeColor = System.Drawing.Color.Black;
             this.btnXem.ImageIndex = 7;
             this.btnXem.ImageList = this.imageList1;
-            this.btnXem.Location = new System.Drawing.Point(475, 236);
+            this.btnXem.Location = new System.Drawing.Point(507, 235);
             this.btnXem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXem.Name = "btnXem";
             this.btnXem.Size = new System.Drawing.Size(40, 38);

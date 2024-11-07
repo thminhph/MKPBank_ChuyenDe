@@ -44,7 +44,7 @@ namespace DoAnPTUD
             {
                 btnXem.ImageIndex = 7;
                 //thay bảng dữ liệu database
-                lbTien.Text = sd.SoDuTK1.ToString("N");
+                lbTien.Text = sd.SoDuTK1.ToString("N") + "VNĐ";
             }
         }
         public void loaddata()
@@ -52,7 +52,7 @@ namespace DoAnPTUD
             sd = sdtk.sodu(use);
             if (sd != null)
             {
-                lbTien.Text = sd.SoDuTK1.ToString("N");
+                lbTien.Text = sd.SoDuTK1.ToString("N") + "VNĐ";
             }
             textBox1.Focus();
         }
@@ -105,23 +105,31 @@ namespace DoAnPTUD
 
         private void btnXacNhan_Click(object sender, EventArgs e)
         {
-            if(giaoDich.giaoDich(use, textBox1.Text, float.Parse(txtSoTien.Text), rictxtDienGia.Text) == true)
-            {
-               TransferDetails transfer=new TransferDetails(use);
-                MessageBox.Show("Thông báo ", "Giao Dịch Thành Công");
-                transfer.Show();
-                this.Hide(); 
+            if (textBox1 == null) {
+                MessageBox.Show("Thông báo","Vui lòng nhập số tài khoản!");
             }
             else
             {
-                if(MessageBox.Show("Thông báo","số dư không đủ hoặc thẻ bị khóa vui lòng kiểm tra lại", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK){
-                    textBox1.Clear();
-                    txtSoTien.Clear();
-                    rictxtDienGia.Clear();
-                    textBox1.Focus();
+                if (giaoDich.giaoDich(use, textBox1.Text, float.Parse(txtSoTien.Text), rictxtDienGia.Text) == true)
+                {
+                   DTO_ChiTietGiaoDich ich = new DTO_ChiTietGiaoDich(int.Parse(use),int.Parse(textBox1.Text), float.Parse(txtSoTien.Text),DateTime.Now, rictxtDienGia.Text);
+                    TransferDetails transfer = new TransferDetails(use,ich);
+                    MessageBox.Show("Thông báo ", "Giao Dịch Thành Công");
+                    transfer.Show();
+                    this.Hide();
                 }
-            }
-            
+                else
+                {
+                    if (MessageBox.Show("Thông báo", "số dư không đủ hoặc thẻ bị khóa vui lòng kiểm tra lại", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
+                    {
+                        textBox1.Clear();
+                        txtSoTien.Clear();
+                        rictxtDienGia.Clear();
+                        textBox1.Focus();
+                    }
+                }
+            } 
         }
+       
     }
 }

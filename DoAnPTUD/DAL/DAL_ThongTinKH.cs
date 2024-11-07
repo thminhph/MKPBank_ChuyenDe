@@ -72,6 +72,7 @@ namespace DAL
         public DTO_ThongTinKH timTHKHstk(long stk)
         {
             var a = from s in db.KhachHangs
+                        
                         join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
                         where tk.IdTaiKhoan == stk
                         select new
