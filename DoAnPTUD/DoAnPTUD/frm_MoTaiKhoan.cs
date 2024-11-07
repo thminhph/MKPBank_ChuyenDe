@@ -84,7 +84,7 @@ namespace DoAnPTUD
                 return new DTO_TaiKhoan(
                     long.Parse(txtIdTaiKhoan.Text),
                     Convert.ToInt32(cbKhachHang.SelectedValue),
-                    Convert.ToInt32(cbLoai.SelectedValue),
+                     Convert.ToInt32(cbLoai.SelectedValue).ToString(),
                     cbSP.Text,
                     cbTienTe.Text,
                     txtTieuDeTK.Text,
@@ -98,7 +98,7 @@ namespace DoAnPTUD
                 return new DTO_TaiKhoan(
                     long.Parse(txtIdTaiKhoan.Text),
                     Convert.ToInt32(cbKhachHang.SelectedValue),
-                    Convert.ToInt32(cbLoai.SelectedValue),
+                    Convert.ToInt32(cbLoai.SelectedValue).ToString(),
                     cbSP.Text,
                     cbTienTe.Text,
                     txtTieuDeTK.Text,

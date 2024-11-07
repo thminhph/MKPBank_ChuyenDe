@@ -286,6 +286,7 @@
             this.Name = "TransferDetails";
             this.Text = "TransferDetails";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.TransferDetails_Load);
             this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

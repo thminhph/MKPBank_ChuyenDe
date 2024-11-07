@@ -50,7 +50,7 @@ namespace DAL
         }
         public void SuaKH(DTO_ThongTinKH a , DTO_ThongTinKH b)
         {
-            var sua = db.KhachHangs.Single(kh => kh.IdKhachHang == a.IdKhachHangCN || kh.SoDienThoai==b.SoDienThoai);
+            var sua = db.KhachHangs.Single(kh => kh.IdKhachHang == a.IdKhachHang || kh.SoDienThoai==b.SoDienThoai);
             sua.TenKhachHang = a.TenKhachHang;
             sua.Avarta = a.Avarta;
             sua.NgaySinh = a.NgaySinh;

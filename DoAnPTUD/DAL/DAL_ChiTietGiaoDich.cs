@@ -14,7 +14,9 @@ namespace DAL
         }
         public IQueryable laydsCTGD(){
             IQueryable gd = from s in db.ChiTietGDs
-                            select s;
+                            join tk in db.TaiKhoans on s.SoTKNguoiChuyen equals tk.IdTaiKhoan
+                            join k in db.KhachHangs on tk.IdTaiKhoan equals k.IdKhachHang
+                            select s;                           
             return gd;
             }
         public string tim (string   tk)
@@ -31,6 +33,7 @@ namespace DAL
 
             return null;  
         }
+      
         public bool giaoDich(string nc ,string nn,float sotien ,string diengia) {
 
             var khchuyen = db.KhachHangs.FirstOrDefault(kh => kh.SoDienThoai == nc);
