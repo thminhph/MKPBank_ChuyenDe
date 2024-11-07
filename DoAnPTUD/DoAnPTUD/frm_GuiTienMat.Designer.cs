@@ -39,19 +39,23 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cbLoaiTK = new System.Windows.Forms.ComboBox();
+            this.IdTK = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.lbTenTK = new System.Windows.Forms.Label();
+            this.lbCIF = new System.Windows.Forms.Label();
+            this.lbTenKH = new System.Windows.Forms.Label();
+            this.lbTienTe = new System.Windows.Forms.Label();
+            this.lbSoTienKH = new System.Windows.Forms.Label();
+            this.lbCust = new System.Windows.Forms.Label();
+            this.lbCustMoi = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtIdTaiKhoan
@@ -165,21 +169,11 @@
             this.label10.TabIndex = 13;
             this.label10.Text = "Cust Bal mới";
             // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(23, 469);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(102, 16);
-            this.label11.TabIndex = 14;
-            this.label11.Text = "Tiền tệ đã gửi";
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(23, 511);
+            this.label12.Location = new System.Drawing.Point(23, 475);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(80, 16);
             this.label12.TabIndex = 15;
@@ -189,7 +183,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(23, 553);
+            this.label13.Location = new System.Drawing.Point(23, 517);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(73, 16);
             this.label13.TabIndex = 16;
@@ -199,26 +193,29 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(23, 595);
+            this.label14.Location = new System.Drawing.Point(23, 559);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(69, 16);
             this.label14.TabIndex = 17;
             this.label14.Text = "Nội dung";
             // 
-            // comboBox1
+            // cbLoaiTK
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(237, 169);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(292, 24);
-            this.comboBox1.TabIndex = 18;
+            this.cbLoaiTK.FormattingEnabled = true;
+            this.cbLoaiTK.Items.AddRange(new object[] {
+            "Tài khoản tiết kiệm và không kỳ hạn"});
+            this.cbLoaiTK.Location = new System.Drawing.Point(237, 169);
+            this.cbLoaiTK.Name = "cbLoaiTK";
+            this.cbLoaiTK.Size = new System.Drawing.Size(292, 24);
+            this.cbLoaiTK.TabIndex = 18;
             // 
-            // textBox1
+            // IdTK
             // 
-            this.textBox1.Location = new System.Drawing.Point(237, 211);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(191, 22);
-            this.textBox1.TabIndex = 19;
+            this.IdTK.Location = new System.Drawing.Point(237, 211);
+            this.IdTK.Name = "IdTK";
+            this.IdTK.Size = new System.Drawing.Size(191, 22);
+            this.IdTK.TabIndex = 19;
+            this.IdTK.Leave += new System.EventHandler(this.IdTK_Leave);
             // 
             // label15
             // 
@@ -242,28 +239,9 @@
             this.label16.TabIndex = 21;
             this.label16.Text = "(*)";
             // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.Red;
-            this.label17.Location = new System.Drawing.Point(131, 469);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(23, 16);
-            this.label17.TabIndex = 22;
-            this.label17.Text = "(*)";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(237, 466);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(292, 24);
-            this.comboBox2.TabIndex = 23;
-            // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(237, 508);
+            this.textBox2.Location = new System.Drawing.Point(237, 472);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(191, 22);
             this.textBox2.TabIndex = 24;
@@ -271,36 +249,103 @@
             // comboBox3
             // 
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(237, 550);
+            this.comboBox3.Location = new System.Drawing.Point(237, 514);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(292, 24);
             this.comboBox3.TabIndex = 25;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(237, 592);
+            this.textBox3.Location = new System.Drawing.Point(237, 556);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(191, 22);
             this.textBox3.TabIndex = 26;
+            // 
+            // lbTenTK
+            // 
+            this.lbTenTK.AutoSize = true;
+            this.lbTenTK.Location = new System.Drawing.Point(451, 214);
+            this.lbTenTK.Name = "lbTenTK";
+            this.lbTenTK.Size = new System.Drawing.Size(51, 16);
+            this.lbTenTK.TabIndex = 27;
+            this.lbTenTK.Text = "label18";
+            // 
+            // lbCIF
+            // 
+            this.lbCIF.AutoSize = true;
+            this.lbCIF.Location = new System.Drawing.Point(234, 101);
+            this.lbCIF.Name = "lbCIF";
+            this.lbCIF.Size = new System.Drawing.Size(51, 16);
+            this.lbCIF.TabIndex = 28;
+            this.lbCIF.Text = "label19";
+            // 
+            // lbTenKH
+            // 
+            this.lbTenKH.AutoSize = true;
+            this.lbTenKH.Location = new System.Drawing.Point(435, 101);
+            this.lbTenKH.Name = "lbTenKH";
+            this.lbTenKH.Size = new System.Drawing.Size(51, 16);
+            this.lbTenKH.TabIndex = 29;
+            this.lbTenKH.Text = "label20";
+            // 
+            // lbTienTe
+            // 
+            this.lbTienTe.AutoSize = true;
+            this.lbTienTe.Location = new System.Drawing.Point(234, 256);
+            this.lbTienTe.Name = "lbTienTe";
+            this.lbTienTe.Size = new System.Drawing.Size(51, 16);
+            this.lbTienTe.TabIndex = 30;
+            this.lbTienTe.Text = "label21";
+            // 
+            // lbSoTienKH
+            // 
+            this.lbSoTienKH.AutoSize = true;
+            this.lbSoTienKH.Location = new System.Drawing.Point(234, 298);
+            this.lbSoTienKH.Name = "lbSoTienKH";
+            this.lbSoTienKH.Size = new System.Drawing.Size(51, 16);
+            this.lbSoTienKH.TabIndex = 31;
+            this.lbSoTienKH.Text = "label22";
+            // 
+            // lbCust
+            // 
+            this.lbCust.AutoSize = true;
+            this.lbCust.Location = new System.Drawing.Point(234, 356);
+            this.lbCust.Name = "lbCust";
+            this.lbCust.Size = new System.Drawing.Size(51, 16);
+            this.lbCust.TabIndex = 32;
+            this.lbCust.Text = "label23";
+            // 
+            // lbCustMoi
+            // 
+            this.lbCustMoi.AutoSize = true;
+            this.lbCustMoi.Location = new System.Drawing.Point(234, 398);
+            this.lbCustMoi.Name = "lbCustMoi";
+            this.lbCustMoi.Size = new System.Drawing.Size(51, 16);
+            this.lbCustMoi.TabIndex = 33;
+            this.lbCustMoi.Text = "label24";
             // 
             // frm_GuiTienMat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1222, 684);
+            this.Controls.Add(this.lbCustMoi);
+            this.Controls.Add(this.lbCust);
+            this.Controls.Add(this.lbSoTienKH);
+            this.Controls.Add(this.lbTienTe);
+            this.Controls.Add(this.lbTenKH);
+            this.Controls.Add(this.lbCIF);
+            this.Controls.Add(this.lbTenTK);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.IdTK);
+            this.Controls.Add(this.cbLoaiTK);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -332,18 +377,22 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox cbLoaiTK;
+        private System.Windows.Forms.TextBox IdTK;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label lbTenTK;
+        private System.Windows.Forms.Label lbCIF;
+        private System.Windows.Forms.Label lbTenKH;
+        private System.Windows.Forms.Label lbTienTe;
+        private System.Windows.Forms.Label lbSoTienKH;
+        private System.Windows.Forms.Label lbCust;
+        private System.Windows.Forms.Label lbCustMoi;
     }
 }

@@ -43,7 +43,10 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtGhiChu = new System.Windows.Forms.TextBox();
+            this.txtMaQH = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
+            this.cbNguoiThamGia = new System.Windows.Forms.ComboBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.cbKhachHang = new System.Windows.Forms.ComboBox();
@@ -54,9 +57,6 @@
             this.txtTenVietTat = new System.Windows.Forms.TextBox();
             this.cbPhi = new System.Windows.Forms.ComboBox();
             this.cbNV = new System.Windows.Forms.ComboBox();
-            this.txtMaQH = new System.Windows.Forms.ComboBox();
-            this.cbNguoiThamGia = new System.Windows.Forms.ComboBox();
-            this.txtGhiChu = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -221,6 +221,21 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "THAM GIA TÀI KHOẢN";
             // 
+            // txtGhiChu
+            // 
+            this.txtGhiChu.Location = new System.Drawing.Point(193, 130);
+            this.txtGhiChu.Name = "txtGhiChu";
+            this.txtGhiChu.Size = new System.Drawing.Size(329, 22);
+            this.txtGhiChu.TabIndex = 23;
+            // 
+            // txtMaQH
+            // 
+            this.txtMaQH.FormattingEnabled = true;
+            this.txtMaQH.Location = new System.Drawing.Point(193, 86);
+            this.txtMaQH.Name = "txtMaQH";
+            this.txtMaQH.Size = new System.Drawing.Size(329, 24);
+            this.txtMaQH.TabIndex = 24;
+            // 
             // label14
             // 
             this.label14.AutoSize = true;
@@ -230,6 +245,14 @@
             this.label14.Size = new System.Drawing.Size(58, 16);
             this.label14.TabIndex = 17;
             this.label14.Text = "Ghi chú";
+            // 
+            // cbNguoiThamGia
+            // 
+            this.cbNguoiThamGia.FormattingEnabled = true;
+            this.cbNguoiThamGia.Location = new System.Drawing.Point(193, 42);
+            this.cbNguoiThamGia.Name = "cbNguoiThamGia";
+            this.cbNguoiThamGia.Size = new System.Drawing.Size(329, 24);
+            this.cbNguoiThamGia.TabIndex = 23;
             // 
             // label15
             // 
@@ -263,9 +286,6 @@
             // cbLoai
             // 
             this.cbLoai.FormattingEnabled = true;
-            this.cbLoai.Items.AddRange(new object[] {
-            "1000 - Tiền gửi thanh toán",
-            "2000 - Tiết kiệm không kì hạn"});
             this.cbLoai.Location = new System.Drawing.Point(205, 149);
             this.cbLoai.Name = "cbLoai";
             this.cbLoai.Size = new System.Drawing.Size(329, 24);
@@ -329,29 +349,6 @@
             this.cbNV.Name = "cbNV";
             this.cbNV.Size = new System.Drawing.Size(329, 24);
             this.cbNV.TabIndex = 21;
-            // 
-            // txtMaQH
-            // 
-            this.txtMaQH.FormattingEnabled = true;
-            this.txtMaQH.Location = new System.Drawing.Point(193, 86);
-            this.txtMaQH.Name = "txtMaQH";
-            this.txtMaQH.Size = new System.Drawing.Size(329, 24);
-            this.txtMaQH.TabIndex = 24;
-            // 
-            // cbNguoiThamGia
-            // 
-            this.cbNguoiThamGia.FormattingEnabled = true;
-            this.cbNguoiThamGia.Location = new System.Drawing.Point(193, 42);
-            this.cbNguoiThamGia.Name = "cbNguoiThamGia";
-            this.cbNguoiThamGia.Size = new System.Drawing.Size(329, 24);
-            this.cbNguoiThamGia.TabIndex = 23;
-            // 
-            // txtGhiChu
-            // 
-            this.txtGhiChu.Location = new System.Drawing.Point(193, 130);
-            this.txtGhiChu.Name = "txtGhiChu";
-            this.txtGhiChu.Size = new System.Drawing.Size(329, 22);
-            this.txtGhiChu.TabIndex = 23;
             // 
             // frm_MoTaiKhoan
             // 

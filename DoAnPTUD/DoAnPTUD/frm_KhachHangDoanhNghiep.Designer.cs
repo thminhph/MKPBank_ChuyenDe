@@ -45,9 +45,6 @@
             this.label50 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.cbMaQH = new System.Windows.Forms.ComboBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtChucVu = new System.Windows.Forms.TextBox();
-            this.txtNguoiLienHe = new System.Windows.Forms.TextBox();
             this.dtNgayTao = new System.Windows.Forms.DateTimePicker();
             this.label52 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
@@ -63,8 +60,9 @@
             this.txtTongTS = new System.Windows.Forms.TextBox();
             this.label53 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
             this.txtSoLuong = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
             this.dtNgayHetHan = new System.Windows.Forms.DateTimePicker();
             this.dtNgayCap = new System.Windows.Forms.DateTimePicker();
             this.txtNoiCap = new System.Windows.Forms.TextBox();
@@ -78,12 +76,10 @@
             this.txtCif = new System.Windows.Forms.TextBox();
             this.dtNgayThanhLap = new System.Windows.Forms.DateTimePicker();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
             this.txtSDT = new System.Windows.Forms.TextBox();
-            this.txtTenDayDu = new System.Windows.Forms.TextBox();
             this.txtTenCty = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -96,15 +92,12 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.label1 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.tabPage2.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -132,7 +125,7 @@
             // 
             this.label37.AutoSize = true;
             this.label37.ForeColor = System.Drawing.Color.Red;
-            this.label37.Location = new System.Drawing.Point(171, 562);
+            this.label37.Location = new System.Drawing.Point(171, 563);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(20, 16);
             this.label37.TabIndex = 75;
@@ -152,7 +145,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(105, 529);
+            this.label3.Location = new System.Drawing.Point(105, 530);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(20, 16);
             this.label3.TabIndex = 73;
@@ -162,7 +155,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.ForeColor = System.Drawing.Color.Red;
-            this.label15.Location = new System.Drawing.Point(139, 496);
+            this.label15.Location = new System.Drawing.Point(139, 497);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(20, 16);
             this.label15.TabIndex = 72;
@@ -172,7 +165,7 @@
             // 
             this.cbNhanVien.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbNhanVien.FormattingEnabled = true;
-            this.cbNhanVien.Location = new System.Drawing.Point(219, 559);
+            this.cbNhanVien.Location = new System.Drawing.Point(219, 560);
             this.cbNhanVien.Name = "cbNhanVien";
             this.cbNhanVien.Size = new System.Drawing.Size(224, 24);
             this.cbNhanVien.TabIndex = 71;
@@ -181,7 +174,7 @@
             // 
             this.cbNganh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbNganh.FormattingEnabled = true;
-            this.cbNganh.Location = new System.Drawing.Point(219, 526);
+            this.cbNganh.Location = new System.Drawing.Point(219, 527);
             this.cbNganh.Name = "cbNganh";
             this.cbNganh.Size = new System.Drawing.Size(267, 24);
             this.cbNganh.TabIndex = 70;
@@ -206,7 +199,7 @@
             // 
             this.cbNganhChinh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbNganhChinh.FormattingEnabled = true;
-            this.cbNganhChinh.Location = new System.Drawing.Point(219, 493);
+            this.cbNganhChinh.Location = new System.Drawing.Point(219, 494);
             this.cbNganhChinh.Name = "cbNganhChinh";
             this.cbNganhChinh.Size = new System.Drawing.Size(267, 24);
             this.cbNganhChinh.TabIndex = 69;
@@ -214,7 +207,7 @@
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(45, 562);
+            this.label33.Location = new System.Drawing.Point(45, 563);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(120, 16);
             this.label33.TabIndex = 68;
@@ -223,7 +216,7 @@
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(45, 496);
+            this.label35.Location = new System.Drawing.Point(45, 497);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(88, 16);
             this.label35.TabIndex = 66;
@@ -248,7 +241,7 @@
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(45, 529);
+            this.label34.Location = new System.Drawing.Point(45, 530);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(54, 16);
             this.label34.TabIndex = 67;
@@ -282,27 +275,6 @@
             this.cbMaQH.Size = new System.Drawing.Size(219, 24);
             this.cbMaQH.TabIndex = 94;
             // 
-            // txtEmail
-            // 
-            this.txtEmail.Location = new System.Drawing.Point(693, 242);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(267, 22);
-            this.txtEmail.TabIndex = 65;
-            // 
-            // txtChucVu
-            // 
-            this.txtChucVu.Location = new System.Drawing.Point(693, 209);
-            this.txtChucVu.Name = "txtChucVu";
-            this.txtChucVu.Size = new System.Drawing.Size(267, 22);
-            this.txtChucVu.TabIndex = 64;
-            // 
-            // txtNguoiLienHe
-            // 
-            this.txtNguoiLienHe.Location = new System.Drawing.Point(693, 176);
-            this.txtNguoiLienHe.Name = "txtNguoiLienHe";
-            this.txtNguoiLienHe.Size = new System.Drawing.Size(267, 22);
-            this.txtNguoiLienHe.TabIndex = 63;
-            // 
             // dtNgayTao
             // 
             this.dtNgayTao.Format = System.Windows.Forms.DateTimePickerFormat.Short;
@@ -324,7 +296,7 @@
             // 
             this.label29.AutoSize = true;
             this.label29.ForeColor = System.Drawing.Color.Red;
-            this.label29.Location = new System.Drawing.Point(117, 444);
+            this.label29.Location = new System.Drawing.Point(117, 406);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(20, 16);
             this.label29.TabIndex = 48;
@@ -343,7 +315,7 @@
             // 
             this.label28.AutoSize = true;
             this.label28.ForeColor = System.Drawing.Color.Red;
-            this.label28.Location = new System.Drawing.Point(105, 410);
+            this.label28.Location = new System.Drawing.Point(105, 372);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(20, 16);
             this.label28.TabIndex = 47;
@@ -353,7 +325,7 @@
             // 
             this.label27.AutoSize = true;
             this.label27.ForeColor = System.Drawing.Color.Red;
-            this.label27.Location = new System.Drawing.Point(631, 377);
+            this.label27.Location = new System.Drawing.Point(631, 339);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(20, 16);
             this.label27.TabIndex = 46;
@@ -363,7 +335,7 @@
             // 
             this.label26.AutoSize = true;
             this.label26.ForeColor = System.Drawing.Color.Red;
-            this.label26.Location = new System.Drawing.Point(127, 377);
+            this.label26.Location = new System.Drawing.Point(127, 339);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(20, 16);
             this.label26.TabIndex = 45;
@@ -373,7 +345,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.ForeColor = System.Drawing.Color.Red;
-            this.label25.Location = new System.Drawing.Point(152, 245);
+            this.label25.Location = new System.Drawing.Point(152, 207);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(20, 16);
             this.label25.TabIndex = 44;
@@ -383,7 +355,7 @@
             // 
             this.label24.AutoSize = true;
             this.label24.ForeColor = System.Drawing.Color.Red;
-            this.label24.Location = new System.Drawing.Point(140, 212);
+            this.label24.Location = new System.Drawing.Point(140, 174);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(20, 16);
             this.label24.TabIndex = 43;
@@ -393,7 +365,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.ForeColor = System.Drawing.Color.Red;
-            this.label23.Location = new System.Drawing.Point(97, 179);
+            this.label23.Location = new System.Drawing.Point(97, 141);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(20, 16);
             this.label23.TabIndex = 42;
@@ -403,7 +375,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.ForeColor = System.Drawing.Color.Red;
-            this.label22.Location = new System.Drawing.Point(148, 103);
+            this.label22.Location = new System.Drawing.Point(148, 70);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(20, 16);
             this.label22.TabIndex = 41;
@@ -455,10 +427,32 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1141, 797);
+            this.tabPage2.Size = new System.Drawing.Size(1141, 776);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Chi tiết";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label39
+            // 
+            this.label39.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label39.BackColor = System.Drawing.Color.Black;
+            this.label39.Location = new System.Drawing.Point(2, 170);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(1135, 1);
+            this.label39.TabIndex = 99;
+            this.label39.Text = "label39";
+            // 
+            // label38
+            // 
+            this.label38.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label38.BackColor = System.Drawing.Color.Black;
+            this.label38.Location = new System.Drawing.Point(2, 109);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(1135, 1);
+            this.label38.TabIndex = 98;
+            this.label38.Text = "label38";
             // 
             // txtSoLuong
             // 
@@ -467,20 +461,10 @@
             this.txtSoLuong.Size = new System.Drawing.Size(170, 22);
             this.txtSoLuong.TabIndex = 97;
             // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.ForeColor = System.Drawing.Color.Red;
-            this.label21.Location = new System.Drawing.Point(172, 63);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(20, 16);
-            this.label21.TabIndex = 40;
-            this.label21.Text = "(*)";
-            // 
             // dtNgayHetHan
             // 
             this.dtNgayHetHan.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtNgayHetHan.Location = new System.Drawing.Point(693, 438);
+            this.dtNgayHetHan.Location = new System.Drawing.Point(693, 400);
             this.dtNgayHetHan.Name = "dtNgayHetHan";
             this.dtNgayHetHan.Size = new System.Drawing.Size(189, 22);
             this.dtNgayHetHan.TabIndex = 35;
@@ -489,21 +473,21 @@
             // dtNgayCap
             // 
             this.dtNgayCap.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtNgayCap.Location = new System.Drawing.Point(219, 438);
+            this.dtNgayCap.Location = new System.Drawing.Point(219, 400);
             this.dtNgayCap.Name = "dtNgayCap";
             this.dtNgayCap.Size = new System.Drawing.Size(189, 22);
             this.dtNgayCap.TabIndex = 34;
             // 
             // txtNoiCap
             // 
-            this.txtNoiCap.Location = new System.Drawing.Point(219, 407);
+            this.txtNoiCap.Location = new System.Drawing.Point(219, 369);
             this.txtNoiCap.Name = "txtNoiCap";
             this.txtNoiCap.Size = new System.Drawing.Size(224, 22);
             this.txtNoiCap.TabIndex = 33;
             // 
             // txtSoGiayTo
             // 
-            this.txtSoGiayTo.Location = new System.Drawing.Point(693, 376);
+            this.txtSoGiayTo.Location = new System.Drawing.Point(693, 338);
             this.txtSoGiayTo.Name = "txtSoGiayTo";
             this.txtSoGiayTo.Size = new System.Drawing.Size(267, 22);
             this.txtSoGiayTo.TabIndex = 32;
@@ -517,7 +501,7 @@
             "Chứng minh nhân dân",
             "ID.Quốc gia",
             "Hộ chiếu"});
-            this.cbLoaiGiayTo.Location = new System.Drawing.Point(219, 374);
+            this.cbLoaiGiayTo.Location = new System.Drawing.Point(219, 336);
             this.cbLoaiGiayTo.Name = "cbLoaiGiayTo";
             this.cbLoaiGiayTo.Size = new System.Drawing.Size(224, 24);
             this.cbLoaiGiayTo.TabIndex = 31;
@@ -547,7 +531,7 @@
             "Australia (AUS)",
             "Netherlands (NED)",
             "Greece (GRE)"});
-            this.cbQuocTich.Location = new System.Drawing.Point(219, 341);
+            this.cbQuocTich.Location = new System.Drawing.Point(219, 303);
             this.cbQuocTich.Name = "cbQuocTich";
             this.cbQuocTich.Size = new System.Drawing.Size(224, 24);
             this.cbQuocTich.TabIndex = 30;
@@ -577,7 +561,7 @@
             "Australia (AUS)",
             "Netherlands (NED)",
             "Greece (GRE)"});
-            this.cbQuocGia.Location = new System.Drawing.Point(219, 308);
+            this.cbQuocGia.Location = new System.Drawing.Point(219, 270);
             this.cbQuocGia.Name = "cbQuocGia";
             this.cbQuocGia.Size = new System.Drawing.Size(224, 24);
             this.cbQuocGia.TabIndex = 29;
@@ -650,21 +634,21 @@
             "97 - Bắc Kạn",
             "98 - Bắc Giang",
             "99 - Bắc Ninh"});
-            this.cbThanhPho.Location = new System.Drawing.Point(219, 242);
+            this.cbThanhPho.Location = new System.Drawing.Point(219, 204);
             this.cbThanhPho.Name = "cbThanhPho";
             this.cbThanhPho.Size = new System.Drawing.Size(224, 24);
             this.cbThanhPho.TabIndex = 27;
             // 
             // txtPhuong
             // 
-            this.txtPhuong.Location = new System.Drawing.Point(219, 209);
+            this.txtPhuong.Location = new System.Drawing.Point(219, 171);
             this.txtPhuong.Name = "txtPhuong";
             this.txtPhuong.Size = new System.Drawing.Size(267, 22);
             this.txtPhuong.TabIndex = 26;
             // 
             // txtDuong
             // 
-            this.txtDuong.Location = new System.Drawing.Point(219, 176);
+            this.txtDuong.Location = new System.Drawing.Point(219, 138);
             this.txtDuong.Name = "txtDuong";
             this.txtDuong.Size = new System.Drawing.Size(267, 22);
             this.txtDuong.TabIndex = 25;
@@ -681,7 +665,7 @@
             // dtNgayThanhLap
             // 
             this.dtNgayThanhLap.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtNgayThanhLap.Location = new System.Drawing.Point(219, 98);
+            this.dtNgayThanhLap.Location = new System.Drawing.Point(219, 65);
             this.dtNgayThanhLap.Name = "dtNgayThanhLap";
             this.dtNgayThanhLap.Size = new System.Drawing.Size(189, 22);
             this.dtNgayThanhLap.TabIndex = 24;
@@ -689,6 +673,8 @@
             // tabPage1
             // 
             this.tabPage1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tabPage1.Controls.Add(this.txtEmail);
+            this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Controls.Add(this.label40);
             this.tabPage1.Controls.Add(this.label31);
             this.tabPage1.Controls.Add(this.txtSDT);
@@ -702,9 +688,6 @@
             this.tabPage1.Controls.Add(this.label33);
             this.tabPage1.Controls.Add(this.label34);
             this.tabPage1.Controls.Add(this.label35);
-            this.tabPage1.Controls.Add(this.txtEmail);
-            this.tabPage1.Controls.Add(this.txtChucVu);
-            this.tabPage1.Controls.Add(this.txtNguoiLienHe);
             this.tabPage1.Controls.Add(this.label29);
             this.tabPage1.Controls.Add(this.label28);
             this.tabPage1.Controls.Add(this.label27);
@@ -713,7 +696,6 @@
             this.tabPage1.Controls.Add(this.label24);
             this.tabPage1.Controls.Add(this.label23);
             this.tabPage1.Controls.Add(this.label22);
-            this.tabPage1.Controls.Add(this.label21);
             this.tabPage1.Controls.Add(this.dtNgayHetHan);
             this.tabPage1.Controls.Add(this.dtNgayCap);
             this.tabPage1.Controls.Add(this.txtNoiCap);
@@ -725,11 +707,7 @@
             this.tabPage1.Controls.Add(this.txtPhuong);
             this.tabPage1.Controls.Add(this.txtDuong);
             this.tabPage1.Controls.Add(this.dtNgayThanhLap);
-            this.tabPage1.Controls.Add(this.txtTenDayDu);
             this.tabPage1.Controls.Add(this.txtTenCty);
-            this.tabPage1.Controls.Add(this.label20);
-            this.tabPage1.Controls.Add(this.label19);
-            this.tabPage1.Controls.Add(this.label18);
             this.tabPage1.Controls.Add(this.label17);
             this.tabPage1.Controls.Add(this.label16);
             this.tabPage1.Controls.Add(this.label14);
@@ -742,7 +720,6 @@
             this.tabPage1.Controls.Add(this.label8);
             this.tabPage1.Controls.Add(this.label9);
             this.tabPage1.Controls.Add(this.label5);
-            this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
@@ -752,19 +729,34 @@
             this.tabPage1.Text = "Thông tin khách hàng";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // label40
+            // 
+            this.label40.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label40.BackColor = System.Drawing.Color.Black;
+            this.label40.Location = new System.Drawing.Point(2, 479);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(1135, 1);
+            this.label40.TabIndex = 99;
+            this.label40.Text = "label40";
+            // 
+            // label31
+            // 
+            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label31.BackColor = System.Drawing.Color.Black;
+            this.label31.Location = new System.Drawing.Point(2, 116);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(1135, 1);
+            this.label31.TabIndex = 98;
+            this.label31.Text = "label31";
+            // 
             // txtSDT
             // 
-            this.txtSDT.Location = new System.Drawing.Point(219, 275);
+            this.txtSDT.Location = new System.Drawing.Point(219, 237);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(171, 22);
             this.txtSDT.TabIndex = 76;
-            // 
-            // txtTenDayDu
-            // 
-            this.txtTenDayDu.Location = new System.Drawing.Point(219, 59);
-            this.txtTenDayDu.Name = "txtTenDayDu";
-            this.txtTenDayDu.Size = new System.Drawing.Size(267, 22);
-            this.txtTenDayDu.TabIndex = 23;
             // 
             // txtTenCty
             // 
@@ -773,37 +765,10 @@
             this.txtTenCty.Size = new System.Drawing.Size(189, 22);
             this.txtTenCty.TabIndex = 21;
             // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(558, 245);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(83, 16);
-            this.label20.TabIndex = 20;
-            this.label20.Text = "Địa chỉ email";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(558, 212);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(54, 16);
-            this.label19.TabIndex = 19;
-            this.label19.Text = "Chức vụ";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(558, 179);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(85, 16);
-            this.label18.TabIndex = 18;
-            this.label18.Text = "Người liên hệ";
-            // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(558, 443);
+            this.label17.Location = new System.Drawing.Point(558, 405);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(86, 16);
             this.label17.TabIndex = 16;
@@ -812,7 +777,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(558, 377);
+            this.label16.Location = new System.Drawing.Point(558, 339);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(67, 16);
             this.label16.TabIndex = 15;
@@ -821,7 +786,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(45, 410);
+            this.label14.Location = new System.Drawing.Point(45, 372);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(54, 16);
             this.label14.TabIndex = 13;
@@ -830,7 +795,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(45, 443);
+            this.label10.Location = new System.Drawing.Point(45, 405);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(66, 16);
             this.label10.TabIndex = 12;
@@ -839,7 +804,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(45, 377);
+            this.label11.Location = new System.Drawing.Point(45, 339);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(76, 16);
             this.label11.TabIndex = 11;
@@ -848,7 +813,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(45, 344);
+            this.label12.Location = new System.Drawing.Point(45, 306);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(62, 16);
             this.label12.TabIndex = 10;
@@ -857,7 +822,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(45, 311);
+            this.label13.Location = new System.Drawing.Point(45, 273);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(61, 16);
             this.label13.TabIndex = 9;
@@ -866,7 +831,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(45, 278);
+            this.label6.Location = new System.Drawing.Point(45, 240);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(85, 16);
             this.label6.TabIndex = 8;
@@ -875,7 +840,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(45, 245);
+            this.label7.Location = new System.Drawing.Point(45, 207);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(101, 16);
             this.label7.TabIndex = 7;
@@ -884,7 +849,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(45, 212);
+            this.label8.Location = new System.Drawing.Point(45, 174);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(89, 16);
             this.label8.TabIndex = 6;
@@ -893,7 +858,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(45, 179);
+            this.label9.Location = new System.Drawing.Point(45, 141);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(46, 16);
             this.label9.TabIndex = 5;
@@ -902,20 +867,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(45, 103);
+            this.label5.Location = new System.Drawing.Point(45, 70);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(97, 16);
             this.label5.TabIndex = 4;
             this.label5.Text = "Ngày thành lập";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(45, 63);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(121, 16);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Tên đầy đủ công ty";
             // 
             // label2
             // 
@@ -960,49 +916,21 @@
             this.label30.TabIndex = 98;
             this.label30.Text = "label30";
             // 
-            // label31
+            // label4
             // 
-            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label31.BackColor = System.Drawing.Color.Black;
-            this.label31.Location = new System.Drawing.Point(2, 154);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(1135, 1);
-            this.label31.TabIndex = 98;
-            this.label31.Text = "label31";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(45, 443);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(41, 16);
+            this.label4.TabIndex = 100;
+            this.label4.Text = "Email";
             // 
-            // label38
+            // txtEmail
             // 
-            this.label38.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label38.BackColor = System.Drawing.Color.Black;
-            this.label38.Location = new System.Drawing.Point(2, 109);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(1135, 1);
-            this.label38.TabIndex = 98;
-            this.label38.Text = "label38";
-            // 
-            // label39
-            // 
-            this.label39.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label39.BackColor = System.Drawing.Color.Black;
-            this.label39.Location = new System.Drawing.Point(2, 170);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(1135, 1);
-            this.label39.TabIndex = 99;
-            this.label39.Text = "label39";
-            // 
-            // label40
-            // 
-            this.label40.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label40.BackColor = System.Drawing.Color.Black;
-            this.label40.Location = new System.Drawing.Point(2, 478);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(1135, 1);
-            this.label40.TabIndex = 99;
-            this.label40.Text = "label40";
+            this.txtEmail.Location = new System.Drawing.Point(219, 440);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(224, 22);
+            this.txtEmail.TabIndex = 101;
             // 
             // frm_KhachHangDoanhNghiep
             // 
@@ -1045,9 +973,6 @@
         private System.Windows.Forms.Label label50;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.ComboBox cbMaQH;
-        private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox txtChucVu;
-        private System.Windows.Forms.TextBox txtNguoiLienHe;
         private System.Windows.Forms.DateTimePicker dtNgayTao;
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.Label label29;
@@ -1064,7 +989,6 @@
         private System.Windows.Forms.Label label53;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TextBox txtSoLuong;
-        private System.Windows.Forms.Label label21;
         private System.Windows.Forms.DateTimePicker dtNgayHetHan;
         private System.Windows.Forms.DateTimePicker dtNgayCap;
         private System.Windows.Forms.TextBox txtNoiCap;
@@ -1078,11 +1002,7 @@
         private System.Windows.Forms.TextBox txtCif;
         private System.Windows.Forms.DateTimePicker dtNgayThanhLap;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TextBox txtTenDayDu;
         private System.Windows.Forms.TextBox txtTenCty;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label14;
@@ -1095,7 +1015,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.Label label1;
@@ -1105,5 +1024,7 @@
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Label label4;
     }
 }

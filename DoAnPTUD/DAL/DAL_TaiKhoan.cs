@@ -99,9 +99,11 @@ namespace DAL
                                 where s.SoDienThoai == sDT
                                 select new DTO_ThongTinKH
                                 {
-                                    IdKhachHang = (int)tk.IdKhachHang,
+                                    IdKhachHangCN = (int)tk.IdKhachHang,
                                     TenKhachHang = s.TenKhachHang,
                                     SoDienThoai = s.SoDienThoai,
+                                   
+                                    
                                 }).FirstOrDefault();
 
                 return taiKhoan;
@@ -115,52 +117,49 @@ namespace DAL
             }
         }
 
-        public bool DangKy(string sDT)
-        {
-            var temp = (from s in db.TaiKhoans
-                        join d in db.KhachHangs on s.IdKhachHang equals d.IdKhachHang
-                        where d.SoDienThoai != sDT 
-                        select s).Any();
-            return temp;
-        }
-        public void CreateTK(DTO_ThongTinKH kh,DTO_TaiKhoan tk)
+        public void Them(DTO_TaiKhoan taiKhoan)
         {
             try
             {
-                KhachHang _kh = new KhachHang
+                // Chèn đối tượng TaiKhoan
+                TaiKhoan tk = new TaiKhoan
                 {
-                    IdKhachHang = int.Parse(kh.SoDienThoai),
-                    SoDienThoai = kh.SoDienThoai,
-                    Email = kh.Email,
-                    TenKhachHang = kh.TenKhachHang,
-                    NgaySinh = kh.NgaySinh,
-                    DiaChi = kh.DiaChi,
-                    QuocTich = kh.QuocTich,
-                    SoGiayTo = kh.SoGiayTo,
-                    NgayCap = kh.NgayCap,
-                    NoiCap = kh.NoiCap,
-                    LoaiGiayTo = kh.LoaiGiayTo,
-                    IdNganh = kh.Nganh,
-                    NganhChinh = kh.NganhChinh,
-                    NhanVienLV = kh.NhanVienLV
+                    IdTaiKhoan = taiKhoan.IdTaiKhoan,
+                    IdKhachHang = taiKhoan.IdKhachHang,
+                    IdLoai = taiKhoan.LoaiTaiKhoan,
+                    TenTaiKhoan = taiKhoan.TenTaiKhoan,
+                    TienTe = taiKhoan.TienTe,
+                    TieuDeTK = taiKhoan.TieuDeTK,
+                    TieuDeNgan = taiKhoan.TieuDeNgan,
+                    NhanVienLV = taiKhoan.NhanVienLV,
+                    PhiMa = taiKhoan.PhiMa,
+                    Matkhau = taiKhoan.Matkhau,
+                };
 
-                };
-                TaiKhoan tai = new TaiKhoan
+                db.TaiKhoans.InsertOnSubmit(tk);
+                db.SubmitChanges(); // Xác nhận lưu và nhận IdTaiKhoan đã được tạo
+
+                // Kiểm tra IdTaiKhoan đã được tạo
+                if (tk.IdTaiKhoan <= 0)
                 {
-                    TienTe=tk.TienTe,
-                    Matkhau = tk.Matkhau,
-                    NhanVienLV=tk.NhanVienLV 
+                    throw new InvalidOperationException("IdTaiKhoan không được tạo đúng.");
+                }
+
+                // Chèn SoDuTinDung với IdTaiKhoan vừa tạo
+                SoDuTinDung sd = new SoDuTinDung
+                {
+                    IdTaiKhoan = tk.IdTaiKhoan, // Khóa ngoại từ TaiKhoan
+                    SoDuTK = 0
                 };
-                db.KhachHangs.InsertOnSubmit(_kh);
-                db.TaiKhoans.InsertOnSubmit(tai);   
+
+                db.SoDuTinDungs.InsertOnSubmit(sd);
                 db.SubmitChanges();
-                Console.WriteLine("Dang ki thanh cong");
             }
-            catch (Exception)
-            { 
-                throw;
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException("Thêm thất bại: " + ex.Message);
             }
         }
-    
+
     }
 }
