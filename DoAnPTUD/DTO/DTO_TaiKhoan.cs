@@ -8,7 +8,7 @@ namespace DTO
 {
     public class DTO_TaiKhoan
     {
-        private long idTaiKhoan;
+        private long  idTaiKhoan;
         private int  maKhachHang;
         private string loaiTaiKhoan, tenTaiKhoan, tienTe,  tieuDeTK, tieuDeNgan, nhanVienLV, phiMa, matkhau;
 

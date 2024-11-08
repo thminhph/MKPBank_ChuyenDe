@@ -109,5 +109,10 @@ namespace DoAnPTUD
             }
             return null;
         }
+
+        private void frm_MoTaiKhoan_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -12,20 +12,20 @@ namespace BLL
     {
         private DAL_TaiKhoan taiKhoan = new DAL_TaiKhoan();
 
-        public DTO_ThongTinKH tim(string stk)
+        public DTO_ThongTinKH tim(string  stk)
         {
             return taiKhoan.timUserTheostk(stk);
         }
 
-        public bool dangNhap(string sdt, string mK)
+        public DTO_TaiKhoan dangNhap(string sdt, string mK)
         {
            return taiKhoan.DangNhap(sdt, mK);
         }
 
-        public DTO_ThongTinKH ganthongtin(string  sdt,string ten)
-        {
-            return taiKhoan.GanThongTinNguoiDung(sdt,ten);
-        }
+        //public DTO_ThongTinKH ganthongtin(string  sdt,string ten)
+        //{
+        //    return taiKhoan.GanThongTinNguoiDung(sdt,ten);
+        //}
 
     }
 }
