@@ -58,6 +58,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CapNhatThongTin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapNhatThongTin.Designer.cs">
+      <DependentUpon>CapNhatThongTin.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomDialogQR.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,12 @@
     </Compile>
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoiMatKhau.Designer.cs">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_DanhSach.cs">
       <SubType>Form</SubType>
@@ -173,12 +185,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="QuenMatKhau.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="QuenMatKhau.Designer.cs">
-      <DependentUpon>QuenMatKhau.cs</DependentUpon>
-    </Compile>
     <Compile Include="Settings.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -209,6 +215,9 @@
     <Compile Include="TransferDetails.Designer.cs">
       <DependentUpon>TransferDetails.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CapNhatThongTin.resx">
+      <DependentUpon>CapNhatThongTin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CustomDialogQR.resx">
       <DependentUpon>CustomDialogQR.cs</DependentUpon>
     </EmbeddedResource>
@@ -223,6 +232,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoiMatKhau.resx">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_DanhSach.resx">
       <DependentUpon>frm_DanhSach.cs</DependentUpon>
@@ -267,9 +279,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="QuenMatKhau.resx">
-      <DependentUpon>QuenMatKhau.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Settings.resx">
       <DependentUpon>Settings.cs</DependentUpon>

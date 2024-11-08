@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLNganHang" Class="QLNganHangDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=PHONGPHU\SQLEXPRESS;Initial Catalog=QLNganHang;Integrated Security=True;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="QLNganHangConnectionString2" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-F2PT90C\SQLEXPRESS;Initial Catalog=QLNganHang;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="QLNganHangConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.ChiTietGD" Member="ChiTietGDs">
     <Type Name="ChiTietGD">
       <Column Name="MaGD" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -13,7 +13,7 @@
   </Table>
   <Table Name="dbo.KhachHang" Member="KhachHangs">
     <Type Name="KhachHang">
-      <Column Name="IdKhachHang" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IdKhachHang" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
       <Column Name="TenKhachHang" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
       <Column Name="Avarta" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
       <Column Name="NgaySinh" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
@@ -35,8 +35,8 @@
       <Association Name="KhachHang_TaiKhoanTietKiem" Member="TaiKhoanTietKiems" ThisKey="IdKhachHang" OtherKey="IdKhachHang" Type="TaiKhoanTietKiem" />
       <Association Name="KhachHang_ThamGiaTK" Member="ThamGiaTKs" ThisKey="IdKhachHang" OtherKey="IdKhachHang" Type="ThamGiaTK" />
       <Association Name="LoaiKhachHang_KhachHang" Member="LoaiKhachHang" ThisKey="IdLoaiKH" OtherKey="IdLoaiKH" Type="LoaiKhachHang" IsForeignKey="true" />
-      <Association Name="Nganh_KhachHang" Member="Nganh" ThisKey="IdNganh" OtherKey="IdNganh" Type="Nganh" IsForeignKey="true" />
       <Association Name="NganhChinh_KhachHang" Member="NganhChinh1" ThisKey="NganhChinh" OtherKey="IdNganhChinh" Type="NganhChinh" IsForeignKey="true" />
+      <Association Name="Nganh_KhachHang" Member="Nganh" ThisKey="IdNganh" OtherKey="IdNganh" Type="Nganh" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.LoaiKhachHang" Member="LoaiKhachHangs">
@@ -60,6 +60,14 @@
       <Association Name="LoaiTaiKhoanTK_TaiKhoanTietKiem" Member="TaiKhoanTietKiems" ThisKey="IdLoaiTK" OtherKey="IdLoaiTK" Type="TaiKhoanTietKiem" />
     </Type>
   </Table>
+  <Table Name="dbo.NganhChinh" Member="NganhChinhs">
+    <Type Name="NganhChinh">
+      <Column Name="IdNganhChinh" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenNganh" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Association Name="NganhChinh_KhachHang" Member="KhachHangs" ThisKey="IdNganhChinh" OtherKey="NganhChinh" Type="KhachHang" />
+      <Association Name="NganhChinh_Nganh" Member="Nganhs" ThisKey="IdNganhChinh" OtherKey="IdNganhChinh" Type="Nganh" />
+    </Type>
+  </Table>
   <Table Name="dbo.Nganh" Member="Nganhs">
     <Type Name="Nganh">
       <Column Name="IdNganh" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -67,14 +75,6 @@
       <Column Name="IdNganhChinh" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Association Name="Nganh_KhachHang" Member="KhachHangs" ThisKey="IdNganh" OtherKey="IdNganh" Type="KhachHang" />
       <Association Name="NganhChinh_Nganh" Member="NganhChinh" ThisKey="IdNganhChinh" OtherKey="IdNganhChinh" Type="NganhChinh" IsForeignKey="true" />
-    </Type>
-  </Table>
-  <Table Name="dbo.NganhChinh" Member="NganhChinhs">
-    <Type Name="NganhChinh">
-      <Column Name="IdNganhChinh" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="TenNganh" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
-      <Association Name="NganhChinh_KhachHang" Member="KhachHangs" ThisKey="IdNganhChinh" OtherKey="NganhChinh" Type="KhachHang" />
-      <Association Name="NganhChinh_Nganh" Member="Nganhs" ThisKey="IdNganhChinh" OtherKey="IdNganhChinh" Type="Nganh" />
     </Type>
   </Table>
   <Table Name="dbo.NhanVien" Member="NhanViens">

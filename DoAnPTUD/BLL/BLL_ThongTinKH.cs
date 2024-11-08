@@ -13,7 +13,7 @@ namespace BLL
      
         private DAL_ThongTinKH dal_thongtinkh = new DAL_ThongTinKH(); 
        
-        public IQueryable laydsTTKH()
+        public List<KhachHang> laydsTTKH()
         {
             return dal_thongtinkh.layDSThongTinKH();
         }
@@ -26,5 +26,10 @@ namespace BLL
         {
             return dal_thongtinkh.timTHKHstk(stk);
         }
+        public  bool ktraSDT(string sDT)
+        {
+            return dal_thongtinkh.ktraSDT(sDT);
+        }
+
     }
 }

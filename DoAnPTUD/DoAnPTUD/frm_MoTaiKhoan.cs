@@ -81,31 +81,31 @@ namespace DoAnPTUD
         {
             if (loaiKH == 1)
             {
-                return new DTO_TaiKhoan(
-                    long.Parse(txtIdTaiKhoan.Text),
-                    Convert.ToInt32(cbKhachHang.SelectedValue),
-                     Convert.ToInt32(cbLoai.SelectedValue).ToString(),
-                    cbSP.Text,
-                    cbTienTe.Text,
-                    txtTieuDeTK.Text,
-                    txtTenVietTat.Text,
-                    cbNV.SelectedValue.ToString(),
-                    cbPhi.Text,
-                    "@KHCN123");
+                //return new DTO_TaiKhoan(
+                //    long.Parse(txtIdTaiKhoan.Text),
+                //    Convert.ToInt32(cbKhachHang.SelectedValue),
+                //     Convert.ToInt32(cbLoai.SelectedValue).ToString(),
+                //    cbSP.Text,
+                //    cbTienTe.Text,
+                //    txtTieuDeTK.Text,
+                //    txtTenVietTat.Text,
+                //    cbNV.SelectedValue.ToString(),
+                //    cbPhi.Text,
+                //    "@KHCN123");
             }
             if (loaiKH == 2)
             {
-                return new DTO_TaiKhoan(
-                    long.Parse(txtIdTaiKhoan.Text),
-                    Convert.ToInt32(cbKhachHang.SelectedValue),
-                    Convert.ToInt32(cbLoai.SelectedValue).ToString(),
-                    cbSP.Text,
-                    cbTienTe.Text,
-                    txtTieuDeTK.Text,
-                    txtTenVietTat.Text,
-                    cbNV.SelectedValue.ToString(),
-                    cbPhi.Text,
-                    "@KHDN123");
+                //return new DTO_TaiKhoan(
+                //    long.Parse(txtIdTaiKhoan.Text),
+                //    Convert.ToInt32(cbKhachHang.SelectedValue),
+                //    Convert.ToInt32(cbLoai.SelectedValue).ToString(),
+                //    cbSP.Text,
+                //    cbTienTe.Text,
+                //    txtTieuDeTK.Text,
+                //    txtTenVietTat.Text,
+                //    cbNV.SelectedValue.ToString(),
+                //    cbPhi.Text,
+                //    "@KHDN123");
             }
             return null;
         }

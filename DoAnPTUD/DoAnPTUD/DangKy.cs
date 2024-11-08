@@ -17,6 +17,7 @@ namespace DoAnPTUD
 
         public static DTO_ThongTinKH taiKhoan = new DTO_ThongTinKH();
         public BLL_TaiKhoan tk=new BLL_TaiKhoan();
+        public BLL_ThongTinKH bLL_ThongTinKH = new BLL_ThongTinKH();
 
         private bool IsPasswordMatch(string password, string confirmPassword)
         { 
@@ -45,10 +46,11 @@ namespace DoAnPTUD
         { // Kiểm tra xem mật khẩu có trùng khớp
           return password == confirmPassword; 
         }
+
+
             private void btnXacNhan_Click(object sender, EventArgs e)
         {
             string sdt = txtSoDienThoai.Text;
-
             string password = txtMatKhau.Text;
             string confirmPassword = txtNhapLaiMK.Text;
             if (tk.DangKy(txtSoDienThoai.Text))
@@ -71,15 +73,40 @@ namespace DoAnPTUD
                 }
                 else
                 {
-                    errorProvider1.SetError(txtNhapLaiMK, string.Empty); // Không có lỗi
-                    MessageBox.Show("Mật khẩu trùng khớp!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                  
-                    taiKhoan.SoDienThoai=sdt;
-                    DTO_TaiKhoan k=new DTO_TaiKhoan();
-                    k.Matkhau = txtMatKhau.Text;
-                    DangKyChiTiet us = new DangKyChiTiet(k,taiKhoan);
-                    us.Show();
-                    this.Hide();
+                    bool kTra = bLL_ThongTinKH.ktraSDT(sdt);
+                    if (kTra)
+                    {
+                        MessageBox.Show("Số điện thoại đã tồn tại.");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Số điện thoại hợp lệ.");
+
+                        errorProvider1.SetError(txtNhapLaiMK, string.Empty); // Không có lỗi
+                        MessageBox.Show("Mật khẩu trùng khớp!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        var data = tk.layDanhSachLoaiTK();
+                        cboLoaiThe.DataSource = data;
+                        cboLoaiThe.DisplayMember = "TenLoai";
+                        cboLoaiThe.ValueMember = "IdLoai";
+                        DTO_TaiKhoan taiKhoan = new DTO_TaiKhoan(int.Parse(cboLoaiThe.SelectedValue.ToString()), txtMatKhau.Text.ToString());
+                        DTO_ThongTinKH newKH = new DTO_ThongTinKH();
+                        newKH.SoDienThoai = txtSoDienThoai.Text;
+                        DangKyChiTiet us = new DangKyChiTiet(taiKhoan, newKH);
+                        us.Show();
+                        this.Hide();
+                    }
+                    //errorProvider1.SetError(txtNhapLaiMK, string.Empty); // Không có lỗi
+                    //MessageBox.Show("Mật khẩu trùng khớp!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //var data = tk.layDanhSachLoaiTK();
+                    //cboLoaiThe.DataSource = data;
+                    //cboLoaiThe.DisplayMember = "TenLoai";
+                    //cboLoaiThe.ValueMember = "IdLoai";
+                    //DTO_TaiKhoan taiKhoan = new DTO_TaiKhoan(int.Parse(cboLoaiThe.SelectedValue.ToString()), txtMatKhau.Text.ToString());
+                    //DTO_ThongTinKH newKH = new DTO_ThongTinKH();
+                    //newKH.SoDienThoai = txtSoDienThoai.Text;
+                    //    DangKyChiTiet us = new DangKyChiTiet(taiKhoan, newKH);
+                    //    us.Show();
+                    //    this.Hide();
                 }
             }
             else
@@ -132,7 +159,10 @@ namespace DoAnPTUD
 
         private void DangKy_Load(object sender, EventArgs e)
         {
-            
+            var data = tk.layDanhSachLoaiTK();
+            cboLoaiThe.DataSource = data;
+            cboLoaiThe.DisplayMember = "TenLoai";
+            cboLoaiThe.ValueMember = "IdLoai";
         }
 
         private bool IsPasswordValid(string password)

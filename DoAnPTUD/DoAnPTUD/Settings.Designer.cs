@@ -31,9 +31,9 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnCapNhatTT = new System.Windows.Forms.Button();
+            this.btnTrangChu = new System.Windows.Forms.Button();
+            this.btnDoiMK = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -66,47 +66,50 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.btnCapNhatTT);
+            this.panel2.Controls.Add(this.btnTrangChu);
+            this.panel2.Controls.Add(this.btnDoiMK);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(315, 548);
             this.panel2.TabIndex = 1;
             // 
-            // button1
+            // btnCapNhatTT
             // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(315, 53);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Đổi mật khẩu";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCapNhatTT.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCapNhatTT.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCapNhatTT.Location = new System.Drawing.Point(0, 53);
+            this.btnCapNhatTT.Name = "btnCapNhatTT";
+            this.btnCapNhatTT.Size = new System.Drawing.Size(315, 53);
+            this.btnCapNhatTT.TabIndex = 2;
+            this.btnCapNhatTT.Text = "Cập nhật thông tin";
+            this.btnCapNhatTT.UseVisualStyleBackColor = true;
+            this.btnCapNhatTT.Click += new System.EventHandler(this.btnCapNhatTT_Click);
             // 
-            // button2
+            // btnTrangChu
             // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(0, 495);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(315, 53);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Trang chủ";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnTrangChu.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnTrangChu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTrangChu.Location = new System.Drawing.Point(0, 495);
+            this.btnTrangChu.Name = "btnTrangChu";
+            this.btnTrangChu.Size = new System.Drawing.Size(315, 53);
+            this.btnTrangChu.TabIndex = 1;
+            this.btnTrangChu.Text = "Trang chủ";
+            this.btnTrangChu.UseVisualStyleBackColor = true;
+            this.btnTrangChu.Click += new System.EventHandler(this.btnTrangChu_Click);
             // 
-            // button3
+            // btnDoiMK
             // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(0, 53);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(315, 53);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Cập nhật thông tin";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnDoiMK.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDoiMK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDoiMK.Location = new System.Drawing.Point(0, 0);
+            this.btnDoiMK.Name = "btnDoiMK";
+            this.btnDoiMK.Size = new System.Drawing.Size(315, 53);
+            this.btnDoiMK.TabIndex = 0;
+            this.btnDoiMK.Text = "Đổi mật khẩu";
+            this.btnDoiMK.UseVisualStyleBackColor = true;
+            this.btnDoiMK.Click += new System.EventHandler(this.btnDoiMK_Click);
             // 
             // Settings
             // 
@@ -131,8 +134,8 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnDoiMK;
+        private System.Windows.Forms.Button btnCapNhatTT;
+        private System.Windows.Forms.Button btnTrangChu;
     }
 }

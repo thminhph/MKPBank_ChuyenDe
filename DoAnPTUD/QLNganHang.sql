@@ -3,7 +3,7 @@
 use QLNganHang;
 
 CREATE TABLE KhachHang(
-	IdKhachHang int primary key,
+	IdKhachHang int IDENTITY(1,1) primary key,
 	TenKhachHang nvarchar(255) not null,
 	Avarta image,
 	NgaySinh datetime not null,
@@ -271,17 +271,17 @@ INSERT INTO NhanVien (IdNhanVien, HoTen, NgaySinh, GioiTinh, DiaChi, SoDienThoai
 ('NV008', N'Vũ Thị Hằng', '1990-12-12', N'Nữ', N'456 VWX Avenue', '01234567898', 'hang.vu@ymail.com', '823456789', N'Nhân viên', N'Phòng Hành chính', '2014-08-30', N'Đang làm'),
 ('NV009', N'Bùi Văn Tùng', '1987-06-07', N'Nam', N'789 YZ Road', '01234567899', 'tung.bui@hmail.com', '923456789', N'Trưởng phòng', N'Phòng Kỹ thuật', '2010-10-12', N'Đang làm'),
 ('NV010', N'Phạm Thị Mai', '1995-04-04', N'Nữ', N'123 ABC Road', '01234567890', 'mai.pham@pmail.com', '023456789', N'Nhân viên', N'Phòng Nhân sự', '2017-06-01', N'Đang làm');
-INSERT INTO KhachHang (IdKhachHang, TenKhachHang,Avarta, NgaySinh, DiaChi, SoDienThoai, QuocGia, QuocTich, LoaiGiayTo, SoGiayTo, NgayCap, NgayHetHan, NoiCap, Email, NganhChinh, IdNganh, NhanVienLV) VALUES
-(1, N'Nguyễn Văn A',null , '1985-01-15', N'Số 123, Đường A, Quận 1', '0123456789', N'Việt Nam', N'Việt', N'CMND', '123456789', '2010-05-20', '2030-05-20', N'Công an TP.HCM', 'nguyenvana@example.com', 1, 1, 'NV001'),
-(2, N'Trần Thị B', null ,'1990-02-20', N'Số 456, Đường B, Quận 2', '0123456780', N'Việt Nam', N'Việt', N'CMND', '987654321', '2015-08-15', '2035-08-15', N'Công an TP.HCM', 'tranthib@example.com', 1, 2, 'NV002'),
-(3, N'Phạm Văn C',null , '1988-03-10', N'Số 789, Đường C, Quận 3', '0123456781', N'Việt Nam', N'Việt', N'CMND', '192837465', '2012-03-12', '2032-03-12', N'Công an TP.HCM', 'phamvanc@example.com', 2, 1, 'NV003'),
-(4, N'Lê Thị D', null ,'1992-04-25', N'Số 321, Đường D, Quận 4', '0123456782', N'Việt Nam', N'Việt', N'CMND', '564738291', '2018-11-11', '2038-11-11', N'Công an TP.HCM', 'lethid@example.com', 2, 2, 'NV004'),
-(5, N'Nguyễn Văn E',null , '1980-05-30', N'Số 654, Đường E, Quận 5', '0123456783', N'Việt Nam', N'Việt', N'CMND', '182736454', '2011-06-25', '2031-06-25', N'Công an TP.HCM', 'nguyenvane@example.com', 1, 1, 'NV005'),
-(6, N'Trần Văn F', null,'1975-06-15', N'Số 987, Đường F, Quận 6', '0123456784', N'Việt Nam', N'Việt', N'CMND', '987123456', '2009-04-30', '2029-04-30', N'Công an TP.HCM', 'tranvanf@example.com', 1, 2, 'NV006'),
-(7, N'Phạm Thị G',null , '1995-07-20', N'Số 258, Đường G, Quận 7', '0123456785', N'Việt Nam', N'Việt', N'CMND', '456789123', '2016-07-01', '2036-07-01', N'Công an TP.HCM', 'phamthig@example.com', 2, 1, 'NV007'),
-(8, N'Lê Văn H', null,'1983-08-05', N'Số 369, Đường H, Quận 8', '0123456786', N'Việt Nam', N'Việt', N'CMND', '321654987', '2013-09-20', '2033-09-20', N'Công an TP.HCM', 'levanh@example.com', 2, 2, 'NV008'),
-(9, N'Nguyễn Thị I',null , '1989-09-10', N'Số 159, Đường I, Quận 9', '0123456787', N'Việt Nam', N'Việt', N'CMND', '753951486', '2014-10-10', '2034-10-10', N'Công an TP.HCM', 'nguyenthi@example.com', 1, 1, 'NV009'),
-(10, N'Trần Văn J', null,'1993-10-30', N'Số 753, Đường J, Quận 10', '0123456788', N'Việt Nam', N'Việt', N'CMND', '654321789', '2019-02-14', '2039-02-14', N'Công an TP.HCM', 'tranvanj@example.com', 1, 2, 'NV010');
+INSERT INTO KhachHang ( TenKhachHang,Avarta, NgaySinh, DiaChi, SoDienThoai, QuocGia, QuocTich, LoaiGiayTo, SoGiayTo, NgayCap, NgayHetHan, NoiCap, Email, NganhChinh, IdNganh, NhanVienLV) VALUES
+( N'Nguyễn Văn A',null , '1985-01-15', N'Số 123, Đường A, Quận 1', '0123456789', N'Việt Nam', N'Việt', N'CMND', '123456789', '2010-05-20', '2030-05-20', N'Công an TP.HCM', 'nguyenvana@example.com', 1, 1, 'NV001'),
+( N'Trần Thị B', null ,'1990-02-20', N'Số 456, Đường B, Quận 2', '0123456780', N'Việt Nam', N'Việt', N'CMND', '987654321', '2015-08-15', '2035-08-15', N'Công an TP.HCM', 'tranthib@example.com', 1, 2, 'NV002'),
+(N'Phạm Văn C',null , '1988-03-10', N'Số 789, Đường C, Quận 3', '0123456781', N'Việt Nam', N'Việt', N'CMND', '192837465', '2012-03-12', '2032-03-12', N'Công an TP.HCM', 'phamvanc@example.com', 2, 1, 'NV003'),
+(N'Lê Thị D', null ,'1992-04-25', N'Số 321, Đường D, Quận 4', '0123456782', N'Việt Nam', N'Việt', N'CMND', '564738291', '2018-11-11', '2038-11-11', N'Công an TP.HCM', 'lethid@example.com', 2, 2, 'NV004'),
+(N'Nguyễn Văn E',null , '1980-05-30', N'Số 654, Đường E, Quận 5', '0123456783', N'Việt Nam', N'Việt', N'CMND', '182736454', '2011-06-25', '2031-06-25', N'Công an TP.HCM', 'nguyenvane@example.com', 1, 1, 'NV005'),
+(N'Trần Văn F', null,'1975-06-15', N'Số 987, Đường F, Quận 6', '0123456784', N'Việt Nam', N'Việt', N'CMND', '987123456', '2009-04-30', '2029-04-30', N'Công an TP.HCM', 'tranvanf@example.com', 1, 2, 'NV006'),
+(N'Phạm Thị G',null , '1995-07-20', N'Số 258, Đường G, Quận 7', '0123456785', N'Việt Nam', N'Việt', N'CMND', '456789123', '2016-07-01', '2036-07-01', N'Công an TP.HCM', 'phamthig@example.com', 2, 1, 'NV007'),
+(N'Lê Văn H', null,'1983-08-05', N'Số 369, Đường H, Quận 8', '0123456786', N'Việt Nam', N'Việt', N'CMND', '321654987', '2013-09-20', '2033-09-20', N'Công an TP.HCM', 'levanh@example.com', 2, 2, 'NV008'),
+(N'Nguyễn Thị I',null , '1989-09-10', N'Số 159, Đường I, Quận 9', '0123456787', N'Việt Nam', N'Việt', N'CMND', '753951486', '2014-10-10', '2034-10-10', N'Công an TP.HCM', 'nguyenthi@example.com', 1, 1, 'NV009'),
+(N'Trần Văn J', null,'1993-10-30', N'Số 753, Đường J, Quận 10', '0123456788', N'Việt Nam', N'Việt', N'CMND', '654321789', '2019-02-14', '2039-02-14', N'Công an TP.HCM', 'tranvanj@example.com', 1, 2, 'NV010');
 
 INSERT INTO TaiKhoan (IdKhachHang, IdLoai, TenTaiKhoan, TienTe, TieuDeTK, TieuDeNgan, NhanVienLV, PhiMa,Matkhau)
 VALUES 
@@ -298,8 +298,8 @@ VALUES
 
 INSERT INTO SoDuTinDung ( IdTaiKhoan,SoDuTK)
 VALUES
-
-(70000123469,500000),
+(70000123456,500000),
+(70000123469,100000000),
 (70000123482,200000),
 (70000123495,82000000),
 (70000123508,92000000),
@@ -307,10 +307,9 @@ VALUES
 (70000123534,62000000),
 (70000123547,52000000),
 (70000123560,200000000),
-(70000123573,320000000),
-(70000123586 ,100000000)
+(70000123573,320000000)
 
-select * from SoDuTinDung
+select * from TaiKhoan
 
 select * from KhachHang, TaiKhoan
 where KhachHang.SoDienThoai like '09321098765' and TaiKhoan.IdKhachHang like KhachHang.IdKhachHang
@@ -355,3 +354,18 @@ FROM KhachHang AS khachHang
 JOIN ChiTietKHCN AS chiTiet
 ON khachHang.IdKhachHang = chiTiet.IdKhachHangCN
 
+insert into KhachHang(SoDienThoai,Email,TenKhachHang,NgaySinh,NgayCap,DiaChi,QuocTich,SoGiayTo,NoiCap,LoaiGiayTo,IdNganh,NganhChinh) values(
+ 0123456789,
+ 'sfdsfs',
+ 'sdgs',
+ '11/8/2024',
+ '11/8/2024',
+ 'fdhfgh',
+ 'gfhfgj',
+ '46746754',
+ 'dyy',
+ '0',
+ 2,
+ 1)
+
+ select * from KhachHang

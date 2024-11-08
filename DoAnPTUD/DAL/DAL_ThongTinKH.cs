@@ -11,6 +11,7 @@ using System.Collections;
 using static System.Net.Mime.MediaTypeNames;
 using System.IO;
 using System.ComponentModel.Design;
+using System.Runtime.Remoting.Contexts;
 
 namespace DAL
 {
@@ -22,30 +23,10 @@ namespace DAL
         {
             this.db = new QLNganHangDataContext(Properties.Settings.Default.QLNganHangConnectionString);
         }
-        public IQueryable layDSThongTinKH()
+        public List<KhachHang> layDSThongTinKH()
         {
-            IQueryable thongTinKH = from s in db.KhachHangs 
-                                    join h in db.Nganhs on s.IdNganh equals h.IdNganh
-                                    select new
-                                    {
-                                        s.IdKhachHang,
-                                        s.TenKhachHang,
-                                        s.Avarta,
-                                        s.NgaySinh,
-                                        s.DiaChi,
-                                        s.SoDienThoai,
-                                        s.QuocGia,
-                                        s.QuocTich,
-                                        s.LoaiGiayTo,
-                                        s.SoGiayTo,
-                                        s.NgayCap,
-                                        s.NgayHetHan,
-                                        s.NoiCap,
-                                        s.Email,
-                                        s.NganhChinh,
-                                        h.IdNganh,
-                                        s.NhanVienLV
-                                    };
+            db = new QLNganHangDataContext();
+            var thongTinKH = db.KhachHangs.Select(kh => kh).ToList();
             return thongTinKH;
         }
         public void SuaKH(DTO_ThongTinKH a , DTO_ThongTinKH b)
@@ -72,7 +53,6 @@ namespace DAL
         public DTO_ThongTinKH timTHKHstk(long stk)
         {
             var a = from s in db.KhachHangs
-                        
                         join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
                         where tk.IdTaiKhoan == stk
                         select new
@@ -87,8 +67,6 @@ namespace DAL
                             s.SoDienThoai,
                             s.Email
                         };
-
-
             DTO_ThongTinKH thong=new DTO_ThongTinKH();
             foreach (var t in a)
             {
@@ -97,7 +75,6 @@ namespace DAL
                 {
                     img = t.Avarta.ToArray();
                 }
-
                 string ten = t.TenKhachHang.ToString();
                 string sogiayto = t.SoGiayTo.ToString();
                 DateTime ngaysinh = t.NgaySinh; 
@@ -106,9 +83,16 @@ namespace DAL
                 DateTime ngaycap = t.NgayCap;
                 string sodienthoai=t.SoDienThoai;
                 string email=t.Email;
-                thong = new DTO_ThongTinKH( ten,img,ngaysinh,diachi,sodienthoai,sogiayto,ngaycap,email);
+                thong = new DTO_ThongTinKH( ten, img, ngaysinh, diachi, sodienthoai, sogiayto, ngaycap, email);
             }
             return thong;
+        }
+        public bool ktraSDT(string sDT)
+        {
+            using (var _db = new QLNganHangDataContext())
+            {
+                return _db.KhachHangs.Any(tk => tk.SoDienThoai == sDT);
+            }
         }
     }
 }

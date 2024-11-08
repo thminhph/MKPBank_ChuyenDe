@@ -21,5 +21,26 @@ namespace DoAnPTUD
         {
 
         }
+
+        private void btnDoiMK_Click(object sender, EventArgs e)
+        {
+            DoiMatKhau doiMatKhau = new DoiMatKhau();
+            doiMatKhau.Show();
+            this.Hide();
+        }
+
+        private void btnCapNhatTT_Click(object sender, EventArgs e)
+        {
+            CapNhatThongTin capNhatThongTin = new CapNhatThongTin();
+            capNhatThongTin.Show();
+            this.Hide();
+        }
+
+        private void btnTrangChu_Click(object sender, EventArgs e)
+        {
+            HomeUser homeUser = new HomeUser();
+            homeUser.Show();
+            this.Hide();
+        }
     }
 }

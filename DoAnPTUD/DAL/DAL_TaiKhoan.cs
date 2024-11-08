@@ -13,38 +13,58 @@ namespace DAL
 {
     public class DAL_TaiKhoan
     {
-        
-        
-        private QLNganHangDataContext  db;
+
+
+        private QLNganHangDataContext db;
 
         public DAL_TaiKhoan()
         {
             this.db = new QLNganHangDataContext(Properties.Settings.Default.QLNganHangConnectionString);
         }
+       
+
         public IQueryable layDSTaiKhoan()
         {
             IQueryable taiKhoan = from s in db.TaiKhoans
-                                   select new
-                                   {
-                                       s.IdTaiKhoan,
-                                       s.IdKhachHang,
-                                       s.LoaiTaiKhoan,
-                                       s.TenTaiKhoan,
-                                       s.TienTe,
-                                       s.TieuDeTK,
-                                       s.TieuDeNgan,
-                                       s.NhanVienLV,
-                                       s.PhiMa,
-                                       s.Matkhau
-                                   };
+                                  select new
+                                  {
+                                      s.IdTaiKhoan,
+                                      s.IdKhachHang,
+                                      s.LoaiTaiKhoan,
+                                      s.TenTaiKhoan,
+                                      s.TienTe,
+                                      s.TieuDeTK,
+                                      s.TieuDeNgan,
+                                      s.NhanVienLV,
+                                      s.PhiMa,
+                                      s.Matkhau
+                                  };
             return taiKhoan;
         }
-         public  DTO_ThongTinKH timUserTheostk(string   stk)
+        public List<DTO_LoaiKhachHang> LayDanhSachLoaiTK()
         {
-           var query = from s in db.KhachHangs
+            try
+            {
+                var danhSachLoaiTK = (from qg in db.LoaiTaiKhoans 
+      
+                                      select new DTO_LoaiKhachHang
+                                      {
+                                          IdLoai = qg.IdLoai,
+                                          TenLoai = qg.TenLoai
+                                      }).ToList();
+                return danhSachLoaiTK;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Lỗi khi lấy danh sách quốc gia: " + ex.Message);
+            }
+        }
+        public DTO_ThongTinKH timUserTheostk(string stk)
+        {
+            var query = from s in db.KhachHangs
                         join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
                         where s.SoDienThoai == stk
-                        select new 
+                        select new
                         {
                             tk.IdTaiKhoan,
                             s.Avarta,
@@ -80,12 +100,12 @@ namespace DAL
             return thong;
         }
 
-        public bool  DangNhap(string  sDT, string mk )
+        public bool DangNhap(string sDT, string mk)
         {
-            var  temp = (from s in db.KhachHangs
-                              join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
-                              where s.SoDienThoai == sDT && tk.Matkhau == mk
-                              select tk).Any();
+            var temp = (from s in db.KhachHangs
+                        join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
+                        where s.SoDienThoai == sDT && tk.Matkhau == mk
+                        select tk).Any();
             return temp;
 
         }
@@ -102,8 +122,8 @@ namespace DAL
                                     IdKhachHang = (int)tk.IdKhachHang,
                                     TenKhachHang = s.TenKhachHang,
                                     SoDienThoai = s.SoDienThoai,
-                                   
-                                    
+
+
                                 }).FirstOrDefault();
 
                 return taiKhoan;
@@ -116,5 +136,65 @@ namespace DAL
                 return null; // Trả về null để báo hiệu đăng nhập thất bại
             }
         }
-     }
+
+        public void CreateKH(DTO_ThongTinKH kh)
+        {
+            try
+            {
+                KhachHang _kh = new KhachHang
+                {
+                    SoDienThoai = kh.SoDienThoai,
+                    Email = kh.Email,
+                    TenKhachHang = kh.TenKhachHang,
+                    NgaySinh = kh.NgaySinh,
+                    DiaChi = kh.DiaChi,
+                    QuocTich = kh.QuocTich,
+                    SoGiayTo = kh.SoGiayTo,
+                    NgayCap = kh.NgayCap,
+                    NoiCap = kh.NoiCap,
+                    LoaiGiayTo = kh.LoaiGiayTo,
+                    IdNganh = kh.Nganh,
+                    NganhChinh = kh.NganhChinh,
+                };
+                db.KhachHangs.InsertOnSubmit(_kh);
+                db.SubmitChanges();
+                Console.WriteLine("Dang ki thanh cong");
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error",ex);
+            }
+        }
+
+        public void CreateTK(DTO_TaiKhoan kh)
+        {
+          
+            try
+            {
+                TaiKhoan chiTiet = new TaiKhoan
+                {
+                    IdTaiKhoan = kh.IdTaiKhoan,
+                    IdLoai = kh.IdLoai,
+                    Matkhau = kh.Matkhau,
+                    TienTe = kh.TienTe,
+                    IdKhachHang = int.Parse(kh.MaKhachHang.ToString())
+                };
+                db.TaiKhoans.InsertOnSubmit(chiTiet);
+                db.SubmitChanges();
+                Console.WriteLine("Giao Dịch Thành Công");
+
+            }
+            catch { 
+            }
+           
+    }
+    public bool DangKy(string sDT)
+        {
+            var temp = (from s in db.TaiKhoans
+                        join d in db.KhachHangs on s.IdKhachHang equals d.IdKhachHang
+                        where d.SoDienThoai != sDT
+                        select s).Any();
+            return temp;
+        }
+    }
 }
