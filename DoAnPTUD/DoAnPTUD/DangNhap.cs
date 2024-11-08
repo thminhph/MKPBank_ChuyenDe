@@ -54,10 +54,11 @@ namespace DoAnPTUD
             }
             else
             {
-                if (bll_taiKhoan.dangNhap(txtDangNhap.Text, txtMatKhau.Text))
+                var la = bll_taiKhoan.dangNhap(txtDangNhap.Text, txtMatKhau.Text);
+                if (la.IdTaiKhoan!=null)
                 {
-                    DTO_ThongTinKH use = bll_taiKhoan.ganthongtin(txtDN, txtMK);
-                    HomeUser us = new HomeUser(use.SoDienThoai);
+                    //DTO_ThongTinKH use = bll_taiKhoan.ganthongtin(txtDN, txtMK);
+                    HomeUser us = new HomeUser(la);
                     us.Show();
                     this.Hide();
                 }
