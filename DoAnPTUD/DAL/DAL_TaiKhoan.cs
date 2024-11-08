@@ -39,82 +39,86 @@ namespace DAL
                                    };
             return taiKhoan;
         }
-         public  DTO_ThongTinKH timUserTheostk(string   stk)
+         public  DTO_ThongTinKH timUserTheostk(string  stk)
         {
-           var query = from s in db.KhachHangs
+           var query = (from s in db.KhachHangs
                         join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
-                        where s.SoDienThoai == stk
-                        select new 
+                        where tk.IdTaiKhoan == long.Parse(stk)
+                        select new  DTO_ThongTinKH 
                         {
-                            tk.IdTaiKhoan,
-                            s.Avarta,
-                            s.TenKhachHang,
-                            s.NgayCap,
-                            s.DiaChi,
-                            s.Email,
-                            s.NgaySinh,
-                            s.SoGiayTo,
-                            s.SoDienThoai
-                        };
+                           IdKhachHang=s.IdKhachHang,
+                           //Avarta= s.Avarta,
+                           TenKhachHang= s.TenKhachHang,
+                           NgayCap= s.NgayCap,
+                           DiaChi= s.DiaChi,
+                          Email=  s.Email,
+                           NgaySinh= s.NgaySinh,
+                           SoGiayTo= s.SoGiayTo,
+                           SoDienThoai= s.SoDienThoai
+                        }).FirstOrDefault();
+            //DTO_ThongTinKH thong = new DTO_ThongTinKH();
+            //foreach (var t in query)
+            //{
+            //    byte[] img = new byte[0];
+            //    if (t.Avarta != null)
+            //    {
+            //        img = t.Avarta.ToArray();
+            //    }
 
+            //    string ten = t.TenKhachHang.ToString();
+            //    string sogiayto = t.SoGiayTo.ToString();
+            //    DateTime ngaysinh = t.NgaySinh;
 
-            DTO_ThongTinKH thong = new DTO_ThongTinKH();
-            foreach (var t in query)
-            {
-                byte[] img = new byte[0];
-                if (t.Avarta != null)
-                {
-                    img = t.Avarta.ToArray();
-                }
-
-                string ten = t.TenKhachHang.ToString();
-                string sogiayto = t.SoGiayTo.ToString();
-                DateTime ngaysinh = t.NgaySinh;
-
-                string diachi = t.DiaChi;
-                DateTime ngaycap = t.NgayCap;
-                string sodienthoai = t.SoDienThoai;
-                string email = t.Email;
-                thong = new DTO_ThongTinKH(ten, img, ngaysinh, diachi, sodienthoai, sogiayto, ngaycap, email);
-            }
-            return thong;
+            //    string diachi = t.DiaChi;
+            //    DateTime ngaycap = t.NgayCap;
+            //    string sodienthoai = t.SoDienThoai;
+            //    string email = t.Email;
+            //    thong = new DTO_ThongTinKH(ten, img, ngaysinh, diachi, sodienthoai, sogiayto, ngaycap, email);
+            //}
+            return query;
         }
 
-        public bool  DangNhap(string  sDT, string mk )
+        public DTO_TaiKhoan  DangNhap(string  sDT, string mk )
         {
             var  temp = (from s in db.KhachHangs
                               join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
                               where s.SoDienThoai == sDT && tk.Matkhau == mk
-                              select tk).Any();
+                              select new DTO_TaiKhoan
+                              {
+                                  IdTaiKhoan= tk.IdTaiKhoan,
+                                  MaKhachHang=(int)tk.IdKhachHang
+
+                              }).FirstOrDefault();
             return temp;
 
         }
-        public DTO_ThongTinKH GanThongTinNguoiDung(string sDT, string mk)
-        {
-            if (DangNhap(sDT, mk))
-            {
-                // Lấy thông tin chi tiết người dùng
-                var taiKhoan = (from s in db.KhachHangs
-                                join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
-                                where s.SoDienThoai == sDT
-                                select new DTO_ThongTinKH
-                                {
-                                    IdKhachHang = (int)tk.IdKhachHang,
-                                    TenKhachHang = s.TenKhachHang,
-                                    SoDienThoai = s.SoDienThoai,
+
+        //public DTO_ThongTinKH GanThongTinNguoiDung(string sDT, string mk)
+        //{
+        //    if (DangNhap(sDT, mk))
+        //    {
+        //        // Lấy thông tin chi tiết người dùng
+        //        var taiKhoan = (from s in db.KhachHangs
+        //                        join tk in db.TaiKhoans on s.IdKhachHang equals tk.IdKhachHang
+        //                        where s.SoDienThoai == sDT
+        //                        select new DTO_ThongTinKH
+        //                        {
+        //                            IdKhachHang = (int)tk.IdKhachHang,
+        //                            TenKhachHang = s.TenKhachHang,
+        //                            SoDienThoai = s.SoDienThoai,
                                    
                                     
-                                }).FirstOrDefault();
+        //                        }).FirstOrDefault();
 
-                return taiKhoan;
-            }
-            else
-            {
-                // Xử lý trường hợp đăng nhập thất bại
-                // Bạn có thể hiển thị thông báo lỗi chẳng hạn như:
-                MessageBox.Show("Số điện thoại hoặc mật khẩu không đúng.");
-                return null; // Trả về null để báo hiệu đăng nhập thất bại
-            }
-        }
+        //        return taiKhoan;
+        //    }
+        //    else
+        //    {
+        //        // Xử lý trường hợp đăng nhập thất bại
+        //        // Bạn có thể hiển thị thông báo lỗi chẳng hạn như:
+        //        MessageBox.Show("Số điện thoại hoặc mật khẩu không đúng.");
+        //        return null; // Trả về null để báo hiệu đăng nhập thất bại
+        //   }
+        //}
      }
 }

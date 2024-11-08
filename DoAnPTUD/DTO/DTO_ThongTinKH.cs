@@ -38,6 +38,7 @@ namespace DTO
             this.avarta = avarta;
         }
        public DTO_ThongTinKH() { }
+       
         public DTO_ThongTinKH(string tenKhachHang,byte[] avarta, DateTime ngaySinh, string diaChi, string soDienThoai,  string soGiayTo, DateTime ngayCap, string email) 
         {
             

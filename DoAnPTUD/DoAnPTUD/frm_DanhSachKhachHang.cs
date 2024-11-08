@@ -47,7 +47,9 @@ namespace DoAnPTUD
                 cbNganh.Text
             };
             //BLL_LoadValue kh = new BLL_LoadValue();
-            //dgvKhachHang.DataSource = kh.InDSKhachHang(arr);
+            //dgvKhachHang.DataSource = kh.HienThiDanhSachKH(arr);
+            BLL_LoadValue kh = new BLL_LoadValue();
+            dgvKhachHang.DataSource = kh.HienThiDanhSachKH(TimThongTin());
         }
         public Dictionary<string,string> TimThongTin()
         {
