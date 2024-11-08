@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtTen = new Guna.UI2.WinForms.Guna2TextBox();
@@ -51,6 +52,8 @@
             this.txtThanhPho = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnTroVe = new Guna.UI2.WinForms.Guna2Button();
             this.btnDangKy = new Guna.UI2.WinForms.Guna2Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2HtmlLabel1
@@ -493,6 +496,10 @@
             this.btnDangKy.Text = "Đăng Ký";
             this.btnDangKy.Click += new System.EventHandler(this.btnDangKy_Click);
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // DangKyChiTiet
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -531,6 +538,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DangKyChiTiet";
             this.Load += new System.EventHandler(this.DangKyChiTiet_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -561,5 +569,6 @@
         private Guna.UI2.WinForms.Guna2TextBox txtThanhPho;
         private Guna.UI2.WinForms.Guna2Button btnTroVe;
         private Guna.UI2.WinForms.Guna2Button btnDangKy;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

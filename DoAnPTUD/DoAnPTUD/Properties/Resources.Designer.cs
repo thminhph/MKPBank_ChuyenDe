@@ -63,6 +63,36 @@ namespace DoAnPTUD.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Back {
+            get {
+                object obj = ResourceManager.GetObject("Back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Done {
+            get {
+                object obj = ResourceManager.GetObject("Done", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Edit {
+            get {
+                object obj = ResourceManager.GetObject("Edit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fa_Team_Fontawesome_FontAwesome_Money_Bill_Transfer_512 {
             get {
                 object obj = ResourceManager.GetObject("Fa-Team-Fontawesome-FontAwesome-Money-Bill-Transfer.512", resourceCulture);
@@ -93,6 +123,16 @@ namespace DoAnPTUD.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Google_Noto_Emoji_People_Profession_10207_man_student_light_skin_tone_512 {
+            get {
+                object obj = ResourceManager.GetObject("Google-Noto-Emoji-People-Profession-10207-man-student-light-skin-tone.512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Icons8_Windows_8_Very_Basic_Menu_512 {
             get {
                 object obj = ResourceManager.GetObject("Icons8-Windows-8-Very-Basic-Menu.512", resourceCulture);
@@ -106,6 +146,16 @@ namespace DoAnPTUD.Properties {
         internal static System.Drawing.Bitmap Iconsmind_Outline_Arrow_Back_3_512 {
             get {
                 object obj = ResourceManager.GetObject("Iconsmind-Outline-Arrow-Back-3.512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap inverted_mkp_commercial_bank_preview_rev_1 {
+            get {
+                object obj = ResourceManager.GetObject("inverted_mkp_commercial_bank_preview_rev_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -176,6 +226,66 @@ namespace DoAnPTUD.Properties {
         internal static System.Drawing.Bitmap Pictogrammers_Material_Qrcode_scan_512 {
             get {
                 object obj = ResourceManager.GetObject("Pictogrammers-Material-Qrcode-scan.512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Print {
+            get {
+                object obj = ResourceManager.GetObject("Print", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Saerch {
+            get {
+                object obj = ResourceManager.GetObject("Saerch", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Search1 {
+            get {
+                object obj = ResourceManager.GetObject("Search1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sqlserver {
+            get {
+                object obj = ResourceManager.GetObject("sqlserver", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thenganhang {
+            get {
+                object obj = ResourceManager.GetObject("thenganhang", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tietkiem {
+            get {
+                object obj = ResourceManager.GetObject("tietkiem", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

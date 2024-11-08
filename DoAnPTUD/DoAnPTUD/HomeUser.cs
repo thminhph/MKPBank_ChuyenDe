@@ -12,36 +12,39 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Drawing;
-using System.IO;
 
 namespace DoAnPTUD
 {
     public partial class HomeUser : Form
     { 
-        public static DTO_TaiKhoan user;
-        
+        public  DTO_TaiKhoan  use ;
+        public BLL_TaiKhoan Tk = new BLL_TaiKhoan();
         public BLL_ThongTinKH bll_ThongTinKH = new BLL_ThongTinKH();
+        public HomeUser(DTO_TaiKhoan tk)
+        {
+            InitializeComponent();
+            this.use =tk ;
+        }
         public HomeUser()
         {
             InitializeComponent();
+            
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
-           Loadata();
+           
+            
+            Loadata();
         }
 
         private void Loadata()
         {
 
-            
-            user = new DTO_TaiKhoan(70000123456, 1, "Checking", "Standard", "VND", "Primary Account", "Main", "NV001", "PM001", "123");
-            
-            DTO_ThongTinKH th =bll_ThongTinKH.timUserTheostk(user.IdTaiKhoan);
+           
+            if (use != null) {
 
-
-            if (picAvatar.Image != null)
+                DTO_ThongTinKH th = Tk.tim(use.IdTaiKhoan.ToString());
+                if (picAvatar.Image != null)
                 {
                     using (MemoryStream ms = new MemoryStream(th.Avarta))
                     {
@@ -58,8 +61,13 @@ namespace DoAnPTUD
                 }
 
                 txtTenNguoiDung.Text = th.TenKhachHang;
-            
-          
+            }
+            else
+            {
+                MessageBox.Show("không tồn tại");
+            }
+               
+
 
         }
         private void btnMenu_Click(object sender, EventArgs e)
@@ -78,7 +86,7 @@ namespace DoAnPTUD
 
         private void button1_Click(object sender, EventArgs e)
         {
-            HomeUser user = new HomeUser();
+            HomeUser user = new HomeUser(use);
             if (user.Visible != true)
             {
                 user.Show();
@@ -89,11 +97,11 @@ namespace DoAnPTUD
 
         private void btnTK_Click(object sender, EventArgs e)
         {
-          
-                ManagementCard managementCard = new ManagementCard();
-                managementCard.Show();
-                this.Hide();
-            
+
+            ManagementCard managementCard = new ManagementCard(use);
+            managementCard.Show();
+            this.Hide();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -127,7 +135,7 @@ namespace DoAnPTUD
         private void btnMaQR_Click(object sender, EventArgs e)
         {
             // Tạo một form mới
-            Form form = new CustomDialogQR("https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=PhongPhu");
+            Form form = new CustomDialogQR(use);
             form.StartPosition = FormStartPosition.CenterParent;
             // Hiển thị form
             form.ShowDialog();
@@ -141,18 +149,18 @@ namespace DoAnPTUD
 
         private void btnChuyenKhoan_Click(object sender, EventArgs e)
         {
-            Transfer transfer = new Transfer(); 
+            Transfer transfer = new Transfer(use); 
             transfer.Show();
             this.Hide();
         }
 
         private void linkHoSo_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            PersonInfor personInfor = new PersonInfor();
+            PersonInfor personInfor = new PersonInfor(use);
             personInfor.Show();
             this.Hide();
         }
 
-       
+        
     }
 }

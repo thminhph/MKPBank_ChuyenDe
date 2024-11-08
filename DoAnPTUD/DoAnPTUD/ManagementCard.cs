@@ -1,4 +1,5 @@
 ﻿using BLL;
+using DoAnPTUD.Properties;
 using DTO;
 using System;
 using System.Collections.Generic;
@@ -16,13 +17,14 @@ namespace DoAnPTUD
 {
     public partial class ManagementCard : Form
     {
-        public string use;
+        int  pos = 1;
+        public DTO_TaiKhoan use;
         public BLL_TaiKhoan Tk = new BLL_TaiKhoan();
         public DTO_SoDuTk sd;
         public DTO_TaiKhoan st;
         public BLL_SoDuTk sdtk = new BLL_SoDuTk(); 
         public BLL_ThongTinKH bll_ThongTinKH = new BLL_ThongTinKH();
-        public ManagementCard(string us)
+        public ManagementCard(DTO_TaiKhoan us)
         {
             InitializeComponent();
             this.use = us;
@@ -35,12 +37,12 @@ namespace DoAnPTUD
             if (btnXem.ImageIndex == 7)
             {
                 btnXem.ImageIndex = 8;
-                lbTien.Text = "   *******   ";
+                lbTien.Text = "*******";
             }
             else {
                 btnXem.ImageIndex = 7;
                 //thay bảng dữ liệu database
-                lbTien.Text=sd.SoDuTK1.ToString("N"); 
+                lbTien.Text=sd.SoDuTK1.ToString("N")+"VNĐ"; 
             }
         }
 
@@ -90,14 +92,14 @@ namespace DoAnPTUD
 
         private void btnGiaoDich_Click(object sender, EventArgs e)
         {
-            TransactionHistory history = new TransactionHistory();  
+            TransactionHistory history = new TransactionHistory(use);  
             history.Show();
             this.Hide();
         }
         public void LoatData()
         {
            
-            DTO_ThongTinKH th = Tk.tim(use);
+            DTO_ThongTinKH th = Tk.tim(use.IdTaiKhoan.ToString());
             if (th != null) {
                 if (picAvatar.Image != null)
                 {
@@ -116,12 +118,12 @@ namespace DoAnPTUD
                     picAvatar.Image = null;
                 }
                 lblTenNgDung.Text = th.TenKhachHang;
-                sd = sdtk.sodu(use);
+                sd = sdtk.sodu(use.IdTaiKhoan.ToString());
                 if (sd != null)
                 {
                     lbTien.Text = sd.SoDuTK1.ToString("N");
                 }
-
+               
             }
         }
 
@@ -136,6 +138,44 @@ namespace DoAnPTUD
             PersonInfor personInfor = new PersonInfor(use);
             personInfor.Show();
             this.Hide();
+        }
+
+        private void picAvatar_LoadCompleted(object sender, AsyncCompletedEventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_LoadCompleted(object sender, AsyncCompletedEventArgs e)
+        {
+            
+        }
+
+        private void btnChuyen_Click(object sender, EventArgs e)
+        {
+            Bitmap the = new Bitmap(Resources.thenganhang);
+            Bitmap tiet = new Bitmap(Resources.tietkiem);
+            List<Bitmap> list = new List<Bitmap>();
+            list.Add(the);
+            list.Add(tiet);    
+                if (pos >= list.Count-1)
+
+                {
+                pictureBox1.Image = list[pos++];
+                pos = 0;
+                }
+                else
+                {
+                    pictureBox1.Image = list[pos++];
+
+                }
+
+
+
+        }
+
+        private void btnChuyen_MouseClick(object sender, MouseEventArgs e)
+        {
+
         }
     }
 }
