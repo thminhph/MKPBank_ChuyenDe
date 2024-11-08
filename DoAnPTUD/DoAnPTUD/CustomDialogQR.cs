@@ -18,9 +18,9 @@ namespace DoAnPTUD
     public partial class CustomDialogQR : Form
     {
         
-        public DTO_TaiKhoan user;
+        public string user;
         public BLL_TaiKhoan Tk = new BLL_TaiKhoan();
-        public CustomDialogQR(DTO_TaiKhoan user )
+        public CustomDialogQR(string user )
         {
             InitializeComponent();
            
@@ -32,8 +32,8 @@ namespace DoAnPTUD
             // Tải hình ảnh từ URL
             try
             {
-                DTO_ThongTinKH th = Tk.tim(user.IdTaiKhoan.ToString());
-               string data = "Tên :"+th.TenKhachHang+"\n STk :" + user.IdTaiKhoan + "\n SĐT :" + th.SoDienThoai + "\n Email :" +th.Email;
+                DTO_ThongTinKH th = Tk.tim(user);
+               string data = "Tên :"+th.TenKhachHang+"\n STĐ :" + th.SoDienThoai+"\n Email :" +th.Email;
                 QRCodeGenerator qr = new QRCodeGenerator();
                 QRCodeData qrdata = qr.CreateQrCode(data, QRCodeGenerator.ECCLevel.Q);
                 QRCode qRCode= new QRCode(qrdata);

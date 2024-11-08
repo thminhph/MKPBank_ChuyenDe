@@ -9,25 +9,20 @@ namespace BLL
     {
         private DAL_TaiKhoan taiKhoan = new DAL_TaiKhoan();
 
-<<<<<<< HEAD
         public List<DTO_LoaiKhachHang> layDanhSachLoaiTK()
         {
             return taiKhoan.LayDanhSachLoaiTK();
         }
         public DTO_ThongTinKH tim(string stk)
-=======
-        public DTO_ThongTinKH tim(string  stk)
->>>>>>> phu2
         {
             return taiKhoan.timUserTheostk(stk);
         }
 
-        public DTO_TaiKhoan dangNhap(string sdt, string mK)
+        public bool dangNhap(string sdt, string mK)
         {
             return taiKhoan.DangNhap(sdt, mK);
         }
 
-<<<<<<< HEAD
         public DTO_ThongTinKH ganthongtin(string sdt, string ten)
         {
             return taiKhoan.GanThongTinNguoiDung(sdt, ten);
@@ -45,12 +40,5 @@ namespace BLL
         }
         
         
-=======
-        //public DTO_ThongTinKH ganthongtin(string  sdt,string ten)
-        //{
-        //    return taiKhoan.GanThongTinNguoiDung(sdt,ten);
-        //}
-
->>>>>>> phu2
     }
 }

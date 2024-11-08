@@ -120,7 +120,7 @@
             this.lbNgayGio.Name = "lbNgayGio";
             this.lbNgayGio.Size = new System.Drawing.Size(51, 20);
             this.lbNgayGio.TabIndex = 27;
-            this.lbNgayGio.Text = "label8\r\n";
+            this.lbNgayGio.Text = "label8";
             this.lbNgayGio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbSoTien
@@ -191,7 +191,6 @@
             this.lbMaGiaoDich.TabIndex = 21;
             this.lbMaGiaoDich.Text = "label12";
             this.lbMaGiaoDich.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbMaGiaoDich.Click += new System.EventHandler(this.lbMaGiaoDich_Click);
             // 
             // label11
             // 
