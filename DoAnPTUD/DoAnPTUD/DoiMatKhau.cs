@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace DoAnPTUD
 {
-    public partial class QuenMatKhau : Form
+    public partial class DoiMatKhau : Form
     {
-        public QuenMatKhau()
+        public DoiMatKhau()
         {
             InitializeComponent();
+        }
+
+        private void btnTroVe_Click(object sender, EventArgs e)
+        {
+            Settings st = new Settings();
+            st.Show();
+            this.Hide();
         }
     }
 }

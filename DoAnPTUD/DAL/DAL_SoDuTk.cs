@@ -26,7 +26,7 @@ namespace DAL
             var qurey = from s in db.SoDuTinDungs
                         join k in db.TaiKhoans on s.IdTaiKhoan equals k.IdTaiKhoan
                         join c in db.KhachHangs on k.IdKhachHang equals c.IdKhachHang
-                        where k.IdTaiKhoan == long.Parse(a)
+                        where c.SoDienThoai == a
                         select new
                         {
                             s.SoDuTK

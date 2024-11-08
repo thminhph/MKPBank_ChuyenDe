@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using BLL;
 using DTO;
 
 namespace DoAnPTUD
@@ -16,7 +16,8 @@ namespace DoAnPTUD
     {
 
         public static DTO_ThongTinKH taiKhoan = new DTO_ThongTinKH();
-
+        public BLL_TaiKhoan tk=new BLL_TaiKhoan();
+        public BLL_ThongTinKH bLL_ThongTinKH = new BLL_ThongTinKH();
 
         private bool IsPasswordMatch(string password, string confirmPassword)
         { 
@@ -45,42 +46,72 @@ namespace DoAnPTUD
         { // Kiểm tra xem mật khẩu có trùng khớp
           return password == confirmPassword; 
         }
+
+
             private void btnXacNhan_Click(object sender, EventArgs e)
         {
+            string sdt = txtSoDienThoai.Text;
             string password = txtMatKhau.Text;
             string confirmPassword = txtNhapLaiMK.Text;
+            if (tk.DangKy(txtSoDienThoai.Text))
+            {
+                 if (txtSoDienThoai.Text.Trim() == "")
+                {
+                    MessageBox.Show("Vui lòng nhập Số điện thoại!"); ;
+                }
+                else if (txtMatKhau.Text.Trim() == "")
+                {
+                    MessageBox.Show("Vui lòng nhập mật khẩu!"); ;
+                }
+                else if (txtNhapLaiMK.Text.Trim() == "")
+                {
+                    MessageBox.Show("Mật khẩu không trùng khớp!"); ;
+                }
+                else if (!IsPasswordMatch(password, confirmPassword))
+                {
+                    errorProvider1.SetError(txtNhapLaiMK, "Mật khẩu không trùng khớp.");
+                }
+                else
+                {
+                    bool kTra = bLL_ThongTinKH.ktraSDT(sdt);
+                    if (kTra)
+                    {
+                        MessageBox.Show("Số điện thoại đã tồn tại.");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Số điện thoại hợp lệ.");
 
-
-
-            if (txtEmail.Text.Trim() == "")
-            {
-                MessageBox.Show("Vui lòng nhập Email!"); ;
-            }
-            else if (txtSoDienThoai.Text.Trim() == "")
-            {
-                MessageBox.Show("Vui lòng nhập Số điện thoại!"); ;
-            }
-            else if (txtMatKhau.Text.Trim() == "")
-            {
-                MessageBox.Show("Vui lòng nhập mật khẩu!"); ;
-            }
-            else if (txtNhapLaiMK.Text.Trim() == "")
-            {
-                MessageBox.Show("Mật khẩu không trùng khớp!"); ;
-            }
-            else if (!IsPasswordMatch(password,confirmPassword))
-            {
-                errorProvider1.SetError(txtNhapLaiMK, "Mật khẩu không trùng khớp.");
+                        errorProvider1.SetError(txtNhapLaiMK, string.Empty); // Không có lỗi
+                        MessageBox.Show("Mật khẩu trùng khớp!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        var data = tk.layDanhSachLoaiTK();
+                        cboLoaiThe.DataSource = data;
+                        cboLoaiThe.DisplayMember = "TenLoai";
+                        cboLoaiThe.ValueMember = "IdLoai";
+                        DTO_TaiKhoan taiKhoan = new DTO_TaiKhoan(int.Parse(cboLoaiThe.SelectedValue.ToString()), txtMatKhau.Text.ToString());
+                        DTO_ThongTinKH newKH = new DTO_ThongTinKH();
+                        newKH.SoDienThoai = txtSoDienThoai.Text;
+                        DangKyChiTiet us = new DangKyChiTiet(taiKhoan, newKH);
+                        us.Show();
+                        this.Hide();
+                    }
+                    //errorProvider1.SetError(txtNhapLaiMK, string.Empty); // Không có lỗi
+                    //MessageBox.Show("Mật khẩu trùng khớp!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //var data = tk.layDanhSachLoaiTK();
+                    //cboLoaiThe.DataSource = data;
+                    //cboLoaiThe.DisplayMember = "TenLoai";
+                    //cboLoaiThe.ValueMember = "IdLoai";
+                    //DTO_TaiKhoan taiKhoan = new DTO_TaiKhoan(int.Parse(cboLoaiThe.SelectedValue.ToString()), txtMatKhau.Text.ToString());
+                    //DTO_ThongTinKH newKH = new DTO_ThongTinKH();
+                    //newKH.SoDienThoai = txtSoDienThoai.Text;
+                    //    DangKyChiTiet us = new DangKyChiTiet(taiKhoan, newKH);
+                    //    us.Show();
+                    //    this.Hide();
+                }
             }
             else
             {
-                errorProvider1.SetError(txtNhapLaiMK, string.Empty); // Không có lỗi
-                MessageBox.Show("Mật khẩu trùng khớp!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                taiKhoan.Email = txtEmail.Text;
-                taiKhoan.SoDienThoai =  txtSoDienThoai.Text;
-                DangKyChiTiet us = new DangKyChiTiet();
-                us.Show();
-                this.Hide();
+                MessageBox.Show("Tài khoản đã tồn tại!");
             }
         }
 
@@ -101,15 +132,15 @@ namespace DoAnPTUD
 
         private void txtEmail_TextChanged(object sender, EventArgs e)
         {
-            string email = txtEmail.Text;
-            if (email.EndsWith("@gmail.com"))
-            {
-                errorProvider1.SetError(txtEmail, string.Empty);
-            }
-            else
-            {
-                errorProvider1.SetError(txtEmail, "Email phải có đuôi '@gmail.com'.");
-            }
+            //string email = txtEmail.Text;
+            //if (email.EndsWith("@gmail.com"))
+            //{
+            //    errorProvider1.SetError(txtEmail, string.Empty);
+            //}
+            //else
+            //{
+            //    errorProvider1.SetError(txtEmail, "Email phải có đuôi '@gmail.com'.");
+            //}
                 
         }
         private void txtNhapLaiMK_TextChanged(object sender, EventArgs e)
@@ -128,7 +159,10 @@ namespace DoAnPTUD
 
         private void DangKy_Load(object sender, EventArgs e)
         {
-            
+            var data = tk.layDanhSachLoaiTK();
+            cboLoaiThe.DataSource = data;
+            cboLoaiThe.DisplayMember = "TenLoai";
+            cboLoaiThe.ValueMember = "IdLoai";
         }
 
         private bool IsPasswordValid(string password)

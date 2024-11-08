@@ -54,11 +54,13 @@ C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll.config
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.pdb
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CapNhatThongTin.resources
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CustomDialogQR.resources
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Customize.resources
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKy.resources
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKyChiTiet.resources
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangNhap.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DoiMatKhau.resources
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSach.resources
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachKhachHang.resources
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachNhanVien.resources
@@ -73,7 +75,6 @@ C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.OTP.resources
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.PersonInfor.resources
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Properties.Resources.resources
-C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.QuenMatKhau.resources
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Settings.resources
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransactionHistory.resources
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Transfer.resources

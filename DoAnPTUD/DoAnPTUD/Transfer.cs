@@ -16,13 +16,12 @@ namespace DoAnPTUD
     public partial class Transfer : Form
     {
         int pos = 1;
-        public DTO_TaiKhoan use;
-      
+        public string use;
         public DTO_SoDuTk sd;
         public BLL_SoDuTk sdtk = new BLL_SoDuTk();
        public BLL_ChiTietGiaoDich giaoDich=new BLL_ChiTietGiaoDich();
         public DTO_ChiTietGiaoDich dich;
-        public Transfer(DTO_TaiKhoan us)
+        public Transfer(string us)
         {
             InitializeComponent();
             this.use = us;  
@@ -50,7 +49,7 @@ namespace DoAnPTUD
         }
         public void loaddata()
         {
-            sd = sdtk.sodu(use.IdTaiKhoan.ToString());
+            sd = sdtk.sodu(use);
             if (sd != null)
             {
                 lbTien.Text = sd.SoDuTK1.ToString("N") + "VNĐ";
@@ -91,13 +90,13 @@ namespace DoAnPTUD
 
         private void textBox1_Leave(object sender, EventArgs e)
         {
-            if (textBox1.Text != string.Empty && textBox1.Text != use.IdTaiKhoan.ToString())
+            if (giaoDich.tim(textBox1.Text) != string.Empty)
             {
-                txtSoTK.Text = giaoDich.tim(textBox1.Text).TenKhachHang;
+                txtSoTK.Text = giaoDich.tim(textBox1.Text);
             }
             else
             {
-                MessageBox.Show("Số tài khoản không tồn tại hoặc đây là số tài khoản của bạn vui lòng nhập lại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Thông báo", "Số tài khoản không tồn tại vui lòng nhập lại", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 textBox1.Clear();
                 textBox1.Focus();
             }
@@ -107,28 +106,18 @@ namespace DoAnPTUD
         private void btnXacNhan_Click(object sender, EventArgs e)
         {
             if (textBox1 == null) {
-                MessageBox.Show("Vui lòng nhập số tài khoản!", "Thông báo");
+                MessageBox.Show("Thông báo","Vui lòng nhập số tài khoản!");
             }
             else
             {
-                if (giaoDich.giaoDich(use.IdTaiKhoan.ToString(),textBox1.Text, float.Parse(txtSoTien.Text), rictxtDienGia.Text) == true)
+                if (giaoDich.giaoDich(use, textBox1.Text, float.Parse(txtSoTien.Text), rictxtDienGia.Text) == true)
                 {
-                    DTO_ChiTietGiaoDich ich = new DTO_ChiTietGiaoDich(use.IdTaiKhoan, long.Parse(textBox1.Text), float.Parse(txtSoTien.Text),DateTime.Now, rictxtDienGia.Text);
+                   DTO_ChiTietGiaoDich ich = new DTO_ChiTietGiaoDich(int.Parse(use),int.Parse(textBox1.Text), float.Parse(txtSoTien.Text),DateTime.Now, rictxtDienGia.Text);
                     TransferDetails transfer = new TransferDetails(use,ich);
-                   if (MessageBox.Show("Giao Dịch Thành Công, ok để xem chi tiết giao dịch","Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question)== DialogResult.OK){
-                        transfer.Show();
-                        this.Hide();
-                    }
-                    else
-                    {
-                        textBox1.Clear();
-                        txtSoTien.Clear();
-                        rictxtDienGia.Clear();
-                        textBox1.Focus();
-                    }
-                   
+                    MessageBox.Show("Thông báo ", "Giao Dịch Thành Công");
+                    transfer.Show();
+                    this.Hide();
                 }
-
                 else
                 {
                     if (MessageBox.Show("Thông báo", "số dư không đủ hoặc thẻ bị khóa vui lòng kiểm tra lại", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)

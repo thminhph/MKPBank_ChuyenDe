@@ -17,13 +17,13 @@ namespace DoAnPTUD
 {
     public partial class HomeUser : Form
     { 
-        public  DTO_TaiKhoan  use ;
+        public  string  use ;
         public BLL_TaiKhoan Tk = new BLL_TaiKhoan();
         public BLL_ThongTinKH bll_ThongTinKH = new BLL_ThongTinKH();
-        public HomeUser(DTO_TaiKhoan tk)
+        public HomeUser(string  sdt)
         {
             InitializeComponent();
-            this.use =tk ;
+            this.use =sdt ;
         }
         public HomeUser()
         {
@@ -43,7 +43,7 @@ namespace DoAnPTUD
            
             if (use != null) {
 
-                DTO_ThongTinKH th = Tk.tim(use.IdTaiKhoan.ToString());
+                DTO_ThongTinKH th = Tk.tim(use);
                 if (picAvatar.Image != null)
                 {
                     using (MemoryStream ms = new MemoryStream(th.Avarta))

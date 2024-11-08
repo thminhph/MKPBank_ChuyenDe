@@ -1,38 +1,32 @@
 ﻿using BLL;
-using DAL;
 using DTO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static Guna.UI2.Native.WinApi;
 
 namespace DoAnPTUD
 {
     public partial class TransferDetails : Form
     {
-        public DTO_TaiKhoan use;
-        
+        public string use;
         public BLL_TaiKhoan Tk = new BLL_TaiKhoan();
-        public BLL_ChiTietGiaoDich giaoDich = new BLL_ChiTietGiaoDich();
-        private QLNganHangDataContext db;
-        public TransferDetails(DTO_TaiKhoan us, DTO_ChiTietGiaoDich chitiet)
+        
+        public TransferDetails( string us, DTO_ChiTietGiaoDich chitiet)
         {
             InitializeComponent();
             this.use = us;
-          
-            lbTenNguoiChuyen.Text = giaoDich.tim(chitiet.SoTKNguoiChuyen1.ToString()).TenKhachHang;
-            lbTenNguoiNhan.Text = giaoDich.tim(chitiet.SoTKNguoiNhan1.ToString()).TenKhachHang;
-            lbSTK.Text = chitiet.SoTKNguoiNhan1.ToString("D10");
+            lbTenNguoiChuyen.Text= chitiet.SoTKNguoiChuyen1.ToString();
+            lbTenNguoiNhan.Text = chitiet.SoTKNguoiNhan1.ToString();
+            lbSTK.Text = chitiet.SoTKNguoiNhan1.ToString() ;
             lbSoTien.Text = chitiet.SoTien1.ToString();
             lbNgayGio.Text = chitiet.NgayGio1.ToString();
-            lbMaGiaoDich.Text = giaoDich.timMaGD(DateTime.Parse(chitiet.NgayGio1.ToString("yyyy-MM-dd HH:mm:ss.000"))).ToString();
+            lbMaGiaoDich.Text = chitiet.MaGD1.ToString();
             lbDienGia.Text = chitiet.DienGia1;
 
         }
@@ -54,12 +48,7 @@ namespace DoAnPTUD
 
         private void TransferDetails_Load(object sender, EventArgs e)
         {
-
-
-        }
-
-        private void lbMaGiaoDich_Click(object sender, EventArgs e)
-        {
+            
 
         }
     }
