@@ -94,5 +94,12 @@ namespace DAL
                 return _db.KhachHangs.Any(tk => tk.SoDienThoai == sDT);
             }
         }
+        public bool ktraMatKhau(string mk)
+        {
+            using (var _db = new QLNganHangDataContext())
+            {
+                return _db.TaiKhoans.Any(tk => tk.Matkhau == mk);
+            }
+        }
     }
 }

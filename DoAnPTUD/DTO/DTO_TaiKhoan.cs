@@ -12,9 +12,6 @@ namespace DTO
         private int  maKhachHang, idLoai;
         private string loaiTaiKhoan, tenTaiKhoan, tienTe,  tieuDeTK, tieuDeNgan, nhanVienLV, phiMa, matkhau;
 
-
-
-        
         public DTO_TaiKhoan() { 
         }
         public DTO_TaiKhoan(int idLoai, string matkhau)

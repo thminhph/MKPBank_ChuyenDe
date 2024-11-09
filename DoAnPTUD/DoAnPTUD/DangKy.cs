@@ -23,7 +23,7 @@ namespace DoAnPTUD
         { 
             // Kiểm tra xem mật khẩu có trùng khớp
                  return password == confirmPassword;
-         }
+         }  
             public DangKy()
         {
             InitializeComponent();

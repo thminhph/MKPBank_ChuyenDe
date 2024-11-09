@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BLL;
+using DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +14,7 @@ namespace DoAnPTUD
 {
     public partial class DoiMatKhau : Form
     {
+        BLL_ThongTinKH bll_ThongTinKH = new BLL_ThongTinKH();
         public DoiMatKhau()
         {
             InitializeComponent();
@@ -22,6 +25,45 @@ namespace DoAnPTUD
             Settings st = new Settings();
             st.Show();
             this.Hide();
+        }
+
+        private void btnXacNhan_Click(object sender, EventArgs e)
+        {
+            string mk_old = txtMatKhau.Text;
+            string mk = txtMatKhau.Text;
+            string mk_confirm = txtNhapLaiMatKhau.Text;
+
+            if (txtMatKhauCu.Text.Trim() == "")
+            {
+                MessageBox.Show("Mật khẩu không được để trống!");
+            }
+            else if (txtMatKhau.Text.Trim() == "")
+            {
+                MessageBox.Show("Mật khẩu cũ không được để trống!"); 
+            }
+            else if (txtNhapLaiMatKhau.Text.Trim() == "")
+            {
+                MessageBox.Show("Nhập lại mật khẩu cũ không được để trống!");
+            }
+            else
+            {
+                bool kTra = bll_ThongTinKH.ktraMK(mk);
+                if (kTra)
+                {
+                    if(mk_confirm != mk)
+                    {
+                        MessageBox.Show("Mật khẩu cũ không khớp!");
+                    }
+                    else
+                    {
+                        
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Mật khẩu cũ sai. Vui lòng nhập lại!");
+                }
+            }
         }
     }
 }

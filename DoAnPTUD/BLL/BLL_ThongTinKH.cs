@@ -2,6 +2,7 @@
 using DTO;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,6 +31,9 @@ namespace BLL
         {
             return dal_thongtinkh.ktraSDT(sDT);
         }
-
+        public bool ktraMK(string mk)
+        {
+            return dal_thongtinkh.ktraMatKhau(mk);
+        }
     }
 }
