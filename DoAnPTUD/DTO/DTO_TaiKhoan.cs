@@ -10,6 +10,8 @@ namespace DTO
     {
         private long idTaiKhoan;
         private int  maKhachHang, idLoai;
+        private long  idTaiKhoan;
+        private int  maKhachHang;
         private string loaiTaiKhoan, tenTaiKhoan, tienTe,  tieuDeTK, tieuDeNgan, nhanVienLV, phiMa, matkhau;
 
 
@@ -26,6 +28,11 @@ namespace DTO
         {
             this.maKhachHang = maKhachHang;
             this.IdLoai = idLoai;
+
+        public DTO_TaiKhoan(long idTaiKhoan, int maKhachHang, string loaiTaiKhoan, string tenTaiKhoan, string tienTe, string tieuDeTK, string tieuDeNgan, string nhanVienLV, string phiMa, string matkhau)
+        {
+            this.idTaiKhoan = idTaiKhoan;
+            this.maKhachHang = maKhachHang;
             this.loaiTaiKhoan = loaiTaiKhoan;
             this.tenTaiKhoan = tenTaiKhoan;
             this.tienTe = tienTe;

@@ -21,7 +21,6 @@ namespace DoAnPTUD
         {
 
         }
-
         private void btnDoiMK_Click(object sender, EventArgs e)
         {
             DoiMatKhau doiMatKhau = new DoiMatKhau();

@@ -2,6 +2,7 @@
 using DAL;
 using DTO;
 using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,6 +28,9 @@ namespace DoAnPTUD
             this.t = tks;
             this.khHang = kh;
 
+        public DangKyChiTiet()
+        {
+            InitializeComponent();
         }
 
         private void guna2TextBox4_TextChanged(object sender, EventArgs e)
@@ -37,6 +41,7 @@ namespace DoAnPTUD
         private void DangKyChiTiet_Load(object sender, EventArgs e)
         {
             cboTienTe.SelectedIndex = 0;
+
         }
 
         private void btnDangKy_Click(object sender, EventArgs e)
@@ -74,6 +79,28 @@ namespace DoAnPTUD
             this.Hide();
 
         }
+
+            //if (txtTen.Text.Trim() == "")
+            //{
+            //    MessageBox.Show("Vui lòng nhập Email!"); ;
+            //}
+            //else if (txtSoDienThoai.Text.Trim() == "")
+            //{
+            //    MessageBox.Show("Vui lòng nhập Số điện thoại!"); ;
+            //}
+            //else
+            //{
+            //    //DangKy.taiKhoan.Email = txtEmail.Text;
+            //    //taiKhoan.SoDienThoai = txtSoDienThoai.Text;
+            //    //DangKyChiTiet us = new DangKyChiTiet();
+            //    //us.Show();
+            //    //this.Hide();
+            //}
+            //HomeUser us = new HomeUser();
+            //us.Show();
+            //this.Hide();
+        }
+
         private void btnTroVe_Click(object sender, EventArgs e)
         {
             DangKy us = new DangKy();

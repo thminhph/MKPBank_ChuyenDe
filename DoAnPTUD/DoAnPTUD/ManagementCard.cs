@@ -19,12 +19,14 @@ namespace DoAnPTUD
     {
         int  pos = 1;
         public string use;
+        public DTO_TaiKhoan use;
         public BLL_TaiKhoan Tk = new BLL_TaiKhoan();
         public DTO_SoDuTk sd;
         public DTO_TaiKhoan st;
         public BLL_SoDuTk sdtk = new BLL_SoDuTk(); 
         public BLL_ThongTinKH bll_ThongTinKH = new BLL_ThongTinKH();
         public ManagementCard(string us)
+        public ManagementCard(DTO_TaiKhoan us)
         {
             InitializeComponent();
             this.use = us;
@@ -43,6 +45,7 @@ namespace DoAnPTUD
                 btnXem.ImageIndex = 7;
                 //thay bảng dữ liệu database
                 lbTien.Text=sd.SoDuTK1.ToString()+"VNĐ"; 
+                lbTien.Text=sd.SoDuTK1.ToString("N")+"VNĐ"; 
             }
         }
 
@@ -93,6 +96,7 @@ namespace DoAnPTUD
         private void btnGiaoDich_Click(object sender, EventArgs e)
         {
             TransactionHistory history = new TransactionHistory();  
+            TransactionHistory history = new TransactionHistory(use);  
             history.Show();
             this.Hide();
         }
@@ -100,6 +104,7 @@ namespace DoAnPTUD
         {
            
             DTO_ThongTinKH th = Tk.tim(use);
+            DTO_ThongTinKH th = Tk.tim(use.IdTaiKhoan.ToString());
             if (th != null) {
                 if (picAvatar.Image != null)
                 {
@@ -119,6 +124,7 @@ namespace DoAnPTUD
                 }
                 lblTenNgDung.Text = th.TenKhachHang;
                 sd = sdtk.sodu(use);
+                sd = sdtk.sodu(use.IdTaiKhoan.ToString());
                 if (sd != null)
                 {
                     lbTien.Text = sd.SoDuTK1.ToString("N");

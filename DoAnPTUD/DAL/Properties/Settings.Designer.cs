@@ -27,6 +27,7 @@ namespace DAL.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=desktop-f2pt90c\\SQLEXPRESS;Initial Catalog=QLNganHang;Integrated Secu" +
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PHONGPHU\\SQLEXPRESS;Initial Catalog=QLNganHang;Integrated Secu" +
             "rity=True;TrustServerCertificate=True")]
         public string QLNganHangConnectionString {
             get {

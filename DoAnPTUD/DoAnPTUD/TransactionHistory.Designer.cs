@@ -33,6 +33,8 @@
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radTatCa = new System.Windows.Forms.RadioButton();
             this.radTienRa = new System.Windows.Forms.RadioButton();
@@ -54,6 +56,11 @@
             this.tableLayoutPanel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // imageList1
@@ -100,6 +107,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.groupBox2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.listView1, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.dataGridView1, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -159,6 +167,12 @@
             // groupBox2
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            // groupBox2
+            // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.groupBox1);
             this.groupBox2.Controls.Add(this.textBox2);
             this.groupBox2.Controls.Add(this.label5);
@@ -175,6 +189,9 @@
             this.groupBox2.Location = new System.Drawing.Point(125, 3);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(802, 236);
+            this.groupBox2.Location = new System.Drawing.Point(3, 3);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(1046, 236);
             this.groupBox2.TabIndex = 32;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tra Cứu";
@@ -183,6 +200,73 @@
             // 
             this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.textBox2.Location = new System.Drawing.Point(63, 88);
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ImageIndex = 16;
+            this.button1.ImageList = this.imageList1;
+            this.button1.Location = new System.Drawing.Point(6, 21);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 28);
+            this.button1.TabIndex = 34;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.groupBox1.Controls.Add(this.radTatCa);
+            this.groupBox1.Controls.Add(this.radTienRa);
+            this.groupBox1.Controls.Add(this.radTienVao);
+            this.groupBox1.Location = new System.Drawing.Point(132, 163);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(795, 73);
+            this.groupBox1.TabIndex = 33;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // radTatCa
+            // 
+            this.radTatCa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.radTatCa.AutoSize = true;
+            this.radTatCa.Location = new System.Drawing.Point(611, 42);
+            this.radTatCa.Name = "radTatCa";
+            this.radTatCa.Size = new System.Drawing.Size(81, 24);
+            this.radTatCa.TabIndex = 2;
+            this.radTatCa.TabStop = true;
+            this.radTatCa.Text = "Tất Cả";
+            this.radTatCa.UseVisualStyleBackColor = true;
+            this.radTatCa.CheckedChanged += new System.EventHandler(this.radTatCa_CheckedChanged);
+            // 
+            // radTienRa
+            // 
+            this.radTienRa.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.radTienRa.AutoSize = true;
+            this.radTienRa.Location = new System.Drawing.Point(315, 42);
+            this.radTienRa.Name = "radTienRa";
+            this.radTienRa.Size = new System.Drawing.Size(89, 24);
+            this.radTienRa.TabIndex = 1;
+            this.radTienRa.TabStop = true;
+            this.radTienRa.Text = "Tiền Ra";
+            this.radTienRa.UseVisualStyleBackColor = true;
+            this.radTienRa.CheckedChanged += new System.EventHandler(this.radTienRa_CheckedChanged);
+            // 
+            // radTienVao
+            // 
+            this.radTienVao.AutoSize = true;
+            this.radTienVao.Location = new System.Drawing.Point(56, 42);
+            this.radTienVao.Name = "radTienVao";
+            this.radTienVao.Size = new System.Drawing.Size(97, 24);
+            this.radTienVao.TabIndex = 0;
+            this.radTienVao.TabStop = true;
+            this.radTienVao.Text = "Tiền Vào";
+            this.radTienVao.UseVisualStyleBackColor = true;
+            this.radTienVao.CheckedChanged += new System.EventHandler(this.radTienVao_CheckedChanged);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textBox2.Location = new System.Drawing.Point(185, 88);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(306, 26);
             this.textBox2.TabIndex = 29;
@@ -196,11 +280,18 @@
             this.label5.Size = new System.Drawing.Size(51, 20);
             this.label5.TabIndex = 28;
             this.label5.Text = "label5";
+            this.label5.Location = new System.Drawing.Point(503, 91);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(71, 20);
+            this.label5.TabIndex = 28;
+            this.label5.Text = "Từ Ngày ";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // dateTimePicker2
             // 
             this.dateTimePicker2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.dateTimePicker2.Location = new System.Drawing.Point(470, 88);
+            this.dateTimePicker2.Location = new System.Drawing.Point(592, 88);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(310, 26);
             this.dateTimePicker2.TabIndex = 27;
@@ -214,11 +305,17 @@
             this.label4.Size = new System.Drawing.Size(51, 20);
             this.label4.TabIndex = 26;
             this.label4.Text = "label4";
+            this.label4.Location = new System.Drawing.Point(503, 123);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(83, 20);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "Đến Ngày ";
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.dateTimePicker1.Location = new System.Drawing.Point(470, 120);
+            this.dateTimePicker1.Location = new System.Drawing.Point(592, 120);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(310, 26);
             this.dateTimePicker1.TabIndex = 25;
@@ -228,6 +325,9 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(565, 24);
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(798, 29);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(51, 20);
             this.label3.TabIndex = 24;
@@ -248,6 +348,17 @@
             this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(622, 16);
+            this.label2.Location = new System.Drawing.Point(128, 91);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(27, 20);
+            this.label2.TabIndex = 23;
+            this.label2.Text = "Từ";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(866, 21);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(174, 28);
             this.comboBox1.TabIndex = 22;
@@ -261,11 +372,17 @@
             this.label1.Size = new System.Drawing.Size(51, 20);
             this.label1.TabIndex = 21;
             this.label1.Text = "label1";
+            this.label1.Location = new System.Drawing.Point(128, 125);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(43, 20);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "Đến ";
             // 
             // textBox3
             // 
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.textBox3.Location = new System.Drawing.Point(63, 120);
+            this.textBox3.Location = new System.Drawing.Point(185, 120);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(306, 26);
             this.textBox3.TabIndex = 20;
@@ -278,6 +395,7 @@
             this.button5.ImageIndex = 3;
             this.button5.ImageList = this.imageList1;
             this.button5.Location = new System.Drawing.Point(1, 10);
+            this.button5.Location = new System.Drawing.Point(189, 16);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 26);
             this.button5.TabIndex = 19;
@@ -287,6 +405,7 @@
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.textBox1.Location = new System.Drawing.Point(148, 10);
+            this.textBox1.Location = new System.Drawing.Point(270, 10);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(336, 26);
             this.textBox1.TabIndex = 18;
@@ -300,6 +419,20 @@
             this.listView1.Size = new System.Drawing.Size(1046, 359);
             this.listView1.TabIndex = 33;
             this.listView1.UseCompatibleStateImageBehavior = false;
+            // dataGridView1
+            // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 245);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowTemplate.Height = 28;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(1046, 359);
+            this.dataGridView1.TabIndex = 33;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // TransactionHistory
             // 
@@ -320,6 +453,13 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.Load += new System.EventHandler(this.TransactionHistory_Load);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -346,5 +486,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

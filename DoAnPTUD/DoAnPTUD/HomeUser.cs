@@ -24,6 +24,13 @@ namespace DoAnPTUD
         {
             InitializeComponent();
             this.use =sdt ;
+        public  DTO_TaiKhoan  use ;
+        public BLL_TaiKhoan Tk = new BLL_TaiKhoan();
+        public BLL_ThongTinKH bll_ThongTinKH = new BLL_ThongTinKH();
+        public HomeUser(DTO_TaiKhoan tk)
+        {
+            InitializeComponent();
+            this.use =tk ;
         }
         public HomeUser()
         {
@@ -44,6 +51,7 @@ namespace DoAnPTUD
             if (use != null) {
 
                 DTO_ThongTinKH th = Tk.tim(use);
+                DTO_ThongTinKH th = Tk.tim(use.IdTaiKhoan.ToString());
                 if (picAvatar.Image != null)
                 {
                     using (MemoryStream ms = new MemoryStream(th.Avarta))

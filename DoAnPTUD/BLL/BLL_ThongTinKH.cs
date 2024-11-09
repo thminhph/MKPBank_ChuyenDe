@@ -14,6 +14,7 @@ namespace BLL
         private DAL_ThongTinKH dal_thongtinkh = new DAL_ThongTinKH(); 
        
         public List<KhachHang> laydsTTKH()
+        public IQueryable laydsTTKH()
         {
             return dal_thongtinkh.layDSThongTinKH();
         }

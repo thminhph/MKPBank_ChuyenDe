@@ -2,6 +2,13 @@
 using DTO;
 using System.Collections.Generic;
 using System.Data.Common;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using DAL;
+using DTO;
 
 namespace BLL
 {
@@ -14,6 +21,7 @@ namespace BLL
             return taiKhoan.LayDanhSachLoaiTK();
         }
         public DTO_ThongTinKH tim(string stk)
+        public DTO_ThongTinKH tim(string  stk)
         {
             return taiKhoan.timUserTheostk(stk);
         }
@@ -40,5 +48,15 @@ namespace BLL
         }
         
         
+        public DTO_TaiKhoan dangNhap(string sdt, string mK)
+        {
+           return taiKhoan.DangNhap(sdt, mK);
+        }
+
+        //public DTO_ThongTinKH ganthongtin(string  sdt,string ten)
+        //{
+        //    return taiKhoan.GanThongTinNguoiDung(sdt,ten);
+        //}
+
     }
 }

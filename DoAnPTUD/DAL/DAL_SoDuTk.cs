@@ -27,6 +27,7 @@ namespace DAL
                         join k in db.TaiKhoans on s.IdTaiKhoan equals k.IdTaiKhoan
                         join c in db.KhachHangs on k.IdKhachHang equals c.IdKhachHang
                         where c.SoDienThoai == a
+                        where k.IdTaiKhoan == long.Parse(a)
                         select new
                         {
                             s.SoDuTK

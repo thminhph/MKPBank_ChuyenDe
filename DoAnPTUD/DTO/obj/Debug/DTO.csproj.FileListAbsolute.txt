@@ -1,0 +1,6 @@
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DTO\bin\Debug\DTO.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DTO\bin\Debug\DTO.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DTO\obj\Debug\DTO.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DTO\obj\Debug\DTO.pdb
