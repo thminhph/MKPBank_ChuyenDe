@@ -65,7 +65,7 @@ namespace DAL
                          select new DTO_ThongTinKH
                          {
                              IdKhachHang = s.IdKhachHang,
-                             Avarta = s.Avarta.ToArray(),
+                             Avarta = s.Avarta == null ? null :s.Avarta.ToArray(),  
                              TenKhachHang = s.TenKhachHang,
                              NgayCap = s.NgayCap,
                              DiaChi = s.DiaChi,
@@ -127,7 +127,7 @@ namespace DAL
                                     IdKhachHang = (int)tk.IdKhachHang,
                                     TenKhachHang = s.TenKhachHang,
                                     SoDienThoai = s.SoDienThoai,
-
+                                    Avarta=s.Avarta.ToArray(),
 
                                 }).FirstOrDefault();
 
@@ -202,7 +202,7 @@ namespace DAL
                         where d.SoDienThoai != sDT
                         select s).Any();
             return temp;
-        }\
+        }
         public void SuaMK(string mk,string idTK)
         {
             var a = db.TaiKhoans.Single(kh => kh.IdTaiKhoan == long.Parse(idTK));
