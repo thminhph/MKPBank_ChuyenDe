@@ -116,6 +116,7 @@
       <Association Name="TaiKhoan_ChiTietGD" Member="ChiTietGDs" ThisKey="IdTaiKhoan" OtherKey="SoTKNguoiChuyen" Type="ChiTietGD" />
       <Association Name="TaiKhoan_SoDuTinDung" Member="SoDuTinDung" ThisKey="IdTaiKhoan" OtherKey="IdTaiKhoan" Type="SoDuTinDung" Cardinality="One" />
       <Association Name="TaiKhoan_ThamGiaTK" Member="ThamGiaTKs" ThisKey="IdTaiKhoan" OtherKey="IdTaiKhoan" Type="ThamGiaTK" />
+      <Association Name="TaiKhoan_GUITIENMAT" Member="GUITIENMATs" ThisKey="IdTaiKhoan" OtherKey="IdTaiKhoan" Type="GUITIENMAT" />
       <Association Name="LoaiTaiKhoan_TaiKhoan" Member="LoaiTaiKhoan" ThisKey="IdLoai" OtherKey="IdLoai" Type="LoaiTaiKhoan" IsForeignKey="true" />
       <Association Name="NhanVien_TaiKhoan" Member="NhanVien" ThisKey="NhanVienLV" OtherKey="IdNhanVien" Type="NhanVien" IsForeignKey="true" />
       <Association Name="KhachHang_TaiKhoan" Member="KhachHang" ThisKey="IdKhachHang" OtherKey="IdKhachHang" Type="KhachHang" IsForeignKey="true" />
@@ -145,6 +146,17 @@
       <Column Name="GhiChu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
       <Association Name="TaiKhoan_ThamGiaTK" Member="TaiKhoan" ThisKey="IdTaiKhoan" OtherKey="IdTaiKhoan" Type="TaiKhoan" IsForeignKey="true" />
       <Association Name="KhachHang_ThamGiaTK" Member="KhachHang" ThisKey="IdKhachHang" OtherKey="IdKhachHang" Type="KhachHang" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GUITIENMAT" Member="GUITIENMATs">
+    <Type Name="GUITIENMAT">
+      <Column Name="IdGuiTien" Type="System.String" DbType="VarChar(255) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IdTaiKhoan" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="LTaiKhoan" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="SoGiaoDich" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SoDu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="NoiDung" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Association Name="TaiKhoan_GUITIENMAT" Member="TaiKhoan" ThisKey="IdTaiKhoan" OtherKey="IdTaiKhoan" Type="TaiKhoan" IsForeignKey="true" />
     </Type>
   </Table>
 </Database>

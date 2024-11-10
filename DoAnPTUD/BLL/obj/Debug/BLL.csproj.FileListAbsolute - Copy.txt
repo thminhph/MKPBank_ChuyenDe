@@ -1,0 +1,14 @@
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\BLL.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\BLL.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\DAL.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\DTO.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\DAL.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\DAL.dll.config
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\DTO.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.pdb
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache

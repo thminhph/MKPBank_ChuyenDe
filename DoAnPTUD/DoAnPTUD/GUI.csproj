@@ -58,6 +58,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseGUI.cs" />
     <Compile Include="CapNhatThongTin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +119,12 @@
     <Compile Include="frm_DanhSachNhanVien.Designer.cs">
       <DependentUpon>frm_DanhSachNhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_DanhSachTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DanhSachTaiKhoan.Designer.cs">
+      <DependentUpon>frm_DanhSachTaiKhoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_GuiTienMat.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,6 +155,12 @@
     <Compile Include="frm_MoTaiKhoan.Designer.cs">
       <DependentUpon>frm_MoTaiKhoan.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_TaiKhoanTietKiemCuoiKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_TaiKhoanTietKiemCuoiKy.Designer.cs">
+      <DependentUpon>frm_TaiKhoanTietKiemCuoiKy.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomeUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,6 +179,7 @@
     <Compile Include="Member.Designer.cs">
       <DependentUpon>Member.cs</DependentUpon>
     </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="OTP.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -245,6 +259,9 @@
     <EmbeddedResource Include="frm_DanhSachNhanVien.resx">
       <DependentUpon>frm_DanhSachNhanVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_DanhSachTaiKhoan.resx">
+      <DependentUpon>frm_DanhSachTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_GuiTienMat.resx">
       <DependentUpon>frm_GuiTienMat.cs</DependentUpon>
     </EmbeddedResource>
@@ -260,6 +277,9 @@
     <EmbeddedResource Include="frm_MoTaiKhoan.resx">
       <DependentUpon>frm_MoTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_TaiKhoanTietKiemCuoiKy.resx">
+      <DependentUpon>frm_TaiKhoanTietKiemCuoiKy.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomeUser.resx">
       <DependentUpon>HomeUser.cs</DependentUpon>
     </EmbeddedResource>
@@ -269,6 +289,34 @@
     <EmbeddedResource Include="Member.resx">
       <DependentUpon>Member.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.CapNhatThongTin.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.CustomDialogQR.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.Customize.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.DangKy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.DangKyChiTiet.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.DangNhap.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.Deposit.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.DoiMatKhau.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_DanhSach.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_DanhSachKhachHang.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_DanhSachNhanVien.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_DanhSachTaiKhoan.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_GuiTienMat.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_KhachHangCaNhan.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_KhachHangDoanhNghiep.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_Main.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_MoTaiKhoan.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_TaiKhoanTietKiemCuoiKy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.HomeUser.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.ManagementCard.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.Member.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.OTP.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.PersonInfor.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.Settings.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.TransactionHistory.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.Transfer.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.TransferDetails.resources" />
     <EmbeddedResource Include="OTP.resx">
       <DependentUpon>OTP.cs</DependentUpon>
     </EmbeddedResource>
@@ -295,6 +343,21 @@
     <EmbeddedResource Include="TransferDetails.resx">
       <DependentUpon>TransferDetails.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include=".vs\DoAnPTUD\FileContentIndex\fcbe464c-bcc1-475f-84c6-4495b17ce139.vsidx" />
+    <None Include=".vs\DoAnPTUD\v17\.wsuo" />
+    <None Include=".vs\DoAnPTUD\v17\DocumentLayout.json" />
+    <None Include=".vs\GUI.csproj.dtbcache.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="bin\Debug\DAL.dll.config" />
+    <None Include="bin\Debug\DoAnPTUD.exe.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\GUI.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\GUI.csproj.CopyComplete" />
+    <None Include="obj\Debug\GUI.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\GUI.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\GUI.csproj.Up2Date" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -394,6 +457,70 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tietkiem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BLL.dll" />
+    <Content Include="bin\Debug\BLL.pdb" />
+    <Content Include="bin\Debug\CIF.txt" />
+    <Content Include="bin\Debug\DAL.dll" />
+    <Content Include="bin\Debug\DAL.pdb" />
+    <Content Include="bin\Debug\DevExpress.Data.Desktop.v21.2.dll" />
+    <Content Include="bin\Debug\DevExpress.Data.Desktop.v21.2.xml" />
+    <Content Include="bin\Debug\DevExpress.Data.v21.2.dll" />
+    <Content Include="bin\Debug\DevExpress.Data.v21.2.xml" />
+    <Content Include="bin\Debug\DevExpress.Pdf.v21.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.Pdf.v21.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll" />
+    <Content Include="bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml" />
+    <Content Include="bin\Debug\DevExpress.Printing.v21.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.Printing.v21.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.Sparkline.v21.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.Sparkline.v21.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.Utils.v21.2.dll" />
+    <Content Include="bin\Debug\DevExpress.Utils.v21.2.xml" />
+    <Content Include="bin\Debug\DevExpress.XtraEditors.v21.2.dll" />
+    <Content Include="bin\Debug\DevExpress.XtraEditors.v21.2.xml" />
+    <Content Include="bin\Debug\de\DevExpress.Data.v21.2.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.Utils.v21.2.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll" />
+    <Content Include="bin\Debug\DoAnPTUD.exe" />
+    <Content Include="bin\Debug\DoAnPTUD.pdb" />
+    <Content Include="bin\Debug\DTO.dll" />
+    <Content Include="bin\Debug\DTO.pdb" />
+    <Content Include="bin\Debug\es\DevExpress.Data.v21.2.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Utils.v21.2.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll" />
+    <Content Include="bin\Debug\GuiTienMat.txt" />
+    <Content Include="bin\Debug\Guna.UI2.dll" />
+    <Content Include="bin\Debug\ID.txt" />
+    <Content Include="bin\Debug\IDTKTK.txt" />
+    <Content Include="bin\Debug\ja\DevExpress.Data.v21.2.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll" />
+    <Content Include="bin\Debug\QRCoder.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Data.v21.2.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll" />
+    <Content Include="obj\Debug\DoAnPTUD.exe" />
+    <Content Include="obj\Debug\doanptud.exe.licenses" />
+    <Content Include="obj\Debug\DoAnPTUD.pdb" />
+    <Content Include="obj\Debug\GUI.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

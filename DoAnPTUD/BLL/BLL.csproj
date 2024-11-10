@@ -68,6 +68,20 @@
   <ItemGroup>
     <None Include=".vs\BLL.csproj.dtbcache.json" />
     <None Include="bin\Debug\DAL.dll.config" />
+    <None Include="obj\Debug\BLL.csproj - Copy.CopyComplete" />
+    <None Include="obj\Debug\BLL.csproj.AssemblyReference - Copy.cache" />
+    <None Include="obj\Debug\BLL.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\BLL.csproj.CopyComplete" />
+    <None Include="obj\Debug\BLL.csproj.CoreCompileInputs - Copy.cache" />
+    <None Include="obj\Debug\BLL.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences - Copy.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput - Copy.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\GUI.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\GUI.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\GUI.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\GUI.csproj.Up2Date" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\BLL.dll" />
@@ -76,9 +90,58 @@
     <Content Include="bin\Debug\DAL.pdb" />
     <Content Include="bin\Debug\DTO.dll" />
     <Content Include="bin\Debug\DTO.pdb" />
+    <Content Include="obj\Debug\BLL.csproj.FileListAbsolute - Copy.txt" />
+    <Content Include="obj\Debug\BLL.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\DoAnPTUD - Copy.exe" />
+    <Content Include="obj\Debug\DoAnPTUD.exe" />
+    <Content Include="obj\Debug\DoAnPTUD.pdb" />
+    <Content Include="obj\Debug\GUI.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.CapNhatThongTin - Copy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.CapNhatThongTin.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.CustomDialogQR - Copy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.CustomDialogQR.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.Customize - Copy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.Customize.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.DangKy - Copy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.DangKy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.DangKyChiTiet - Copy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.DangKyChiTiet.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.DangNhap - Copy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.DangNhap.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.Deposit - Copy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.Deposit.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.DoiMatKhau - Copy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.DoiMatKhau.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_DanhSach - Copy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_DanhSach.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_DanhSachKhachHang - Copy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_DanhSachKhachHang.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_DanhSachNhanVien - Copy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_DanhSachNhanVien.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_GuiTienMat - Copy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_GuiTienMat.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_KhachHangCaNhan.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_KhachHangDoanhNghiep - Copy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_KhachHangDoanhNghiep.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_Main.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_MoTaiKhoan - Copy.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.frm_MoTaiKhoan.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.HomeUser.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.ManagementCard.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.Member.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.OTP.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.PersonInfor.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.Settings.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.TransactionHistory.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.Transfer.resources" />
+    <EmbeddedResource Include="obj\Debug\DoAnPTUD.TransferDetails.resources" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

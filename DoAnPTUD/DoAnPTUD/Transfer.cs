@@ -17,7 +17,7 @@ namespace DoAnPTUD
     {
         int pos = 1;
         public DTO_TaiKhoan use;
-     public  DTO_ThongTinKH a;
+       public  DTO_ThongTinKH a;
         public DTO_SoDuTk sd;
         public BLL_SoDuTk sdtk = new BLL_SoDuTk();
         public BLL_ChiTietGiaoDich giaoDich = new BLL_ChiTietGiaoDich();
@@ -106,9 +106,7 @@ namespace DoAnPTUD
 
         private void textBox1_Leave(object sender, EventArgs e)
         {
-         
-
-            if (textBox1.Text != string.Empty && textBox1.Text != use.IdTaiKhoan.ToString()&& giaoDich.timsdt(textBox1.Text)!=textBox1.Text)
+            if (textBox1.Text != string.Empty && textBox1.Text != use.IdTaiKhoan.ToString() && textBox1.Text !=a.SoDienThoai  )
             {
                 a = giaoDich.tim(textBox1.Text);
                 if (a != null)
@@ -117,7 +115,6 @@ namespace DoAnPTUD
                 {
                     txtSoTK.Text = giaoDich.timsdt(textBox1.Text);
                 }
-
             }
 
             else

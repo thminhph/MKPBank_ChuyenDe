@@ -44,14 +44,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL_ChiTietGiaoDich.cs" />
+    <Compile Include="DAL_GuiTienMat.cs" />
     <Compile Include="DAL_KhachHang.cs" />
     <Compile Include="DAL_LoadValue.cs" />
     <Compile Include="DAL_Nganh.cs" />
     <Compile Include="DAL_NganhChinh.cs" />
     <Compile Include="DAL_SoDuTk.cs" />
     <Compile Include="DAL_TaiKhoan.cs" />
+    <Compile Include="DAL_TaiKhoanTietKiem.cs" />
     <Compile Include="DAL_ThongTinKH.cs" />
+    <Compile Include="DAL_ThongTinKN.cs" />
     <Compile Include="Data_Context.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -65,7 +69,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include=".vs\DAL.csproj.dtbcache.json" />
     <None Include="app.config" />
+    <None Include="bin\Debug\DAL.dll.config" />
+    <None Include="obj\Debug\DAL.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\DAL.csproj.CopyComplete" />
+    <None Include="obj\Debug\DAL.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\DAL.csproj.Up2Date" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -87,6 +99,20 @@
       <Project>{1192fe83-e221-44bd-9651-c64a2fcdd283}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\DAL.dll" />
+    <Content Include="bin\Debug\DAL.pdb" />
+    <Content Include="bin\Debug\DTO.dll" />
+    <Content Include="bin\Debug\DTO.pdb" />
+    <Content Include="obj\Debug\DAL.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\DAL.dll" />
+    <Content Include="obj\Debug\DAL.pdb" />
+    <Content Include="obj\Debug\TempPE\DataClasses1.designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\QLNganHang.designer.cs.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
