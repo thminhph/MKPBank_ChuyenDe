@@ -45,7 +45,9 @@
   <ItemGroup>
     <Compile Include="DTO_ChiTietGiaoDich.cs" />
     <Compile Include="DTO_CTKH.cs" />
+    <Compile Include="DTO_GuiTienMat.cs" />
     <Compile Include="DTO_KhachHang.cs" />
+    <Compile Include="DTO_TaiKhoanTietKiem.cs" />
     <Compile Include="DTO_ThongTinKH.cs" />
     <Compile Include="DTO_TaiKhoan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

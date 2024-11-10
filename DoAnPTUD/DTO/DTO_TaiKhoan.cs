@@ -11,7 +11,6 @@ namespace DTO
         public long IdTaiKhoan { get; set; }         // bigint
         public int IdKhachHang { get; set; }      // int
         public int LoaiTaiKhoan { get; set; }     // nvarchar(255)
-        public string TenTaiKhoan { get; set; }      // nvarchar(255)
         public string TienTe { get; set; }           // nvarchar(50)
         public string TieuDeTK { get; set; }         // nvarchar(255)
         public string TieuDeNgan { get; set; }       // nvarchar(50)
@@ -24,7 +23,6 @@ namespace DTO
             long idTaiKhoan,
             int idKhachHang,
             int loaiTaiKhoan,
-            string tenTaiKhoan,
             string tienTe,
             string tieuDeTK,
             string tieuDeNgan,
@@ -35,13 +33,29 @@ namespace DTO
             IdTaiKhoan = idTaiKhoan;
             IdKhachHang = idKhachHang;
             LoaiTaiKhoan = loaiTaiKhoan;
-            TenTaiKhoan = tenTaiKhoan;
             TienTe = tienTe;
             TieuDeTK = tieuDeTK;
             TieuDeNgan = tieuDeNgan;
             NhanVienLV = nhanVienLV;
             PhiMa = phiMa;
             Matkhau = matkhau;
+        }
+        public DTO_TaiKhoan(
+            long idTaiKhoan,
+            int loaiTaiKhoan,
+            string tienTe,
+            string tieuDeTK,
+            string tieuDeNgan,
+            string nhanVienLV,
+            string phiMa)
+        {
+            IdTaiKhoan = idTaiKhoan;
+            LoaiTaiKhoan = loaiTaiKhoan;
+            TienTe = tienTe;
+            TieuDeTK = tieuDeTK;
+            TieuDeNgan = tieuDeNgan;
+            NhanVienLV = nhanVienLV;
+            PhiMa = phiMa;
         }
         public DTO_TaiKhoan()
         {

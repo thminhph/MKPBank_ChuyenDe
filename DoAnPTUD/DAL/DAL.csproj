@@ -44,12 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL_ChiTietGiaoDich.cs" />
+    <Compile Include="DAL_GuiTienMat.cs" />
     <Compile Include="DAL_KhachHang.cs" />
     <Compile Include="DAL_LoadValue.cs" />
     <Compile Include="DAL_Nganh.cs" />
     <Compile Include="DAL_NganhChinh.cs" />
     <Compile Include="DAL_SoDuTk.cs" />
     <Compile Include="DAL_TaiKhoan.cs" />
+    <Compile Include="DAL_TaiKhoanTietKiem.cs" />
     <Compile Include="DAL_ThongTinKH.cs" />
     <Compile Include="Data_Context.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

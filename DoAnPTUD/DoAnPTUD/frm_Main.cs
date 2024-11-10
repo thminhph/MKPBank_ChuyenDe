@@ -17,13 +17,13 @@ namespace DoAnPTUD
 
     public partial class frm_Main : Form
     {
-        private BaseGUI baseGUI;
         private frm_KhachHangCaNhan frmKH;
         private frm_KhachHangDoanhNghiep frmKHDN;
-        private frm_DanhSachKhachHang frmNhanVien;
         private frm_DanhSachKhachHang frmDSKh;
         private frm_MoTaiKhoan frmMoTaiKhoan;
         private frm_GuiTienMat frmGuiTienMat;
+        private frm_TaiKhoanTietKiemCuoiKy frmTKTKCK;
+        private frm_DanhSachTaiKhoan frmDSTK;
         private Form activeForm = null;
         private string checkBtn = "";
         // Khai báo sự kiện để frmKhachHangCaNhan có thể lắng nghe
@@ -53,7 +53,7 @@ namespace DoAnPTUD
             form.Show();
 
         }
-        int idLoai = 0;
+
         string selectNode = "";
         private void tvShow_AfterSelect(object sender, TreeViewEventArgs e)
         {
@@ -93,8 +93,8 @@ namespace DoAnPTUD
                 }
                 if (selectNode == "Danh sách khách hàng")
                 {
-                    frmNhanVien = new frm_DanhSachKhachHang();
-                    OpenChidForm(frmNhanVien);
+                    frmDSKh = new frm_DanhSachKhachHang();
+                    OpenChidForm(frmDSKh);
                     pnBtn.Visible = true;
                     Button[] btn = { btnDone, btnRemove, btnPrint, btnEdit, btnSearchList, btnSave };
                     foreach (var item in btn)
@@ -133,6 +133,34 @@ namespace DoAnPTUD
                     btnSave.BackColor = Color.Red;
                     btnSearchList.Enabled = true;
                     btnSearchList.BackColor = Color.Red;
+                }
+                if (selectNode == "Mở")
+                {
+                    frmTKTKCK = new frm_TaiKhoanTietKiemCuoiKy();
+                    OpenChidForm(frmTKTKCK);
+                    pnBtn.Visible = true;
+                    Button[] btn = { btnDone, btnRemove, btnSearch, btnPrint, btnEdit };
+                    foreach (var item in btn)
+                    {
+                        Enablad_Btn(item);
+                    }
+                    btnSave.Enabled = true;
+                    btnSave.BackColor = Color.Red;
+                    btnSearchList.Enabled = true;
+                    btnSearchList.BackColor = Color.Red;
+                }
+                if (selectNode == "Danh sách tài khoản")
+                {
+                    frmDSTK = new frm_DanhSachTaiKhoan();
+                    OpenChidForm(frmDSTK);
+                    pnBtn.Visible = true;
+                    Button[] btn = { btnDone, btnRemove, btnPrint, btnEdit, btnSearchList, btnSave };
+                    foreach (var item in btn)
+                    {
+                        Enablad_Btn(item);
+                    }
+                    btnSearch.Enabled = true;
+                    btnSearch.BackColor = Color.Red;
                 }
             }
         }
@@ -200,11 +228,47 @@ namespace DoAnPTUD
                     else
                     {
                         //Khi checkBtn bằng giá trị Edit thì sẽ cập nhật lại giá trị khách hàng
-                        //frmKHDN.SetMainForm(this);
-                        //OnSaveButtonClick?.Invoke(this, EventArgs.Empty);
-                        //// Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
-                        //frmKHDN = new frm_KhachHangDoanhNghiep();
-                        //OpenChidForm(frmKHDN);
+                        frmMoTaiKhoan.SetMainForm(this);
+                        OnSaveButtonClick?.Invoke(this, EventArgs.Empty);
+                        // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
+                        frmMoTaiKhoan = new frm_MoTaiKhoan();
+                        OpenChidForm(frmMoTaiKhoan);
+
+                    }
+                    break;
+                case "Mở":
+                    if (checkBtn != "Edit")
+                    {
+                        BLL_TaiKhoanTietKiem bllTK = new BLL_TaiKhoanTietKiem();
+                        bllTK.ThemTaiKhoanTietKiem(frmTKTKCK.TaiKhoanTietKiem());
+
+                        // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
+                        frmTKTKCK = new frm_TaiKhoanTietKiemCuoiKy();
+                        OpenChidForm(frmTKTKCK);
+
+                    }
+                    else
+                    {
+                        
+
+                    }
+                    break;
+                case "Tiền gửi tiền mặt":
+                    if (checkBtn != "Edit")
+                    {
+                        BLL_GuiTienMat bllTM = new BLL_GuiTienMat();
+                        DTO_GuiTienMat tm = frmGuiTienMat.GuiTienMat();
+                        bllTM.Them(tm);
+                        bllTM.CapNhatTien(tm.IdTK, tm.SoDu);
+
+                        // Khi thêm xong sẽ gọi lại form cập lại giá trị form thành rỗng
+                        frmGuiTienMat = new frm_GuiTienMat();
+                        OpenChidForm(frmGuiTienMat);
+
+                    }
+                    else
+                    {
+
 
                     }
                     break;
@@ -247,6 +311,10 @@ namespace DoAnPTUD
                     OpenDanhSachForm();
                     Enablad_Btn();
                     break;
+                case "Mở tài khoản":
+                    OpenDanhSachForm();
+                    Enablad_Btn();
+                    break;
                 default:
                     break;
             }
@@ -259,7 +327,7 @@ namespace DoAnPTUD
             OpenChidForm(danhSachForm);
 
         }
-        void HandleRowSelected(int id)
+        void HandleRowSelected(string id)
         {
             if (activeForm != null)
             {
@@ -270,13 +338,18 @@ namespace DoAnPTUD
             if (selectNode == "Mở khách hàng cá nhân")
             {
                 // Mở lại frm_KhachHangCaNhan với thông tin từ ID đã chọn
-                frmKH = new frm_KhachHangCaNhan(id); // Truyền ID vào form để lấy chi tiết khách hàng
+                frmKH = new frm_KhachHangCaNhan(int.Parse(id)); // Truyền ID vào form để lấy chi tiết khách hàng
                 OpenChidForm(frmKH);
             }
             if (selectNode == "Mở khách hàng doanh nghiệp")
             {
-                frmKHDN = new frm_KhachHangDoanhNghiep(id);
+                frmKHDN = new frm_KhachHangDoanhNghiep(int.Parse(id));
                 OpenChidForm(frmKHDN);
+            }
+            if (selectNode == "Mở tài khoản")
+            {
+                frmMoTaiKhoan = new frm_MoTaiKhoan(long.Parse(id));
+                OpenChidForm(frmMoTaiKhoan);
             }
 
         }
@@ -307,6 +380,9 @@ namespace DoAnPTUD
                             break;
                         case "Mở khách hàng doanh nghiệp":
                             frmKHDN.Enabled_Control(this);
+                            break;
+                        case "Mở tài khoản":
+                            frmMoTaiKhoan.Enabled_Control(this);
                             break;
                         default:
                             break;

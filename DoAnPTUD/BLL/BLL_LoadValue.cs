@@ -51,5 +51,27 @@ namespace BUS
         {
             return load.LayThongTinKhachHang(id);
         }
+        public IQueryable DaSachLoaiTK()
+        {
+            return load.DaSachLoaiTK();
+        }
+        public IQueryable DanhSachLoaiKH()
+        {
+            return load.DanhSachLoaiKH();
+        }
+
+        public IQueryable DanhSachTaiKhoan()
+        {
+            return load.DanhSachTaiKhoan();
+        }
+
+        public DTO_TaiKhoan LayThongTinTK(long id)
+        {
+            return load.LayThongTinTK(id);
+        }
+        public IQueryable HienThiDanhSachTK(Dictionary<string, string> whereArg)
+        {
+            return load.HienThiDanhSachTK(whereArg);
+        }
     }
 }

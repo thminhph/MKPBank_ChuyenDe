@@ -37,34 +37,25 @@
             treeNode3});
             System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Mở tài khoản");
             System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Danh sách tài khoản");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Danh sách tài khoản đóng");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Danh sách tài khoản chặn");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Danh sách tài khoản bỏ chặn");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Tài khoản chính", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Tài khoản chính", new System.Windows.Forms.TreeNode[] {
             treeNode5,
-            treeNode6,
-            treeNode7,
-            treeNode8,
+            treeNode6});
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Tiền gửi tiền mặt");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Giao dịch khách hàng", new System.Windows.Forms.TreeNode[] {
+            treeNode8});
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Giao dịch tài khoản", new System.Windows.Forms.TreeNode[] {
             treeNode9});
             System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Tài khoản hiện tại và không kỳ hạn", new System.Windows.Forms.TreeNode[] {
+            treeNode7,
             treeNode10});
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Tiền gửi tiền mặt");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Node19");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Node20");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Node21");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Giao dịch tài khoản", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Mở");
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Danh sách tài khoản");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Tài khoản tiết kiệm", new System.Windows.Forms.TreeNode[] {
             treeNode12,
-            treeNode13,
-            treeNode14,
-            treeNode15});
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Node17");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Giao dịch tài khoản", new System.Windows.Forms.TreeNode[] {
-            treeNode16,
-            treeNode17});
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Quản lý tài khoản", new System.Windows.Forms.TreeNode[] {
+            treeNode13});
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Quản lý tài khoản", new System.Windows.Forms.TreeNode[] {
             treeNode11,
-            treeNode18});
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Node2");
+            treeNode14});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Main));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -136,6 +127,8 @@
             // 
             // tvShow
             // 
+            this.tvShow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.tvShow.Location = new System.Drawing.Point(0, 53);
             this.tvShow.Name = "tvShow";
             treeNode1.Name = "nKhachHangCaNhan";
@@ -150,38 +143,27 @@
             treeNode5.Text = "Mở tài khoản";
             treeNode6.Name = "Node11";
             treeNode6.Text = "Danh sách tài khoản";
-            treeNode7.Name = "Node12";
-            treeNode7.Text = "Danh sách tài khoản đóng";
-            treeNode8.Name = "Node14";
-            treeNode8.Text = "Danh sách tài khoản chặn";
-            treeNode9.Name = "Node15";
-            treeNode9.Text = "Danh sách tài khoản bỏ chặn";
-            treeNode10.Name = "Node9";
-            treeNode10.Text = "Tài khoản chính";
+            treeNode7.Name = "Node9";
+            treeNode7.Text = "Tài khoản chính";
+            treeNode8.Name = "Node18";
+            treeNode8.Text = "Tiền gửi tiền mặt";
+            treeNode9.Name = "Node16";
+            treeNode9.Text = "Giao dịch khách hàng";
+            treeNode10.Name = "Node7";
+            treeNode10.Text = "Giao dịch tài khoản";
             treeNode11.Name = "Node6";
             treeNode11.Text = "Tài khoản hiện tại và không kỳ hạn";
-            treeNode12.Name = "Node18";
-            treeNode12.Text = "Tiền gửi tiền mặt";
-            treeNode13.Name = "Node19";
-            treeNode13.Text = "Node19";
-            treeNode14.Name = "Node20";
-            treeNode14.Text = "Node20";
-            treeNode15.Name = "Node21";
-            treeNode15.Text = "Node21";
-            treeNode16.Name = "Node16";
-            treeNode16.Text = "Giao dịch tài khoản";
-            treeNode17.Name = "Node17";
-            treeNode17.Text = "Node17";
-            treeNode18.Name = "Node7";
-            treeNode18.Text = "Giao dịch tài khoản";
-            treeNode19.Name = "Node1";
-            treeNode19.Text = "Quản lý tài khoản";
-            treeNode20.Name = "Node2";
-            treeNode20.Text = "Node2";
+            treeNode12.Name = "Node3";
+            treeNode12.Text = "Mở";
+            treeNode13.Name = "Node0";
+            treeNode13.Text = "Danh sách tài khoản";
+            treeNode14.Name = "Node2";
+            treeNode14.Text = "Tài khoản tiết kiệm";
+            treeNode15.Name = "Node1";
+            treeNode15.Text = "Quản lý tài khoản";
             this.tvShow.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode4,
-            treeNode19,
-            treeNode20});
+            treeNode15});
             this.tvShow.Size = new System.Drawing.Size(272, 499);
             this.tvShow.TabIndex = 0;
             this.tvShow.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tvShow_AfterSelect);

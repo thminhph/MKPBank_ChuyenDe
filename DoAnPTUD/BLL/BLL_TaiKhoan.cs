@@ -30,5 +30,9 @@ namespace BLL
         {
             taiKhoan.Them(tk);
         }
+        public void SuaTK(DTO_TaiKhoan tk)
+        {
+            taiKhoan.SuaTK(tk);
+        }
     }
 }

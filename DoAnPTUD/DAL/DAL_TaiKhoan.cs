@@ -29,7 +29,6 @@ namespace DAL
                                        s.IdTaiKhoan,
                                        s.IdKhachHang,
                                        s.LoaiTaiKhoan,
-                                       s.TenTaiKhoan,
                                        s.TienTe,
                                        s.TieuDeTK,
                                        s.TieuDeNgan,
@@ -127,7 +126,6 @@ namespace DAL
                     IdTaiKhoan = taiKhoan.IdTaiKhoan,
                     IdKhachHang = taiKhoan.IdKhachHang,
                     IdLoai = taiKhoan.LoaiTaiKhoan,
-                    TenTaiKhoan = taiKhoan.TenTaiKhoan,
                     TienTe = taiKhoan.TienTe,
                     TieuDeTK = taiKhoan.TieuDeTK,
                     TieuDeNgan = taiKhoan.TieuDeNgan,
@@ -160,6 +158,16 @@ namespace DAL
                 throw new InvalidOperationException("Thêm thất bại: " + ex.Message);
             }
         }
-
+        public void SuaTK(DTO_TaiKhoan tk)
+        {
+            var sua = db.TaiKhoans.Single(tkk => tkk.IdTaiKhoan == tk.IdTaiKhoan);
+            sua.TienTe = tk.TienTe;
+            sua.IdLoai = tk.LoaiTaiKhoan;
+            sua.TieuDeTK = tk.TieuDeTK;
+            sua.TieuDeNgan = tk.TieuDeNgan;
+            sua.NhanVienLV = tk.NhanVienLV;
+            sua.PhiMa = tk.PhiMa;
+            db.SubmitChanges();
+        }
     }
 }

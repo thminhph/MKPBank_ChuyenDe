@@ -103,6 +103,12 @@
     <Compile Include="frm_DanhSachKhachHang.Designer.cs">
       <DependentUpon>frm_DanhSachKhachHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_DanhSachTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DanhSachTaiKhoan.Designer.cs">
+      <DependentUpon>frm_DanhSachTaiKhoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_GuiTienMat.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +138,12 @@
     </Compile>
     <Compile Include="frm_MoTaiKhoan.Designer.cs">
       <DependentUpon>frm_MoTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_TaiKhoanTietKiemCuoiKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_TaiKhoanTietKiemCuoiKy.Designer.cs">
+      <DependentUpon>frm_TaiKhoanTietKiemCuoiKy.cs</DependentUpon>
     </Compile>
     <Compile Include="HomeUser.cs">
       <SubType>Form</SubType>
@@ -222,6 +234,9 @@
     <EmbeddedResource Include="frm_DanhSachKhachHang.resx">
       <DependentUpon>frm_DanhSachKhachHang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_DanhSachTaiKhoan.resx">
+      <DependentUpon>frm_DanhSachTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_GuiTienMat.resx">
       <DependentUpon>frm_GuiTienMat.cs</DependentUpon>
     </EmbeddedResource>
@@ -236,6 +251,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_MoTaiKhoan.resx">
       <DependentUpon>frm_MoTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_TaiKhoanTietKiemCuoiKy.resx">
+      <DependentUpon>frm_TaiKhoanTietKiemCuoiKy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomeUser.resx">
       <DependentUpon>HomeUser.cs</DependentUpon>
