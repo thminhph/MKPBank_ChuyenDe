@@ -42,12 +42,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL_ChiTietGiaoDich.cs" />
+    <Compile Include="BLL_GuiTienMat.cs" />
     <Compile Include="BLL_KhachHang.cs" />
     <Compile Include="BLL_LoadValue.cs" />
     <Compile Include="BLL_Nganh.cs" />
     <Compile Include="BLL_NganhChinh.cs" />
     <Compile Include="BLL_SoDuTk.cs" />
     <Compile Include="BLL_TaiKhoan.cs" />
+    <Compile Include="BLL_TaiKhoanTietKiem.cs" />
     <Compile Include="BLL_ThongTinKH.cs" />
     <Compile Include="Context.cs" />
     <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
