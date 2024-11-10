@@ -18,15 +18,15 @@ namespace BLL
             return taiKhoan.timUserTheostk(stk);
         }
 
-        public bool dangNhap(string sdt, string mK)
+        public DTO_TaiKhoan dangNhap(string sdt, string mK)
         {
             return taiKhoan.DangNhap(sdt, mK);
         }
 
-        public DTO_ThongTinKH ganthongtin(string sdt, string ten)
-        {
-            return taiKhoan.GanThongTinNguoiDung(sdt, ten);
-        }
+        //public DTO_ThongTinKH ganthongtin(string sdt, string ten)
+        //{
+        //    return taiKhoan.GanThongTinNguoiDung(sdt, ten);
+        //}
         public bool DangKy(string soDienThoai)
         {
             return taiKhoan.DangKy(soDienThoai);
@@ -38,7 +38,10 @@ namespace BLL
         public void DangKyKH(DTO_ThongTinKH tk) { 
              taiKhoan.CreateKH(tk);
         }
-        
+        public void SuaMK(string mk,string idTK)
+        {
+            taiKhoan.SuaMK(mk,idTK);
+        }
         
     }
 }

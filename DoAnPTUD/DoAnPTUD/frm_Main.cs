@@ -356,6 +356,7 @@ namespace DoAnPTUD
             }
             checkBtn = "Remove";
         }
+
         private void btnSearch_Click(object sender, EventArgs e)
         {
             //baseGUI = new BaseGUI();

@@ -9,10 +9,14 @@ namespace DTO
     public class DTO_TaiKhoan
     {
         private long idTaiKhoan;
-        private int  maKhachHang, idLoai;
-        private string loaiTaiKhoan, tenTaiKhoan, tienTe,  tieuDeTK, tieuDeNgan, nhanVienLV, phiMa, matkhau;
+        private int maKhachHang, idLoai;
+        private string loaiTaiKhoan, tenTaiKhoan, tienTe, tieuDeTK, tieuDeNgan, nhanVienLV, phiMa, matkhau;
 
-        public DTO_TaiKhoan() { 
+
+
+
+        public DTO_TaiKhoan()
+        {
         }
         public DTO_TaiKhoan(int idLoai, string matkhau)
         {

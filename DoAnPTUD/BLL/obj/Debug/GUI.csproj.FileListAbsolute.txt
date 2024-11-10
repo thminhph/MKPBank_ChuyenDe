@@ -1,0 +1,87 @@
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe.config
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\Guna.UI2.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\QRCoder.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll.config
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CustomDialogQR.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Customize.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKy.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKyChiTiet.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangNhap.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSach.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachKhachHang.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangCaNhan.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_Main.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.HomeUser.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.ManagementCard.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Member.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.OTP.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.PersonInfor.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Properties.Resources.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.QuenMatKhau.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Settings.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransactionHistory.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Transfer.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Deposit.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransferDetails.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.Up2Date
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.exe
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachNhanVien.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_GuiTienMat.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangDoanhNghiep.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_MoTaiKhoan.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe.config
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.pdb
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\Guna.UI2.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\QRCoder.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.pdb
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.pdb
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll.config
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.pdb
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CapNhatThongTin.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CustomDialogQR.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Customize.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKy.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKyChiTiet.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangNhap.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DoiMatKhau.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSach.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachKhachHang.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachNhanVien.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_GuiTienMat.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangCaNhan.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangDoanhNghiep.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_Main.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_MoTaiKhoan.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.HomeUser.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.ManagementCard.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Member.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.OTP.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.PersonInfor.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Properties.Resources.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Settings.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransactionHistory.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Transfer.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Deposit.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransferDetails.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.Up2Date
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.exe
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.pdb

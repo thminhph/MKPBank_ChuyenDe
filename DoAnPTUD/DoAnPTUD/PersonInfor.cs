@@ -15,12 +15,12 @@ namespace DoAnPTUD
 {
     public partial class PersonInfor : Form
     {
-        public string use;
+        public DTO_TaiKhoan use;
         public BLL_TaiKhoan Tk = new BLL_TaiKhoan();
         public BLL_ThongTinKH bll_ThongTinKH = new BLL_ThongTinKH();
-        
 
-        public PersonInfor( string us)
+
+        public PersonInfor(DTO_TaiKhoan us)
         {
             InitializeComponent();
             this.use = us;
@@ -83,7 +83,7 @@ namespace DoAnPTUD
         }
         public void LoadData() {
            
-            DTO_ThongTinKH th = Tk.tim(use);
+            DTO_ThongTinKH th = Tk.tim(use.IdTaiKhoan.ToString());
             if (picAvatar.Image != null)
             {
                 using (MemoryStream ms = new MemoryStream(th.Avarta))

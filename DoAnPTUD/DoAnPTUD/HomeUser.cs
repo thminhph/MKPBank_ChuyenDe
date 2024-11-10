@@ -17,19 +17,16 @@ namespace DoAnPTUD
 {
     public partial class HomeUser : Form
     { 
-        public  string  use ;
+        public  DTO_TaiKhoan  use ;
+        DTO_ThongTinKH th;
         public BLL_TaiKhoan Tk = new BLL_TaiKhoan();
         public BLL_ThongTinKH bll_ThongTinKH = new BLL_ThongTinKH();
-        public HomeUser(string  sdt)
+        public HomeUser(DTO_TaiKhoan use)
         {
             InitializeComponent();
-            this.use =sdt ;
+            this.use =use ;
         }
-        public HomeUser()
-        {
-            InitializeComponent();
-            
-        }
+       
         private void Form1_Load(object sender, EventArgs e)
         {
            
@@ -43,7 +40,7 @@ namespace DoAnPTUD
            
             if (use != null) {
 
-                DTO_ThongTinKH th = Tk.tim(use);
+               th = Tk.tim(use.IdTaiKhoan.ToString());
                 if (picAvatar.Image != null)
                 {
                     using (MemoryStream ms = new MemoryStream(th.Avarta))
@@ -98,9 +95,9 @@ namespace DoAnPTUD
         private void btnTK_Click(object sender, EventArgs e)
         {
 
-            ManagementCard managementCard = new ManagementCard(use);
-            managementCard.Show();
-            this.Hide();
+            //ManagementCard managementCard = new ManagementCard(use);
+            //managementCard.Show();
+            //this.Hide();
 
         }
 
@@ -113,7 +110,7 @@ namespace DoAnPTUD
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Settings settings = new Settings();
+            Settings settings = new Settings(use, th);
             settings.Show();
             this.Hide();
         }
@@ -134,11 +131,11 @@ namespace DoAnPTUD
 
         private void btnMaQR_Click(object sender, EventArgs e)
         {
-            // Tạo một form mới
-            Form form = new CustomDialogQR(use);
-            form.StartPosition = FormStartPosition.CenterParent;
-            // Hiển thị form
-            form.ShowDialog();
+            //// Tạo một form mới
+            //Form form = new CustomDialogQR(use);
+            //form.StartPosition = FormStartPosition.CenterParent;
+            //// Hiển thị form
+            //form.ShowDialog();
 
         }
 
@@ -149,16 +146,16 @@ namespace DoAnPTUD
 
         private void btnChuyenKhoan_Click(object sender, EventArgs e)
         {
-            Transfer transfer = new Transfer(use); 
-            transfer.Show();
-            this.Hide();
+            //Transfer transfer = new Transfer(use); 
+            //transfer.Show();
+            //this.Hide();
         }
 
         private void linkHoSo_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            PersonInfor personInfor = new PersonInfor(use);
-            personInfor.Show();
-            this.Hide();
+            //PersonInfor personInfor = new PersonInfor(use);
+            //personInfor.Show();
+            //this.Hide();
         }
 
         

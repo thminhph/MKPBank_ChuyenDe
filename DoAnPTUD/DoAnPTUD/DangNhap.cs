@@ -54,19 +54,22 @@ namespace DoAnPTUD
             }
             else
             {
-                if (bll_taiKhoan.dangNhap(txtDangNhap.Text, txtMatKhau.Text))
-                {
-                    DTO_ThongTinKH use = bll_taiKhoan.ganthongtin(txtDN, txtMK);
-                    HomeUser us = new HomeUser(use.SoDienThoai);
-                    us.Show();
-                    this.Hide();
-                }
-                else
-                {
-                    MessageBox.Show("Tai khoan khong ton tai!");
-                }
+
+
+                    var la = bll_taiKhoan.dangNhap(txtDangNhap.Text, txtMatKhau.Text);
+                    //DTO_ThongTinKH use = bll_taiKhoan.ganthongtin(txtDN, txtMK);
+                    if (la != null)
+                    {
+                        HomeUser us = new HomeUser(la);
+                        us.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Tài khoản hoặc mặt khẩu không đúng!!");
+                    }
             }
-         }
+        }
            
             //HomeUser.user = 
             //HomeUser  us=new HomeUser();

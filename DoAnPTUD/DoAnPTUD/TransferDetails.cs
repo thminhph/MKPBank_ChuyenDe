@@ -14,10 +14,10 @@ namespace DoAnPTUD
 {
     public partial class TransferDetails : Form
     {
-        public string use;
+        public DTO_TaiKhoan use;
         public BLL_TaiKhoan Tk = new BLL_TaiKhoan();
         
-        public TransferDetails( string us, DTO_ChiTietGiaoDich chitiet)
+        public TransferDetails(DTO_TaiKhoan us, DTO_ChiTietGiaoDich chitiet)
         {
             InitializeComponent();
             this.use = us;

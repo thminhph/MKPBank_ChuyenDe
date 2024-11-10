@@ -93,8 +93,9 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1145, 167);
+            this.panel1.Size = new System.Drawing.Size(1288, 208);
             this.panel1.TabIndex = 3;
             // 
             // pictureBox1
@@ -103,8 +104,9 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox1.Image = global::DoAnPTUD.Properties.Resources.inverted_mkp_commercial_bank_preview_rev_1;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(280, 165);
+            this.pictureBox1.Size = new System.Drawing.Size(315, 206);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -115,9 +117,10 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.tvShow);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.Location = new System.Drawing.Point(0, 167);
+            this.panel2.Location = new System.Drawing.Point(0, 208);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(272, 551);
+            this.panel2.Size = new System.Drawing.Size(306, 690);
             this.panel2.TabIndex = 4;
             // 
             // label1
@@ -127,16 +130,17 @@
             this.label1.BackColor = System.Drawing.Color.DodgerBlue;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Window;
-            this.label1.Location = new System.Drawing.Point(21, 9);
+            this.label1.Location = new System.Drawing.Point(24, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(232, 35);
+            this.label1.Size = new System.Drawing.Size(261, 44);
             this.label1.TabIndex = 1;
             this.label1.Text = "COMMERIAL BANK";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tvShow
             // 
-            this.tvShow.Location = new System.Drawing.Point(0, 53);
+            this.tvShow.Location = new System.Drawing.Point(0, 66);
+            this.tvShow.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tvShow.Name = "tvShow";
             treeNode1.Name = "nKhachHangCaNhan";
             treeNode1.Text = "Mở khách hàng cá nhân";
@@ -182,7 +186,7 @@
             treeNode4,
             treeNode19,
             treeNode20});
-            this.tvShow.Size = new System.Drawing.Size(272, 499);
+            this.tvShow.Size = new System.Drawing.Size(306, 623);
             this.tvShow.TabIndex = 0;
             this.tvShow.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tvShow_AfterSelect);
             // 
@@ -192,9 +196,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pn_Body.AutoScroll = true;
-            this.pn_Body.Location = new System.Drawing.Point(278, 238);
+            this.pn_Body.Location = new System.Drawing.Point(313, 298);
+            this.pn_Body.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pn_Body.Name = "pn_Body";
-            this.pn_Body.Size = new System.Drawing.Size(865, 480);
+            this.pn_Body.Size = new System.Drawing.Size(973, 600);
             this.pn_Body.TabIndex = 7;
             // 
             // pnBtn
@@ -209,9 +214,10 @@
             this.pnBtn.Controls.Add(this.btnDone);
             this.pnBtn.Controls.Add(this.btnSearchList);
             this.pnBtn.Controls.Add(this.btnSave);
-            this.pnBtn.Location = new System.Drawing.Point(278, 173);
+            this.pnBtn.Location = new System.Drawing.Point(313, 216);
+            this.pnBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnBtn.Name = "pnBtn";
-            this.pnBtn.Size = new System.Drawing.Size(867, 59);
+            this.pnBtn.Size = new System.Drawing.Size(975, 74);
             this.pnBtn.TabIndex = 6;
             // 
             // btnEdit
@@ -221,9 +227,10 @@
             this.btnEdit.FlatAppearance.BorderSize = 2;
             this.btnEdit.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnEdit.Image = global::DoAnPTUD.Properties.Resources.Edit;
-            this.btnEdit.Location = new System.Drawing.Point(327, 8);
+            this.btnEdit.Location = new System.Drawing.Point(368, 10);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(45, 45);
+            this.btnEdit.Size = new System.Drawing.Size(51, 56);
             this.btnEdit.TabIndex = 6;
             this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
@@ -235,9 +242,10 @@
             this.btnPrint.FlatAppearance.BorderSize = 2;
             this.btnPrint.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnPrint.Image = global::DoAnPTUD.Properties.Resources.Print;
-            this.btnPrint.Location = new System.Drawing.Point(276, 8);
+            this.btnPrint.Location = new System.Drawing.Point(310, 10);
+            this.btnPrint.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(45, 45);
+            this.btnPrint.Size = new System.Drawing.Size(51, 56);
             this.btnPrint.TabIndex = 5;
             this.btnPrint.UseVisualStyleBackColor = false;
             // 
@@ -248,9 +256,10 @@
             this.btnSearch.FlatAppearance.BorderSize = 2;
             this.btnSearch.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnSearch.Image = global::DoAnPTUD.Properties.Resources.Search1;
-            this.btnSearch.Location = new System.Drawing.Point(225, 8);
+            this.btnSearch.Location = new System.Drawing.Point(253, 10);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(45, 45);
+            this.btnSearch.Size = new System.Drawing.Size(51, 56);
             this.btnSearch.TabIndex = 4;
             this.btnSearch.UseVisualStyleBackColor = false;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
@@ -262,9 +271,10 @@
             this.btnRemove.FlatAppearance.BorderSize = 2;
             this.btnRemove.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnRemove.Image = global::DoAnPTUD.Properties.Resources.Back;
-            this.btnRemove.Location = new System.Drawing.Point(174, 8);
+            this.btnRemove.Location = new System.Drawing.Point(196, 10);
+            this.btnRemove.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(45, 45);
+            this.btnRemove.Size = new System.Drawing.Size(51, 56);
             this.btnRemove.TabIndex = 3;
             this.btnRemove.UseVisualStyleBackColor = false;
             this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
@@ -276,9 +286,10 @@
             this.btnDone.FlatAppearance.BorderSize = 2;
             this.btnDone.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnDone.Image = global::DoAnPTUD.Properties.Resources.Done;
-            this.btnDone.Location = new System.Drawing.Point(123, 8);
+            this.btnDone.Location = new System.Drawing.Point(138, 10);
+            this.btnDone.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDone.Name = "btnDone";
-            this.btnDone.Size = new System.Drawing.Size(45, 45);
+            this.btnDone.Size = new System.Drawing.Size(51, 56);
             this.btnDone.TabIndex = 2;
             this.btnDone.UseVisualStyleBackColor = false;
             this.btnDone.Click += new System.EventHandler(this.btnDone_Click);
@@ -290,9 +301,10 @@
             this.btnSearchList.FlatAppearance.BorderSize = 2;
             this.btnSearchList.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnSearchList.Image = global::DoAnPTUD.Properties.Resources.Saerch;
-            this.btnSearchList.Location = new System.Drawing.Point(72, 8);
+            this.btnSearchList.Location = new System.Drawing.Point(81, 10);
+            this.btnSearchList.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSearchList.Name = "btnSearchList";
-            this.btnSearchList.Size = new System.Drawing.Size(45, 45);
+            this.btnSearchList.Size = new System.Drawing.Size(51, 56);
             this.btnSearchList.TabIndex = 1;
             this.btnSearchList.UseVisualStyleBackColor = false;
             this.btnSearchList.Click += new System.EventHandler(this.btnSearchList_Click);
@@ -304,18 +316,19 @@
             this.btnSave.FlatAppearance.BorderSize = 2;
             this.btnSave.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
-            this.btnSave.Location = new System.Drawing.Point(21, 8);
+            this.btnSave.Location = new System.Drawing.Point(24, 10);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(45, 45);
+            this.btnSave.Size = new System.Drawing.Size(51, 56);
             this.btnSave.TabIndex = 0;
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // frm_Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1145, 718);
+            this.ClientSize = new System.Drawing.Size(1288, 898);
             this.Controls.Add(this.pn_Body);
             this.Controls.Add(this.pnBtn);
             this.Controls.Add(this.panel2);

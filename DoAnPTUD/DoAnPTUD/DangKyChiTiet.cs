@@ -51,25 +51,24 @@ namespace DoAnPTUD
                 khHang.DiaChi = txtDiaChi.Text;
                 khHang.LoaiGiayTo = "CCCD";
                 khHang.Nganh = 2;
-                khHang.NganhChinh = 1;
+                khHang.NganhChinh = 2;
                 khHang.NgayCap = dtpNgayCap.Value;
                 khHang.NoiCap = txtNoiCap.Text;
                 khHang.Email = txtEmail.Text;
-                t.TienTe = cboTienTe.Text;
                 tk.DangKyKH(khHang);
                 var dsKH = bll_KhachHang.laydsTTKH();
+                t.TienTe = cboTienTe.Text;
                 t.MaKhachHang = dsKH.Count;
                 tk.DangKyCT(t);
-
+                MessageBox.Show("Đăng ký thành công !!!!");
+                DangNhap dn = new DangNhap();
+                dn.Show();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
-                throw;
+                MessageBox.Show("Đăng ký không thành công !!!!");
+                throw new Exception("error",ex);
             }
-            MessageBox.Show("Đăng ký thành công !!!!");
-            DangNhap dn = new DangNhap();   
-            dn.Show();
 
             this.Hide();
 

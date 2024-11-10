@@ -136,6 +136,7 @@ namespace DAL
         {
             dContext = new Data_Context();
             var sua = dContext.Db.KhachHangs.Single(khachHang => khachHang.IdKhachHang == kh.IdKhachHang);
+            sua.Avarta = kh.Avarta;
             sua.TenKhachHang = kh.TenKhachHang;
             sua.DiaChi = kh.DiaChi;
             sua.SoDienThoai = kh.SoDienThoai;

@@ -18,9 +18,9 @@ namespace BLL
         {
             return dal_thongtinkh.layDSThongTinKH();
         }
-        public void capnhat(DTO_ThongTinKH a, DTO_ThongTinKH b)
+        public void capnhat(DTO_ThongTinKH a)
         {
-             dal_thongtinkh.SuaKH(a,b);
+             dal_thongtinkh.SuaKH(a);
         }
        
         public DTO_ThongTinKH timTHKHTheostk(long stk)
@@ -31,9 +31,9 @@ namespace BLL
         {
             return dal_thongtinkh.ktraSDT(sDT);
         }
-        public bool ktraMK(string mk)
-        {
-            return dal_thongtinkh.ktraMatKhau(mk);
-        }
+        //public bool ktraMK(string mk)
+        //{
+        //    return dal_thongtinkh.ktraMatKhau(mk);
+        //}
     }
 }
