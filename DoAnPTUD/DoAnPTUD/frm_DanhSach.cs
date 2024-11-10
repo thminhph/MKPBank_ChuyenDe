@@ -15,7 +15,7 @@ namespace DoAnPTUD
     public partial class frm_DanhSach : Form
     {
         string flag;
-        public event Action<int> OnRowSelected; // Sự kiện tùy chỉnh để truyền ID hoặc giá trị khác
+        public event Action<string> OnRowSelected; // Sự kiện tùy chỉnh để truyền ID hoặc giá trị khác
         public frm_DanhSach(string flag)
         {
             InitializeComponent();
@@ -25,6 +25,7 @@ namespace DoAnPTUD
         void load_List()
         {
             BLL_KhachHang kh = new BLL_KhachHang();
+            BLL_LoadValue load = new BLL_LoadValue();
             switch (flag)
             {
                 case "Mở khách hàng cá nhân":
@@ -35,7 +36,9 @@ namespace DoAnPTUD
                     dgvDanhSach.DataSource = kh.LayDuLieuKHDoanhNghiep();
                     this.dgvDanhSach.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvDanhSach_CellContentClick);
                     break;
-                default:
+                case "Mở tài khoản":
+                    dgvDanhSach.DataSource = load.DanhSachTaiKhoan();
+                    this.dgvDanhSach.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvDanhSach_CellContentClick);
                     break;
             }
         }
@@ -46,7 +49,8 @@ namespace DoAnPTUD
             if (viTri >= 0) // Đảm bảo không phải dòng tiêu đề
             {
                 DataGridViewRow row = dgvDanhSach.Rows[viTri];
-                int id = Convert.ToInt32(row.Cells[0].Value); // Lấy ID hoặc giá trị cần truyền
+
+                string id = row.Cells[0].Value.ToString(); // Lấy ID hoặc giá trị cần truyền
 
                 // Gọi sự kiện tùy chỉnh và truyền giá trị
                 OnRowSelected?.Invoke(id);

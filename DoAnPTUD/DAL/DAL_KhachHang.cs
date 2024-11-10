@@ -321,5 +321,14 @@ namespace DAL
             }
             dContext.Db.SubmitChanges();
         }
+        public IQueryable<TaiKhoan> HienThiDSTaiKhoanTheoKH(int? idKH)
+        {
+            dContext = new Data_Context();
+
+            var xem = dContext.Db.TaiKhoans
+                .Where(tk => tk.IdKhachHang.GetValueOrDefault() == idKH)
+                .Select(tk => tk);
+            return xem;
+        }
     }
 }

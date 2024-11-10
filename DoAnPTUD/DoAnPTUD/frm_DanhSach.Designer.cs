@@ -40,20 +40,20 @@
             this.dgvDanhSach.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDanhSach.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvDanhSach.Location = new System.Drawing.Point(0, 0);
-            this.dgvDanhSach.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvDanhSach.Name = "dgvDanhSach";
             this.dgvDanhSach.RowHeadersWidth = 51;
             this.dgvDanhSach.RowTemplate.Height = 24;
             this.dgvDanhSach.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDanhSach.Size = new System.Drawing.Size(1080, 662);
+            this.dgvDanhSach.Size = new System.Drawing.Size(960, 530);
             this.dgvDanhSach.TabIndex = 1;
             // 
             // frm_DanhSach
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1080, 662);
+            this.ClientSize = new System.Drawing.Size(960, 530);
             this.Controls.Add(this.dgvDanhSach);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frm_DanhSach";
             this.Text = "frm_DanhSach";
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSach)).EndInit();
