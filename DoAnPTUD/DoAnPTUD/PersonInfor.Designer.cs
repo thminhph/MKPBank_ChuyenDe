@@ -81,6 +81,8 @@
             // 
             // picAvatar
             // 
+            this.picAvatar.BackgroundImage = global::DoAnPTUD.Properties.Resources.LoGo;
+            this.picAvatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picAvatar.Dock = System.Windows.Forms.DockStyle.Left;
             this.picAvatar.Location = new System.Drawing.Point(0, 0);
             this.picAvatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -346,7 +348,6 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(876, 491);
             this.tableLayoutPanel1.TabIndex = 1;
-            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // panel2
             // 
@@ -389,7 +390,6 @@
             this.txtCCCD.Name = "txtCCCD";
             this.txtCCCD.Size = new System.Drawing.Size(196, 26);
             this.txtCCCD.TabIndex = 15;
-            this.txtCCCD.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // txtNgaysinh
             // 
@@ -527,6 +527,8 @@
             // picAvata1
             // 
             this.picAvata1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.picAvata1.BackgroundImage = global::DoAnPTUD.Properties.Resources.LoGo;
+            this.picAvata1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picAvata1.Location = new System.Drawing.Point(401, 2);
             this.picAvata1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picAvata1.Name = "picAvata1";

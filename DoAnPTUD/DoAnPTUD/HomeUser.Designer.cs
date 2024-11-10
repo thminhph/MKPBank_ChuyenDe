@@ -327,12 +327,13 @@
             // 
             // picAvatar
             // 
+            this.picAvatar.BackgroundImage = global::DoAnPTUD.Properties.Resources.LoGo;
+            this.picAvatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picAvatar.Dock = System.Windows.Forms.DockStyle.Left;
             this.picAvatar.Location = new System.Drawing.Point(0, 0);
             this.picAvatar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picAvatar.Name = "picAvatar";
             this.picAvatar.Size = new System.Drawing.Size(72, 69);
-            this.picAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picAvatar.TabIndex = 0;
             this.picAvatar.TabStop = false;
             // 

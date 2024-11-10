@@ -41,18 +41,6 @@ D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachNhanVi
 D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_GuiTienMat.resources
 D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangDoanhNghiep.resources
 D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_MoTaiKhoan.resources
-C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe.config
-C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe
-C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.pdb
-C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.dll
-C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll
-C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.dll
-C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\Guna.UI2.dll
-C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\QRCoder.dll
-C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.pdb
-C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.pdb
-C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll.config
-C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.pdb
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.AssemblyReference.cache
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CapNhatThongTin.resources
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CustomDialogQR.resources
@@ -82,6 +70,18 @@ C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransferDetails.resources
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.GenerateResource.cache
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe.config
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.pdb
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\Guna.UI2.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\QRCoder.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.pdb
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.pdb
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll.config
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.pdb
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.Up2Date
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.exe
 C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.pdb

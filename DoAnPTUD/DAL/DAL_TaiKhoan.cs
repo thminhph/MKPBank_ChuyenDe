@@ -65,7 +65,7 @@ namespace DAL
                          select new DTO_ThongTinKH
                          {
                              IdKhachHang = s.IdKhachHang,
-                             Avarta = s.Avarta == null ? null :s.Avarta.ToArray(),  
+                             Avarta = s.Avarta == null ? null : s.Avarta.ToArray(),
                              TenKhachHang = s.TenKhachHang,
                              NgayCap = s.NgayCap,
                              DiaChi = s.DiaChi,
@@ -95,6 +95,7 @@ namespace DAL
             //    string email = t.Email;
             //    thong = new DTO_ThongTinKH(ten, img, ngaysinh, diachi, sodienthoai, sogiayto, ngaycap, email);
             //}
+            if (query != null && query.Avarta != null) { Console.WriteLine("Avarta length: " + query.Avarta.Length); } else { Console.WriteLine("Avarta is null"); }
             return query;
         }
 
@@ -105,10 +106,11 @@ namespace DAL
                         where s.SoDienThoai == sDT && tk.Matkhau == mk
                         select new DTO_TaiKhoan
                         {
+                  
                             IdTaiKhoan = tk.IdTaiKhoan,
                             MaKhachHang = (int)tk.IdKhachHang,
-                           Matkhau=tk.Matkhau,
-                           TienTe=tk.TienTe
+                             Matkhau=tk.Matkhau,
+                           TienTe=tk.TienTe == null ? null:tk.TienTe
                         }).FirstOrDefault();
             return temp;
 
@@ -127,7 +129,7 @@ namespace DAL
                                     IdKhachHang = (int)tk.IdKhachHang,
                                     TenKhachHang = s.TenKhachHang,
                                     SoDienThoai = s.SoDienThoai,
-                                    Avarta=s.Avarta.ToArray(),
+                                    Avarta = s.Avarta == null ? null : s.Avarta.ToArray()
 
                                 }).FirstOrDefault();
 
@@ -170,6 +172,7 @@ namespace DAL
                 throw new Exception("Error", ex);
             }
         }
+       
 
         public void CreateTK(DTO_TaiKhoan kh)
         {
@@ -178,7 +181,7 @@ namespace DAL
             {
                 TaiKhoan chiTiet = new TaiKhoan
                 {
-                    IdTaiKhoan = kh.IdTaiKhoan,
+                    IdTaiKhoan = kh.IdTaiKhoan, 
                     IdLoai = kh.IdLoai,
                     Matkhau = kh.Matkhau,
                     TienTe = kh.TienTe,
@@ -186,7 +189,18 @@ namespace DAL
                 };
                 db.TaiKhoans.InsertOnSubmit(chiTiet);
                 db.SubmitChanges();
-                Console.WriteLine("Giao Dịch Thành Công");
+                var soDuTinDung = db.SoDuTinDungs.FirstOrDefault(s => s.IdTaiKhoan == chiTiet.IdTaiKhoan);
+                if (soDuTinDung == null)
+                {
+                    SoDuTinDung so = new SoDuTinDung
+                    {
+                        IdTaiKhoan = chiTiet.IdTaiKhoan,
+                        SoDuTK = 0
+                    };
+                    db.SoDuTinDungs.InsertOnSubmit(so);
+                }
+                db.SubmitChanges();
+                    Console.WriteLine("Giao Dịch Thành Công");
 
             }
             catch (Exception ex)

@@ -19,6 +19,7 @@ namespace DoAnPTUD
         BLL_ThongTinKH bll_KhachHang = new BLL_ThongTinKH();
         DTO_TaiKhoan t = new DTO_TaiKhoan();
         DTO_ThongTinKH khHang = new DTO_ThongTinKH();
+        DTO_SoDuTk sd = new DTO_SoDuTk();
 
 
         public DangKyChiTiet(DTO_TaiKhoan tks, DTO_ThongTinKH kh)
@@ -56,6 +57,7 @@ namespace DoAnPTUD
                 khHang.NoiCap = txtNoiCap.Text;
                 khHang.Email = txtEmail.Text;
                 tk.DangKyKH(khHang);
+             
                 var dsKH = bll_KhachHang.laydsTTKH();
                 t.TienTe = cboTienTe.Text;
                 t.MaKhachHang = dsKH.Count;

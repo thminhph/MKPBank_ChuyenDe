@@ -18,12 +18,13 @@ namespace DoAnPTUD
         public DTO_TaiKhoan use;
         public BLL_TaiKhoan Tk = new BLL_TaiKhoan();
         public BLL_ThongTinKH bll_ThongTinKH = new BLL_ThongTinKH();
+        public DTO_ThongTinKH ttkh;
 
-
-        public PersonInfor(DTO_TaiKhoan us)
+        public PersonInfor(DTO_TaiKhoan us, DTO_ThongTinKH ttkh)
         {
             InitializeComponent();
             this.use = us;
+            this.ttkh = ttkh;
         }
 
         private void btnMenu_Click(object sender, EventArgs e)
@@ -33,22 +34,13 @@ namespace DoAnPTUD
 
         private void button4_Click(object sender, EventArgs e)
         {
-            HomeUser homeUser = new HomeUser(use);
+            HomeUser homeUser = new HomeUser(use, ttkh);
             homeUser.Show();
             this.Hide();
         }
 
     
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void textBox6_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void button3_Click(object sender, EventArgs e)
         {
             Member member = new Member();
@@ -65,7 +57,7 @@ namespace DoAnPTUD
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Settings settings = new Settings();
+            Settings settings = new Settings(use, ttkh);
             settings.Show();    
             this.Hide();
         }
@@ -84,15 +76,14 @@ namespace DoAnPTUD
         public void LoadData() {
            
             DTO_ThongTinKH th = Tk.tim(use.IdTaiKhoan.ToString());
-            if (picAvatar.Image != null)
+            if (th.Avarta != null && th.Avarta.Length > 0)
             {
                 using (MemoryStream ms = new MemoryStream(th.Avarta))
                 {
                     // Sử dụng phương thức FromStream của lớp Image để tạo một đối tượng hình ảnh từ MemoryStream
                     Image image = Image.FromStream(ms);
-
                     // Đặt hình ảnh vào pictureBox1
-                    picAvatar.Image = image;
+                    picAvatar.Image = picAvata1.Image = image;
                 }
             }
             else
@@ -105,14 +96,11 @@ namespace DoAnPTUD
             txtDiaChi.Text = th.DiaChi;
             txtEmail.Text = th.Email;
             txtSDT.Text=th.SoDienThoai;
-            txtNgayCap.Text=th.NgayCap.ToString();
-            txtNgaysinh.Text=th.NgaySinh.ToString();
+            txtNgayCap.Text=th.NgayCap.ToString("dd-MM--yyyy");
+            txtNgaysinh.Text=th.NgaySinh.ToString("dd-MM--yyyy");
             txtGioiTinh.Text= "Nam";
-
-
-
-        
     }
+       
 
     }
 }

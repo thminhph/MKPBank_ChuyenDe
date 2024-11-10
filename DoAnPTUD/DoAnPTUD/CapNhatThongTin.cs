@@ -32,15 +32,14 @@ namespace DoAnPTUD
 
         private void CapNhatThongTin_Load(object sender, EventArgs e)
         {
-            txtTenKH.Text = thongTinKH.TenKhachHang;
+           
             DTO_ThongTinKH tt= thongTinKH;
+            txtTenKH.Text = thongTinKH.TenKhachHang;
             txtEmail.Text = thongTinKH.Email;
             cboNganhChinh.DataSource = bll_Load.XemNganhChinh();
             cboNganhChinh.DisplayMember = "TenNganh";
             cboNganhChinh.ValueMember = "IdNganhChinh";
             cboNganhChinh.SelectedValue = thongTinKH.NganhChinh;
-
-
             cboIdNganh.DataSource = bll_Load.XemNganh(int.Parse(cboNganhChinh.SelectedValue.ToString()));
             cboIdNganh.DisplayMember = "TenNganh";
             cboIdNganh.ValueMember = "IdNganh";
@@ -74,8 +73,8 @@ namespace DoAnPTUD
                 //Them avatar vao doi tuong thong tin KH
                 if (picBoxAvatar.Image != null)
                 {
-                        thongTinKH.Avarta = ImageToByteArray(picBoxAvatar.Image);                }
-
+                        thongTinKH.Avarta = ImageToByteArray(picBoxAvatar.Image);              
+                }
                 thongTinKH.TenKhachHang = txtTenKH.Text;
                 thongTinKH.Email = txtEmail.Text;
                 thongTinKH.Nganh = int.Parse(cboIdNganh.SelectedValue.ToString());
@@ -113,9 +112,13 @@ namespace DoAnPTUD
 
         private byte[] ImageToByteArray(System.Drawing.Image imageIn)
         {
+            if (imageIn == null)
+            {
+                return new byte[0]; // Trả về mảng byte trống nếu không có dữ liệu
+            }
             using (MemoryStream ms = new MemoryStream())
             {
-                imageIn.Save(ms, System.Drawing.Imaging.ImageFormat.Gif);
+                imageIn.Save(ms, System.Drawing.Imaging.ImageFormat.Gif); // Sử dụng định dạng GIF
                 return ms.ToArray();
             }
         }

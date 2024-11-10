@@ -16,7 +16,7 @@ namespace DoAnPTUD
     public partial class DangNhap : Form
     {
         public static DTO_TaiKhoan user;
-        
+        public DTO_ThongTinKH kh;
         private  BLL_TaiKhoan bll_taiKhoan  = new BLL_TaiKhoan();
         public DangNhap()
         {
@@ -60,7 +60,7 @@ namespace DoAnPTUD
                     //DTO_ThongTinKH use = bll_taiKhoan.ganthongtin(txtDN, txtMK);
                     if (la != null)
                     {
-                        HomeUser us = new HomeUser(la);
+                        HomeUser us = new HomeUser(la,kh);
                         us.Show();
                         this.Hide();
                     }

@@ -35,6 +35,7 @@ namespace BLL
         {
             taiKhoan.CreateTK(tk);
         }
+   
         public void DangKyKH(DTO_ThongTinKH tk) { 
              taiKhoan.CreateKH(tk);
         }

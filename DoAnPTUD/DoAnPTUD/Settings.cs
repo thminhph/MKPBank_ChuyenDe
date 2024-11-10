@@ -25,10 +25,10 @@ namespace DoAnPTUD
             InitializeComponent();
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
+        //private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        //{
 
-        }
+        //}
 
         private void btnDoiMK_Click(object sender, EventArgs e)
         {
@@ -56,7 +56,7 @@ namespace DoAnPTUD
 
         private void btnTrangChu_Click(object sender, EventArgs e)
         {
-            HomeUser homeUser = new HomeUser(user);
+            HomeUser homeUser = new HomeUser(user,tk);
             homeUser.Show();
             this.Hide();
         }

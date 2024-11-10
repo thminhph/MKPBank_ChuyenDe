@@ -22,6 +22,7 @@ namespace DoAnPTUD
         public BLL_TaiKhoan Tk = new BLL_TaiKhoan();
         public DTO_SoDuTk sd;
         public DTO_TaiKhoan st;
+        public DTO_ThongTinKH kh;
         public BLL_SoDuTk sdtk = new BLL_SoDuTk();
         public BLL_ThongTinKH bll_ThongTinKH = new BLL_ThongTinKH();
         public ManagementCard(DTO_TaiKhoan us)
@@ -42,7 +43,16 @@ namespace DoAnPTUD
             else {
                 btnXem.ImageIndex = 7;
                 //thay bảng dữ liệu database
-                lbTien.Text=sd.SoDuTK1.ToString()+"VNĐ"; 
+                sd = sdtk.sodu(use.IdTaiKhoan.ToString());
+                if (sd != null)
+                {
+                    lbTien.Text = sd.SoDuTK1.ToString("N");
+                }
+                else
+                {
+                    lbTien.Text = "0";
+                }
+
             }
         }
 
@@ -50,10 +60,10 @@ namespace DoAnPTUD
         {
             sidebar.Visible = !sidebar.Visible;
         }
-
+            
         private void btnTrangChinh_Click(object sender, EventArgs e)
         {
-            HomeUser user = new HomeUser(use);
+            HomeUser user = new HomeUser(use,kh);
                 user.Show();   
                 this.Hide();
         }
@@ -73,7 +83,7 @@ namespace DoAnPTUD
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Settings settings = new Settings();
+            Settings settings = new Settings(use,kh);
             settings.Show();
             this.Hide();
         }
@@ -92,7 +102,7 @@ namespace DoAnPTUD
 
         private void btnGiaoDich_Click(object sender, EventArgs e)
         {
-            TransactionHistory history = new TransactionHistory();  
+            TransactionHistory history = new TransactionHistory(use,kh);  
             history.Show();
             this.Hide();
         }
@@ -101,7 +111,7 @@ namespace DoAnPTUD
            
             DTO_ThongTinKH th = Tk.tim(use.IdTaiKhoan.ToString());
             if (th != null) {
-                if (picAvatar.Image != null)
+                if (th.Avarta != null && th.Avarta.Length > 0)
                 {
                     using (MemoryStream ms = new MemoryStream(th.Avarta))
                     {
@@ -123,7 +133,13 @@ namespace DoAnPTUD
                 {
                     lbTien.Text = sd.SoDuTK1.ToString("N");
                 }
-               
+                else
+                {
+                    lbTien.Text = "0";
+                }
+
+
+
             }
         }
 
@@ -135,7 +151,7 @@ namespace DoAnPTUD
 
         private void linkHoSo_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            PersonInfor personInfor = new PersonInfor(use);
+            PersonInfor personInfor = new PersonInfor(use, kh);
             personInfor.Show();
             this.Hide();
         }

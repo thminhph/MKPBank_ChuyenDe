@@ -22,6 +22,7 @@ namespace DAL
         {
             this.db = new QLNganHangDataContext(Properties.Settings.Default.QLNganHangConnectionString);
         }
+
         public List<KhachHang> layDSThongTinKH()
         {
             db = new QLNganHangDataContext();
