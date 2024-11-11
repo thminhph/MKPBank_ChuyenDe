@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtIDGuiTienMat = new System.Windows.Forms.TextBox();
+            this.txtIdTaiKhoan = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -40,13 +40,15 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.cbLoaiTK = new System.Windows.Forms.ComboBox();
-            this.txtIdTk = new System.Windows.Forms.TextBox();
+            this.IdTK = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.txtSoTien = new System.Windows.Forms.TextBox();
-            this.txtNoiDung = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.lbTenTK = new System.Windows.Forms.Label();
             this.lbCIF = new System.Windows.Forms.Label();
             this.lbTenKH = new System.Windows.Forms.Label();
@@ -56,12 +58,12 @@
             this.lbCustMoi = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // txtIDGuiTienMat
+            // txtIdTaiKhoan
             // 
-            this.txtIDGuiTienMat.Location = new System.Drawing.Point(12, 16);
-            this.txtIDGuiTienMat.Name = "txtIDGuiTienMat";
-            this.txtIDGuiTienMat.Size = new System.Drawing.Size(224, 22);
-            this.txtIDGuiTienMat.TabIndex = 5;
+            this.txtIdTaiKhoan.Location = new System.Drawing.Point(12, 16);
+            this.txtIdTaiKhoan.Name = "txtIdTaiKhoan";
+            this.txtIdTaiKhoan.Size = new System.Drawing.Size(224, 22);
+            this.txtIdTaiKhoan.TabIndex = 5;
             // 
             // label2
             // 
@@ -177,11 +179,21 @@
             this.label12.TabIndex = 15;
             this.label12.Text = "Số tiền gửi";
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(23, 517);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(73, 16);
+            this.label13.TabIndex = 16;
+            this.label13.Text = "Miễn phí?";
+            // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(23, 519);
+            this.label14.Location = new System.Drawing.Point(23, 559);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(69, 16);
             this.label14.TabIndex = 17;
@@ -197,13 +209,13 @@
             this.cbLoaiTK.Size = new System.Drawing.Size(292, 24);
             this.cbLoaiTK.TabIndex = 18;
             // 
-            // txtIdTk
+            // IdTK
             // 
-            this.txtIdTk.Location = new System.Drawing.Point(237, 211);
-            this.txtIdTk.Name = "txtIdTk";
-            this.txtIdTk.Size = new System.Drawing.Size(191, 22);
-            this.txtIdTk.TabIndex = 19;
-            this.txtIdTk.Leave += new System.EventHandler(this.IdTK_Leave);
+            this.IdTK.Location = new System.Drawing.Point(237, 211);
+            this.IdTK.Name = "IdTK";
+            this.IdTK.Size = new System.Drawing.Size(191, 22);
+            this.IdTK.TabIndex = 19;
+            this.IdTK.Leave += new System.EventHandler(this.IdTK_Leave);
             // 
             // label15
             // 
@@ -227,76 +239,90 @@
             this.label16.TabIndex = 21;
             this.label16.Text = "(*)";
             // 
-            // txtSoTien
+            // textBox2
             // 
-            this.txtSoTien.Location = new System.Drawing.Point(237, 472);
-            this.txtSoTien.Name = "txtSoTien";
-            this.txtSoTien.Size = new System.Drawing.Size(191, 22);
-            this.txtSoTien.TabIndex = 24;
-            this.txtSoTien.Leave += new System.EventHandler(this.txtSoTien_Leave);
+            this.textBox2.Location = new System.Drawing.Point(237, 472);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(191, 22);
+            this.textBox2.TabIndex = 24;
             // 
-            // txtNoiDung
+            // comboBox3
             // 
-            this.txtNoiDung.Location = new System.Drawing.Point(237, 516);
-            this.txtNoiDung.Name = "txtNoiDung";
-            this.txtNoiDung.Size = new System.Drawing.Size(191, 22);
-            this.txtNoiDung.TabIndex = 26;
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(237, 514);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(292, 24);
+            this.comboBox3.TabIndex = 25;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(237, 556);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(191, 22);
+            this.textBox3.TabIndex = 26;
             // 
             // lbTenTK
             // 
             this.lbTenTK.AutoSize = true;
             this.lbTenTK.Location = new System.Drawing.Point(451, 214);
             this.lbTenTK.Name = "lbTenTK";
-            this.lbTenTK.Size = new System.Drawing.Size(0, 16);
+            this.lbTenTK.Size = new System.Drawing.Size(51, 16);
             this.lbTenTK.TabIndex = 27;
+            this.lbTenTK.Text = "label18";
             // 
             // lbCIF
             // 
             this.lbCIF.AutoSize = true;
             this.lbCIF.Location = new System.Drawing.Point(234, 101);
             this.lbCIF.Name = "lbCIF";
-            this.lbCIF.Size = new System.Drawing.Size(0, 16);
+            this.lbCIF.Size = new System.Drawing.Size(51, 16);
             this.lbCIF.TabIndex = 28;
+            this.lbCIF.Text = "label19";
             // 
             // lbTenKH
             // 
             this.lbTenKH.AutoSize = true;
             this.lbTenKH.Location = new System.Drawing.Point(435, 101);
             this.lbTenKH.Name = "lbTenKH";
-            this.lbTenKH.Size = new System.Drawing.Size(0, 16);
+            this.lbTenKH.Size = new System.Drawing.Size(51, 16);
             this.lbTenKH.TabIndex = 29;
+            this.lbTenKH.Text = "label20";
             // 
             // lbTienTe
             // 
             this.lbTienTe.AutoSize = true;
             this.lbTienTe.Location = new System.Drawing.Point(234, 256);
             this.lbTienTe.Name = "lbTienTe";
-            this.lbTienTe.Size = new System.Drawing.Size(0, 16);
+            this.lbTienTe.Size = new System.Drawing.Size(51, 16);
             this.lbTienTe.TabIndex = 30;
+            this.lbTienTe.Text = "label21";
             // 
             // lbSoTienKH
             // 
             this.lbSoTienKH.AutoSize = true;
             this.lbSoTienKH.Location = new System.Drawing.Point(234, 298);
             this.lbSoTienKH.Name = "lbSoTienKH";
-            this.lbSoTienKH.Size = new System.Drawing.Size(0, 16);
+            this.lbSoTienKH.Size = new System.Drawing.Size(51, 16);
             this.lbSoTienKH.TabIndex = 31;
+            this.lbSoTienKH.Text = "label22";
             // 
             // lbCust
             // 
             this.lbCust.AutoSize = true;
             this.lbCust.Location = new System.Drawing.Point(234, 356);
             this.lbCust.Name = "lbCust";
-            this.lbCust.Size = new System.Drawing.Size(0, 16);
+            this.lbCust.Size = new System.Drawing.Size(51, 16);
             this.lbCust.TabIndex = 32;
+            this.lbCust.Text = "label23";
             // 
             // lbCustMoi
             // 
             this.lbCustMoi.AutoSize = true;
             this.lbCustMoi.Location = new System.Drawing.Point(234, 398);
             this.lbCustMoi.Name = "lbCustMoi";
-            this.lbCustMoi.Size = new System.Drawing.Size(0, 16);
+            this.lbCustMoi.Size = new System.Drawing.Size(51, 16);
             this.lbCustMoi.TabIndex = 33;
+            this.lbCustMoi.Text = "label24";
             // 
             // frm_GuiTienMat
             // 
@@ -310,13 +336,15 @@
             this.Controls.Add(this.lbTenKH);
             this.Controls.Add(this.lbCIF);
             this.Controls.Add(this.lbTenTK);
-            this.Controls.Add(this.txtNoiDung);
-            this.Controls.Add(this.txtSoTien);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.txtIdTk);
+            this.Controls.Add(this.IdTK);
             this.Controls.Add(this.cbLoaiTK);
             this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -326,7 +354,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtIDGuiTienMat);
+            this.Controls.Add(this.txtIdTaiKhoan);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frm_GuiTienMat";
@@ -338,7 +366,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtIDGuiTienMat;
+        private System.Windows.Forms.TextBox txtIdTaiKhoan;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
@@ -350,13 +378,15 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.ComboBox cbLoaiTK;
-        private System.Windows.Forms.TextBox txtIdTk;
+        private System.Windows.Forms.TextBox IdTK;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox txtSoTien;
-        private System.Windows.Forms.TextBox txtNoiDung;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label lbTenTK;
         private System.Windows.Forms.Label lbCIF;
         private System.Windows.Forms.Label lbTenKH;

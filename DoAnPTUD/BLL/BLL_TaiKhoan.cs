@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DAL;
+﻿using DAL;
 using DTO;
+using System.Collections.Generic;
+using System.Data.Common;
 
 namespace BLL
 {
@@ -12,27 +9,40 @@ namespace BLL
     {
         private DAL_TaiKhoan taiKhoan = new DAL_TaiKhoan();
 
+        public List<DTO_LoaiKhachHang> layDanhSachLoaiTK()
+        {
+            return taiKhoan.LayDanhSachLoaiTK();
+        }
         public DTO_ThongTinKH tim(string stk)
         {
             return taiKhoan.timUserTheostk(stk);
         }
 
-        public bool dangNhap(string sdt, string mK)
+        public DTO_TaiKhoan dangNhap(string sdt, string mK)
         {
-           return taiKhoan.DangNhap(sdt, mK);
+            return taiKhoan.DangNhap(sdt, mK);
         }
 
-        public DTO_ThongTinKH ganthongtin(string  sdt,string ten)
+        //public DTO_ThongTinKH ganthongtin(string sdt, string ten)
+        //{
+        //    return taiKhoan.GanThongTinNguoiDung(sdt, ten);
+        //}
+        public bool DangKy(string soDienThoai)
         {
-            return taiKhoan.GanThongTinNguoiDung(sdt,ten);
+            return taiKhoan.DangKy(soDienThoai);
         }
-        public void Them(DTO_TaiKhoan tk)
+        public void DangKyCT(DTO_TaiKhoan tk)
         {
-            taiKhoan.Them(tk);
+            taiKhoan.CreateTK(tk);
         }
-        public void SuaTK(DTO_TaiKhoan tk)
+   
+        public void DangKyKH(DTO_ThongTinKH tk) { 
+             taiKhoan.CreateKH(tk);
+        }
+        public void SuaMK(string mk,string idTK)
         {
-            taiKhoan.SuaTK(tk);
+            taiKhoan.SuaMK(mk,idTK);
         }
+        
     }
 }

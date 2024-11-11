@@ -9,6 +9,6 @@ namespace DoAnPTUD
 {
     public interface BaseGUI
     {
-         //void TimKhachHang();
+         void TimKhachHang();
     }
 }

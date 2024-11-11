@@ -12,12 +12,15 @@ using System.Windows.Forms;
 
 namespace DoAnPTUD
 {
-    public partial class frm_DanhSachKhachHang : Form
+    public partial class frm_DanhSachKhachHang : Form/*,BaseGUI*/
     {
         public frm_DanhSachKhachHang()
         {
             InitializeComponent();
             loadComboBox();
+        }
+        private void frm_DanhSachKhachHang_Load(object sender, EventArgs e)
+        {
         }
         void loadComboBox()
         {
@@ -30,9 +33,6 @@ namespace DoAnPTUD
             cbNganh.ValueMember = "IdNganh";
             cbNganhChinh.SelectedIndexChanged -= cbNganhChinh_SelectedIndexChanged;
             cbNganhChinh.SelectedIndexChanged += cbNganhChinh_SelectedIndexChanged;
-            cbLoaiKh.DataSource = load.DanhSachLoaiKH();
-            cbLoaiKh.DisplayMember = "TenLoai";
-            cbLoaiKh.ValueMember = "IdLoaiKH";
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -46,12 +46,14 @@ namespace DoAnPTUD
                 cbNganhChinh.Text,
                 cbNganh.Text
             };
+            //BLL_LoadValue kh = new BLL_LoadValue();
+            //dgvKhachHang.DataSource = kh.HienThiDanhSachKH(arr);
             BLL_LoadValue kh = new BLL_LoadValue();
             dgvKhachHang.DataSource = kh.HienThiDanhSachKH(TimThongTin());
         }
-        public Dictionary<string, string> TimThongTin()
+        public Dictionary<string,string> TimThongTin()
         {
-            Dictionary<string, string> whereArg = new Dictionary<string, string>();
+            Dictionary<string,string> whereArg = new Dictionary<string, string>();
             foreach (var item in plThongTin.Controls)
             {
                 if (item is TextBox txt && !string.IsNullOrEmpty((item as TextBox).Text))
@@ -76,6 +78,7 @@ namespace DoAnPTUD
             }
             return whereArg;
         }
+
         private void button1_Click_1(object sender, EventArgs e)
         {
             BLL_LoadValue kh = new BLL_LoadValue();
@@ -92,6 +95,7 @@ namespace DoAnPTUD
                 cbNganh.DisplayMember = "TenNganh";
                 cbNganh.ValueMember = "IdNganh";
             }
+
         }
 
         public void TimKhachHang()

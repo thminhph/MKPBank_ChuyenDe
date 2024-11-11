@@ -23,7 +23,7 @@ namespace DoAnPTUD
         void loadComboBox()
         {
             BLL_LoadValue load = new BLL_LoadValue();
-            cbLoaiKh.DataSource = load.DanhSachLoaiKH();
+            //cbLoaiKh.DataSource = load.DanhSachLoaiKH();
             cbLoaiKh.DisplayMember = "TenLoai";
             cbLoaiKh.ValueMember = "IdLoaiKH";
             cbLoaiTK.DataSource = load.XemDSLoaiTK();
@@ -61,7 +61,7 @@ namespace DoAnPTUD
         private void button1_Click(object sender, EventArgs e)
         {
             BLL_LoadValue kh = new BLL_LoadValue();
-            dgvTaiKhoan.DataSource = kh.HienThiDanhSachTK(TimThongTin());
+            dgvTaiKhoan.DataSource = kh.HienThiDanhSachKH(TimThongTin());
         }
     }
 }

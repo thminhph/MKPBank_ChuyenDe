@@ -57,10 +57,5 @@ namespace BLL
         {
             dalKH.XoaKHDoanhNghiep(id);
         }
-
-        public IQueryable HienThiDSTaiKhoanTheoKH(int? idKH)
-        {
-            return dalKH.HienThiDSTaiKhoanTheoKH(idKH);
-        }
     }
 }
