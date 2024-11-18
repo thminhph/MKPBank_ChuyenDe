@@ -1,0 +1,36 @@
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DTO\bin\Debug\DTO.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DTO\bin\Debug\DTO.pdb
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DTO\obj\Debug\DTO.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DTO\obj\Debug\DTO.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DTO\bin\Debug\DTO.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DTO\bin\Debug\DTO.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DTO\obj\Debug\DTO.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DTO\obj\Debug\DTO.pdb
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DTO\bin\Debug\DTO.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DTO\bin\Debug\DTO.pdb
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DTO\obj\Debug\DTO.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DTO\obj\Debug\DTO.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DTO\bin\Debug\DTO.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DTO\bin\Debug\DTO.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DTO\obj\Debug\DTO.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DTO\obj\Debug\DTO.pdb
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DTO\bin\Debug\DTO.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DTO\bin\Debug\DTO.pdb
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DTO\obj\Debug\DTO.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DTO\obj\Debug\DTO.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DTO\bin\Debug\DTO.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DTO\bin\Debug\DTO.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DTO\obj\Debug\DTO.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DTO\obj\Debug\DTO.pdb

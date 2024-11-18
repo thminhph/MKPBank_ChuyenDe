@@ -1,0 +1,96 @@
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\BLL.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\BLL.pdb
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\DAL.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\DTO.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\DAL.pdb
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\DAL.dll.config
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\DTO.pdb
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.csproj.Up2Date
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\BLL.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\BLL.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\DAL.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\DTO.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\DAL.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\DAL.dll.config
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\bin\Debug\DTO.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\BLL\obj\Debug\BLL.pdb
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\BLL.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\BLL.pdb
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DAL.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DTO.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DAL.pdb
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DAL.dll.config
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DTO.pdb
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.csproj.Up2Date
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.pdb
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\BLL.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\BLL.pdb
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DAL.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DTO.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DAL.pdb
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DAL.dll.config
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DTO.pdb
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\BLL.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\BLL.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DAL.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DTO.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DAL.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DAL.dll.config
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DTO.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.csproj.Up2Date
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.pdb
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\BLL.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\BLL.pdb
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DAL.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DTO.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DAL.pdb
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DAL.dll.config
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DTO.pdb
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.pdb
+D:\Downloads\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\BLL.dll
+D:\Downloads\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\BLL.pdb
+D:\Downloads\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DAL.dll
+D:\Downloads\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DTO.dll
+D:\Downloads\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DAL.pdb
+D:\Downloads\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DAL.dll.config
+D:\Downloads\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\BLL\bin\Debug\DTO.pdb
+D:\Downloads\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Downloads\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Downloads\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\Downloads\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.dll
+D:\Downloads\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\BLL\obj\Debug\BLL.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\BLL\bin\Debug\BLL.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\BLL\bin\Debug\BLL.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\BLL\bin\Debug\DAL.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\BLL\bin\Debug\DTO.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\BLL\bin\Debug\DAL.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\BLL\bin\Debug\DAL.dll.config
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\BLL\bin\Debug\DTO.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\BLL\obj\Debug\BLL.csproj.Up2Date
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\BLL\obj\Debug\BLL.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\BLL\obj\Debug\BLL.pdb
