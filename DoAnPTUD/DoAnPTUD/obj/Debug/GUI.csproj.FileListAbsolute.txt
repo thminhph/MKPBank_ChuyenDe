@@ -1,0 +1,526 @@
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CapNhatThongTin.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CustomDialogQR.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Customize.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKy.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKyChiTiet.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangNhap.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DoiMatKhau.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSach.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachKhachHang.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachNhanVien.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_GuiTienMat.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangCaNhan.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangDoanhNghiep.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_Main.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_MoTaiKhoan.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.HomeUser.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.ManagementCard.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Member.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.OTP.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.PersonInfor.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Properties.Resources.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Settings.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransactionHistory.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Transfer.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Deposit.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransferDetails.resources
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe.config
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.pdb
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\Guna.UI2.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\QRCoder.dll
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.pdb
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.pdb
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll.config
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.pdb
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.Up2Date
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.exe
+C:\Users\THE MINH\Desktop\end\PTUD1\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe.config
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\Guna.UI2.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\QRCoder.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll.config
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CapNhatThongTin.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CustomDialogQR.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Customize.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKy.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKyChiTiet.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangNhap.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DoiMatKhau.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSach.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachKhachHang.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachNhanVien.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_GuiTienMat.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangCaNhan.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangDoanhNghiep.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_Main.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_MoTaiKhoan.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.HomeUser.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.ManagementCard.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Member.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.OTP.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.PersonInfor.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Properties.Resources.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Settings.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransactionHistory.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Transfer.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Deposit.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransferDetails.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.Up2Date
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.exe
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe.config
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\Guna.UI2.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\QRCoder.dll
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll.config
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.pdb
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CapNhatThongTin.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CustomDialogQR.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Customize.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKy.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKyChiTiet.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangNhap.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DoiMatKhau.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSach.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachKhachHang.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachNhanVien.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachTaiKhoan.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_GuiTienMat.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangCaNhan.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangDoanhNghiep.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_Main.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_MoTaiKhoan.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_TaiKhoanTietKiemCuoiKy.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.HomeUser.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.ManagementCard.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Member.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.OTP.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.PersonInfor.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Properties.Resources.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Settings.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransactionHistory.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Transfer.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Deposit.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransferDetails.resources
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.Up2Date
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.exe
+D:\.NET\MKPBank_ChuyenDe\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.pdb
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe.config
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.pdb
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\Guna.UI2.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\QRCoder.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\stdole.dll
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.pdb
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.pdb
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll.config
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.pdb
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CapNhatThongTin.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CustomDialogQR.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Customize.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKy.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKyChiTiet.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangNhap.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DoiMatKhau.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSach.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachKhachHang.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachNhanVien.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachTaiKhoan.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_GuiTienMat.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangCaNhan.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangDoanhNghiep.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_Main.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_MoTaiKhoan.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_TaiKhoanTietKiemCuoiKy.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.HomeUser.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.ManagementCard.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Member.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.OTP.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.PersonInfor.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Properties.Resources.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Settings.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransactionHistory.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Transfer.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Deposit.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransferDetails.resources
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.Up2Date
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.exe
+C:\Users\THE MINH\Downloads\DoAnPTUD\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\bin\Debug\stdole.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachTaiKhoan.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_TaiKhoanTietKiemCuoiKy.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe.config
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.pdb
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.Shared.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\Guna.UI2.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\QRCoder.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\stdole.dll
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.pdb
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.pdb
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll.config
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.pdb
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CapNhatThongTin.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CustomDialogQR.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Customize.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKy.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKyChiTiet.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangNhap.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DoiMatKhau.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSach.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachKhachHang.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachTaiKhoan.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_GuiTienMat.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_InChiTietGuiTien.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangCaNhan.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangDoanhNghiep.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_Main.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_MoTaiKhoan.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_SaoKeTienVao.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_TaiKhoanTietKiemCuoiKy.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.HomeUser.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.ManagementCard.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Member.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.OTP.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.PersonInfor.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Properties.Resources.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Settings.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransactionHistory.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Transfer.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Deposit.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransferDetails.resources
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.CopyComplete
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.exe
+D:\All Đồ Án\CDUD_DoAn\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe.config
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\Guna.UI2.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\QRCoder.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\stdole.dll
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll.config
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.pdb
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CapNhatThongTin.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CustomDialogQR.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Customize.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKy.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKyChiTiet.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangNhap.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DoiMatKhau.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSach.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachKhachHang.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachTaiKhoan.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_GuiTienMat.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_InChiTietGuiTien.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangCaNhan.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangDoanhNghiep.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_Main.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_MoTaiKhoan.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_SaoKeTienVao.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_TaiKhoanTietKiemCuoiKy.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.HomeUser.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.ManagementCard.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Member.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.OTP.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.PersonInfor.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Properties.Resources.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Settings.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransactionHistory.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Transfer.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Deposit.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransferDetails.resources
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.Up2Date
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.exe
+C:\Users\THE MINH\Desktop\end\backup\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.pdb
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CapNhatThongTin.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CustomDialogQR.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Customize.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKy.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKyChiTiet.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangNhap.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DoiMatKhau.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSach.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachKhachHang.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachTaiKhoan.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_GuiTienMat.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_InChiTietGuiTien.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangCaNhan.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangDoanhNghiep.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_Main.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_MoTaiKhoan.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_SaoKeTienVao.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_TaiKhoanTietKiemCuoiKy.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.HomeUser.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.ManagementCard.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Member.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.OTP.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.PersonInfor.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Properties.Resources.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Settings.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransactionHistory.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Transfer.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Deposit.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransferDetails.resources
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe.config
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.pdb
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.Shared.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\Guna.UI2.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\Newtonsoft.Json.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\QRCoder.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\stdole.dll
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.pdb
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.pdb
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll.config
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.pdb
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\Newtonsoft.Json.xml
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.CopyComplete
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.exe
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.pdb
+D:\All Đồ Án\DoAnPTUD (1) (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachTaiKhoanTietKiem.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe.config
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.exe
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DoAnPTUD.pdb
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.Shared.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\Guna.UI2.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\Newtonsoft.Json.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\QRCoder.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\stdole.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\BLL.pdb
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.pdb
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DAL.dll.config
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DTO.pdb
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\Newtonsoft.Json.xml
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CapNhatThongTin.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.CustomDialogQR.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Customize.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKy.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangKyChiTiet.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DangNhap.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.DoiMatKhau.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSach.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachKhachHang.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachTaiKhoan.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachTaiKhoanTietKiem.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_GuiTienMat.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_InChiTietGuiTien.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangCaNhan.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_KhachHangDoanhNghiep.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_Main.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_MoTaiKhoan.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_SaoKeTienVao.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_TaiKhoanTietKiemCuoiKy.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.HomeUser.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.ManagementCard.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Member.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.OTP.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.PersonInfor.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Properties.Resources.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Settings.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransactionHistory.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Transfer.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.Deposit.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.TransferDetails.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\GUI.csproj.CopyComplete
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.exe
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.pdb
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_RutTienMat.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.Data.Desktop.v21.2.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.Data.v21.2.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.Utils.v21.2.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.XtraBars.v21.2.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.XtraEditors.v21.2.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.Printing.v21.2.Core.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.Sparkline.v21.2.Core.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.Pdf.v21.2.Core.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.Data.Desktop.v21.2.xml
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.Data.v21.2.xml
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.Utils.v21.2.xml
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.XtraBars.v21.2.xml
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.XtraEditors.v21.2.xml
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.Printing.v21.2.Core.xml
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.Sparkline.v21.2.Core.xml
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.Pdf.v21.2.Core.xml
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\de\DevExpress.Data.v21.2.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\es\DevExpress.Data.v21.2.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\ja\DevExpress.Data.v21.2.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\ru\DevExpress.Data.v21.2.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\de\DevExpress.Utils.v21.2.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\es\DevExpress.Utils.v21.2.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\ja\DevExpress.Utils.v21.2.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\ru\DevExpress.Utils.v21.2.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\de\DevExpress.XtraBars.v21.2.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\es\DevExpress.XtraBars.v21.2.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\ja\DevExpress.XtraBars.v21.2.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\ru\DevExpress.XtraBars.v21.2.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\de\DevExpress.XtraEditors.v21.2.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\es\DevExpress.XtraEditors.v21.2.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\ja\DevExpress.XtraEditors.v21.2.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\ru\DevExpress.XtraEditors.v21.2.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\de\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\es\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\ja\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\ru\DevExpress.Sparkline.v21.2.Core.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_DanhSachGiaoDich.resources
+D:\All Đồ Án\DoAnPTUD (1)\DoAnPTUD (1)\DoAnPTUD\DoAnPTUD\obj\Debug\DoAnPTUD.frm_InChiTietRutTien.resources
